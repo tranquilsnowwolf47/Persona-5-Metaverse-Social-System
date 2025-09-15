@@ -1,0 +1,336 @@
+Persona Registered:
+Name: Arsene
+Arcana: Fool
+Level: 15
+
+Stats: 
+------------------------
+St: 2
+Ma: 3
+En: 7
+Ag: 2
+Lu: 4
+
+Skills:
+1. Ignore (Curse)
+2. Request Denial (Curse)
+3. Subject Change (Gun)
+4. Topic Flexbility (Wind)
+5. Prioritized Presence (Curse)
+6. Smile (Fire)
+7. Opinion Challenge (Curse)
+8. Open Ended Question (Wind)
+
+
+Persona Registered:
+Name: Jack-o'-Lantern
+Arcana: Magician
+Level: 9
+
+Stats: 
+------------------------
+St: 1
+Ma: 6
+En: 1
+Ag: 2
+Lu: 2
+
+Skills:
+1. Curiosity (Wind)
+2. Common Interest (Wind)
+3. Open Ended Question (Wind)
+4. Humor (Elec)
+5. Expertise (Wind)
+6. Small-Talk (Gun)
+7. Gentleman's Flattery (Fire)
+8. Highlighting Prescence (Fire)
+
+
+Persona Registered:
+Name: Silky
+Arcana: Priestess
+Level: 10
+
+Stats: 
+------------------------
+St: 2
+Ma: 3
+En: 3
+Ag: 6
+Lu: 1
+
+Skills:
+1. Shadow Read (Hvy Psy)
+2. Social Awareness (Med Psy)
+3. Observation (Light Psy)
+4. Nonchalance (Med Psy)
+5. Information Extraction (Med Curse)
+6. Room Reading (Med Psy)
+7. Interest Level Read (Light Psy)
+8. Temperament Read (Light Psy)
+
+
+Persona Registered:
+Name: Eligor
+Arcana: Emperor
+Level: 11
+
+Stats: 
+------------------------
+St: 8
+Ma: 2
+En: 4
+Ag: 1
+Lu: 1
+
+Skills:
+1. Assertive Slice (Phys)
+2. Request Denial (Curse)
+3. Name Repeat (Psy)
+4. Extraction Shot (Gun)
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Bicorn
+Arcana: Hermit
+Level: 10
+
+Stats: 
+------------------------
+St: 1
+Ma: 1
+En: 6
+Ag: 1
+Lu: 6
+
+Skills:
+1. Cooldown (Ice)
+2. Prioritized Presence (Med Psy)
+3. Soulshare (Ice)
+4. Empathic Echo (Ice)
+5. Reassuring Chill (Ice)
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Mandrake
+Arcana: Death
+Level: 10
+
+Stats: 
+------------------------
+St: 2
+Ma: 4
+En: 3
+Ag: 4
+Lu: 1
+
+Skills:
+1. Slowed Speech (Accuracy/Evasion buff)
+2. Self-Control (Auto-Rakukaja buff)
+3. Self-Security (Def buff)
+4. Confidence (Atk buff)
+5. 3 Second Rule (Charge)
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Kelpie
+Arcana: Strength
+Level: 10
+
+Stats: 
+------------------------
+St: 5
+Ma: 1
+En: 5
+Ag: 1
+Lu: 1
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Pixie
+Arcana: Lovers
+Level: 10
+
+Stats: 
+------------------------
+St: 1
+Ma: 6
+En: 1
+Ag: 1
+Lu: 4
+
+Skills:
+1. Self Respect Affirmation
+2. Prioritized Presence (Med Psy)
+3. Nonchalance (Med Psy)
+4. Interest Level Read (Light Psy)
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Agathion
+Arcana: Chariot
+Level: 10
+
+Stats: 
+------------------------
+St: 3
+Ma: 3
+En: 4
+Ag: 2
+Lu: 1
+
+Skills:
+1. Self-Control
+2. Gentleman's Flattery
+3. Direct Curiosity
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Angel
+Arcana: Justice
+Level: 12
+
+Stats: 
+------------------------
+St: 3
+Ma: 4
+En: 4
+Ag: 4
+Lu: 1
+
+Skills:
+1. Human Nature Savant
+2. Quick Quip
+3. Shadow Read
+4. Emotoinal Stimulation
+5. Observation
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Hua Po
+Arcana: Hanged Man
+Level: 10
+
+Stats: 
+------------------------
+St: 4
+Ma: 4
+En: 1
+Ag: 4
+Lu: 1
+
+Skills:
+1. Prioritized Presence,
+2. Slowed Speech
+3. Echo Shot
+4. Casual Greeting Shot
+5. Small-talk
+6. Subject Change
+7. Interest Probe
+8. 
+
+
+Persona Registered:
+Name: Stone of Scone
+Arcana: Fortune
+Level: 13
+
+Stats: 
+------------------------
+St: 1
+Ma: 1
+En: 3
+Ag: 3
+Lu: 6
+
+Skills:
+1. Social Competence
+2. Interest Level Read
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Regent
+Arcana: Emperor
+Level: 11
+
+Stats: 
+------------------------
+St: 5
+Ma: 5
+En: 4
+Ag: 1
+Lu: 1
+
+Skills:
+1. Assertive Slice
+2. Firm Boundary
+3. Decision Strike
+4. Iron Gaze
+5. Name Repeat
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Queen's Necklace
+Arcana: Empress
+Level: 10
+
+Stats: 
+------------------------
+St: 3
+Ma: 3
+En: 2
+Ag: 3
+Lu: 3
+
+Skills:
+1. Temperament Read
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
