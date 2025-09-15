@@ -151,11 +151,11 @@ def register_slime_build(f):
     )
 
 def register_mokoi_build(f):
-    # Register udpate: 8/31/25
+    # Register udpate: 9/15/25
     return register_persona(
         f,
-        "Mokoi","Death", 10,
-        1,2,5,5,1,
+        "Mokoi","Death", 22,
+        1,5,9,7,4,
         "Slowed Speech (Ag buff)","Self-Control (Auto Def buff)","Self-Security (Def buff)",
         "Confidence (Atk buff)","Act Sense (Med Psy)","Tranquil Edge (Med Psy)","Hollow Stance (Light Curse)","Minimum Echo (Med Curse)",
     )
