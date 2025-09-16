@@ -43,7 +43,7 @@ def register_jack_o_lantern_build(f):
 def register_silky_build(f):
     return register_persona(
         f, 
-        "Silky","Priestess", 17,
+        "Silky","Priestess",17,
         2,10,6,6,1,
         "Shadow Read (Hvy Psy)","Temperament Read (Light Psy)","Environment Scan (Med Psy)",
         "Observation (Light Psy)","Extraction Shot (Light Gun)","Small-talk (Light Gun)","Reassuring Chill (Light Ice)",
@@ -53,7 +53,7 @@ def register_silky_build(f):
 def register_eligor_build(f):
     return register_persona(
         f, 
-        "Eligor", "Emperor", 24,
+        "Eligor", "Emperor",24,
         10,5,7,3,5,
         "Assertive Slice (Phys)","Request Denial (Curse)","Name Repeat (Psy)","Extraction Shot (Gun)","","","",""
     )
@@ -61,7 +61,7 @@ def register_eligor_build(f):
 def register_bicorn_build(f):
     return register_persona(
         f,
-        "Bicorn", "Hermit", 16, 
+        "Bicorn", "Hermit",16, 
         1,6,6,1,7,
         "Cooldown (Ice)", "Prioritized Presence (Med Psy)","Soulshare (Ice)","Empathic Echo (Ice)","Reassuring Chill (Ice)","","",""
     )
@@ -127,10 +127,12 @@ def register_stone_of_scone_build(f):
 def register_regent_build(f):
     # Register update: 8/31/25
     return register_persona(
+        # Register update: 9/15/25
         f,
-        "Regent", "Emperor", 15,
-        8,5,5,1,1,
-        "Assertive Slice","Stonewall","Decision Strike","Cold Cut","Magnetic Aura","Verbal Parry","3 Second Rule","Rhythm Break"
+        "Regent", "Emperor", 20,
+        9,6,6,2,1,
+        "Assertive Slice (Med Phys)","Stonewall (Med Phys)","Decision Strike (Med Phys)","Cold Cut (Med Phys)",
+        "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)","3 Second Rule (Charge)","Rhythm Break (Ag Debuff)"
     )
 
 def register_queens_necklace_build(f):
@@ -142,12 +144,14 @@ def register_queens_necklace_build(f):
     )
 
 def register_slime_build(f):
-    # Register update: 8/31/25
+    # Register update: 9/15/25
     return register_persona(
         f,
-        "Slime","Chariot", 10,
-        3,4,5,1,1,
-        "","","","","","","",""
+        # Register update: 9/15/25
+        "Slime","Chariot", 20,
+        7,5,5,4,1,
+        "Sync surge (Med Nuke)","Hyper Link (Med Nuke)","Flare Blast (Med Nuke)","3 Second Rule (Charge)",
+        "Confidence (Atk Buff)","Opening Gambit (Hvy Phys)","Calling Fang (Med Phys)","Brain Flicker (Med Elec)"
     )
 
 def register_mokoi_build(f):
@@ -162,8 +166,13 @@ def register_mokoi_build(f):
 
 def register_obariyon_build(f):
     return register_persona(
+        # Register update: 9/15/25
         f,
-        ""
+        "Obariyon","Fool",19,
+        6,3,5,3,6
+        "Mind Glide (Med Wind)","Deep Dive (Med Wind)","Interest Probe (Med Gun)",
+        "Shocking Humor (Light Elec)","Crowd Echo (Med Nuke)","Sync Surge (Med Nuke)",
+        "Human Nature Savant (Auto Ag Buff)","Looksmax (Auto Heat-Riser)",
     )
 
 with open("Persona_compendium_list.txt", "w") as out:
@@ -198,4 +207,5 @@ def display_persona():
 #ma = int(input("Please enter the Ma stat of the Persona to register: "))
 #en = int(input("Please enter the En stat of the Persona to register: "))
 #ag = int(input("Please enter the Ag stat of the Persona to register: "))
+
 #lu = int(input("Please enter the Lu stat of the Persona to register: "))
