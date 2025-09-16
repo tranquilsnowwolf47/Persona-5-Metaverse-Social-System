@@ -203,7 +203,7 @@ class Personas:
     def display_temperance_personas():
         persona_list_index = 0
         temperance = Personas.temperanceArcanaPersonasList()
-        print("\nTemperance Arcana Personas:")
+        print("\nList of Temperance Arcana Personas:")
         for persona in temperance:
             persona_list_index += 1
             print(f"{persona_list_index}. {persona}")
@@ -333,7 +333,7 @@ class Menu:
 
     def get_arcana():
         print("Please enter an arcana:")
-        arcana_choice = str(input()).capitalize()
+        arcana_choice = str(input()).title()
         return arcana_choice
     
     def display_arcana_details():
@@ -404,7 +404,7 @@ class Menu:
                     Personas.display_moon_personas()
                     Personas.space_lines()
                 elif arcana_choice == valid_arcanas[19]:
-                    Personas.display_sun_personas
+                    Personas.display_sun_personas()
                     Personas.space_lines()
                 elif arcana_choice == valid_arcanas[20]:
                     Personas.display_judgement_personas()
