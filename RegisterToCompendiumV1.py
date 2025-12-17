@@ -61,10 +61,11 @@ class Compendium:
     # 3. Orpheus F
     def register_orpheus_f_build(self,f):
             # Register update: 11/17/25
+            # Register update 12/17/25
             return self.register_persona(
                 f,
-                "Orpehus F", "Fool", 18,
-                5,6,5,5,1,
+                "Orpehus F", "Fool", 29,
+                8,6,7,7,4,
                 "Act Sense (Med Psy)","Tranquil Edge (Med Psy)","Ether Break (Atk debuff)","Volt Nudge (Light Elec)",
                 "Clock Hold (Med Curse)","Hidden Blueprint (Med Curse)","Data Hex (Med Curse)","Minimum Echo (Med Curse)"
             )
@@ -91,11 +92,13 @@ class Compendium:
                 "","","","","","","",""
         )
 
+    # 3. Jack Frost
     def register_jack_frost_build(self,f):
            return self.register_persona(
+                  # Register Update: 12/17/25
                   f,
                   "Jack Frost", "Magician",
-                  1,1,1,1,1,
+                  5,10,5,5,1,
                  "","","","","","","",""
            )
 
@@ -436,5 +439,6 @@ with open("Persona_compendium_logbook.txt", "a") as file:
 #ma = int(input("Please enter the Ma stat of the Persona to register: "))
 #en = int(input("Please enter the En stat of the Persona to register: "))
 #ag = int(input("Please enter the Ag stat of the Persona to register: "))
+
 
 #lu = int(input("Please enter the Lu stat of the Persona to register: "))
