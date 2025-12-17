@@ -1,416 +1,520 @@
-# Filename: ListOfPersonasV2.py
-# Date: Updated 11/13/25
-# Author: shadowsnowwolf
-# Process:
-# Make tuples for each Arcana and index with for loops to display the name of each Persona based on the user's input of the Arcana. 
-# A while loop will allow the user to continue if they choose to do so, letting the user see as many Personas of each Arcana they choose
-# If the user doesn't enter y, the loop breaks and the program ends.
+# Filename: RegisterToCompendiumV1.py
+# Date: 9/17/25
+# Author: Aoi | shadowsnowwolf
 
-# Can practice enumerate when I do the display functions
-# Maybe have an option where you can search for a Persona and if the Persona exists, you get the details of it
-
-# Important note: 
-# Needs to debug to be approved for use 
-# Bugs: Has a logic error with both loops 
+# Note: Beta version of the compendium registration feature
+# This specifically registers Personas to the compendium
+# For the final, large program, import this as a module feature with a menu for the choices 
+# File will be named VelvetRoom.py
 
 
+class Compendium:
+    def register_persona(self,f, name,arcana,level,st,ma,en,ag,lu,skill_one,skill_two,skill_three,skill_four,skill_five,skill_six,skill_seven,skill_eight):
+        print("Persona Registered:", file=f)
+        print(f"Name: {name}", file=f)
+        print(f"Arcana: {arcana}", file=f)
+        print(f"Level: {level}\n", file=f)
+        print("Stats: \n------------------------", file=f)
+        print(f"St: {st}", file=f)
+        print(f"Ma: {ma}", file=f)
+        print(f"En: {en}", file=f)
+        print(f"Ag: {ag}", file=f)
+        print(f"Lu: {lu}\n", file=f)
 
-class Personas:
-    # Done
-    def foolArcanaPersonasList():
-        fool_personas_list = ("Arsene","Obariyon","Orpheus F","Orpheus F Picaro","High Pixie",
-        "Izanagi","Izanagi Picaro","Orpheus","Orpheus Picaro","Legion","Ose",
-        "Bugs","Crystal Skull", "Black Frost","Raoul","Vishnu","Satanael")
-        return fool_personas_list
+        print("Skills:", file=f)
+        print(f"1. {skill_one}", file=f)
+        print(f"2. {skill_two}", file=f)
+        print(f"3. {skill_three}", file=f)
+        print(f"4. {skill_four}", file=f)
+        print(f"5. {skill_five}", file=f)
+        print(f"6. {skill_six}", file=f)
+        print(f"7. {skill_seven}", file=f)
+        print(f"8. {skill_eight}", file=f)
+        print("\n", file=f)
 
-    # Done
-    def display_fool_personas():
-        fool_personas_list = Personas.foolArcanaPersonasList()
-        print("\nList of Fool Personas:")
-        for persona_index, persona in enumerate(fool_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def magicianArcanaPersonasList():
-        magician_personas_list = ("Jack-o'-Lantern","Cait Sith","Jack Frost","Nekomata","Sandman",
-        "Choronzon","Queen Mab","Rangda","Forneus","Surt","Futsunushi")
-        return magician_personas_list
-
-    # Done
-    def display_magician_personas():
-        magician_personas_list = Personas.magicianArcanaPersonasList()
-        print("\nList of Magician Personas:")
-        for persona_index, persona in enumerate(magician_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # Fool Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Arsene
+    def register_arsene_build(self,f):
+            return self.register_persona(
+                f, 
+                "Arsene","Fool",28,
+                7,8,7,7,4,
+                "Slowed Speech (Ag Buff)","3 Second Rule (Charge)","Ether Break (Atk debuff)",
+                "Minimum Echo (Med Curse)","Data Hex (Med Curse)","Decision Strike (Med Phys)",
+                "Assertive Slice (Med Phys)","Shadow Read (Hvy Psy)"
+            )
         
-    # Done
-    def priestessArcanaPersonasList():
-        priestess_personas_list = ("Silky","Apsaras","Koh-i-Noor","Isis","Kikuri-Hime",
-        "Sarasvati","Skadi","Scathach","Cybele")
-        return priestess_personas_list
+    # 2. Obariyon
+    def register_obariyon_build(self,f):
+            return self.register_persona(
+                # Register update: 9/15/25
+                # Register update 10/4/25
+                f,
+                "Obariyon","Fool",31,
+                9,7,7,5,7,
+                "Mind Glide (Med Wind)","Deep Dive (Med Wind)","Interest Probe (Med Gun)",
+                "Shocking Humor (Light Elec)","Crowd Echo (Med Nuke)","Sync Surge (Med Nuke)",
+                "Human Nature Savant (Auto Ag Buff)","Looksmax (Auto Heat-Riser)"
+            )
+        
+    # 3. Orpheus F
+    def register_orpheus_f_build(self,f):
+            # Register update: 11/17/25
+            # Register update 12/17/25
+            return self.register_persona(
+                f,
+                "Orpehus F", "Fool", 29,
+                8,6,7,7,4,
+                "Act Sense (Med Psy)","Tranquil Edge (Med Psy)","Ether Break (Atk debuff)","Volt Nudge (Light Elec)",
+                "Clock Hold (Med Curse)","Hidden Blueprint (Med Curse)","Data Hex (Med Curse)","Minimum Echo (Med Curse)"
+            )
+
+
+    # Magician Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Jack-o'-lantern 
+    def register_jack_o_lantern_build(self,f):
+            # Register update: 9/14/25
+            return self.register_persona(
+                f, 
+                "Jack-o'-Lantern", "Magician",20,
+                4,10,5,3,2,
+                "Winds of Knowledge (Medium Wind)","Career Current (Medium Wind)","Deep Dive (Medium Wind)","Mind Glide (Medium Wind)","Subject Shift (Light Gun)",
+                "Mini-Talk (Light Gun)","Echo Shot (Light Gun)","Velvet Note (Medium Fire)")
+
+    # 2. Cait Sith
+    def register_cait_sith_build(self,f):
+            return self.register_persona(
+                f,
+                "Cait Sith", "Magician", 21,
+                3,9,5,6,1,
+                "","","","","","","",""
+        )
+
+    # 3. Jack Frost
+    def register_jack_frost_build(self,f):
+           return self.register_persona(
+                  # Register Update: 12/17/25
+                  f,
+                  "Jack Frost", "Magician", 22,
+                  5,10,5,5,1,
+                 "","","","","","","",""
+           )
+
+    # Priestess Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Silky
+    def register_silky_build(self,f):
+            return self.register_persona(
+                f, 
+                "Silky","Priestess",17,
+                2,10,6,6,1,
+                "Shadow Read (Hvy Psy)","Temperament Read (Light Psy)","Environment Scan (Med Psy)",
+                "Observation (Light Psy)","Extraction Shot (Light Gun)","Small-talk (Light Gun)","Reassuring Chill (Light Ice)",
+                "Slowed Speech (Ag Buff)"
+            )
+        
+    # 2. Apsaras
+    def register_apsaras_build(self,f):
+            return self.register_persona(
+                # Register update: 9/29/25
+                f,
+                "Apsaras","Priestess",29,
+                2,10,8,10,4,
+                "Shadow Read (Hvy Psy)","Temperament Read (Light Psy)","Environment Scan (Psy)","Observation (Light Psy)","","","Reassuring Chill (Ice)","Slowed Speech (Ag Buff)"
+            )
+
+    # 3. Koh-i-Noor
+    def register_koh_i_noor_build(self,f):
+           return self.register_persona(
+                  f,
+                  # Register update: 12/7/25
+                  "Koh-i-Noor","Priestess",23,
+                  2,11,6,6,1,
+                  "","","","","",
+                  "","","",
+           )
+
+
+    # Emperor Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Eligor
+    def register_eligor_build(self,f):
+            return self.register_persona(
+                f, 
+                "Eligor", "Emperor",24,
+                10,5,7,3,5,
+                "Assertive Slice (Phys)","Request Denial (Curse)","Name Repeat (Psy)","Extraction Shot (Gun)","","","",""
+            )
+        
+    # 2. Regent
+    def register_regent_build(self,f):
+        # Register update: 8/31/25
+            return self.register_persona(
+                # Register update: 9/15/25
+                # Register update: 10/4/25
+                f,
+                "Regent", "Emperor", 28,
+                13,6,10,2,1,
+                "Assertive Slice (Med Phys)","Stonewall (Med Phys)","Decision Strike (Med Phys)","Cold Cut (Med Phys)",
+                "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)","3 Second Rule (Charge)","Rhythm Break (Ag Debuff)"
+            )
+
+    # 3. Setanta
+    def register_setanta_build(self,f):
+        # Register update: 11/17/25
+        # Register update: 12/17/25
+        f,
+        "Setanta", "Emperor", 30,
+        14,8,10,2,1
+        "Assertive Slice (Med Phys)", "Stonewall (Med Phys)", "Decision Strike (Med Phys)", "Calling Fang (Med Phys)", 
+        "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)", "3 Second Rule (Charge)"
+
+    # Hermit Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Bicorn
+    def register_bicorn_build(self,f):
+            return self.register_persona(
+                f,
+                "Bicorn", "Hermit",16, 
+                1,6,6,1,7,
+                "Cooldown (Ice)", "Prioritized Presence (Med Psy)","Soulshare (Ice)","Empathic Echo (Ice)","Reassuring Chill (Ice)","","",""
+            )
+    # 2. Koropokkuru 
+    def register_koropokkuru_build(self,f):
+           # Register Update: 12/17/25
+           return self.register_persona(
+                  f,
+                  "Koropokkuru", "Hermit", 11,
+                  1,1,1,1,1,
+                  "","","","","",
+                  "","","",
+           )
+
+    # Death Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Mandrake
+    def register_mandrake_build(self,f):
+            return self.register_persona(
+                f,
+                "Mandrake", "Death", 20,
+                2,4,7,5,7,
+                "Slowed Speech (Ag buff)","Self-Control (Auto-Def buff)","Self-Security (Def buff)",
+                "Confidence (Atk buff)", "3 Second Rule (Charge)", "", "", ""
+            )
+        
+    # 2. Mokoi
+    def register_mokoi_build(self,f):
+            # Register udpate: 9/15/25
+            return self.register_persona(
+                f,
+                # Register update: 10/4/25
+                "Mokoi","Death", 27,
+                1,9,9,8,4,
+                "Slowed Speech (Ag buff)","Self-Control (Auto Def buff)","Self-Security (Def buff)",
+                "Confidence (Atk buff)","Act Sense (Med Psy)","Tranquil Edge (Med Psy)","Hollow Stance (Light Curse)","Minimum Echo (Med Curse)"
+            )
+
+    # 3. Matador
+    def register_matador_build(self,f):
+           # Register update 12/17/25 (had him like a month+ ago but lost the data)
+           return self.register_persona(
+                  f,
+                  "Matador", "Death", 26,
+                  5,11,9,5,1,
+                  "Slowed Speech (Ag buff)", "Self-Control (Auto Def buff)", 
+                  "Human Nature Savant (Auto)", "Confidence (Atk buff)", "Interest Guage (Med Psy)",
+                  "Tranquil Edge (Med Psy)", "Hollow Stance (Light Curse)", "Minimum Echo (Med Curse)"
+           )
+
+    # Strength Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Kelpie
+    def register_kelpie_build(self,f):
+            return self.register_persona(
+                f,
+                "Kelpie", "Strength", 16,
+                6,3,7,1,2,
+                "","","","","","","",""
+            )
+        
+    # 2. Shiisaa
+    def register_shiisaa_build(self,f):
+            return self.register_persona(
+                # Register update: 10/4/25
+                f,
+                "Shiisaa", "Strength", 21,
+                5,4,11,3,2,
+                "","","","","","","",""
+            )
     
-    # Done
-    def display_priestess_personas():
-        priestess_personas_list = Personas.priestessArcanaPersonasList()
-        print("\nList of Priestess Personas:")
-        for persona_index, persona in enumerate(priestess_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # 3. Oni
+    def register_oni_build(self,f):
+           return self.register_persona(
+                  # Register update: 11/17/25
+                  f,
+                  "Oni","Strength", 15,
+                  5,2,9,1,2,
+                  "","","","","","","", "Self-Control (Auto Def buff)"
+           )
 
-    # Done
-    def empressArcanaPersonasList():
-        empress_personas_list = ("Queen's Necklace","Yaksini","Lamia","Hariti","Dakini",
-        "Titania","Kali","Alilat","Mother Harlot")
-        return empress_personas_list
+    # Lovers Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Pixie
+    def register_pixie_build(self,f):
+            return self.register_persona(
+                f,
+                "Pixie", "Lovers", 19,
+                1,7,4,5,5,
+                "Self Respect Affirmation","Prioritized Presence (Med Psy)","Nonchalance (Med Psy)","Interest Level Read (Light Psy)","","","",""
+            )
+    # 2. Saki Mitama
+    def register_saki_mitama_build(self,f):
+            return self.register_persona(
+                # Register update: 10/4/25
+                f,
+                "Saki Mitama","Lovers",25,
+                7,8,3,6,6,
+                "Focused Breathing (Lvl 1 Healing)", "Cat Nap (Lvl 2 Healing)","","","","","",""
+            )
+    # 3. Ame-no-Uzume
+    def register_ame_no_uzume_build(self,f):
+           return self.register_persona(
+                  # Register update: 11/17/25
+                  # Register update: 12/17/25
+                  f,
+                  "Ame-no-Uzume", "Lovers",25,
+                  5,11,3,5,5,
+                  "Focused Breathing (Lvl 1 Healing)","Cat Nap (Lvl 2 Healing)","","","","","",""
+           )
 
-    # Done
-    def display_empress_personas():
-        empress_personas_list = Personas.empressArcanaPersonasList()
-        print("\nList of Empress Personas:")
-        for persona_index, persona in enumerate(empress_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # Chariot Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Agathion
+    def register_agathion_build(self,f):
+            return self.register_persona(
+                f, 
+                "Agathion","Chariot", 20,
+                5,4,5,3,2,
+                "Self-Control","Gentleman's Flattery","Direct Curiosity","","","","",""
+            )
+        
+    # 2. Slime
+    def register_slime_build(self,f):
+            # Register update: 9/15/25
+            return self.register_persona(
+                f,
+                # Register update: 9/15/25
+                "Slime","Chariot", 20,
+                7,5,5,4,1,
+                "Sync surge (Med Nuke)","Hyper Link (Med Nuke)","Flare Blast (Med Nuke)","3 Second Rule (Charge)",
+                "Confidence (Atk Buff)","Opening Gambit (Hvy Phys)","Calling Fang (Med Phys)","Brain Flicker (Med Elec)"
+            )
 
-    # Done 
-    def emperorArcanaPersonasList():
-        emperor_personas_list = ("Regent","Eligor","Setanta","Thoth",
-        "Barong","King Frost","Oberon","Baal","Odin")
-        return emperor_personas_list
+    # Justice Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Angel
+    def register_angel_build(self,f):
+            return self.register_persona(
+                f,
+                # Register update: 10/4/25
+                "Angel","Justice", 27,
+                4,6,6,6,5,
+                "","","","","","","",""
+
+            )
+
+    # Hanged Man Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Hua Po
+    def register_hua_po_build(self,f):
+            return self.register_persona(
+                f,
+                # Regiter update: 12/17/25
+                "Hua Po","Hanged Man", 18,
+                5,4,8,3,1,
+                "Prioritized Presence,","Slowed Speech","Echo Shot","Casual Greeting Shot","Small-talk","Subject Change","Interest Probe",""
+            )
     
-    # Done
-    def display_emperor_personas():
-        emperor_personas_list = Personas.emperorArcanaPersonasList()
-        print("\nList of Emperor Personas:")
-        for persona_index, personas in enumerate(emperor_personas_list, start=1):
-            print(f"{persona_index}. {personas}")
-        print("------------------------------------------------------------------------")
+    # 2. Inugami
+    def register_inugami_build(self,f):
+           return self.register_persona(
+                  # Register update: 12/17/25
+                  f,
+                  "Inugami", "Hanged Man", 10,
+                  1,1,1,1,1,
+                  "","","","",
+                  "","","",
+           )
 
-    # Done
-    def hierophantArcanaPersonaList():
-        hierophant_personas_list = ("Berith","Orobas","Anzu","Daisoujou","Mishaguji","Bishamonten","Kohryu")
-        return hierophant_personas_list
+    # Fortune Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Stone of Scone
+    def register_stone_of_scone_build(self,f):
+            return self.register_persona(
+                f,
+                "Stone of Scone", "Fortune", 13,
+                1,1,3,3,6,
+                "Social Competence","Interest Level Read","","","","","",""
+            )
+
+    # 2. Clotho
+    def register_clotho_build(self,f):
+           # Register udpate: 12/17/25
+           return self.register_persona(
+                  f,
+                  # Register updated: 12/17/25
+                  "Clotho","Fortune", 20,
+                  3,2,4,6,9,
+                  "","","","","","","",""
+           )
+
+
+    # Empress Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Queen's Necklace
+    def register_queens_necklace_build(self,f):
+            return self.register_persona(
+                f,
+                "Queen's Necklace","Empress", 16,
+                5,4,3,6,3,
+                "Temperament Read","","","","","","",""
+            )
     
-    # Done
-    def display_hierophant_personas():
-        hierophant_personas_list = Personas.hierophantArcanaPersonaList()
-        print("\nList of Hierophant Personas:")
-        for persona_index, persona in enumerate(hierophant_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # 2. Yaksini
+    def register_yaksini_bulid(self,f):
+           # Register update: 12/17/25
+           return self.register_persona(
+                  f,
+                  "Yaksini", "Empress", 16,
+                  1,1,1,1,1,
+                  "","","","","","","","",
+           )
 
-    # Done
-    def loversArcanaPersonasList():
-        lovers_personas_list = ("Pixie","Saki Mitama","Ame-no-Uzume","Leanan Sidhe","Kushinada","Narcissus",
-        "Parvati","Raphael","Ishtar")
-        return lovers_personas_list
+    # Sun Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Suzaku
+    def register_suzaku_build(self,f):
+            return self.register_persona(
+                # Register update: 10/4/25
+                # Register update: 11/17/25
+                f,
+                "Suzaku", "Sun", 23,
+                7,8,5,3,4,
+                "Ember Gaze (Med Fire)","","","","Looksmax (Auto Heat-Riser)","Confidence (Atk buff)","Social Competence (Auto Atk Buff)",
+                "Ascendancy Wave (AOE Ag Debuff)"
+            )
 
-    # Done
-    def display_lovers_personas():
-        lovers_personas_list = Personas.loversArcanaPersonasList()
-        print("\nList of Lovers Personas:")
-        for persona_index, persona in enumerate(lovers_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def chariotArcanaPersonasList():
-        chariot_personas_list = ("Agathion","Slime","Shiki-Ouji","Kin-Ki","Ara Mitama","White Rider","Athena",
-        "Athena Picaro","Cerberus","Thor","Chi You")
-        return chariot_personas_list
-
-    # Done
-    def display_chariot_personas():
-        chariot_personas_list = Personas.chariotArcanaPersonasList()
-        print("\nList of Chariot Personas:")
-        for persona_index, persona in enumerate(chariot_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def justiceArcanaPersonasList():
-        justice_personas_list = ("Angel","Archangel","Principality","Power","Melchizedek","Throne",
-        "Uriel","Metatron")
-        return justice_personas_list
     
-    # Done
-    def display_justice_personas():
-        justice_personas_list = Personas.justiceArcanaPersonasList()
-        print("\nList of Justice Personas:")
-        for persona_index, persona in enumerate(justice_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+   # Faith Personas:
+   # ------------------------------------------------------------------------------------
+   # 1. Phoenix
+    def register_phoenix_build(self,f):
+           return self.register_persona(
+            # Register update: 11/17/25
+            f,
+            "Phoenix","Faith",11,
+            3,1,3,1,2,
+            "","","","","","","",""
 
-    # Done
-    def hermitArcanaPersonasList():
-        hermit_personas_list = ("Bicorn","Koropokkuru","Ippon-Datara","Sudama","Naga","Kurama Tengu","Arahabaki",
-        "Kumbhanda","Koumokuten","Loa","Fafnir","Ongyo-Ki")
-        return hermit_personas_list
+           )
     
-    # Done
-    def display_hermit_personas():
-        hermit_personas_list = Personas.hermitArcanaPersonasList()
-        print("\nList of Hermit Personas:")
-        for persona_index, persona in enumerate(hermit_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # 2. Tam Lin
+    def register_tam_lin_build(self,f):
+           return self.register_persona(
+                  f,
+                  # Register update: 12/17/25
+                  "Tam Lin", "Faith", 9,
+                  1,1,1,1,1,
+                  "","","","","","","",""
+           )
 
-    # Done
-    def fortuneArcanaPersonasList():
-        fortune_personas_list = ("Stone of Scone","Clotho","Ariadne","Lachesis","Atropos","Ariadne Picaro","Fortuna","Norn",
-        "Asterius","Asterius Picaro","Lakshmi")
-        return fortune_personas_list
+
+comp = Compendium()
+with open("Persona_compendium_logbook.txt", "a") as file:
+    # Fool Personas
+    comp.register_arsene_build(file)
+    comp.register_obariyon_build(file)
+    comp.register_orpheus_f_build(file)
+
+    # Magician Personas
+    comp.register_cait_sith_build(file)
+    comp.register_jack_o_lantern_build(file)
+    comp.register_jack_frost_build(file)
+
+    # Priestess Personas
+    comp.register_silky_build(file)
+    comp.register_apsaras_build(file)
+    comp.register_koh_i_noor_build(file)
+
+    # Empress Personas
+    comp.register_queens_necklace_build(file)
+    comp.register_yaksini_bulid(file)
+
+    # Emperor Personas
+    comp.register_eligor_build(file)
+    comp.register_regent_build(file)
+    comp.register_setanta_build(file)
     
-    # Done
-    def display_fortune_personas():
-        fortune_personas_list = Personas.fortuneArcanaPersonasList()
-        print("\nList of Fortune Personas:")
-        for persona_index, persona in enumerate(fortune_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # Hermit Personas
+    comp.register_bicorn_build(file)
+    comp.register_koropokkuru_build(file)
 
-    # Done
-    def strengthArcanaPersonasList():
-        strength_personas_list = ("Kelpie","Shiisaa","Oni","Rakshasa","Orlov","Zouchouten","Valkyrie","Hanuman","Chimera","Zaou-Gongen")
-        return strength_personas_list
-
-    # Done
-    def display_strength_personas():
-        strength_personas_list = Personas.strengthArcanaPersonasList()
-        print("\nList of Strength Personas:")
-        for persona_index, persona in enumerate(strength_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def hangedManArcanaPersonaList():
-        hanged_man_personas_list = ("Hua Po","Inugami","Orthrus","Take-Minakata","Emperor's Amulet","Hecatoncheires","Jatayu",
-        "Moloch","Macabre","Attis")
-        return hanged_man_personas_list
-
-    # Done
-    def display_hanged_man_personas():
-        hanged_man_personas_list = Personas.hangedManArcanaPersonaList()
-        print("\nList of Hanged Man Personas:")
-        for persona_index, persona in enumerate(hanged_man_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def deathArcanaPersonaList():
-        death_personas_list = ("Mandrake","Mokoi","Matador","Nue","Pisaca","Hell Biker","Hope Diamond","Pale Rider","Chernobog",
-        "Thanatos","Thanatos Picaro","Mot","Alice")
-        return death_personas_list
-
-    # Done
-    def display_death_personas():
-        death_personas_list = Personas.deathArcanaPersonaList()
-        print("\nList of Death Personas:")
-        for persona_index, persona in enumerate(death_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def temperanceArcanaPersonaList():
-        temperance_personas_list = ("Genbu","Koppa Tengu","Makami","Jikokuten","Mithra","Byakko","Raja Naga","Gabriel",
-        "Ardha")
-        return temperance_personas_list
+    # Death Personas
+    comp.register_mandrake_build(file)
+    comp.register_mokoi_build(file)
+    comp.register_matador_build(file)
     
-    # Done
-    def display_temperance_personas():
-        temperance_personas_list = Personas.temperanceArcanaPersonaList()
-        print("\nList of Temperance Personas:")
-        for persona_index, persona in enumerate(temperance_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done 
-    def devilArcanaPersonasList():
-        devil_personas_list = ("Incubus","Flauros","Andras","Lilim","Pazuzu","Baphomet","Nebiros","Belial","Beelzebub")
-        return devil_personas_list 
     
-    # Done
-    def display_devil_personas():
-        devil_personas_list = Personas.devilArcanaPersonasList()
-        print("\nList of Devil Personas: ")
-        for persona_index, persona in enumerate(devil_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # Chariot Personas
+    comp.register_agathion_build(file)
+    comp.register_slime_build(file)
 
-    # Done
-    def towerArcanaPersonasList():
-        tower_personas_list = ("Belphegor","Red Rider","Magatsu-Izanagi","Magatsu-Izanagi Picaro","Seth","Black Rider",
-        "Mara","Yoshitsune","Mada")
-        return tower_personas_list
+    # Lovers Personas
+    comp.register_pixie_build(file)
+    comp.register_saki_mitama_build(file)
+    comp.register_ame_no_uzume_build(file)
 
-    # Done
-    def display_tower_personas():
-        tower_personas_list = Personas.towerArcanaPersonasList()
-        print("\nList of Tower Personas:")
-        for persona_index, persona in enumerate(tower_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
+    # Hanged Man Personas
+    comp.register_hua_po_build(file)
+    comp.register_inugami_build(file)
 
-    # Done
-    def starArcanaPersonasList():
-        star_personas_list = ("Kodama","Fuu-Ki","Neko Shogun","Kaiwan","Garuda","Vasuki","Sraosha","Hastur","Lucifer")
-        return star_personas_list
+    # Death Personas
+    comp.register_mandrake_build(file)
+
+    # Strength Personas
+    comp.register_kelpie_build(file)
+
+    # Justice Personas
+    comp.register_angel_build(file)
+
+    # Fortune Personas
+    comp.register_stone_of_scone_build(file)
+    comp.register_clotho_build(file)
+
+    # Sun Personas
+    comp.register_suzaku_build(file)
+
+    # Faith Personas
+    comp.register_phoenix_build(file)
+    comp.register_tam_lin_build(file)
     
-    # Done
-    def display_star_personas():
-        star_personas_list = Personas.starArcanaPersonasList()
-        print("\nList of Star Personas:")
-        for persona_index, persona in enumerate(star_personas_list, start=1):
-            print(f"{persona}. {persona_index}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def moonArcanaPersonasList():
-        moon_personas_list = ("Succubus","Onmoraki","Kaguya","Black Ooze","Sui-Ki","Kaguya Picaro","Mothman",
-        "Girimehkala","Tsukiyomi","Tsukiyomi Picaro","Lilith","Byakhee","Sandalphon")
-        return moon_personas_list
-
-    # Done
-    def display_moon_personas():
-        moon_personas_list = Personas.moonArcanaPersonasList()
-        print("\nList of Moon Personas:")
-        for persona_index, persona in enumerate(moon_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def sunArcanaPersonasList():
-        sun_personas_list = ("Suzaku","Thunderbird","Mithras","Yurlungur","Horus","Ganesha","Quetzalcoatl","Asura")
-        return sun_personas_list
-
-    # Done
-    def display_sun_personas():
-        sun_personas_list = Personas.sunArcanaPersonasList()
-        print("\nList of Sun Personas:")
-        for persona_index, personas in enumerate(sun_personas_list, start=1):
-            print(f"{persona_index}. {personas}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def judgementArcanaPersonaList():
-        judgement_personas_list = ("Anubis","Trumpeter","Yamata-no-Orochi","Abaddon","Messiah",
-        "Shiva","Michael","Messiah Picaro","Satan")
-        return judgement_personas_list
-
-    # Done
-    def display_judgement_personas():
-        judgement_personas_list = Personas.judgementArcanaPersonaList()
-        print("\nList of Judgement Personas:")
-        for persona_index, persona in enumerate(judgement_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def faithArcanaPersonaList():
-        faith_personas_list = ("Phoenix","Tam Lin","Unicorn","Okuninushi","Orichalcum","Atavaka","Cu Chulainn",
-        "Siegfried","Maria")
-        return faith_personas_list
-
-    # Done
-    def display_faith_personas():
-        faith_personas_list = Personas.faithArcanaPersonaList()
-        print("\nList of Faith Personas:")
-        for persona_index, persona in enumerate(faith_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    # Done
-    def councillorArcanaPersonaList():
-        councillor_personas_list = ("Kushi Mitama","Nigi Mitama","Decarabia","Ananta","Yatagarasu","Seiryu",
-        "Dionysus","Vohu Manah")
-        return councillor_personas_list
-    
-    # Done
-    def display_councillor_personas():
-        councillor_personas_list = Personas.councillorArcanaPersonaList()
-        print("\nList of Councillor Personas:")
-        for persona_index, persona in enumerate(councillor_personas_list, start=1):
-            print(f"{persona_index}. {persona}")
-        print("------------------------------------------------------------------------")
-
-    def display_arcana_list():
-        print("\nList of Arcanas:")
-        for arcana_index, arcana in enumerate(persona_arcanas, start=1):
-            print(f"{arcana_index}. {arcana}")
-
-# Now I want to ask the user for an Arcana type and use a loop that ends when they enter finish
-
-valid_arcana_choice = False
-persona_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant","Lovers","Chariot","Justice","Hermit",
-                   "Fortune","Strength","Hanged Man", "Death","Temperance","Devil","Tower","Star","Moon","Sun","Judgement","Faith","Councillor")
 
 
-# Prompts if the user wants to see the arcana list (make this a loop later)
-arcana_list_choice = input("Would you like to see a list of available Personas? (Enter y for yes, anything else for no): ").lower()
-if arcana_list_choice == "y":   # If they choose yes, call the function
-    Personas.display_arcana_list()
-else:
-    print() # Debugging 
+    #def display_persona():
+        #result = Compendium.register_persona()
+        #return result
 
-arcana_choice = "" 
-while arcana_choice != "End": # Loop 2: Asks the Arcana they want to see Personas for 
-    # Give them the option to view the list of Arcanas if they don't already know what they want to see
-    
-    arcana_choice = input("Please enter an Arcana to display Personas for (enter End to end): ").strip().title()
-    if arcana_choice == "End":
-        print("Exited.")
-        break
 
-    if arcana_choice in persona_arcanas:
-        valid_arcana_choice = True
-        if valid_arcana_choice:
-            if arcana_choice == persona_arcanas[0]: # Fool
-                Personas.display_fool_personas()
-            elif arcana_choice == persona_arcanas[1]: # Magician
-                Personas.display_magician_personas()
-            elif arcana_choice == persona_arcanas[2]: # Priestess
-                Personas.display_priestess_personas()
-            elif arcana_choice == persona_arcanas[3]: # Empress
-                Personas.display_empress_personas()
-            elif arcana_choice == persona_arcanas[4]: # Emperor 
-                Personas.display_emperor_personas()
-            elif arcana_choice == persona_arcanas[5]: # Hierophant
-                Personas.display_hierophant_personas()
-            elif arcana_choice == persona_arcanas[6]: # Lovers
-                Personas.display_lovers_personas()
-            elif arcana_choice == persona_arcanas[7]: # Chariot
-                Personas.display_chariot_personas()
-            elif arcana_choice == persona_arcanas[8]: # Justice
-                Personas.display_justice_personas()
-            elif arcana_choice == persona_arcanas[9]: # Hermit
-                Personas.display_hermit_personas()
-            elif arcana_choice == persona_arcanas[10]: # Fortune
-                Personas.display_fortune_personas()
-            elif arcana_choice == persona_arcanas[11]: # Strength
-                Personas.display_strength_personas()
-            elif arcana_choice == persona_arcanas[12]: # Hanged Man
-                Personas.display_hanged_man_personas()
-            elif arcana_choice == persona_arcanas[13]: # Death
-                Personas.display_death_personas()
-            elif arcana_choice == persona_arcanas[14]: # Temperance 
-                Personas.display_temperance_personas()
-            elif arcana_choice == persona_arcanas[15]: # Devil
-                Personas.display_devil_personas()
-            elif arcana_choice == persona_arcanas[16]: # Tower
-                Personas.display_tower_personas()
-            elif arcana_choice == persona_arcanas[17]: # Star
-                Personas.display_star_personas()
-            elif arcana_choice == persona_arcanas[18]: # Moon
-                Personas.display_moon_personas()
-            elif arcana_choice == persona_arcanas[19]: # Sun
-                Personas.display_sun_personas()
-            elif arcana_choice == persona_arcanas[20]: # Judgement
-                Personas.display_judgement_personas()
-            elif arcana_choice == persona_arcanas[21]: # Faith
-                Personas.display_faith_personas()
-            elif arcana_choice == persona_arcanas[22]: # Councillor
-                Personas.display_councillor_personas()
-    else:
-        valid_arcana_choice = False
-        print("Invalid Arcana choice.\n")
+
+#name = str(input("Please enter the name of the Persona to register: "))
+#arcana = str(input("Please enter the Arcana of the Persona to register: "))
+#level = int(input("Please enter the level of the Persona to register: "))
+#st = int(input("Please enter the St stat of the Persona to register: "))
+#ma = int(input("Please enter the Ma stat of the Persona to register: "))
+#en = int(input("Please enter the En stat of the Persona to register: "))
+#ag = int(input("Please enter the Ag stat of the Persona to register: "))
+
+
+#lu = int(input("Please enter the Lu stat of the Persona to register: "))
