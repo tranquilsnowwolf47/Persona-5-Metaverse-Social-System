@@ -346,21 +346,22 @@ persona_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant
                    "Fortune","Strength","Hanged Man", "Death","Temperance","Devil","Tower","Star","Moon","Sun","Judgement","Faith","Councillor")
 
 
-# I need a loop to do this 
-
-arcana_list_choice = ""
-while arcana_list_choice != "y": # Loop 1: Handles if they want to see the list of Personas
-    arcana_list_choice = input("Would you like to see a list of available Personas? (Enter y for yes, anything else for no): ")
-    if arcana_list_choice == "y":   # If they choose yes, call the function
-        Personas.display_arcana_list()
-    else:
-        print("Cool") # Debugging 
+# Prompts if the user wants to see the arcana list (make this a loop later)
+arcana_list_choice = input("Would you like to see a list of available Personas? (Enter y for yes, anything else for no): ").lower()
+if arcana_list_choice == "y":   # If they choose yes, call the function
+    Personas.display_arcana_list()
+else:
+    print() # Debugging 
 
     arcana_choice = "" 
-    while arcana_choice != "Finish": # Loop 2: Asks the Arcana they want to see Personas for 
+    while arcana_choice != "End": # Loop 2: Asks the Arcana they want to see Personas for 
         # Give them the option to view the list of Arcanas if they don't already know what they want to see
     
-        arcana_choice = input("Please enter an Arcana to display Personas for (enter Finish to end): ").title()
+        arcana_choice = input("Please enter an Arcana to display Personas for (enter End to end): ").strip().title()
+        if arcana_choice == "End":
+            print("Exited.")
+            break
+
         if arcana_choice in persona_arcanas:
             valid_arcana_choice = True
             if valid_arcana_choice:
@@ -410,6 +411,6 @@ while arcana_list_choice != "y": # Loop 1: Handles if they want to see the list 
                     Personas.display_faith_personas()
                 elif arcana_choice == persona_arcanas[22]: # Councillor
                     Personas.display_councillor_personas()
-            else:
-                valid_arcana_choice = False
-                print("Invalid Arcana choice.")
+        else:
+            valid_arcana_choice = False
+            print("Invalid Arcana choice.\n")
