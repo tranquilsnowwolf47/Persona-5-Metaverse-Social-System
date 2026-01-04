@@ -64,12 +64,22 @@ class Compendium:
             # Register update 12/17/25
             return self.register_persona(
                 f,
-                "Orpehus F", "Fool", 29,
+                "Orpheus F", "Fool", 29,
                 8,6,7,7,4,
                 "Act Sense (Med Psy)","Tranquil Edge (Med Psy)","Ether Break (Atk debuff)","Volt Nudge (Light Elec)",
                 "Clock Hold (Med Curse)","Hidden Blueprint (Med Curse)","Data Hex (Med Curse)","Minimum Echo (Med Curse)"
             )
 
+    # 4. Orpheus F Picaro
+    def register_orpheus_f_picaro_build(self,f):
+           # Register update: 12/19/25
+           return self.register_persona(
+                  f,
+                  "Orpheus F Picaro", "Fool", 3,
+                  1,1,1,1,1,
+                  "","","","","",""
+                  "",""
+           )
 
     # Magician Personas:
     # ------------------------------------------------------------------------------------
@@ -228,6 +238,54 @@ class Compendium:
                   "Tranquil Edge (Med Psy)", "Hollow Stance (Light Curse)", "Minimum Echo (Med Curse)"
            )
 
+    # Temperance Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Genbu 
+    def register_genbu_build(self,f):
+           # Register update 12/19/25
+           return self.register_persona(
+                  "Genbu", "Temperance", 1,
+                  1,1,1,1,1,
+                  "","","","","",
+                  "","","",
+           )
+
+    # Devil Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Incubus
+    def register_incubus_build(self,f):
+           # Register update 12/19/25
+           return self.register_persona(
+                  "Incubus", "Devil", 1,
+                  1,1,1,1,1,
+                  "","","","","",
+                  "","","",
+           )
+
+    # Tower Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Belphegor
+    def register_belphegor_build(self,f):
+           # Register update 12/19/25
+           return self.register_persona(
+                  "Belphegor", "Tower", 1,
+                  1,1,1,1,1,
+                  "","","","","",
+                  "","","",
+           )
+
+    # Moon Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Succubus 
+    def register_belphegor_build(self,f):
+           # Register update 12/19/25
+           return self.register_persona(
+                  "Succubus", "Moon", 5,
+                  1,2,1,4,1,
+                  "Cognition Rift (Heavy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
+                  "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
+           )
+
     # Strength Personas:
     # ------------------------------------------------------------------------------------
     # 1. Kelpie
@@ -324,6 +382,17 @@ class Compendium:
                 "","","","","","","",""
 
             )
+    
+    # 2. Archangel
+    def register_archangel_build(self,f):
+           return self.register_persona(
+                  f,
+                  # Register update: 12/19/25
+                  "Archangel","Justice", 4,
+                  3,3,1,1,1,
+                  "Cognition Rift (Heavy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
+                  "Psy Boost","Dodge Reverse Fire","Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
+           )
 
     # Hanged Man Personas:
     # ------------------------------------------------------------------------------------
@@ -341,11 +410,12 @@ class Compendium:
     def register_inugami_build(self,f):
            return self.register_persona(
                   # Register update: 12/17/25
+                  # Regiter update: 12/19/25
                   f,
-                  "Inugami", "Hanged Man", 10,
-                  1,1,1,1,1,
-                  "","","","",
-                  "","","",
+                  "Inugami", "Hanged Man", 15,
+                  5,3,6,4,1,
+                  "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Heavy Psy)", "Focused Breathing (LVl 1 Healing)"
            )
 
     # Fortune Personas:
@@ -389,7 +459,8 @@ class Compendium:
                   f,
                   "Yaksini", "Empress", 16,
                   1,1,1,1,1,
-                  "","","","","","","","",
+                  "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
+                  "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)",
            )
 
     # Sun Personas:
@@ -482,6 +553,13 @@ with open("Persona_compendium_logbook.txt", "a") as file:
 
     # Death Personas
     comp.register_mandrake_build(file)
+
+    # Devil Personas
+    comp.register_incubus_build(file)
+
+    # Temperance Personas
+    comp.register_genbu_build(file)
+    
 
     # Strength Personas
     comp.register_kelpie_build(file)
