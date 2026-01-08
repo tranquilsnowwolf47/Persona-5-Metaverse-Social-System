@@ -73,12 +73,15 @@ class Compendium:
     # 4. Orpheus F Picaro
     def register_orpheus_f_picaro_build(self,f):
            # Register update: 12/19/25
+           # Register update: 1/5/26
+           # Register update: 1/6/26
            return self.register_persona(
                   f,
-                  "Orpheus F Picaro", "Fool", 3,
-                  1,1,1,1,1,
-                  "","","","","",""
-                  "",""
+                  "Orpheus F Picaro", "Fool", 22,
+                  6,5,5,6,4,
+                  "Tailwind Cascade (Heavy Wind)","Black List (Curse Instant Kill)","Starter Shot (Light Gun)",
+                  "Mini-Gun (Light Gun)","Surface Graze (Light Gun)","Acknowledgement Shot (Light Gun)",
+                  "Everflow (Heavy Wind)","Career Current (Med Wind)"
            )
 
     # Magician Personas:
@@ -147,6 +150,29 @@ class Compendium:
            )
 
 
+    # Empress Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Queen's Necklace
+    def register_queens_necklace_build(self,f):
+            return self.register_persona(
+                f,
+                "Queen's Necklace","Empress", 16,
+                5,4,3,6,3,
+                "Temperament Read","","","","","","",""
+            )
+    
+    # 2. Yaksini
+    def register_yaksini_bulid(self,f):
+           # Register update: 12/17/25
+           return self.register_persona(
+                  f,
+                  "Yaksini", "Empress", 16,
+                  1,1,1,1,1,
+                  "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
+                  "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)",
+           )
+
+
     # Emperor Personas:
     # ------------------------------------------------------------------------------------
     # 1. Eligor
@@ -173,13 +199,112 @@ class Compendium:
 
     # 3. Setanta
     def register_setanta_build(self,f):
-        # Register update: 11/17/25
-        # Register update: 12/17/25
-        f,
-        "Setanta", "Emperor", 30,
-        14,8,10,2,1
-        "Assertive Slice (Med Phys)", "Stonewall (Med Phys)", "Decision Strike (Med Phys)", "Calling Fang (Med Phys)", 
-        "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)", "3 Second Rule (Charge)"
+              # Register update: 11/17/25
+              # Register update: 12/17/25 
+              return self.register_persona(
+                     f,
+                     "Setanta", "Emperor", 30,
+                     14,8,10,2,1,
+                     "Assertive Slice (Med Phys)", "Stonewall (Med Phys)", "Decision Strike (Med Phys)", "Calling Fang (Med Phys)", 
+                     "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)", "3 Second Rule (Charge)",""
+              )
+    
+    # Hierophant Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. 
+
+
+    # Lovers Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Pixie
+    def register_pixie_build(self,f):
+            return self.register_persona(
+                f,
+                "Pixie", "Lovers", 19,
+                1,7,4,5,5,
+                "Self Respect Affirmation","Prioritized Presence (Med Psy)","Nonchalance (Med Psy)","Interest Level Read (Light Psy)","","","",""
+            )
+    # 2. Saki Mitama
+    def register_saki_mitama_build(self,f):
+            return self.register_persona(
+                # Register update: 10/4/25
+                f,
+                "Saki Mitama","Lovers",25,
+                7,8,3,6,6,
+                "Focused Breathing (Lvl 1 Healing)", "Cat Nap (Lvl 2 Healing)","","","","","",""
+            )
+    # 3. Ame-no-Uzume
+    def register_ame_no_uzume_build(self,f):
+           return self.register_persona(
+                  # Register update: 11/17/25
+                  # Register update: 12/17/25
+                  f,
+                  "Ame-no-Uzume", "Lovers",25,
+                  5,11,3,5,5,
+                  "Focused Breathing (Lvl 1 Healing)","Cat Nap (Lvl 2 Healing)","","","","","",""
+           )
+
+
+    # Chariot Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Agathion
+    def register_agathion_build(self,f):
+            return self.register_persona(
+                f, 
+                "Agathion","Chariot", 20,
+                5,4,5,3,2,
+                "Self-Control","Gentleman's Flattery","Direct Curiosity","","","","",""
+            )
+        
+    # 2. Slime
+    def register_slime_build(self,f):
+            # Register update: 9/15/25
+            return self.register_persona(
+                f,
+                # Register update: 9/15/25
+                "Slime","Chariot", 20,
+                7,5,5,4,1,
+                "Sync surge (Med Nuke)","Hyper Link (Med Nuke)","Flare Blast (Med Nuke)","3 Second Rule (Charge)",
+                "Confidence (Atk Buff)","Opening Gambit (Hvy Phys)","Calling Fang (Med Phys)","Brain Flicker (Med Elec)"
+            )
+    
+    # 3. Shiki-Ouji
+    def register_shiki_outji_build(self,f):
+           return self.register_persona(
+                  f,
+                  # Register update: 1/5/25
+                  "Shiki-Ouji","Chariot",26,
+                  10,7,7,5,1,
+                  "Sync Surge (Med Nuke)","Hyper Link (Med Nuke)","Flare Blast (Med Nuke)","Confidence Surge (Atk buff)",
+                  "3-Second Rule (Charge)","Opening Gambit (Med Phys)","Advance Slash (Heavy Phys)","Volt Revive (Light Elec)"
+           )
+
+
+    # Justice Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Angel
+    def register_angel_build(self,f):
+            return self.register_persona(
+                f,
+                # Register update: 10/4/25
+                "Angel","Justice", 27,
+                4,6,6,6,5,
+                "","","","","","","",""
+
+            )
+    
+    # 2. Archangel
+    def register_archangel_build(self,f):
+           return self.register_persona(
+                  f,
+                  # Register update: 12/19/25
+                  # Register update: 1/5/26
+                  "Archangel","Justice", 9,
+                  4,4,2,3,2,
+                  "Cognition Rift (Heavy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
+                  "Psy Boost","Dodge Reverse Fire","Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
+           )
+
 
     # Hermit Personas:
     # ------------------------------------------------------------------------------------
@@ -194,12 +319,13 @@ class Compendium:
     # 2. Koropokkuru 
     def register_koropokkuru_build(self,f):
            # Register Update: 12/17/25
+           # Register Update: 1/8/25
            return self.register_persona(
                   f,
-                  "Koropokkuru", "Hermit", 11,
-                  1,1,1,1,1,
-                  "","","","","",
-                  "","","",
+                  "Koropokkuru", "Hermit", 15,
+                  1,7,6,4,1,
+                  "Prioritized Presence (Heavy Psy)","Tranquil Edge (Med Psy)","Regenerate I (HP Regen)","Invigorate I (SP Regen)",
+                  "Temper Drop (Rage recovery)","","","",
            )
 
     # Death Personas:
@@ -234,7 +360,7 @@ class Compendium:
                   "Matador", "Death", 26,
                   5,11,9,5,1,
                   "Slowed Speech (Ag buff)", "Self-Control (Auto Def buff)", 
-                  "Human Nature Savant (Auto)", "Confidence (Atk buff)", "Interest Guage (Med Psy)",
+                  "Human Nature Savant (Auto Ag Buff)", "Confidence (Atk buff)", "Interest Guage (Med Psy)",
                   "Tranquil Edge (Med Psy)", "Hollow Stance (Light Curse)", "Minimum Echo (Med Curse)"
            )
 
@@ -242,11 +368,13 @@ class Compendium:
     # ------------------------------------------------------------------------------------
     # 1. Genbu 
     def register_genbu_build(self,f):
-           # Register update 12/19/25
+           # Register update: 12/19/25
+           # Register update: 1/8/26
            return self.register_persona(
-                  "Genbu", "Temperance", 1,
-                  1,1,1,1,1,
-                  "","","","","",
+                  f,
+                  "Genbu", "Temperance", 8,
+                  1,3,4,3,1,
+                  "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)","",
                   "","","",
            )
 
@@ -256,22 +384,25 @@ class Compendium:
     def register_incubus_build(self,f):
            # Register update 12/19/25
            return self.register_persona(
-                  "Incubus", "Devil", 1,
+                  f,
+                  "Incubus","Devil",1,
                   1,1,1,1,1,
                   "","","","","",
-                  "","","",
+                  "","",""
            )
 
     # Tower Personas:
     # ------------------------------------------------------------------------------------
     # 1. Belphegor
     def register_belphegor_build(self,f):
-           # Register update 12/19/25
+           # Register update: 12/19/25
+           # Register update: 1/8/25
            return self.register_persona(
-                  "Belphegor", "Tower", 1,
-                  1,1,1,1,1,
-                  "","","","","",
-                  "","","",
+                  f,
+                  "Belphegor", "Tower", 12,
+                  2,7,1,5,1,
+                  "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Heavy Phys)","Dodge Ice","Curse Boost",
+                  "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)",
            )
 
     # Moon Personas:
@@ -279,9 +410,11 @@ class Compendium:
     # 1. Succubus 
     def register_belphegor_build(self,f):
            # Register update 12/19/25
+           # Register update: 1/5/26
            return self.register_persona(
-                  "Succubus", "Moon", 5,
-                  1,2,1,4,1,
+                  f,
+                  "Succubus", "Moon", 19,
+                  1,7,6,8,1,
                   "Cognition Rift (Heavy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
                   "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
            )
@@ -317,82 +450,9 @@ class Compendium:
                   "","","","","","","", "Self-Control (Auto Def buff)"
            )
 
-    # Lovers Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Pixie
-    def register_pixie_build(self,f):
-            return self.register_persona(
-                f,
-                "Pixie", "Lovers", 19,
-                1,7,4,5,5,
-                "Self Respect Affirmation","Prioritized Presence (Med Psy)","Nonchalance (Med Psy)","Interest Level Read (Light Psy)","","","",""
-            )
-    # 2. Saki Mitama
-    def register_saki_mitama_build(self,f):
-            return self.register_persona(
-                # Register update: 10/4/25
-                f,
-                "Saki Mitama","Lovers",25,
-                7,8,3,6,6,
-                "Focused Breathing (Lvl 1 Healing)", "Cat Nap (Lvl 2 Healing)","","","","","",""
-            )
-    # 3. Ame-no-Uzume
-    def register_ame_no_uzume_build(self,f):
-           return self.register_persona(
-                  # Register update: 11/17/25
-                  # Register update: 12/17/25
-                  f,
-                  "Ame-no-Uzume", "Lovers",25,
-                  5,11,3,5,5,
-                  "Focused Breathing (Lvl 1 Healing)","Cat Nap (Lvl 2 Healing)","","","","","",""
-           )
 
-    # Chariot Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Agathion
-    def register_agathion_build(self,f):
-            return self.register_persona(
-                f, 
-                "Agathion","Chariot", 20,
-                5,4,5,3,2,
-                "Self-Control","Gentleman's Flattery","Direct Curiosity","","","","",""
-            )
-        
-    # 2. Slime
-    def register_slime_build(self,f):
-            # Register update: 9/15/25
-            return self.register_persona(
-                f,
-                # Register update: 9/15/25
-                "Slime","Chariot", 20,
-                7,5,5,4,1,
-                "Sync surge (Med Nuke)","Hyper Link (Med Nuke)","Flare Blast (Med Nuke)","3 Second Rule (Charge)",
-                "Confidence (Atk Buff)","Opening Gambit (Hvy Phys)","Calling Fang (Med Phys)","Brain Flicker (Med Elec)"
-            )
 
-    # Justice Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Angel
-    def register_angel_build(self,f):
-            return self.register_persona(
-                f,
-                # Register update: 10/4/25
-                "Angel","Justice", 27,
-                4,6,6,6,5,
-                "","","","","","","",""
 
-            )
-    
-    # 2. Archangel
-    def register_archangel_build(self,f):
-           return self.register_persona(
-                  f,
-                  # Register update: 12/19/25
-                  "Archangel","Justice", 4,
-                  3,3,1,1,1,
-                  "Cognition Rift (Heavy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
-                  "Psy Boost","Dodge Reverse Fire","Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
-           )
 
     # Hanged Man Personas:
     # ------------------------------------------------------------------------------------
@@ -411,9 +471,10 @@ class Compendium:
            return self.register_persona(
                   # Register update: 12/17/25
                   # Regiter update: 12/19/25
+                  # Register update: 1/5/26
                   f,
-                  "Inugami", "Hanged Man", 15,
-                  5,3,6,4,1,
+                  "Inugami", "Hanged Man", 19,
+                  5,5,7,4,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
                   "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Heavy Psy)", "Focused Breathing (LVl 1 Healing)"
            )
@@ -441,27 +502,7 @@ class Compendium:
            )
 
 
-    # Empress Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Queen's Necklace
-    def register_queens_necklace_build(self,f):
-            return self.register_persona(
-                f,
-                "Queen's Necklace","Empress", 16,
-                5,4,3,6,3,
-                "Temperament Read","","","","","","",""
-            )
-    
-    # 2. Yaksini
-    def register_yaksini_bulid(self,f):
-           # Register update: 12/17/25
-           return self.register_persona(
-                  f,
-                  "Yaksini", "Empress", 16,
-                  1,1,1,1,1,
-                  "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
-                  "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)",
-           )
+
 
     # Sun Personas:
     # ------------------------------------------------------------------------------------
@@ -503,15 +544,16 @@ class Compendium:
 
 
 comp = Compendium()
-with open("Persona_compendium_logbook.txt", "a") as file:
+with open("Persona_compendium_logbook.txt", "w") as file:
     # Fool Personas
     comp.register_arsene_build(file)
     comp.register_obariyon_build(file)
     comp.register_orpheus_f_build(file)
+    comp.register_orpheus_f_picaro_build(file)
 
     # Magician Personas
-    comp.register_cait_sith_build(file)
     comp.register_jack_o_lantern_build(file)
+    comp.register_cait_sith_build(file)
     comp.register_jack_frost_build(file)
 
     # Priestess Personas
@@ -560,7 +602,6 @@ with open("Persona_compendium_logbook.txt", "a") as file:
     # Temperance Personas
     comp.register_genbu_build(file)
     
-
     # Strength Personas
     comp.register_kelpie_build(file)
 
