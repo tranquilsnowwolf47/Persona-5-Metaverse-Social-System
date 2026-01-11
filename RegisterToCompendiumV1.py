@@ -209,10 +209,19 @@ class Compendium:
                      "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)", "3 Second Rule (Charge)",""
               )
     
+
     # Hierophant Personas:
     # ------------------------------------------------------------------------------------
-    # 1. 
-
+    # 1. Berith 
+    def register_berith_build(self,f):
+           # Register update: 1/8/25
+           return self.register_persona(
+                  f, 
+                  "Berith", "Hierophant", 5,
+                  4,1,2,1,1,
+                  "Alpha Directive (Med Phys)","Career Current (Med Wind)","Confidence Drive (Atk buff)","Slowed Speech (Ag buff)",
+                  "Social Competence (Auto Atk buff)","Wind Boost","Dodge Reverse Curse","Purpose Anchor (Despair Recovery)"
+           )   
 
     # Lovers Personas:
     # ------------------------------------------------------------------------------------
@@ -328,6 +337,68 @@ class Compendium:
                   "Temper Drop (Rage recovery)","","","",
            )
 
+
+    # Fortune Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Stone of Scone
+    def register_stone_of_scone_build(self,f):
+            return self.register_persona(
+                f,
+                "Stone of Scone", "Fortune", 13,
+                1,1,3,3,6,
+                "Social Competence","Interest Level Read","","","","","",""
+            )
+
+    # 2. Clotho
+    def register_clotho_build(self,f):
+           # Register udpate: 12/17/25
+           return self.register_persona(
+                  f,
+                  # Register updated: 12/17/25
+                  "Clotho","Fortune", 20,
+                  3,2,4,6,9,
+                  "","","","","","","",""
+           )
+
+
+    # Strength Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Kelpie
+    def register_kelpie_build(self,f):
+            return self.register_persona(
+                f,
+                "Kelpie", "Strength", 16,
+                6,3,7,1,2,
+                "","","","","","","",""
+            )
+
+
+    # Hanged Man Personas:
+    # ------------------------------------------------------------------------------------
+    # 1. Hua Po
+    def register_hua_po_build(self,f):
+            return self.register_persona(
+                f,
+                # Regiter update: 12/17/25
+                "Hua Po","Hanged Man", 18,
+                5,4,8,3,1,
+                "Prioritized Presence,","Slowed Speech","Echo Shot","Casual Greeting Shot","Small-talk","Subject Change","Interest Probe",""
+            )
+    
+    # 2. Inugami
+    def register_inugami_build(self,f):
+           return self.register_persona(
+                  # Register update: 12/17/25
+                  # Regiter update: 12/19/25
+                  # Register update: 1/5/26
+                  f,
+                  "Inugami", "Hanged Man", 19,
+                  5,5,7,4,1,
+                  "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Heavy Psy)", "Focused Breathing (LVl 1 Healing)"
+           )
+
+
     # Death Personas:
     # ------------------------------------------------------------------------------------
     # 1. Mandrake
@@ -364,6 +435,7 @@ class Compendium:
                   "Tranquil Edge (Med Psy)", "Hollow Stance (Light Curse)", "Minimum Echo (Med Curse)"
            )
 
+
     # Temperance Personas:
     # ------------------------------------------------------------------------------------
     # 1. Genbu 
@@ -378,6 +450,7 @@ class Compendium:
                   "","","",
            )
 
+
     # Devil Personas:
     # ------------------------------------------------------------------------------------
     # 1. Incubus
@@ -390,6 +463,7 @@ class Compendium:
                   "","","","","",
                   "","",""
            )
+
 
     # Tower Personas:
     # ------------------------------------------------------------------------------------
@@ -405,10 +479,11 @@ class Compendium:
                   "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)",
            )
 
+
     # Moon Personas:
     # ------------------------------------------------------------------------------------
     # 1. Succubus 
-    def register_belphegor_build(self,f):
+    def register_succubus_build(self,f):
            # Register update 12/19/25
            # Register update: 1/5/26
            return self.register_persona(
@@ -419,16 +494,6 @@ class Compendium:
                   "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
            )
 
-    # Strength Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Kelpie
-    def register_kelpie_build(self,f):
-            return self.register_persona(
-                f,
-                "Kelpie", "Strength", 16,
-                6,3,7,1,2,
-                "","","","","","","",""
-            )
         
     # 2. Shiisaa
     def register_shiisaa_build(self,f):
@@ -449,60 +514,6 @@ class Compendium:
                   5,2,9,1,2,
                   "","","","","","","", "Self-Control (Auto Def buff)"
            )
-
-
-
-
-
-    # Hanged Man Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Hua Po
-    def register_hua_po_build(self,f):
-            return self.register_persona(
-                f,
-                # Regiter update: 12/17/25
-                "Hua Po","Hanged Man", 18,
-                5,4,8,3,1,
-                "Prioritized Presence,","Slowed Speech","Echo Shot","Casual Greeting Shot","Small-talk","Subject Change","Interest Probe",""
-            )
-    
-    # 2. Inugami
-    def register_inugami_build(self,f):
-           return self.register_persona(
-                  # Register update: 12/17/25
-                  # Regiter update: 12/19/25
-                  # Register update: 1/5/26
-                  f,
-                  "Inugami", "Hanged Man", 19,
-                  5,5,7,4,1,
-                  "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
-                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Heavy Psy)", "Focused Breathing (LVl 1 Healing)"
-           )
-
-    # Fortune Personas:
-    # ------------------------------------------------------------------------------------
-    # 1. Stone of Scone
-    def register_stone_of_scone_build(self,f):
-            return self.register_persona(
-                f,
-                "Stone of Scone", "Fortune", 13,
-                1,1,3,3,6,
-                "Social Competence","Interest Level Read","","","","","",""
-            )
-
-    # 2. Clotho
-    def register_clotho_build(self,f):
-           # Register udpate: 12/17/25
-           return self.register_persona(
-                  f,
-                  # Register updated: 12/17/25
-                  "Clotho","Fortune", 20,
-                  3,2,4,6,9,
-                  "","","","","","","",""
-           )
-
-
-
 
     # Sun Personas:
     # ------------------------------------------------------------------------------------
@@ -569,25 +580,32 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_eligor_build(file)
     comp.register_regent_build(file)
     comp.register_setanta_build(file)
-    
-    # Hermit Personas
-    comp.register_bicorn_build(file)
-    comp.register_koropokkuru_build(file)
 
-    # Death Personas
-    comp.register_mandrake_build(file)
-    comp.register_mokoi_build(file)
-    comp.register_matador_build(file)
-    
-    
-    # Chariot Personas
-    comp.register_agathion_build(file)
-    comp.register_slime_build(file)
+    # Hierophant Personas
+    comp.register_berith_build(file)
 
     # Lovers Personas
     comp.register_pixie_build(file)
     comp.register_saki_mitama_build(file)
     comp.register_ame_no_uzume_build(file)
+
+    # Chariot Personas
+    comp.register_agathion_build(file)
+    comp.register_slime_build(file)
+
+    # Justice Personas
+    comp.register_angel_build(file)
+
+    # Hermit Personas
+    comp.register_bicorn_build(file)
+    comp.register_koropokkuru_build(file)
+
+    # Fortune Personas
+    comp.register_stone_of_scone_build(file)
+    comp.register_clotho_build(file)
+
+    # Strength Personas
+    comp.register_kelpie_build(file)
 
     # Hanged Man Personas
     comp.register_hua_po_build(file)
@@ -595,31 +613,33 @@ with open("Persona_compendium_logbook.txt", "w") as file:
 
     # Death Personas
     comp.register_mandrake_build(file)
+    comp.register_mokoi_build(file)
+    comp.register_matador_build(file)
+
+    # Temperance Personas
+    comp.register_genbu_build(file)
 
     # Devil Personas
     comp.register_incubus_build(file)
 
-    # Temperance Personas
-    comp.register_genbu_build(file)
+    # Tower Personas
+    comp.register_belphegor_build(file)
+
+    # Star Personas
+
+    # Moon Personas 
+    comp.register_succubus_build(file)
     
-    # Strength Personas
-    comp.register_kelpie_build(file)
-
-    # Justice Personas
-    comp.register_angel_build(file)
-
-    # Fortune Personas
-    comp.register_stone_of_scone_build(file)
-    comp.register_clotho_build(file)
-
     # Sun Personas
     comp.register_suzaku_build(file)
+
+    # Judgement
 
     # Faith Personas
     comp.register_phoenix_build(file)
     comp.register_tam_lin_build(file)
-    
-
+     
+     # Councillor 
 
     #def display_persona():
         #result = Compendium.register_persona()
