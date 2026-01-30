@@ -1,0 +1,8 @@
+# Filename: Persona Optimal Build Program.py
+# Date: 1/30/25
+# Author: Aoi | shadowsnowwolf
+
+# A program meant to display the optimal build template of each Arcana 
+
+
+list_of_arcanas = ("") # A tuple that will hold the list of all valid Arcanas
