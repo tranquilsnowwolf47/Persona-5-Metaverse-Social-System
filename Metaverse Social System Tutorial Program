@@ -15,23 +15,93 @@
 # utilize a menu
 
 class MetaverseTutorial:
-    tutorial_options = ("What the heck is this anyway??","Battle Info", "Hold Ups","Element Types"
+    tutorial_options = ("What the heck is this anyway??","Battle Info", "Hold Ups","Element Types",
                         "Elemental Affinities","Metaverse Stat Breakdown",
                         "Status Ailment Info", "The Metaverse Manual", "Third Eye")
 
+    # Intro function that briefs the user a bit on the program
     def intro():
         print("Welcome to the Metaverse Social System Tutorial Program!")
         print("""This is an informative tutorial program designed to help you understand the Metaverse Social System as well as how to apply it to real life.\n""")
         print("-----------------------------------------------------------------------------------------\n")
 
 
+    def display_what_the_heck_is_this_anwyay_info():
+        print("This is my Metaverse Social System, a concept that I created to improve my social skills as well as help others with their social skills in the future that I may ally myself with." \
+        "After spending years gamifying self-improvemnet, I decided to recreate the battle system of the Japanese roleplaying-game Persona 5 through real-life social interaction. " \
+        "My mentality with this was to emulate the same stimulating neurological effects in the brain as playing video games, taking advantage of feedback loops and dopamine shots that make video games irresistable to people.")
+    
+    def display_battle_info():
+        print("Battles - \n"
+        """\tAny social interaction: (cold approaches, warm approaches, general interactions, work conversations, small-talk,, arguments, conflict management quality-testing, texting, phone calls, networking events, raves, parties, clubs, etc).  
+        The point of framing social interaction through the analogy of battling Shadows in the Metaverse is to change the cognition of the user to view social interaction as something fun like a game rather than something scary or intimidating. 
+        This rewires the approach of the user to improve at the ‘game’, thus reaping social growth and drastically reducing friction towards difficult social initations.\n""")
 
+        print("""\tA victorious battle requires a combination of skill, confidence, items, competence, education, and other components at your disposal to achieve your desired result. 
+        When you enter a battle (social interaction) with a Shadow (person), the objective is to lower the Shadow's HP through your battle options with the option to hit their weaknesses to the point where it can trigger a Hold Up. 
+        During a Hold Up, you can choose to enter a negotiation, return to battle, or perform an All-Out Attack. 
+""")
+        print("""\tA Shadow’s HP is equivalent to their social walls and/or their ability to battle back with you-- the more guarded a Shadow is and the higher their level, the more HP they will have. 
+        Through conversation, charisma, and strategy, you can lower the Shadow's HP and improve the likeliness of triggering a Hold Up or gaining experience and/or money (social currency) and items (intel or tangible items).""")  
+
+
+    def display_hold_ups_info():
+        pass
+
+    def display_element_types_info():
+        pass
+
+    def display_elemental_affinities_info():
+        pass
+
+    def display_metaverse_stat_breakdown():
+        pass
+    def display_status_ailment_info():
+        pass
+    def display_metaverse_manual_info():
+        pass
+    def display_third_eye_info():
+        pass
+
+
+
+    # Function that will display the list of menu options 
+    # Maybe have two seperate functions? A display and a get data function
     def get_option_choice():
         # Display the list of options to the user using a for loop so they know what to choose 
-        for choice_index, option in enumerate(MetaverseTutorial.tutorial_options, start=1):
-            print(f"{choice_index}. {option}")
+        valid_option_choices = (1,2,3,4,5,6,7,8,9) # A tuple with the number of choices valid for debugging
 
-        tutorial_menu_option_choice = input("Please enter an option to view info for: (X-Y) ")
+        for choice_index, option in enumerate(MetaverseTutorial.tutorial_options, start=1): # For loop that dispslays the option choices to the user 
+            print(f"{choice_index}.) {option}")
+        print()
+
+        is_valid_menu_option_choice = False
+        tutorial_menu_option_choice = int(input("Please enter an option to view info for: (1-9) ")) # Get user input based on their desired choice 
+        if tutorial_menu_option_choice in valid_option_choices:
+            is_valid_menu_option_choice = True
+            if is_valid_menu_option_choice == valid_option_choices[0]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[1]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[2]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[3]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[4]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[5]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[6]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[7]:
+                pass # call the function
+            elif is_valid_menu_option_choice == valid_option_choices[8]:
+                pass # call the function
+        else:
+            print("Bad") # debug this
+            is_valid_menu_option_choice
+
+
 
 
     # Hold Ups
@@ -42,5 +112,6 @@ class HoldUps:
 
 
 
-MetaverseTutorial.intro()
-MetaverseTutorial.get_option_choice()
+#MetaverseTutorial.intro()
+#MetaverseTutorial.get_option_choice()
+MetaverseTutorial.display_battle_info()
