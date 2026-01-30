@@ -1,0 +1,46 @@
+# Filename: Metaverse Social System Tutorial Program.py
+# Author: Aoi | Shadowsnowwolf
+# Date: 1/30/26
+
+
+# Options:
+# Hold Ups 
+# Hold Up options
+
+# Elements 
+# Use a for loop to show the tutorial options
+# use enumerate to index them
+# have the user enter a number for the corresponding option
+# Then call a function appropriate to the user choice
+# utilize a menu
+
+class MetaverseTutorial:
+    tutorial_options = ("What the heck is this anyway??","Battle Info", "Hold Ups","Element Types"
+                        "Elemental Affinities","Metaverse Stat Breakdown",
+                        "Status Ailment Info", "The Metaverse Manual", "Third Eye")
+
+    def intro():
+        print("Welcome to the Metaverse Social System Tutorial Program!")
+        print("""This is an informative tutorial program designed to help you understand the Metaverse Social System as well as how to apply it to real life.\n""")
+        print("-----------------------------------------------------------------------------------------\n")
+
+
+
+    def get_option_choice():
+        # Display the list of options to the user using a for loop so they know what to choose 
+        for choice_index, option in enumerate(MetaverseTutorial.tutorial_options, start=1):
+            print(f"{choice_index}. {option}")
+
+        tutorial_menu_option_choice = input("Please enter an option to view info for: (X-Y) ")
+
+
+    # Hold Ups
+    # Tutorial
+# Temporary class to hold data 
+class HoldUps:
+    hold_up_options = ()
+
+
+
+MetaverseTutorial.intro()
+MetaverseTutorial.get_option_choice()
