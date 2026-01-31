@@ -1,144 +1,141 @@
-# Filename: Persona Optimal Build Program.py
+# Filename: Persona Optimal Build Program V1.py
 # Date: 1/30/25
 # Author: Aoi | shadowsnowwolf
 
+# Processing:
+
+# Notes:
 # A program meant to display the optimal build template of each Arcana 
 # Program idea: 
 # Persona build randomizer 
 # uses random.choice from an array
 # New realization: You can use F strings in function parameters
+# 16 elements in the number of skill (15 indexes)
+# 23 elements in the number of arcanas (22 indexes)
 
 class OptimalBuildSystem:
-    list_of_arcanas = ("Fool","Magician","Priestes","Empress","Emperor","Hierophant",
+    list_of_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant",
                     "Lovers","Chariot","Justice","Hermit","Fortune","Strength",
                         "Hanged Man","Death","Temperance","Devil","Tower","Star",
                         "Moon","Sun","Judgement","Faith","Councillor") # A tuple that will hold the list of all valid Arcanas
 
     skill_types = ("Phys","Gun","Fire","Ice","Elec","Wind","Psy","Nuke","Bless","Curse",
-                "Buff","Debuff","Passive Buff","","","","","","","","","","","","",)
-
-#print(len(list_of_arcanas)) # Debugging
+                "Buff","Debuff","Passive Buff","HP Recovery","Ailment Recovery","Passives") # A tuple that will hold the list of all skill types 
 
 
-    def display_fool_optimal_build(arcana=f"{list_of_arcanas[0]}"):
+    # Function that displays the optimal build template for Fool Personas | Clear
+    def display_fool_optimal_build(arcana=f"{list_of_arcanas[0]}",skill_quantity=8):
         print(f"{arcana} Persona Optimal Build Template:")
-        print("Any 8 skills of your choice ")
-    
+        print(f"Any {skill_quantity} skills of your choice ")
 
+    # Function that displays the optimal build template for Magician Personas | WIP
     def display_magician_optimal_build(arcana=f"{list_of_arcanas[1]}", **kwargs,): # using kwargs for the element + number
         print(f"{arcana} Persona Optimal Build Template:")
         for element, skill_quantity in kwargs.items():
             print(f"{element} - {skill_quantity} skills")
 
-    display_magician_optimal_build(Wind=8, Gun=2, Fire=1, Buff=1, Passive_buff=1)
-
-    def display_optimal_build(arcana=f"{list_of_arcanas[2]}"):
+    # Function that displays the optimal build template for Priestess Personas | WIP
+    def display_priestess_optimal_build(arcana=f"{list_of_arcanas[2]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
         
-    def display_optimal_build(arcana=f"{list_of_arcanas[3]}"):
+    # Function that displays the optimal build template for X Personas | WIP    
+    def display_empress_optimal_build(arcana=f"{list_of_arcanas[3]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[4]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[4]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[5]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[5]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[6]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[6]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[7]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[7]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[8]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[8]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[9]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[9]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[10]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[10]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[11]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[11]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[12]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[12]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[13]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[13]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[14]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[14]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[15]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[15]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[16]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[16]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[17]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[17]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[18]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[18]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[19]}"):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-    def display_optimal_build(arcana=f"{list_of_arcanas[20]}"):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-
-    def display_optimal_build(arcana=f"{list_of_arcanas[21]}"):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[19]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=f"{list_of_arcanas[22]}"):
+    # Function that displays the optimal build template for X Personas | WIP    
+    def display__optimal_build(arcana=f"{list_of_arcanas[20]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=""):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[21]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
-    def display_optimal_build(arcana=""):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-
-    def display_optimal_build(arcana=""):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-    def display_optimal_build(arcana=""):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-
-    def display_optimal_build(arcana=""):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-
-    def display_optimal_build(arcana=""):
-        print(f"{arcana} Persona Optimal Build Template:")
-        print("")
-
-    def display_optimal_build(arcana=""):
+    # Function that displays the optimal build template for X Personas | WIP
+    def display__optimal_build(arcana=f"{list_of_arcanas[22]}"):
         print(f"{arcana} Persona Optimal Build Template:")
         print("")
 
@@ -197,6 +194,10 @@ class OptimalBuildSystem:
         raise ValueError("Incorrect Arcana entered")
     
 
-print(len(OptimalBuildSystem.skill_types))
-#OptimalBuildSystem.display_fool_optimal_build()  # Debugging
-OptimalBuildSystem.display_magician_optimal_build() # Debugging 
+#print(len(OptimalBuildSystem.skill_types))  # Debugging 
+#print(len(OptimalBuildSystem.list_of_arcanas))  # Debugging 
+
+
+#OptimalBuildSystem.display_fool_optimal_build()  # Debugging 
+# 
+#OptimalBuildSystem.display_magician_optimal_build(f"{skill_types[0]}"=8, f"{skill_types[0]}"=2, f"{skill_types[0]}"=1, f"{skill_types[0]}"=1, f"{skill_types[0]}"=1)
