@@ -6,6 +6,9 @@
 # ex: while allotment_points < 0:
 # prompt 
 
+# Note to self:
+# I could lowkey use OOP for this. I can use a constructor that will hold attributes for each stat type 
+
 allotment_points = 13
 stats = {"St":1,"Ma":1,"En":1,
     "Ag":1,"Lu":1
