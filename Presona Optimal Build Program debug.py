@@ -12,16 +12,21 @@ class OptimalBuildSystem:
                 "Buff","Debuff","Passive Buff","HP Recovery","Ailment Recovery","Passives") # A tuple that will hold the list of all skill types 
 
     # Function that displays the optimal build template for Priestess Personas | WIP
-    def display_priestess_optimal_build(arcana=f"{list_of_arcanas[2]}"):
+    def display_priestess_optimal_build(arcana=f"{list_of_arcanas[2]}", **kwargs):
         print(f"{arcana} Persona Optimal Build Template:")
-        print("")
+        for element, skill_quantity in kwargs:
+            print(f"{element} - {skill_quantity} skill(s)")
 
 
-# For Magician, I want it the key to be the value of the index in the tuple to avoid having to hard code and being more efficient 
+# Debugging 
 
-#OptimalBuildSystem.display_magician_optimal_build({skill_types[0]}"=8, f"{skill_types[0]}"=2, f"{skill_types[0]}"=1, f"{skill_types[0]}"=1, f"{skill_types[0]}"=1)
- # Debugging 
+priestess_skills = {
+    OptimalBuildSystem.skill_types[6] : 3, # Psy
+    OptimalBuildSystem.skill_types[3] : 2, # Ice
+    OptimalBuildSystem.skill_types[1] : 1, # Gun
+    OptimalBuildSystem.skill_types[12] : 1, # Passive buff
+    OptimalBuildSystem.skill_types[11] : 1 # Debuff
+}
 
-priestess_skills = {}
-
+# 
 
