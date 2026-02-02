@@ -28,7 +28,7 @@ class OptimalBuildSystem:
         print(f"{arcana} Persona Optimal Build Template:")
         print(f"Any {skill_quantity} skills of your choice ")
 
-    # Function that displays the optimal build template for Magician Personas | WIP
+    # Function that displays the optimal build template for Magician Personas | Clear
     def display_magician_optimal_build(arcana=f"{list_of_arcanas[1]}", **kwargs,): # using kwargs for the element + number
         print(f"{arcana} Persona Optimal Build Template:")
         for element, skill_quantity in kwargs.items():
@@ -197,7 +197,15 @@ class OptimalBuildSystem:
 #print(len(OptimalBuildSystem.skill_types))  # Debugging 
 #print(len(OptimalBuildSystem.list_of_arcanas))  # Debugging 
 
-
+# Function calls 
 #OptimalBuildSystem.display_fool_optimal_build()  # Debugging 
-# 
-#OptimalBuildSystem.display_magician_optimal_build(f"{skill_types[0]}"=8, f"{skill_types[0]}"=2, f"{skill_types[0]}"=1, f"{skill_types[0]}"=1, f"{skill_types[0]}"=1)
+#OptimalBuildSystem.display_magician_optimal_build(**magician_skills) # Debugging 
+ 
+
+magician_skills = {
+    OptimalBuildSystem.skill_types[5]: 3, # Wind
+    OptimalBuildSystem.skill_types[1]: 2, # Gun
+    OptimalBuildSystem.skill_types[2]: 1, # Fire
+    OptimalBuildSystem.skill_types[10]: 1, # Buff
+    OptimalBuildSystem.skill_types[12]: 1 # Passive buff
+    }
