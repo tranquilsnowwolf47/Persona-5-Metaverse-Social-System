@@ -9,24 +9,14 @@ class OptimalBuildSystem:
                         "Moon","Sun","Judgement","Faith","Councillor") # A tuple that will hold the list of all valid Arcanas
 
     skill_types = ("Phys","Gun","Fire","Ice","Elec","Wind","Psy","Nuke","Bless","Curse",
-                "Buff","Debuff","Passive Buff","HP Recovery","Ailment Recovery","Passives") # A tuple that will hold the list of all skill types 
+                "Buff","Debuff","Passive Buff","HP Recovery","Ailment Recovery","Passive") # A tuple that will hold the list of all skill types 
 
-    # Function that displays the optimal build template for Priestess Personas | WIP
-    def display_priestess_optimal_build(arcana=f"{list_of_arcanas[2]}", **kwargs):
+    # Function that displays the optimal build template for Justice Personas | WIP
+    def display_justice_optimal_build(arcana=f"{list_of_arcanas[8]}"):
         print(f"{arcana} Persona Optimal Build Template:")
-        for element, skill_quantity in kwargs:
-            print(f"{element} - {skill_quantity} skill(s)")
-
+        print("")
 
 # Debugging 
 
-priestess_skills = {
-    OptimalBuildSystem.skill_types[6] : 3, # Psy
-    OptimalBuildSystem.skill_types[3] : 2, # Ice
-    OptimalBuildSystem.skill_types[1] : 1, # Gun
-    OptimalBuildSystem.skill_types[12] : 1, # Passive buff
-    OptimalBuildSystem.skill_types[11] : 1 # Debuff
-}
 
-# 
-
+# Call the function
