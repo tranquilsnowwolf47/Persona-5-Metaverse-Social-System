@@ -1,8 +1,10 @@
-# Filename: Persona Optimal Build Program V1.py
+# Filename: Persona Optimal Build Program.py
 # Date: 1/30/25
 # Author: Aoi | shadowsnowwolf
 
 # Processing:
+# Allow the user to see the optimal bulid template for the corresponding Persona Arcana based on their user input
+# Should have a while loop that lets the user keep going if they choose 
 
 # Notes:
 # A program meant to display the optimal build template of each Arcana 
@@ -78,105 +80,105 @@ class OptimalBuildSystem:
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Justice Personas | WIP
+    # Function that displays the optimal build template for Justice Personas | Clear
     def display_justice_optimal_build(arcana=f"{list_of_arcanas[8]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Hermit Personas | WIP
+    # Function that displays the optimal build template for Hermit Personas | Clear
     def display_hermit_optimal_build(arcana=f"{list_of_arcanas[9]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Fortune Personas | WIP
+    # Function that displays the optimal build template for Fortune Personas | Clear
     def display_fortune_optimal_build(arcana=f"{list_of_arcanas[10]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Strength Personas | WIP
+    # Function that displays the optimal build template for Strength Personas | Clear
     def display_strength_optimal_build(arcana=f"{list_of_arcanas[11]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Hanged Man Personas | WIP
+    # Function that displays the optimal build template for Hanged Man Personas | Clear
     def display_hanged_man_optimal_build(arcana=f"{list_of_arcanas[12]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Death Personas | WIP
+    # Function that displays the optimal build template for Death Personas | Clear
     def display_death_optimal_build(arcana=f"{list_of_arcanas[13]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Temperance Personas | WIP
+    # Function that displays the optimal build template for Temperance Personas | Clear
     def display_temperance_optimal_build(arcana=f"{list_of_arcanas[14]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Devil Personas | WIP
+    # Function that displays the optimal build template for Devil Personas | Clear
     def display_devil_optimal_build(arcana=f"{list_of_arcanas[15]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Tower Personas | WIP
+    # Function that displays the optimal build template for Tower Personas | Clear
     def display_tower_optimal_build(arcana=f"{list_of_arcanas[16]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Star Personas | WIP
+    # Function that displays the optimal build template for Star Personas | Clear
     def display_star_optimal_build(arcana=f"{list_of_arcanas[17]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Moon Personas | WIP
+    # Function that displays the optimal build template for Moon Personas | Clear
     def display_moon_optimal_build(arcana=f"{list_of_arcanas[18]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Sun Personas | WIP
+    # Function that displays the optimal build template for Sun Personas | Clear
     def display_sun_optimal_build(arcana=f"{list_of_arcanas[19]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Judgement Personas | WIP    
+    # Function that displays the optimal build template for Judgement Personas | Clear   
     def display_judgement_optimal_build(arcana=f"{list_of_arcanas[20]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Faith Personas | WIP
+    # Function that displays the optimal build template for Faith Personas | Clear
     def display_faith_optimal_build(arcana=f"{list_of_arcanas[21]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
             print(f"{skill_type} - {skill_quantity} skill(s)")
             print("-----------------------------------------------------")
 
-    # Function that displays the optimal build template for Councillor Personas | WIP
+    # Function that displays the optimal build template for Councillor Personas | Clear
     def display_councillor_optimal_build(arcana=f"{list_of_arcanas[22]}", **kwargs):
         print(f"\n{arcana} Persona Optimal Build Template:")
         for skill_type, skill_quantity in kwargs.items():
@@ -358,87 +360,63 @@ councillor_skills = {
 }
 
 
-
-# Function calls / debugging
-#OptimalBuildSystem.display_fool_optimal_build()  
-#OptimalBuildSystem.display_magician_optimal_build(**magician_skills)  
-#OptimalBuildSystem.display_priestess_optimal_build(**priestess_skills) 
-#OptimalBuildSystem.display_empress_optimal_build(**empress_skills)
-#OptimalBuildSystem.display_emperor_optimal_build(**emperor_skills)
-#OptimalBuildSystem.display_hierophant_optimal_build(**hierophant_skills)
-#OptimalBuildSystem.display_lovers_optimal_build(**lovers_skills)
-#OptimalBuildSystem.display_chariot_optimal_build(**chariot_skills)
-#OptimalBuildSystem.display_justice_optimal_build(**justice_skills)
-#OptimalBuildSystem.display_hermit_optimal_build(**hermit_skills)
-#OptimalBuildSystem.display_fortune_optimal_build(**fortune_skills)
-#OptimalBuildSystem.display_strength_optimal_build(**strength_skills)
-#OptimalBuildSystem.display_hanged_man_optimal_build(**hanged_man_skills)
-#OptimalBuildSystem.display_death_optimal_build(**death_skills)
-#OptimalBuildSystem.display_temperance_optimal_build(**temperance_skills)
-#OptimalBuildSystem.display_devil_optimal_build(**devil_skills)
-#OptimalBuildSystem.display_tower_optimal_build(**tower_skills)
-#OptimalBuildSystem.display_star_optimal_build(**star_skills)
-#OptimalBuildSystem.display_moon_optimal_build(**moon_skills)
-#OptimalBuildSystem.display_sun_optimal_build(**sun_skills)
-#OptimalBuildSystem.display_judgement_optimal_build(**judgement_skills)
-#OptimalBuildSystem.display_faith_optimal_build(**faith_skills)
-#OptimalBuildSystem.display_councillor_optimal_build(**councillor_skills)
-
-
 # Now I Just need to implement a while loop
 # While, valid arcana choice =
 
-
-is_valid_arcana_choice = False
-try:
-    arcana_choice = input("Please enter an Arcana: ") # Get the user input
+loop = True
+while loop:
+    arcana_choice = input("\nPlease enter an Arcana (Enter Q to quit): ").capitalize() # Get the user input
+    if arcana_choice == "Q":
+                print("\nYou have exited the program. Goodbye Trickster.") # Allow condition to exit the program if the user types Q 
+                break
     if arcana_choice in OptimalBuildSystem.list_of_arcanas: # validate the input 
         is_valid_arcana_choice = True
         if arcana_choice == OptimalBuildSystem.list_of_arcanas[0]: # Fool
-                OptimalBuildSystem.display_fool_optimal_build()
+            OptimalBuildSystem.display_fool_optimal_build()
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[1]: # Magician
-                OptimalBuildSystem.display_magician_optimal_build(**magician_skills)
+            OptimalBuildSystem.display_magician_optimal_build(**magician_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[2]: # Priestess
-                OptimalBuildSystem.display_priestess_optimal_build(**priestess_skills)
+            OptimalBuildSystem.display_priestess_optimal_build(**priestess_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[3]: # Empress
-                OptimalBuildSystem.display_empress_optimal_build(**empress_skills)
+            OptimalBuildSystem.display_empress_optimal_build(**empress_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[4]: # Emperor
-                OptimalBuildSystem.display_emperor_optimal_build(**emperor_skills)
+            OptimalBuildSystem.display_emperor_optimal_build(**emperor_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[5]: # Hierophant
-                OptimalBuildSystem.display_hierophant_optimal_build(**hierophant_skills)
+            OptimalBuildSystem.display_hierophant_optimal_build(**hierophant_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[6]: # Lovers
-                OptimalBuildSystem.display_lovers_optimal_build(**lovers_skills)
+            OptimalBuildSystem.display_lovers_optimal_build(**lovers_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[7]: # Chariot
                 OptimalBuildSystem.display_chariot_optimal_build(**chariot_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[8]: # Justice
-                OptimalBuildSystem.display_justice_optimal_build(**justice_skills)
+            OptimalBuildSystem.display_justice_optimal_build(**justice_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[9]: # Hermit
-                OptimalBuildSystem.display_hermit_optimal_build(**hermit_skills)
+            OptimalBuildSystem.display_hermit_optimal_build(**hermit_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[10]: # Fortune
-                OptimalBuildSystem.display_fortune_optimal_build(**fortune_skills)
+            OptimalBuildSystem.display_fortune_optimal_build(**fortune_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[11]: # Strength
-                OptimalBuildSystem.display_strength_optimal_build(**strength_skills)
+            OptimalBuildSystem.display_strength_optimal_build(**strength_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[12]: # Hanged Man
-                OptimalBuildSystem.display_hanged_man_optimal_build(**hanged_man_skills)
+            OptimalBuildSystem.display_hanged_man_optimal_build(**hanged_man_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[13]: # Death
-                OptimalBuildSystem.display_death_optimal_build(**death_skills)
+            OptimalBuildSystem.display_death_optimal_build(**death_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[14]: # Temperance
-                OptimalBuildSystem.display_temperance_optimal_build(**temperance_skills)
+            OptimalBuildSystem.display_temperance_optimal_build(**temperance_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[15]: # Devil
-                OptimalBuildSystem.display_devil_optimal_build(**devil_skills)
+            OptimalBuildSystem.display_devil_optimal_build(**devil_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[16]: # Tower
-                OptimalBuildSystem.display_tower_optimal_build(**tower_skills)
+            OptimalBuildSystem.display_tower_optimal_build(**tower_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[17]: # Star
-                OptimalBuildSystem.display_star_optimal_build(**star_skills)
+            OptimalBuildSystem.display_star_optimal_build(**star_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[18]: # Moon
-                OptimalBuildSystem.display_moon_optimal_build(**moon_skills)
+            OptimalBuildSystem.display_moon_optimal_build(**moon_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[19]: # Sun
-                OptimalBuildSystem.display_sun_optimal_build(**sun_skills)
+            OptimalBuildSystem.display_sun_optimal_build(**sun_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[20]: # Judgement
-                OptimalBuildSystem.display_judgement_optimal_build(**judgement_skills)
+            OptimalBuildSystem.display_judgement_optimal_build(**judgement_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[21]: # Faith
-                OptimalBuildSystem.display_faith_optimal_build(**faith_skills)
+            OptimalBuildSystem.display_faith_optimal_build(**faith_skills)
         elif arcana_choice == OptimalBuildSystem.list_of_arcanas[22]: # Councillor
-                OptimalBuildSystem.display_councillor_optimal_build(**councillor_skills)
-except:
-    raise ValueError("Incorrect Arcana entered")
+            OptimalBuildSystem.display_councillor_optimal_build(**councillor_skills)
+    else:
+        print("Invalid input.")
+        
