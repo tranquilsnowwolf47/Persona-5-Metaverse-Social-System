@@ -206,3 +206,8 @@ severe_skill = () # A tuple that holds every severe Phys skill (subject to updat
 heavy_skills = (advance_slash, consequence_hammer, verdict_slice, hard_check, iron_gaze) # A tuple that holds every heavy Phys skill
 medium_skills = (alpha_directive, bind_blade, social_dominance, assertive_slice, opening_gambit, stone_wall, decision_strike) # A tuple that holds every medium Phys skill
 light_skills = (cold_cut, calling_fang) # A tuple that holds every light Phys skill
+
+
+#for skill in heavy_skills:
+    #skill.display_skill()
+    #print()
