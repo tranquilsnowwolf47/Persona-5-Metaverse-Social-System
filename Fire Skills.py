@@ -1,7 +1,7 @@
 # Filename: Fire Skill List.py
 # Date: 2/6/26
 # Author: Aoi | shadowsnowwolf
-# List of Phys (Charm/Charisma) skills from the Metaverse Social System sorted by damage grade 
+# List of Fire (Charm/Charisma) skills from the Metaverse Social System sorted by damage grade 
 
 class FireSkills:
     def __init__(self,name, element, damage_grade, SP_cost, description):
