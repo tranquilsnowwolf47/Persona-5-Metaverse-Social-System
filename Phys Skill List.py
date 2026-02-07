@@ -208,6 +208,8 @@ medium_skills = (alpha_directive, bind_blade, social_dominance, assertive_slice,
 light_skills = (cold_cut, calling_fang) # A tuple that holds every light Phys skill
 
 
+# Maybe make a tuple of strings for user input choice later on
+
 #for skill in heavy_skills:
     #skill.display_skill()
     #print()
