@@ -3,6 +3,8 @@
 # Author: Aoi | shadowsnowwolf
 # Processing: utilizes OOP
 # Inheritance, classes 
+# List of Phys (Bluntness/Assertivness) skills from the Metaverse Social System sorted by damage grade 
+
 
 # Self note: It might actually be easier to use a method with attributes rather than a dictionary for stuff like this because
 # With dictionaries, I need to individually type out the attributes and keys every single time which becomes a pain in the ass
