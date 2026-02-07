@@ -23,7 +23,7 @@ class PhysSkills:
     # Shows the full info of the skill
     def display_skill(self):
         print(f"- {self.name} ({self.element})")
-        print(f"HP Cost {self.HP_cost}")
+        print(f"HP Cost: {self.HP_cost}")
         print(f"Description:\n{self.description}")
 
 class SevereSkills(PhysSkills):
@@ -211,3 +211,6 @@ light_skills = (cold_cut, calling_fang) # A tuple that holds every light Phys sk
 #for skill in heavy_skills:
     #skill.display_skill()
     #print()
+
+
+#PhysSkills.display_skill(advance_slash)
