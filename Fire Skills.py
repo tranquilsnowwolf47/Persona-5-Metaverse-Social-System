@@ -93,7 +93,8 @@ Deals medium Fire damage.""")
 
 value_burn = MediumSkills("Value Burn", "Fire", "Medium", 8,
 """   - Acknowledge the target’s skill, uniqueness, talents, or subtle qualities in a way that makes them feel seen, valued, and appreciated. 
-Delivered with confident charm, it sparks respect and admiration, creating a subtle social pull. Ideal for reinforcing their value while maintaining your charismatic presence. 
+Delivered with confident charm, it sparks respect and admiration, creating a subtle social pull. 
+Ideal for reinforcing their value while maintaining your charismatic presence. 
 (Ex: “I didn’t expect someone to handle that so smoothly. Consider me impressed.”
 Ex 2: “Not everyone could pull that off like the way you just did” 
 Ex 3: “I’m surprised to have met someone as skilled as you”
@@ -117,15 +118,18 @@ Deals medium Fire damage.""")
 lady_shake = MediumSkills("Lady Shake", "Fire", "Medium", 6,
 """   - Execute a calibrated masculine handshake designed specifically for greeting women, accounting for the fact that many women naturally offer a lighter, more relaxed grip. 
 You match their hand size and pressure while maintaining firm structure, ensuring the shake feels confident and grounded—never soft, never overpowering. 
-This creates a balanced first impression that communicates to the woman strength, social intelligence, confidence, and respect without discomfort or awkwardness. Deals medium Fire damage.""")
+This creates a balanced first impression that communicates to the woman strength, social intelligence, confidence, and respect without discomfort or awkwardness. 
+Deals medium Fire damage.""")
 
 velvet_note = MediumSkills("Velvet Note", "Fire", "Medium", 7,
 """   - Drop a spontaneous voice note into the target’s DMs, breaking the rhythm of your usual conversation. 
 Its unpredictability generates excitement and makes it stand out, drawing attention and leaving the recipient intrigued, smiling, or eager to respond. 
-Most effective when texting is the norm and voice notes are unexpected. Deals medium Fire damage. """)
+Most effective when texting is the norm and voice notes are unexpected. 
+Deals medium Fire damage.""")
 
 high_lighter = LightSkills("High Lighter", "Fire", "Light", 5,
-"""   - Shine a warm, confident spotlight on the fact that the target chose to be here with you. Whether they came to an event, grabbed food, or just showed up for the moment, your acknowledgment lands as charismatic appreciation — not neediness. It can deepen rapport, lower emotional defenses, and triggers a 1 More by making the shared experience feel more intentional and meaningful. Best used once the interaction already has some rhythm and energy to it.
+"""   - Shine a warm, confident spotlight on the fact that the target chose to be here with you. 
+Whether they came to an event, grabbed food, or just showed up for the moment, your acknowledgment lands as charismatic appreciation — not neediness. It can deepen rapport, lower emotional defenses, and triggers a 1 More by making the shared experience feel more intentional and meaningful. Best used once the interaction already has some rhythm and energy to it.
 (Ex: "I appreciate you coming out with me– makes this thing way better”
 Ex 2: "Glad you pulled up with me. You make events a lot more fun"
 Ex 3: “I appreciate you being here with me today– solid choice”
@@ -140,31 +144,35 @@ Ex 2: "Those nails are doing you some real justice."
 Ex 3: “You look really good today. Figured I should say it before anyone else does.
 Ex 4: “Okay, that look’s doing you some favors”
 Ex 5: “You’re seriously owning that look”).
-Deals light Fire damage. """)
+Deals light Fire damage.""")
 
 vocal_flare = LightSkills("Vocal Flare", "Fire", "Light", 4,
-"""   - A subtle but intentional use of vocal emphasis—slight pitch variation, warmth, and expressive stress on key words—to make your speech feel engaging, charming, and confident. Rather than slowing the conversation, Vocal Spark adds color and magnetism to your delivery, making ordinary lines feel intentional and attractive. It’s not about being louder or deeper—it’s about where you place the emphasis. 
+"""   - A subtle but intentional use of vocal emphasis—slight pitch variation, warmth, and expressive stress on key words—to make your speech feel engaging, charming, and confident. 
+Rather than slowing the conversation, Vocal Spark adds color and magnetism to your delivery, making ordinary lines feel intentional and attractive. 
+It’s not about being louder or deeper—it’s about where you place the emphasis. 
 (Ex: (in tone) "You noticed that, didn't you?" ,
 Ex 2: "I like how you think." ,
 Ex 3: "Oh, is that so?"). 
-Deals light Fire damage. """)
+Deals light Fire damage.""")
 
-gentlemans_flattery = LightSkills("", "Fire", "Light", 4,
-"""   - A confident, well-placed compliment that highlights a specific, standout detail about the target—how they think, present themselves, or carry effort. Rather than generic praise, this skill signals attentiveness and taste. Delivered smoothly and without overexplaining, it feels bold and flattering, lowering defenses through charisma instead of overt kindness or validation. This move communicates: “I notice details—and I say what I notice.”
-(Ex: "You explain things insanely well. The way you break it down actually makes sense"
-Ex 2: “I’m loving your Attack on Titan shirt. You’ve got some great taste”
-Ex 3: “That new haircut is fresh man. The fade is on point”
-Ex 4: “Your smile is pretty contagious you know that?”
-Ex 2: “I’m loving your fade bro. You look like a whole chad”
-Ex 6: “Is that a Katana umbrella? That’s just sick”).
+gentlemans_flattery = LightSkills("Gentleman's Flattery", "Fire", "Light", 4,
+"""   - A confident, well-placed compliment that highlights a specific, standout detail about the target—how they think, present themselves, or carry effort. 
+Rather than generic praise, this skill signals attentiveness and taste. 
+Delivered smoothly and without overexplaining, it feels bold and flattering, lowering defenses through charisma instead of overt kindness or validation. 
+This move communicates: “I notice details—and I say what I notice.”
+(Ex: “The way you explain things is top-notch. How you break it down actually makes sense"
+Ex 2: “I’m a huge fan of your Attack on Titan shirt. You’ve have some great taste”
+Ex 3: “Your haircut looks fresh man. The fade suits you well”
+Ex 4: “You have a contagious smile, you know that?”
+Ex 2: “Your look really stylish in that outfit/I just wanted to say that you look really stylish in that outfit”
+Ex 6: “Is that a Katana umbrella? That’s awesome as hell”	
+Ex 7: “Is that a Naruto t-shirt? You have some really good taste”).
 Deals light Fire damage.""")
 
 charming_smile = LightSkills("Charming Smile", "Fire", "Light", 4,
 """   - Flash a confident, charming smile the moment you make eye contact. No words needed, your charisma does the talking nonverbally. 
 This simple gesture carries a magnetic energy that can pull the target in, making you appear bold, attractive, and self-assured. 
-Deals light Fire damage. """)
-
-
+Deals light Fire damage.""")
 
 severe_skills = ()
 heavy_skills = (value_touch)
