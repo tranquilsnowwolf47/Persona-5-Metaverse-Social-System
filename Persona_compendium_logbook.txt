@@ -47,17 +47,17 @@ Skills:
 
 
 Persona Registered:
-Name: Orpehus F
+Name: Orpheus F
 Arcana: Fool
-Level: 18
+Level: 29
 
 Stats: 
 ------------------------
-St: 5
+St: 8
 Ma: 6
-En: 5
-Ag: 5
-Lu: 1
+En: 7
+Ag: 7
+Lu: 4
 
 Skills:
 1. Act Sense (Med Psy)
@@ -68,6 +68,78 @@ Skills:
 6. Hidden Blueprint (Med Curse)
 7. Data Hex (Med Curse)
 8. Minimum Echo (Med Curse)
+
+
+Persona Registered:
+Name: Orpheus F Picaro
+Arcana: Fool
+Level: 22
+
+Stats: 
+------------------------
+St: 6
+Ma: 5
+En: 5
+Ag: 6
+Lu: 4
+
+Skills:
+1. Tailwind Cascade (Heavy Wind)
+2. Black List (Curse Instant Kill)
+3. Starter Shot (Light Gun)
+4. Mini-Gun (Light Gun)
+5. Surface Graze (Light Gun)
+6. Acknowledgement Shot (Light Gun)
+7. Everflow (Heavy Wind)
+8. Career Current (Med Wind)
+
+
+Persona Registered:
+Name: High Pixie
+Arcana: Fool
+Level: 30
+
+Stats: 
+------------------------
+St: 7
+Ma: 4
+En: 6
+Ag: 7
+Lu: 9
+
+Skills:
+1. Affinity Beacon (Debilitate)
+2. Acknowledgement Shot (Light Gun)
+3. Opening Gambit (Med Phys)
+4. Starter Shot (Light Gun)
+5. Cold Cut (Light Phys)
+6. Inferno Grip (Med Fire)
+7. Calling Fang (Phys)
+8. Slowed Speech (Ag buff)
+
+
+Persona Registered:
+Name: Jack-o'-Lantern
+Arcana: Magician
+Level: 20
+
+Stats: 
+------------------------
+St: 4
+Ma: 10
+En: 5
+Ag: 3
+Lu: 2
+
+Skills:
+1. Winds of Knowledge (Medium Wind)
+2. Career Current (Medium Wind)
+3. Deep Dive (Medium Wind)
+4. Mind Glide (Medium Wind)
+5. Subject Shift (Light Gun)
+6. Mini-Talk (Light Gun)
+7. Echo Shot (Light Gun)
+8. Velvet Note (Medium Fire)
 
 
 Persona Registered:
@@ -95,27 +167,51 @@ Skills:
 
 
 Persona Registered:
-Name: Jack-o'-Lantern
+Name: Jack Frost
+Arcana: Magician
+Level: 22
+
+Stats: 
+------------------------
+St: 5
+Ma: 10
+En: 5
+Ag: 5
+Lu: 1
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Nekomata
 Arcana: Magician
 Level: 20
 
 Stats: 
 ------------------------
-St: 4
-Ma: 10
-En: 5
-Ag: 3
-Lu: 2
+St: 5
+Ma: 9
+En: 4
+Ag: 5
+Lu: 1
 
 Skills:
-1. Winds of Knowledge (Medium Wind)
-2. Career Current (Medium Wind)
-3. Deep Dive (Medium Wind)
-4. Mind Glide (Medium Wind)
-5. Subject Shift (Light Gun)
-6. Mini-Talk (Light Gun)
-7. Echo Shot (Light Gun)
-8. Velvet Note (Medium Fire)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
 
 
 Persona Registered:
@@ -169,14 +265,38 @@ Skills:
 Persona Registered:
 Name: Koh-i-Noor
 Arcana: Priestess
-Level: 8
+Level: 23
+
+Stats: 
+------------------------
+St: 2
+Ma: 11
+En: 6
+Ag: 6
+Lu: 1
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Isis
+Arcana: Priestess
+Level: 17
 
 Stats: 
 ------------------------
 St: 1
-Ma: 3
-En: 3
-Ag: 4
+Ma: 7
+En: 6
+Ag: 6
 Lu: 1
 
 Skills:
@@ -212,6 +332,30 @@ Skills:
 6. 
 7. 
 8. 
+
+
+Persona Registered:
+Name: Yaksini
+Arcana: Empress
+Level: 16
+
+Stats: 
+------------------------
+St: 1
+Ma: 1
+En: 1
+Ag: 1
+Lu: 1
+
+Skills:
+1. Warm Smile (Light Bless)
+2. Gracious Thanks (Light Bless)
+3. Hope Pulse (Med Bless)
+4. Light of Insight (Med Bless)
+5. Reassuring Chill (Light Ice)
+6. Acknowledgement Frost (Light Ice)
+7. Assertive Slice (Med Phys)
+8. Slowed Speech (Ag Buff)
 
 
 Persona Registered:
@@ -263,99 +407,75 @@ Skills:
 
 
 Persona Registered:
-Name: Bicorn
-Arcana: Hermit
-Level: 16
+Name: Setanta
+Arcana: Emperor
+Level: 30
 
 Stats: 
 ------------------------
-St: 1
-Ma: 6
-En: 6
-Ag: 1
-Lu: 7
-
-Skills:
-1. Cooldown (Ice)
-2. Prioritized Presence (Med Psy)
-3. Soulshare (Ice)
-4. Empathic Echo (Ice)
-5. Reassuring Chill (Ice)
-6. 
-7. 
-8. 
-
-
-Persona Registered:
-Name: Mokoi
-Arcana: Death
-Level: 27
-
-Stats: 
-------------------------
-St: 1
-Ma: 9
-En: 9
-Ag: 8
-Lu: 4
-
-Skills:
-1. Slowed Speech (Ag buff)
-2. Self-Control (Auto Def buff)
-3. Self-Security (Def buff)
-4. Confidence (Atk buff)
-5. Act Sense (Med Psy)
-6. Tranquil Edge (Med Psy)
-7. Hollow Stance (Light Curse)
-8. Minimum Echo (Med Curse)
-
-
-Persona Registered:
-Name: Agathion
-Arcana: Chariot
-Level: 20
-
-Stats: 
-------------------------
-St: 5
-Ma: 4
-En: 5
-Ag: 3
-Lu: 2
-
-Skills:
-1. Self-Control
-2. Gentleman's Flattery
-3. Direct Curiosity
-4. 
-5. 
-6. 
-7. 
-8. 
-
-
-Persona Registered:
-Name: Slime
-Arcana: Chariot
-Level: 20
-
-Stats: 
-------------------------
-St: 7
-Ma: 5
-En: 5
-Ag: 4
+St: 14
+Ma: 8
+En: 10
+Ag: 2
 Lu: 1
 
 Skills:
-1. Sync surge (Med Nuke)
-2. Hyper Link (Med Nuke)
-3. Flare Blast (Med Nuke)
-4. 3 Second Rule (Charge)
-5. Confidence (Atk Buff)
-6. Opening Gambit (Hvy Phys)
-7. Calling Fang (Med Phys)
-8. Brain Flicker (Med Elec)
+1. Assertive Slice (Med Phys)
+2. Stonewall (Med Phys)
+3. Decision Strike (Med Phys)
+4. Calling Fang (Med Phys)
+5. Magnetic Aura (Med Fire)
+6. Verbal Parry (Med Elec)
+7. 3 Second Rule (Charge)
+8. 
+
+
+Persona Registered:
+Name: Thoth
+Arcana: Emperor
+Level: 37
+
+Stats: 
+------------------------
+St: 16
+Ma: 9
+En: 8
+Ag: 6
+Lu: 1
+
+Skills:
+1. Assertive Slice (Med Phys)
+2. Decision Strike (Med Phys)
+3. Social Dominance (Med Phys)
+4. Iron Gaze (Med Phys)
+5. Inferno Grip (Med Fire)
+6. Gentleman's Flattery (Light Fire)
+7. Deadpan Discharge (Light Elec)
+8. 3-Second Rule (Charge)
+
+
+Persona Registered:
+Name: Berith
+Arcana: Hierophant
+Level: 7
+
+Stats: 
+------------------------
+St: 6
+Ma: 1
+En: 2
+Ag: 1
+Lu: 1
+
+Skills:
+1. Alpha Directive (Med Phys)
+2. Career Current (Med Wind)
+3. Confidence Drive (Atk buff)
+4. Slowed Speech (Ag buff)
+5. Social Competence (Auto Atk buff)
+6. Wind Boost
+7. Dodge Reverse Curse
+8. Purpose Anchor (Despair Recovery)
 
 
 Persona Registered:
@@ -409,15 +529,15 @@ Skills:
 Persona Registered:
 Name: Ame-no-Uzume
 Arcana: Lovers
-Level: 17
+Level: 25
 
 Stats: 
 ------------------------
-St: 4
-Ma: 8
+St: 5
+Ma: 11
 En: 3
-Ag: 2
-Lu: 4
+Ag: 5
+Lu: 5
 
 Skills:
 1. Focused Breathing (Lvl 1 Healing)
@@ -431,65 +551,113 @@ Skills:
 
 
 Persona Registered:
-Name: Hua Po
-Arcana: Hanged Man
-Level: 17
+Name: Leanan Sidhe
+Arcana: Lovers
+Level: 19
 
 Stats: 
 ------------------------
-St: 6
-Ma: 4
-En: 8
-Ag: 1
-Lu: 1
-
-Skills:
-1. Prioritized Presence,
-2. Slowed Speech
-3. Echo Shot
-4. Casual Greeting Shot
-5. Small-talk
-6. Subject Change
-7. Interest Probe
-8. 
-
-
-Persona Registered:
-Name: Mandrake
-Arcana: Death
-Level: 20
-
-Stats: 
-------------------------
-St: 2
-Ma: 4
-En: 7
+St: 5
+Ma: 8
+En: 1
 Ag: 5
-Lu: 7
+Lu: 4
 
 Skills:
-1. Slowed Speech (Ag buff)
-2. Self-Control (Auto-Def buff)
-3. Self-Security (Def buff)
-4. Confidence (Atk buff)
-5. 3 Second Rule (Charge)
+1. 
+2. 
+3. 
+4. 
+5. 
 6. 
 7. 
 8. 
 
 
 Persona Registered:
-Name: Kelpie
-Arcana: Strength
-Level: 16
+Name: Agathion
+Arcana: Chariot
+Level: 20
 
 Stats: 
 ------------------------
-St: 6
-Ma: 3
-En: 7
-Ag: 1
+St: 5
+Ma: 4
+En: 5
+Ag: 3
 Lu: 2
+
+Skills:
+1. Self-Control
+2. Gentleman's Flattery
+3. Direct Curiosity
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Slime
+Arcana: Chariot
+Level: 20
+
+Stats: 
+------------------------
+St: 7
+Ma: 5
+En: 5
+Ag: 4
+Lu: 1
+
+Skills:
+1. Sync surge (Med Nuke)
+2. Hyper Link (Med Nuke)
+3. Flare Blast (Med Nuke)
+4. 3 Second Rule (Charge)
+5. Confidence (Atk Buff)
+6. Opening Gambit (Hvy Phys)
+7. Calling Fang (Med Phys)
+8. Brain Flicker (Med Elec)
+
+
+Persona Registered:
+Name: Shiki-Ouji
+Arcana: Chariot
+Level: 26
+
+Stats: 
+------------------------
+St: 10
+Ma: 7
+En: 7
+Ag: 5
+Lu: 1
+
+Skills:
+1. Sync Surge (Med Nuke)
+2. Hyper Link (Med Nuke)
+3. Flare Blast (Med Nuke)
+4. Confidence Surge (Atk buff)
+5. 3-Second Rule (Charge)
+6. Opening Gambit (Med Phys)
+7. Advance Slash (Heavy Phys)
+8. Volt Revive (Light Elec)
+
+
+Persona Registered:
+Name: Kin-Ki
+Arcana: Chariot
+Level: 21
+
+Stats: 
+------------------------
+St: 7
+Ma: 6
+En: 8
+Ag: 3
+Lu: 1
 
 Skills:
 1. 
@@ -527,6 +695,78 @@ Skills:
 
 
 Persona Registered:
+Name: Archangel
+Arcana: Justice
+Level: 22
+
+Stats: 
+------------------------
+St: 7
+Ma: 5
+En: 2
+Ag: 10
+Lu: 4
+
+Skills:
+1. Cognition Rift (Heavy Psy)
+2. Atmosphere Read (Med Psy)
+3. Sniper Question (Med Gun)
+4. Soft Deflect (Med Gun)
+5. Psy Boost
+6. Dodge Reverse Fire
+7. Contagion Wave (AOE Def Debuff)
+8. Human Nature Savant (Auto Ag Buff)
+
+
+Persona Registered:
+Name: Bicorn
+Arcana: Hermit
+Level: 16
+
+Stats: 
+------------------------
+St: 1
+Ma: 6
+En: 6
+Ag: 1
+Lu: 7
+
+Skills:
+1. Cooldown (Ice)
+2. Prioritized Presence (Med Psy)
+3. Soulshare (Ice)
+4. Empathic Echo (Ice)
+5. Reassuring Chill (Ice)
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Koropokkuru
+Arcana: Hermit
+Level: 15
+
+Stats: 
+------------------------
+St: 1
+Ma: 7
+En: 6
+Ag: 4
+Lu: 1
+
+Skills:
+1. Prioritized Presence (Heavy Psy)
+2. Tranquil Edge (Med Psy)
+3. Regenerate I (HP Regen)
+4. Invigorate I (SP Regen)
+5. Temper Drop (Rage recovery)
+6. 
+7. 
+8. 
+
+
+Persona Registered:
 Name: Stone of Scone
 Arcana: Fortune
 Level: 13
@@ -542,6 +782,438 @@ Lu: 6
 Skills:
 1. Social Competence
 2. Interest Level Read
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Clotho
+Arcana: Fortune
+Level: 20
+
+Stats: 
+------------------------
+St: 3
+Ma: 2
+En: 4
+Ag: 6
+Lu: 9
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Ariadne
+Arcana: Fortune
+Level: 21
+
+Stats: 
+------------------------
+St: 3
+Ma: 2
+En: 4
+Ag: 6
+Lu: 10
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Kelpie
+Arcana: Strength
+Level: 16
+
+Stats: 
+------------------------
+St: 6
+Ma: 3
+En: 7
+Ag: 1
+Lu: 2
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Shiisaa
+Arcana: Strength
+Level: 21
+
+Stats: 
+------------------------
+St: 5
+Ma: 4
+En: 11
+Ag: 3
+Lu: 2
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Oni
+Arcana: Strength
+Level: 15
+
+Stats: 
+------------------------
+St: 5
+Ma: 2
+En: 9
+Ag: 1
+Lu: 2
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. Self-Control (Auto Def buff)
+
+
+Persona Registered:
+Name: Rakshasa
+Arcana: Strength
+Level: 18
+
+Stats: 
+------------------------
+St: 1
+Ma: 4
+En: 11
+Ag: 3
+Lu: 3
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Hua Po
+Arcana: Hanged Man
+Level: 18
+
+Stats: 
+------------------------
+St: 5
+Ma: 4
+En: 8
+Ag: 3
+Lu: 1
+
+Skills:
+1. Prioritized Presence,
+2. Slowed Speech
+3. Echo Shot
+4. Casual Greeting Shot
+5. Small-talk
+6. Subject Change
+7. Interest Probe
+8. 
+
+
+Persona Registered:
+Name: Inugami
+Arcana: Hanged Man
+Level: 19
+
+Stats: 
+------------------------
+St: 5
+Ma: 5
+En: 7
+Ag: 4
+Lu: 1
+
+Skills:
+1. Dodge Phys
+2. Dodge Reverse Phys
+3. Dodge Reverse Ice
+4. Ether Break (Atk debuff)
+5. Tactic Diffuser (Ag debuff)
+6. Self-Security (Def buff)
+7. Cognition Rift (Heavy Psy)
+8. Focused Breathing (LVl 1 Healing)
+
+
+Persona Registered:
+Name: Orthrus
+Arcana: Hanged Man
+Level: 15
+
+Stats: 
+------------------------
+St: 1
+Ma: 5
+En: 6
+Ag: 6
+Lu: 1
+
+Skills:
+1. Dodge Phys
+2. Dodge Reverse Phys
+3. Dodge Reverse Ice
+4. Ether Break (Atk debuff)
+5. Tactic Diffuser (Ag debuff)
+6. Self-Security (Def buff)
+7. Cognition Rift (Heavy Psy)
+8. Focused Breathing (LVl 1 Healing)
+
+
+Persona Registered:
+Name: Mandrake
+Arcana: Death
+Level: 20
+
+Stats: 
+------------------------
+St: 2
+Ma: 4
+En: 7
+Ag: 5
+Lu: 7
+
+Skills:
+1. Slowed Speech (Ag buff)
+2. Self-Control (Auto-Def buff)
+3. Self-Security (Def buff)
+4. Confidence (Atk buff)
+5. 3 Second Rule (Charge)
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Mokoi
+Arcana: Death
+Level: 27
+
+Stats: 
+------------------------
+St: 1
+Ma: 9
+En: 9
+Ag: 8
+Lu: 4
+
+Skills:
+1. Slowed Speech (Ag buff)
+2. Self-Control (Auto Def buff)
+3. Self-Security (Def buff)
+4. Confidence (Atk buff)
+5. Act Sense (Med Psy)
+6. Tranquil Edge (Med Psy)
+7. Hollow Stance (Light Curse)
+8. Minimum Echo (Med Curse)
+
+
+Persona Registered:
+Name: Matador
+Arcana: Death
+Level: 26
+
+Stats: 
+------------------------
+St: 5
+Ma: 11
+En: 9
+Ag: 5
+Lu: 1
+
+Skills:
+1. Slowed Speech (Ag buff)
+2. Self-Control (Auto Def buff)
+3. Human Nature Savant (Auto Ag Buff)
+4. Confidence (Atk buff)
+5. Interest Guage (Med Psy)
+6. Tranquil Edge (Med Psy)
+7. Hollow Stance (Light Curse)
+8. Minimum Echo (Med Curse)
+
+
+Persona Registered:
+Name: Nue
+Arcana: Death
+Level: 22
+
+Stats: 
+------------------------
+St: 2
+Ma: 11
+En: 5
+Ag: 6
+Lu: 3
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Genbu
+Arcana: Temperance
+Level: 13
+
+Stats: 
+------------------------
+St: 1
+Ma: 5
+En: 6
+Ag: 4
+Lu: 1
+
+Skills:
+1. Slowed Speech (Ag buff)
+2. Self-Control (Auto def buff)
+3. Regen I (HP Regen)
+4. Invigorate I (SP Regen)
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Incubus
+Arcana: Devil
+Level: 1
+
+Stats: 
+------------------------
+St: 1
+Ma: 1
+En: 1
+Ag: 1
+Lu: 1
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Belphegor
+Arcana: Tower
+Level: 12
+
+Stats: 
+------------------------
+St: 2
+Ma: 7
+En: 1
+Ag: 5
+Lu: 1
+
+Skills:
+1. Black List (Curse Instant Kill)
+2. Effort Reaper (Curse Instant Kill)
+3. Advance Slash (Heavy Phys)
+4. Dodge Ice
+5. Curse Boost
+6. Human Nature Savant (Auto Ag buff)
+7. Hazard Audit (Confuse Recovery)
+8. Tactic Diffuser (Ag debuff)
+
+
+Persona Registered:
+Name: Succubus
+Arcana: Moon
+Level: 19
+
+Stats: 
+------------------------
+St: 1
+Ma: 7
+En: 6
+Ag: 8
+Lu: 1
+
+Skills:
+1. Cognition Rift (Heavy Psy)
+2. Sixth Observation (Light Psy)
+3. Kinesis Gap (Med Psy)
+4. Effort Reaper (Curse High instant kill)
+5. Hollow Stance (Med Curse)
+6. Drain Reverse Psy
+7. Dodge Reverse Bless
+8. Drain Reverse Fire
+
+
+Persona Registered:
+Name: Onmoraki
+Arcana: Moon
+Level: 20
+
+Stats: 
+------------------------
+St: 1
+Ma: 8
+En: 6
+Ag: 8
+Lu: 1
+
+Skills:
+1. 
+2. 
 3. 
 4. 
 5. 
@@ -575,6 +1247,30 @@ Skills:
 
 
 Persona Registered:
+Name: Thunderbird
+Arcana: Sun
+Level: 19
+
+Stats: 
+------------------------
+St: 8
+Ma: 8
+En: 3
+Ag: 3
+Lu: 1
+
+Skills:
+1. Charming Smile (Light Fire)
+2. Inferno Grip (Med Fire)
+3. Flame Tease (Med Fire)
+4. Sonic Quip (Light Elec)
+5. Looksmax (Auto Heat-Riser)
+6. Confidence Drive (Atk buff)
+7. Self-Control (Auto def buff)
+8. Ether Break (Atk debuff)
+
+
+Persona Registered:
 Name: Phoenix
 Arcana: Faith
 Level: 11
@@ -586,6 +1282,30 @@ Ma: 1
 En: 3
 Ag: 1
 Lu: 2
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Tam Lin
+Arcana: Faith
+Level: 22
+
+Stats: 
+------------------------
+St: 3
+Ma: 1
+En: 8
+Ag: 6
+Lu: 7
 
 Skills:
 1. 
