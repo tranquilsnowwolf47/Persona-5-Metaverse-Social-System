@@ -1,3 +1,8 @@
+# Filename: Wind Skill List.py
+# Date: 2/10/26
+# Author: Aoi | shadowsnowwolf
+# List of Wind skills (Curiosity/Connection)
+
 class WindSkills:
     def __init__(self, name, element, damage_grade, SP_cost, description): # Constructor
         self.name = name
