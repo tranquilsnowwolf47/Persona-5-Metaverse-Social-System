@@ -31,6 +31,7 @@ class MediumSkills(WindSkills):
 class LightSkills(WindSkills):
     pass
 
+# Heavy Skills
 everflow = HeavySkills("Everflow", "Wind", "Heavy", 14,
 """   - Anchors you fully in the present moment and dissolves overthinking restoring natural conversational flow. 
 As long as the user remains present and curious, each exchange organically creates the next. 
@@ -51,6 +52,8 @@ Ex 5: “What part of work actually drains you the most?”
 Ex 6: “Is that something you chose or something you feel into?”). 
 Deals heavy Wind damage.""")
 
+
+# Medium Skills
 callback_gale = MediumSkills("Callback Gale", "Wind", "Medium", 7,
 """   - Deliberately reference a personal detail they mentioned previously to bring new potential conversation topics into the mix. 
 You can use it when you've had at least one back-and-forth. 
@@ -129,6 +132,7 @@ It’s not about showing off, but giving value and sparking conversation.
 (Ex: If someone mentions having poor social skills and you have good social skills, you can teach them some techniques that they may come to appreciate and can build rapport). 
 Deals medium Wind damage.""")
 
+# Light Skills 
 inquisitive_breeze = LightSkills("Inquisitive Breeze", "Wind", "Light", 4,
 """   - Show genuine curiosity and interest towards the target. 
 By openly expressing interest, you prompt the Shadow to reveal deeper insights into their personality, motivations, and goals if they reciprocate. 
@@ -136,3 +140,8 @@ By openly expressing interest, you prompt the Shadow to reveal deeper insights i
 Ex 2: “Please—tell me more about that”
 Ex 3: “I’m listening”).
 Deals light Wind damage.""")
+
+severe_skills = ()
+heavy_skill = (everflow, tailwind_cascade)
+medium_skills = (callback_gale, deep_dive, entry_path, depth_anchor, career_current, mind_glide, thought_unravel, winds_of_knowledge)
+light_skills = (inquisitive_breeze)
