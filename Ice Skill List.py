@@ -32,8 +32,12 @@ class LightSkills(IceSkills):
 example = MediumSkills("X", "Ice", "Medium", 0,
 """   - X""")
 
+# Heavy Damage Grade Skills
 thermal_reset = HeavySkills("Thermal Reset", "Ice", "Heavy", 14,
-"""   - You intentionally disengage from a tense or emotionally volatile situation, suspending reaction, speech, and decision-making until composure is fully restored. This halts impulsive behavior, prevents regret-based actions, and reasserts emotional sovereignty. You refuse to act while compromised. Useful in high-stake arguments, authority conflicts, relationship flashpoints, or texts you really want to clap back to. Deals heavy Ice damage and may cure Rage, Fear, and Confusion for the user. 
+"""   - You intentionally disengage from a tense or emotionally volatile situation, suspending reaction, speech, and decision-making until composure is fully restored. 
+This halts impulsive behavior, prevents regret-based actions, and reasserts emotional sovereignty. You refuse to act while compromised. 
+Useful in high-stake arguments, authority conflicts, relationship flashpoints, or texts you really want to clap back to. 
+Deals heavy Ice damage and may cure Rage, Fear, and Confusion for the user. 
 """)
 
 crystal_resonsance = HeavySkills("Crystal Resonance", "Ice", "Heavy", 12,
@@ -47,6 +51,8 @@ Ex 5: “You said your brother taught you that move. It makes sense why it stuck
 Ex 6: “It’s clear to see that the reason why you’re so determined is because of the family member you lost”.) 
 Deals heavy Ice damage.""")
 
+
+# Medium Damage Grade Skills 
 platonic_curtain = MediumSkills("Platonic Curtain", "Medium", "Heavy", 8,
 """   - Lower the emotional temperature and clearly establish platonic intent when friendliness is misinterpreted as flirtation or when romantic boundaries already exist. 
 Through calm tone, neutral framing, and emotional maturity, you remove ambiguity without embarrassment, rejection, or tension. 
@@ -172,6 +178,8 @@ Ex 4: “You’re not overreacting. Anyone would feel that way after dealing wit
 Ex 5: “You deserve to rest after that. It sounds exhausting”).
 Deals medium Ice damage.""")
 
+
+# Light Damage Grade Skills 
 reasurring_chill = LightSkills("Reassuring Chill", "Ice", "Light", 4,
 """   - Gently reassure someone who feels uneasy or anxious by providing calm and steady emotional support. 
 Ideal when sensing anxiety, nervousness, or hesitation in someone. 
@@ -190,3 +198,8 @@ Ex 4: “I didn’t view it that way before, but it makes a lot of sense now.”
 Ex 5: “I get the logic behind that. It checks out”
 Ex 6: “Given all the facts, I can understand how you arrived at that”). 
 Deals light Ice damage.""") 
+
+severe_skills = ()
+heavy_skill = (thermal_reset, crystal_resonsance)
+medium_skills = (platonic_curtain, glacier_wall, cold_admission, safe_space, anchor_presence, soulshare, cooldown, frostfade, icebreak_shield, reflective_icebreak, emotional_mirror, mirrored_empathy)
+light_skills = (reasurring_chill, acknowledgement_frost)
