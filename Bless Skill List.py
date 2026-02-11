@@ -29,6 +29,7 @@ class MediumSkills(BlessSkillls):
 class LightSkills(BlessSkillls):
     pass
 
+# Medium Damage Grade Skills
 hope_pulse = MediumSkills("Hope Pulse", "Bless", "Medium", 7,
 """   - Share a brief but uplifting perspective that flips negativity into a brighter outlook. 
 Used when the mood turns heavy, discouraging, or awkward, this spark of optimism reframes the moment and subtly lifts group dynamics toward positivity. 
@@ -67,6 +68,8 @@ Ex 2: Your friend beats themselves up for not seeing results, but you highlight 
 Ex 3: A friend comments on how they felt awkward or socially off and you highlight that most people don’t notice what you’re stressing about and don’t care as much as you think they do.
 Deals medium Bless damage.""")
 
+
+# Light Damage Grade Skills
 gentle_push = LightSkills("Gentle Push", "Bless", "Light", 4,
 """   - Warmly encourage the target to take a small leap. 
 The support is lighthearted but targeted, designed to make participation feel safe and supportive, rather than intimidating. 
@@ -118,3 +121,9 @@ Ex 2: ”I appreciate that. That made my day.
 Ex 3: ”Thank you, that was really kind of you to say”
 Ex 4: “I really appreciate you saying that.”).
 Deals light Bless damage.""")
+
+
+severe_skills = ()
+heavy_skill = ()
+medium_skills = (hope_pulse, light_of_insight, heartfelt_thanks, benevolence_ray)
+light_skills = (gentle_push, sunbeam_remark, encouraging_boost, warm_smile, gracious_thanks)
