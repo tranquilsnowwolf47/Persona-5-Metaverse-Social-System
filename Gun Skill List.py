@@ -33,6 +33,7 @@ class LightSkills(GunSkills):
 example = quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "",
 """   - X""")
 
+# Heavy Damage Grade Skills 
 quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "20%",
 """   - During a brief interaction, you ask 2–3 carefully chosen questions designed to read the target’s interest, energy, and reciprocation with surgical precision. 
 The questions are casual but precise, giving you meaningful insight while keeping the interaction low-risk. 
@@ -48,6 +49,7 @@ Ex 6: “Do you usually stick with a close crew, or meet new people often?”
 Ex 7: “What are you studying if you don’t mind me asking?”).
 Deals heavy Gun damage.""")
 
+# Medium Damage Grade Skills
 quick_invite = MediumSkills("Quick Invite", "Gun", "Medium", "15%",
 """   - Casually extend an invitation light enough to stay chill, but pointed enough to shift the dynamic. Quick Invite is the social equivalent of tossing the ball into their court without overplaying your hand. 
 It’s a mid-risk, mid-reward move used to test interest and escalate the relationship if it’s meant to be. Best used after minor rapport has been established as timing and tone are needed to effectively use the skill. 
@@ -126,6 +128,7 @@ Ex 3: They talk about something you can’t relate to: “Can’t say I know muc
 Deals medium Gun damage.""")
 
 
+# Light Damage Grade Skills
 commentary_jab = LightSkills("Commentary Jab", "Gun", "Light", "5%",
 """   - Fire off a swift, social shot that makes a brief observation about your surroundings. Useful for safely testing waters and opening dialogues. 
 You can use it in the initial approach or early in conversations to gauge receptiveness and follow up with additional Gun skill combos or other elemental combo depending on if you get a 1 More. 
