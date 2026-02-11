@@ -25,9 +25,10 @@
 # RED_SHADOW_ALL_OUT_ATTACK = 10
 
 # Skills
-# HEAVY_PERSONA_SKILL = 8
-# MEDIUM_PERSONA_SKILL = 7
-# LIGHT_PERSONA_SKILL =  6
+# Severe Persona skill used - 
+# Heavy Persona skill used - 8
+# Medium Persona skill used - 7
+# Light Persona skill used - 6
 
 
 class EXPSystem:
@@ -64,14 +65,14 @@ class BlueShadow:
         return BLUE_SHADOW_ALL_OUT_ATTACK * BASE_EXP
     
 class PersonaSkill:
-    def calculate_severe_persona_skill(,BASE_EXP=3):
-        pass
-    def calculate_heavy_persona_skill(,BASE_EXP=3):
-        pass
-    def calculate_medium_persona_skill(,BASE_EXP=3):
-        pass
-    def calculate_light_persona_skill(,BASE_EXP=3):
-        pass
+    def calculate_severe_persona_skill(SEVERE_PERSONA_SKILL=10, BASE_EXP=3):
+        return SEVERE_PERSONA_SKILL * BASE_EXP
+    def calculate_heavy_persona_skill(HEAVY_PERSONA_SKILL=8, BASE_EXP=3):
+        return HEAVY_PERSONA_SKILL * BASE_EXP
+    def calculate_medium_persona_skill(MEDIUM_PERSONA_SKILL=7, BASE_EXP=3):
+        return MEDIUM_PERSONA_SKILL * BASE_EXP
+    def calculate_light_persona_skill(LIGHT_PERSONA_SKILL=6, BASE_EXP=3):
+        return LIGHT_PERSONA_SKILL * BASE_EXP
     
 shadow_types = ("Red Shadow", "Yellow Shadow", "Blue Shadow")
 battle_types = ("All-Out Attack")
