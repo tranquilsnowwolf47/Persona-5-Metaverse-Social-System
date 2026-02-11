@@ -40,7 +40,7 @@ class MediumSkills(PhysSkills):
 class LightSkills(PhysSkills):
     pass
 
-
+# Heavy Skills
 advance_slash = HeavySkills("Advance Slash", "Phys", "Heavy", "18%", 
 """   - After establishing brief rapport, assertively propose spending time together to escalate the interaction and force clarity. 
 This skill is delivered calmly and directly, without selling, chasing, or over-investment. It collapses ambiguity early and tests willingness to progress beyond surface interaction. 
@@ -98,6 +98,7 @@ Used in tense negotiations, confrontations, standoffs, or when you want to asser
 Deals heavy Phys damage.""")
 
 
+# Medium Skills
 alpha_directive = MediumSkills("Alpha Directive", "Phys", "Medium", "10%", 
 """   - Take command of the social dynamic by establishing direction, clarity, and accountability. 
 Whether you're calling the next move, assigning roles, or making a decisive call in a group, Alpha Directive grounds everyone in your presence. 
@@ -185,6 +186,7 @@ Ex 2: Patient hesitating to make an appointment:
 You: “I can do (insert date).”  
 Deals medium Phys damage.""")              
 
+# Light Skills 
 cold_cut = LightSkills("Cold Cut", "Phys", "Light", "5%",
 """   - Confidently introduce yourself without waiting to be asked. Cold Cut is a proactive power move that is short, direct, and deliberate. 
 It’s blunt and doesn’t beg for validation or approval. This skill shows you're comfortable in your own presence and assertive enough to steer the flow from the start. 
@@ -204,7 +206,7 @@ Ex 2: “Didn’t catch your name earlier",
 Ex 3: “Tell me about yourself”). 
 Deals light Phys damage.""")
 
-severe_skill = () # A tuple that holds every severe Phys skill (subject to update)
+severe_skill = () # A tuple that holds every severe Phys skill 
 heavy_skills = (advance_slash, consequence_hammer, verdict_slice, hard_check, iron_gaze) # A tuple that holds every heavy Phys skill
 medium_skills = (alpha_directive, bind_blade, social_dominance, assertive_slice, opening_gambit, stone_wall, decision_strike) # A tuple that holds every medium Phys skill
 light_skills = (cold_cut, calling_fang) # A tuple that holds every light Phys skill
