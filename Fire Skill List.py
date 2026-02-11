@@ -32,6 +32,7 @@ class LightSkills(FireSkills):
 example = quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "",
 """   - X""")
 
+# Heavy Damage Grade Skills
 value_touch = HeavySkills("Value Touch","Fire","Heavy", 11,
     """   - Use a silver tongue and refined framing to subtly persuade the target on how they perceive value, more commonly when it comes to products and services. Rather than explaining or selling, you weave benefits into the conversation so the offer feels obvious, sensible, and personally relevant. Your tone is confident, warm, and assured, making the deal feel less like a transaction and more like a smart, natural choice. Resistance lowers as the target becomes more willing to see upside, convenience, and long-term gain.
 (Ex 1: “A lot of people don’t realize this, but our membership plans usually cut costs significantly—especially for families.”
@@ -50,6 +51,7 @@ Ex 13: “Oh it definitely saves a lot. You could be saving hundreds per year an
 Ex 14: “If you get the premium membership it’ll end up costing you less over time than if you kept renewing the previous membership for months on top of you getting more benefits”).
 Deals heavy Fire damage.""")
 
+# Medium Damage Grade Skills 
 heat_check = MediumSkills("Heat Check", "Fire", "Medium", 9,
 """   - A playful yet deliberate flirtation that sparks attraction without overcommitting. Heat Check applies heat through confident implication rather than overt pursuit— teasing interest, planting curiosity, and seeing if the spark is returned. It’s lighthearted on the surface, but purposeful underneath, making it ideal for testing romantic interest while maintaining composure and control.
 (Ex 1: “Is this your plan to make me more curious or is it just me?
@@ -127,6 +129,7 @@ Its unpredictability generates excitement and makes it stand out, drawing attent
 Most effective when texting is the norm and voice notes are unexpected. 
 Deals medium Fire damage.""")
 
+# Light Damage Grade Skills
 high_lighter = LightSkills("High Lighter", "Fire", "Light", 5,
 """   - Shine a warm, confident spotlight on the fact that the target chose to be here with you. 
 Whether they came to an event, grabbed food, or just showed up for the moment, your acknowledgment lands as charismatic appreciation — not neediness. It can deepen rapport, lower emotional defenses, and triggers a 1 More by making the shared experience feel more intentional and meaningful. Best used once the interaction already has some rhythm and energy to it.
