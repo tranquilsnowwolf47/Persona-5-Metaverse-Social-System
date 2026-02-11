@@ -3,7 +3,7 @@
 # Author: Aoi | shadowsnowwolf
 # List of Psy skills (Mind reading/Psychological perception)
 
-class PsySkillls:
+class PsySkills:
     def __init__(self, name, element, damage_grade, SP_cost, description):
         self.name = name
         self.element = element
