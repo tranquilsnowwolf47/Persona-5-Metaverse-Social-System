@@ -30,7 +30,6 @@
 # Medium Persona skill used - 7
 # Light Persona skill used - 6
 
-
 class EXPSystem:
     pass
 
@@ -65,21 +64,65 @@ class BlueShadow:
         return BLUE_SHADOW_ALL_OUT_ATTACK * BASE_EXP
     
 class PersonaSkill:
-    def calculate_severe_persona_skill(SEVERE_PERSONA_SKILL=10, BASE_EXP=3):
+    def calculate_severe_persona_skill(SEVERE_PERSONA_SKILL=10, BASE_EXP=3): # Severe
         return SEVERE_PERSONA_SKILL * BASE_EXP
-    def calculate_heavy_persona_skill(HEAVY_PERSONA_SKILL=8, BASE_EXP=3):
+    def calculate_heavy_persona_skill(HEAVY_PERSONA_SKILL=8, BASE_EXP=3): # Heavy
         return HEAVY_PERSONA_SKILL * BASE_EXP
-    def calculate_medium_persona_skill(MEDIUM_PERSONA_SKILL=7, BASE_EXP=3):
+    def calculate_medium_persona_skill(MEDIUM_PERSONA_SKILL=7, BASE_EXP=3): # Medium
         return MEDIUM_PERSONA_SKILL * BASE_EXP
-    def calculate_light_persona_skill(LIGHT_PERSONA_SKILL=6, BASE_EXP=3):
+    def calculate_light_persona_skill(LIGHT_PERSONA_SKILL=6, BASE_EXP=3): # Light
         return LIGHT_PERSONA_SKILL * BASE_EXP
-    
-shadow_types = ("Red Shadow", "Yellow Shadow", "Blue Shadow")
+
 battle_types = ("All-Out Attack")
 
+# Input:
+# Please enter an option choice
+# if option choice is equal to ambushed, normal, or ambushing  or all out attack options --> Please enter a shadow color:
+# 
+
+experience_choices = ("Ambushing", "Normal", "Ambushed", "All-Out Attack", "Persona skill")
+
+shadow_types = ("Red Shadow", "Yellow Shadow", "Blue Shadow")
+skill_grades = ("Severe","Heavy","Medium","Light")
 
 
 
+# Show the user a list of the battle experience choices 
+print("Battle experience options: ")
+print("----------------------------------------------------------")
+for index, choice in enumerate(experience_choices, start=1):
+    print(f"{index}. {choice}")
+print()
+
+
+battle_choice = int(input("Please enter an option choice (1-5): ")) # get the user inputa
+
+
+# Input validation
+if battle_choice == experience_choices[0]: # For ambushing
+    for index, shadow_type in enumerate(shadow_types):
+        print(f"{index}. {shadow_type}")
+    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+
+elif battle_choice == experience_choices[1]: # For normal
+    for index, shadow_type in enumerate(shadow_types):
+        print(f"{index}. {shadow_type}")
+    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+    
+elif battle_choice == experience_choices[2]: # For ambushed 
+    for index, shadow_type in enumerate(shadow_types):
+        print(f"{index}. {shadow_type}")
+    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+
+elif battle_choice == experience_choices[3]: # For All-Out Attack
+    for index, shadow_type in enumerate(shadow_types):
+        print(f"{index}. {shadow_type}")
+    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+
+elif battle_choice == experience_choices[4]:
+    for index, grade in enumerate(skill_grades):
+        print(f"{index}. {grade}")
+    skill_grade = input("Please enter the damage grade of the skill used (-): ")
 
 #RSA1 =
 #RSA2 =
