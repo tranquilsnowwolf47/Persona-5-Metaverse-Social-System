@@ -29,6 +29,7 @@ class MediumSkills(PsySkills):
 class LightSkills(PsySkills):
     pass
 
+# Heavy Skills 
 shadow_talk = HeavySkills("Shadow Talk", "Psy", "Heavy", 14,
 """   - Step back and let the target expose their inner self, including their repressed thoughts and hidden desires. By observing without interference, you gain deep insight into their true intentions, fears, and vulnerabilities, revealing patterns they may not even be consciously aware of. This allows you to anticipate reactions, exploit weaknesses, and plan your next move with precision. The skill transforms subtle cues into actionable information, giving you a clear strategic advantage.
 Ex: Watching someone react to another person’s success or failure, you notice a fleeting expression of envy or frustration. Shadow Talk uncovers a fear of being left behind or alone.
@@ -54,6 +55,8 @@ By taking advantage of the psychological idea that scarcity creates value, you b
 This skill is only effective once you build rapport with the target however– it isn’t very effective against Shadows that don’t care or don’t really know you. 
 Deals heavy Psy damage.""")
 
+
+# Medium Skills 
 soulstring_pull = MediumSkills("Soulstring Pull", "Psy", "Medium", 8,
 """   - Trigger an emotional response by striking a psychological chord with the target. 
 Evoke nostalgia, excitement, or defensiveness to reveal their Shadow type, build rapport, or manipulate reactions. 
@@ -88,6 +91,8 @@ By stepping back emotionally and verbally, you remove your influence from the in
 This skill gives you valuable insight on the target’s character and social patterns without overly testing them or applying pressure. 
 Deals medium Psy damage.""")
 
+
+# Light Skills 
 interest_gauge = LightSkills("X", "Psy", "Light", 5,
 """   - Dial into micro-cues, response latency, eye contact, verbal tone, body language, investment level, and response quality to categorize the target's true investment as high, medium, or low interest. 
 Helps you avoid wasted energy on disinterested parties and give further clarity on whether to continue the interaction or to go for an All-Out Attack. 
@@ -120,3 +125,8 @@ Ex 1: “So Mateo… you said you’re studying comp sci right?”
 Ex 2 :”I’m looking forward to seeing you again soon Catherine”
 Ex 3: “It’s okay to be nervous Aiden. It’s just part of the experience”).
 Deals light Psy damage.""")
+
+severe_skills = ()
+heavy_skill = (shadow_talk, cognition_rift, prioritized_presence)
+medium_skills = (soulstring_pull, atmosphere_read, atmos_gauge, tranquil_edge, energy_mirror, kinesis_gap)
+light_skills = (interest_gauge, temperament_read, love_interpreter, sixth_observation, name_echo)
