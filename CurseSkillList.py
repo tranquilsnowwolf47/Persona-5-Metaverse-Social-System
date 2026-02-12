@@ -1,4 +1,4 @@
-# Filename: Curse Skill List.py
+# Filename: CurseSkillList.py
 # Date: 2/10/26
 # Author: Aoi | shadowsnowwolf
 # List of Curse skills (Unconventional Moves/Unorthodoxy)
