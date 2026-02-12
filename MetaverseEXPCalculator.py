@@ -1,4 +1,4 @@
-# Filename: Metaverse EXP Calculator.py 
+# Filename: MetaverseEXPCalculator.py 
 # Date: 2/11/26
 # Author: Aoi | shadowsnowolf 
 
