@@ -1,4 +1,4 @@
-# Filename: Fire Skill List.py
+# Filename: FireSkillList.py
 # Date: 2/6/26
 # Author: Aoi | shadowsnowwolf
 # List of Fire (Charm/Charisma) skills from the Metaverse Social System sorted by damage grade 
