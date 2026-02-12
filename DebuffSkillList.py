@@ -1,4 +1,4 @@
-# Filename: Debuff Skill List.py
+# Filename: DebuffSkillList.py
 # Date: 2/11/26
 # Author: Aoi | shadowsnowwolf
 # List of Debuff Skills 
