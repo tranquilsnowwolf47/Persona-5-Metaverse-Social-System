@@ -1,4 +1,4 @@
-# Filename: Wind Skill List.py
+# Filename: WindSkillList.py
 # Date: 2/10/26
 # Author: Aoi | shadowsnowwolf
 # List of Wind skills (Curiosity/Connection)
