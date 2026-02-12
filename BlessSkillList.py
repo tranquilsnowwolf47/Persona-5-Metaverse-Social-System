@@ -1,4 +1,4 @@
-# Filename: Bless Skill List.py
+# Filename: BlessSkillList.py
 # Date: 2/10/26
 # Author: Aoi | shadowsnowwolf
 # List of Bless skills (Kindness/Warmth)
