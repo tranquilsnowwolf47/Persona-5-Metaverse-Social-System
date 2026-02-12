@@ -206,7 +206,7 @@ Ex 2: “Didn’t catch your name earlier",
 Ex 3: “Tell me about yourself”). 
 Deals light Phys damage.""")
 
-severe_skill = () # A tuple that holds every severe Phys skill 
+severe_skills = () # A tuple that holds every severe Phys skill 
 heavy_skills = (advance_slash, consequence_hammer, verdict_slice, hard_check, iron_gaze) # A tuple that holds every heavy Phys skill
 medium_skills = (alpha_directive, bind_blade, social_dominance, assertive_slice, opening_gambit, stone_wall, decision_strike) # A tuple that holds every medium Phys skill
 light_skills = (cold_cut, calling_fang) # A tuple that holds every light Phys skill
