@@ -1,4 +1,4 @@
-# Filename: Phys Skill List.py
+# Filename: PhysSkillList.py
 # Date: 2/4/26
 # Author: Aoi | shadowsnowwolf
 # Processing: utilizes OOP
