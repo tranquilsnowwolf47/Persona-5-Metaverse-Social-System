@@ -1,4 +1,4 @@
-# Filename: Elec Skill List.py
+# Filename: ElecSkillList.py
 # Date: 2/7/26
 # Author: Aoi | shadowsnowwolf
 # List of Elec skills (Wit/Humor)
