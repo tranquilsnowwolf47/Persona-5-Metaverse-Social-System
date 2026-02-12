@@ -1,4 +1,4 @@
-# Filename: Ice Skill List.py
+# Filename: IceSkillList.py
 # Date: 2/7/26
 # Author: Aoi | shadowsnowwolf
 # List of Ice skills (Emotional control/manuvering)
