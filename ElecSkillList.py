@@ -54,7 +54,8 @@ Ex 4: Them: “No one likes you” You: “And your opinion will matter once fly
 Ex 5: Them: “You really think people take you seriously?” You: “Clearly you did, since I took up enough mental bandwidth in your mind that you felt the need to ask.”
 Ex 6: Them: "Oh, so you're an expert now? You: "Expert? Only at spotting weak comebacks"
 Ex 7: Them: "You really think that shirt suits you?"  You: "Better than your choice of opinions"
-Ex 8: Them: “That haircut looks like shit on you.” You: “You’re just jealous that I could pull it off way better than you ever could”).
+Ex 8: Them: “That haircut looks like shit on you.” You: “You’re just jealous that I could pull it off way better than you ever could”,
+Ex 9: Them: “That outfit looks terrible on you”, You: “Yeah, like yours is any better").
 Deals heavy Elec damage. """)
 
 
