@@ -99,7 +99,8 @@ class PhantomProfile:
 
     # Function that displays the elemental affinities of the user 
     def display_elemental_affinities(self):
-        print("\nElemental Affinities: ")
+        print("\n\nElemental Affinities: ")
+        print("-----------------------------------------")
         print(f"Phys: {self.phys_affnity}   | Rev. Phys: {self.phys_affnity}")
         print(f"Gun: {self.gun_affinity}   | Rev. Gun: {self.gun_affinity}")
         print(f"Fire: {self.fire_affinity} | Rev. Fire: {self.reverse_fire_affinity}")
@@ -121,16 +122,16 @@ drain_affinity = "Dr"
 repel_affinity = "Rpl" 
 
 aoi = PhantomProfile("Aoi", 41, "Fool", "Arsene", "Curse", 260, 260, 0, 0, 0, 0, 0, 
-weak_affinity, weak_affinity, 
-weak_affinity, weak_affinity, 
-resist_affinity, resist_affinity, 
-resist_affinity, weak_affinity, 
-neutral_affinity, resist_affinity,
-resist_affinity, resist_affinity,
-weak_affinity, resist_affinity,
-resist_affinity, resist_affinity,
-weak_affinity, neutral_affinity,
-neutral_affinity, resist_affinity)
+weak_affinity, weak_affinity, # phys
+weak_affinity, weak_affinity, # gun
+resist_affinity, resist_affinity, # fire
+resist_affinity, weak_affinity, # ice
+neutral_affinity, resist_affinity, # elec
+neutral_affinity, resist_affinity, # wind
+resist_affinity, resist_affinity, # psy
+neutral_affinity, neutral_affinity, # nuke
+weak_affinity, neutral_affinity, # bless
+neutral_affinity, resist_affinity) # curse
 
 for i in range(3):
     aoi.level_up()
