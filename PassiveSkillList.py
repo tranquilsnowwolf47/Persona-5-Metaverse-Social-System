@@ -39,112 +39,138 @@ class StatusAilmentPassiveSkills(PassiveSkillList):
 
 
 # Affinity Passive Skills 
-dodge_phys = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_phys = AffinityPassiveSkills("Dodge Phys", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Phys (Bluntness / Assertiveness) attacks. 
 Direct challenges, hard checks, and confrontational pressure are recognized early, allowing you to delay, redirect, or soften them before they fully land.""")
     
-dodge_gun = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_gun = AffinityPassiveSkills("Dodge Gun", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Gun (Low Risk / Light Probing) attacks. 
 Casual questions, value tests, and surface-level probes are recognized early, allowing you to pause, redirect, or give non-committal responses before any leverage is gained.""")
     
-dodge_fire = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_fire = AffinityPassiveSkills("Dodge Fire", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Fire (Charm / Charisma) attacks. 
 Playful teasing, flirting, confident compliments, and magnetic presence are recognized early, allowing you to pause, redirect, or cool the interaction before charm can influence your emotions or decisions.""")
     
-dodge_ice = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_ice = AffinityPassiveSkills("Dodge Ice", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Ice (Emotional Control / Emotional Maneuvering) attempts. 
 Emotional validation, mirroring, and subtle emotional pacing are recognized early, allowing you to delay or redirect before your emotional state or tempo is guided.""")
     
-dodge_elec = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_elec = AffinityPassiveSkills("Dodge Elec", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Elec (Wit / Humor) disruption. 
 Clever jokes, wordplay, and playful jabs are noticed early, allowing you to prevent humor from interrupting your timing, confidence, or conversational rhythm.""")
     
-dodge_wind = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_wind = AffinityPassiveSkills("Dodge Wind", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Wind (Curiosity / Connection) pulls. 
 Thoughtful questions, rapport-building prompts, and conversational flow are recognized early, allowing you to pause or redirect before your attention, focus, direction, or disclosures are subtly guided.""")
     
-dodge_psy = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_psy = AffinityPassiveSkills("Dodge Psy", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Psy (Mind Reading / Psychological Perception) pressure. 
 Psychological reads, pattern recognition, and insight-based observations are noticed early, allowing you to slow the interaction before those reads can be leveraged.""")
     
-dodge_nuke = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_nuke = AffinityPassiveSkills("Dodge Nuke", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Nuke (Hype Building / Shared Energy) surges.
 Collective enthusiasm, mirrored excitement, and momentum are recognized early, allowing you to delay engagement before energy can rush decisions or actions.""")
     
-dodge_bless = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_bless = AffinityPassiveSkills("Dodge Bless", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Bless (Kindness / Warmth) influence. 
 Encouragement, positivity, and sincere goodwill are recognized early, allowing you to pause and reflect before warmth subtly shapes expectations, emotions, or choices.""")
     
-dodge_curse = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_curse = AffinityPassiveSkills("Dodge Curse", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Curse (Unconventional Moves / Unorthodoxy) pressure. 
 Bold truth drops, self-deprecating remarks, risky or uncomfortable moves, and sudden frame shifts are recognized early, allowing you to pause, ground yourself, or redirect before discomfort or disruption can knock you off balance.""")
 
-dodge_reverse_phys = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_phys = AffinityPassiveSkills("Dodge Reverse Phys", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Phys (Aggression / Intimidation) pressure. 
 Ego-driven dominance, raised voices, and coercive energy are recognized early, allowing you to pause, reframe, or slow the exchange before intimidation can create fear, submission, or escalation.""")
     
-dodge_reverse_gun = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_gun = AffinityPassiveSkills("Dodge Reverse Gun", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Gun (Nosiness / Prying) attempts. 
 Intrusive questions and boundary-testing probes are noticed early, allowing you to delay, redirect, or respond non-committally before any leverage is gained.""")
     
-dodge_reverse_fire = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_fire = AffinityPassiveSkills("Dodge Reverse Fire", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Fire (Seduction / Validation) pressure. 
 Performative charm, flattery traps, and attention bait are recognized early, allowing you to cool the interaction before ego pull, attraction bias, or obligation can form.""")
     
-dodge_reverse_ice = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_ice = AffinityPassiveSkills("Dodge Reverse Ice", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Ice (Hyperemotionality / Emotional Disregulation) pressure. 
 Emotional flooding, guilt spirals, and volatile displays are noticed early, allowing you to slow, ground, or redirect before overwhelming or caretaking pressure sets in.""")
     
-dodge_reverse_elec = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_elec = AffinityPassiveSkills("Dodge Reverse Elec", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Elec (Mockery / Ridicule) attempts. 
 Mean-spirited humor, sarcastic digs, and public jabs are recognized early, allowing you to disengage or slow the moment before embarrassment or provocation can land.""")
     
-dodge_reverse_wind = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_wind = AffinityPassiveSkills("Dodge Reverse Wind", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Wind (Conversational Steering / Feigned Interest) pressure. 
 Leading questions and performative listening are detected early, allowing you to pause or redirect before your attention or conclusions are subtly guided.""")
     
-dodge_reverse_psy = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_psy = AffinityPassiveSkills("Dodge Reverse Psy", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Psy (Psychological Manipulation / Emotional Exploitation) pressure. 
 Frame hijacks, guilt framing, and covert psychological tactics are noticed early, allowing you to slow the interaction before perception or decisions can be distorted.""")
     
-dodge_reverse_nuke = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_nuke = AffinityPassiveSkills("Dodge Reverse Nuke", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Nuke (Impulsivity / Overstimulation) pressure. 
 Chaotic hype, urgency, and emotional overload are recognized early, allowing you to slow pacing before overwhelm or impulsive action is triggered.""")
     
-dodge_reverse_bless = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_bless = AffinityPassiveSkills("Dodge Reverse Bless", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Bless (Ingenuine Kindness / Sincerity Facade) pressure. 
 Performative warmth and fake positivity are recognized early, allowing you to pause before obligation, guilt, or trust shifts can form.""")
     
-dodge_reverse_curse = AffinityPassiveSkills("X", "Affinity Passive", "N/A",
+dodge_reverse_curse = AffinityPassiveSkills("Dodge Reverse Curse", "Affinity Passive", "N/A",
 """   - Increases your ability to sidestep Reverse Curse (Behavioral Corruption / Doubt Leverage) pressure. 
 Subtle discouragement and hesitation-seeding are recognized early, allowing you to pause and reaffirm direction before doubt can slow action.""")
 
 
 # Passive Skills
-diamond_mirror = 
-aegis_mirror =
-regenerate_I =
-regenerate_II =
-regenerate_III =
-invigorate_I =
-invigorate_II =
-invigorate_III =
-gun_boost = 
-fire_boost =
-ice_boost =
-elec_boost =
-wind_boost =
-psy_boost =
-nuke_boost =
-bless_boost =
-curse_boost =
+diamond_mirror = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+aegis_mirror = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+regenerate_I = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+regenerate_II = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+regenerate_III = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+invigorate_I = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+invigorate_II = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+invigorate_III = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+gun_boost =  PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+fire_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+ice_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+elec_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+wind_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+psy_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+nuke_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+bless_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+curse_boost = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
 
-gun_amp = 
-fire_amp =
-ice_amp =
-elec_amp =
-wind_amp =
-psy_amp =
-nuke_amp =
-bless_amp =
-curse_amp =
+gun_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+fire_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+ice_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+elec_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+wind_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+psy_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+nuke_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+bless_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
+curse_amp = PassiveSkills("X", "Passive", "N/A",
+"""   - X""")
