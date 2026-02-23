@@ -17,6 +17,10 @@ class GunSkills:
         print(f"HP Cost: {self.HP_cost}")
         print(f"Description:\n{self.description}")
 
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.damage_grade} {self.element})")
+
 class SevereSkills(GunSkills):
     pass
 
