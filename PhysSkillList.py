@@ -28,6 +28,10 @@ class PhysSkills:
         print(f"HP Cost: {self.HP_cost}")
         print(f"Description:\n{self.description}")
 
+    # Shows the simplified version of the skill 
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.damage_grade})")
+
 class SevereSkills(PhysSkills):
     pass
 
