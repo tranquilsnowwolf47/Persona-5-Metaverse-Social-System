@@ -17,6 +17,10 @@ class FireSkills:
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
 
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.damage_grade} {self.element})")
+
 class SevereSkills(FireSkills):
     pass
 
@@ -181,3 +185,6 @@ severe_skills = ()
 heavy_skills = (value_touch)
 medium_skills = (heat_check, flame_tease, confidence_burn, magnetic_presence, value_burn, ember_gaze, inferno_grip, lady_shake, velvet_note)
 light_skills = (high_lighter, confident_compliment, vocal_flare, gentlemans_flattery, charming_smile)
+
+
+heat_check.display_simplified_info()
