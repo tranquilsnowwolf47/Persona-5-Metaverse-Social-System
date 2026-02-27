@@ -17,6 +17,10 @@ class CurseSkillls:
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
 
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.damage_grade} {self.element})")
+
 
 class SevereSkills(CurseSkillls):
     pass
@@ -239,6 +243,7 @@ Deals light Curse damage.""")
 
 severe_skills = (honey_basher)
 instant_kill_skills = (black_list, effort_reaper, timeout_clause, flake_snare)
-heavy_skill = (data_hex, hidden_blueprint, veiled_initiative)
+heavy_skills = (data_hex, hidden_blueprint, veiled_initiative)
 medium_skills = (friendzone_seal, dark_tease, blackout, verbal_hex, chrono_veil, refusal_rite, minimum_echo, catalyst_trigger, clock_hold, reality_spike, hollow_stance)
 light_skills = (mocking_mirror, cursed_joke, vanity_bait, faux_focus)
+full_curse_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
