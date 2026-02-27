@@ -114,5 +114,6 @@ Deals light Elec damage. """)
 
 severe_skills = ()
 heavy_skills = (lightning_retort, verbal_parry)
-medium_skill = ()
+medium_skills = ()
 light_skills = (shocking_humor, current_confirmaiton, sonic_quip, deadpan_discharge, volt_revive)
+full_elec_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
