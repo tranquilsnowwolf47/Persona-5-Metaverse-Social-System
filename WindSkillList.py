@@ -17,6 +17,10 @@ class WindSkills:
         print(f"- {self.name} ({self.element})")
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
+    
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.damage_grade} {self.element})")
 
 
 class SevereSkills(WindSkills):
@@ -142,6 +146,7 @@ Ex 3: “I’m listening”).
 Deals light Wind damage.""")
 
 severe_skills = ()
-heavy_skill = (everflow, tailwind_cascade)
+heavy_skills = (everflow, tailwind_cascade)
 medium_skills = (callback_gale, deep_dive, entry_path, depth_anchor, career_current, mind_glide, thought_unravel, winds_of_knowledge)
 light_skills = (inquisitive_breeze)
+full_wind_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
