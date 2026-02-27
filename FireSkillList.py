@@ -185,6 +185,4 @@ severe_skills = ()
 heavy_skills = (value_touch)
 medium_skills = (heat_check, flame_tease, confidence_burn, magnetic_presence, value_burn, ember_gaze, inferno_grip, lady_shake, velvet_note)
 light_skills = (high_lighter, confident_compliment, vocal_flare, gentlemans_flattery, charming_smile)
-
-
-heat_check.display_simplified_info()
+full_fire_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
