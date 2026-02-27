@@ -128,6 +128,7 @@ Deals light Bless damage.""")
 
 
 severe_skills = ()
-heavy_skill = ()
+heavy_skills = ()
 medium_skills = (hope_pulse, light_of_insight, heartfelt_thanks, benevolence_ray)
 light_skills = (gentle_push, sunbeam_remark, encouraging_boost, warm_smile, gracious_thanks)
+full_bless_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
