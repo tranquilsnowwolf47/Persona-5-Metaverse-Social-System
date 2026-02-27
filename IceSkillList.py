@@ -204,6 +204,7 @@ Ex 6: “Given all the facts, I can understand how you arrived at that”).
 Deals light Ice damage.""") 
 
 severe_skills = ()
-heavy_skill = (thermal_reset, crystal_resonsance)
+heavy_skills = (thermal_reset, crystal_resonsance)
 medium_skills = (platonic_curtain, glacier_wall, cold_admission, safe_space, anchor_presence, soulshare, cooldown, frostfade, icebreak_shield, reflective_icebreak, emotional_mirror, mirrored_empathy)
 light_skills = (reasurring_chill, acknowledgement_frost)
+full_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
