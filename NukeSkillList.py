@@ -90,7 +90,8 @@ Ex 3: “You’re really rocking those shoes!”
 Ex 4: “The attention to detail in your cosplay is top-notch”).
 Deals light Nuke damage.""")
 
-severe_skill = ()
+severe_skills = ()
 heavy_skills = (spotlight_surge)
 medium_skills = (crowd_echo, flare_blast, hyper_link, sync_surge, flash_bounce)
 light_skills = (quick_cheer)
+full_nuke_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
