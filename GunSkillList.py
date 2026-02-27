@@ -268,7 +268,7 @@ severe_skills = ()
 heavy_skills = (quick_probe)
 medium_skills = (quick_invite, sniper_question, interest_probe, weekend_needle, soft_deflect, social_probe, subject_grenade)
 light_skills = (commentary_jab, binary_choice, mood_check, surface_graze, mini_gun, starter_shot, courtesy_shot, intent_snap, echo_shot, subtext_bullet, acknowledgement_shot)
-
+full_gun_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
 
 #GunSkills.display_skill(binary_choice)
 
