@@ -24,10 +24,20 @@ import PassiveBuffList
 
 #PhysSkillList.PhysSkills.display_skill(PhysSkillList.severe_skills[0])
 
-print("List of Heavy Phys Skills: ")
-for skill in PhysSkillList.heavy_skills:
-    skill.display_simplified_info()
-    
 # Prints an individual skill
 #PsySkillList.shadow_talk.display_simplified_info()
+
+class Debugging:
+    pass
+
+class PhysDebug:
+    def debug_heavy_skills():
+        print("List of Heavy Phys Skills: ")
+        print("-------------------------------------")
+        for skill in PhysSkillList.heavy_skills:
+            skill.display_simplified_info()
+
+
+    
+
 
