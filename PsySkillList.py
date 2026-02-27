@@ -132,6 +132,7 @@ Ex 3: “It’s okay to be nervous Aiden. It’s just part of the experience”)
 Deals light Psy damage.""")
 
 severe_skills = ()
-heavy_skill = (shadow_talk, cognition_rift, prioritized_presence)
+heavy_skills = (shadow_talk, cognition_rift, prioritized_presence)
 medium_skills = (soulstring_pull, atmosphere_read, atmos_gauge, tranquil_edge, energy_mirror, kinesis_gap)
 light_skills = (interest_gauge, temperament_read, love_interpreter, sixth_observation, name_echo)
+full_psy_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
