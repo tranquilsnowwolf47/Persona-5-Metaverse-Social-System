@@ -84,13 +84,13 @@ Ag: 6
 Lu: 4
 
 Skills:
-1. Tailwind Cascade (Heavy Wind)
+1. Tailwind Cascade (Hvy Wind)
 2. Black List (Curse Instant Kill)
 3. Starter Shot (Light Gun)
 4. Mini-Gun (Light Gun)
 5. Surface Graze (Light Gun)
 6. Acknowledgement Shot (Light Gun)
-7. Everflow (Heavy Wind)
+7. Everflow (Hvy Wind)
 8. Career Current (Med Wind)
 
 
@@ -119,6 +119,30 @@ Skills:
 
 
 Persona Registered:
+Name: Izanagi
+Arcana: Fool,
+Level: 24
+
+Stats: 
+------------------------
+St: 6
+Ma: 6
+En: 5
+Ag: 6
+Lu: 5
+
+Skills:
+1. Mind Glide (Med Wind)
+2. Career Current (Med Wind)
+3. Commentary Jab (Med Gun)
+4. Black List (Curse Instant Kill)
+5. Shocking Humor (Light Elec)
+6. Quick Invite (Med Gun)
+7. Purpose Focus (Concentrate)
+8. Everflow (Hvy Wind)
+
+
+Persona Registered:
 Name: Jack-o'-Lantern
 Arcana: Magician
 Level: 20
@@ -132,14 +156,14 @@ Ag: 3
 Lu: 2
 
 Skills:
-1. Winds of Knowledge (Medium Wind)
-2. Career Current (Medium Wind)
-3. Deep Dive (Medium Wind)
-4. Mind Glide (Medium Wind)
+1. Winds of Knowledge (Med Wind)
+2. Career Current (Med Wind)
+3. Deep Dive (Med Wind)
+4. Mind Glide (Med Wind)
 5. Subject Shift (Light Gun)
 6. Mini-Talk (Light Gun)
 7. Echo Shot (Light Gun)
-8. Velvet Note (Medium Fire)
+8. Velvet Note (Med Fire)
 
 
 Persona Registered:
@@ -311,6 +335,30 @@ Skills:
 
 
 Persona Registered:
+Name: Kikuri-Hime
+Arcana: Priestess
+Level: 14
+
+Stats: 
+------------------------
+St: 1
+Ma: 6
+En: 6
+Ag: 4
+Lu: 1
+
+Skills:
+1. Sixth Observation (Light Psy)
+2. Cognition Rift (Hvy Psy)
+3. Interest Gauge (Light Psy)
+4. Cold Admission (Med Ice)
+5. Anchor Presence (Med Ice)
+6. Social Probe (Med Gun)
+7. Self-Control (Auto def buff)
+8. Coordination Vector (AOE Ag debuff)
+
+
+Persona Registered:
 Name: Queen's Necklace
 Arcana: Empress
 Level: 16
@@ -337,14 +385,14 @@ Skills:
 Persona Registered:
 Name: Yaksini
 Arcana: Empress
-Level: 16
+Level: 17
 
 Stats: 
 ------------------------
-St: 1
-Ma: 1
-En: 1
-Ag: 1
+St: 6
+Ma: 8
+En: 3
+Ag: 4
 Lu: 1
 
 Skills:
@@ -452,6 +500,30 @@ Skills:
 6. Gentleman's Flattery (Light Fire)
 7. Deadpan Discharge (Light Elec)
 8. 3-Second Rule (Charge)
+
+
+Persona Registered:
+Name: Barong
+Arcana: Emperor
+Level: 28
+
+Stats: 
+------------------------
+St: 13
+Ma: 9
+En: 5
+Ag: 4
+Lu: 1
+
+Skills:
+1. Assertive Slice (Med Phys)
+2. Social Dominance (Med Phys)
+3. Decision Strike (Med Phys)
+4. Advance Slash (Hvy Phys)
+5. Value Touch (Hvy Fire)
+6. Ember Gaze (Med Fire)
+7. Shocking Humor (Light Elec)
+8. 3 Second Rule (Charge)
 
 
 Persona Registered:
@@ -575,6 +647,30 @@ Skills:
 
 
 Persona Registered:
+Name: Kushinada
+Arcana: Lovers
+Level: 11
+
+Stats: 
+------------------------
+St: 4
+Ma: 6
+En: 1
+Ag: 3
+Lu: 1
+
+Skills:
+1. Sync Surge (Med Nuke)
+2. Tailwind Cascade (Hvy Wind)
+3. Purpose Focus (Concentrate)
+4. Confidence Drive (Atk buff)
+5. Twin Breath (Lvl 1 Healing)
+6. Focused Breathing (Lvl 1 Healing)
+7. Hazard Audit (Fear Recovery)
+8. Temper Drop (Rage Recovery)
+
+
+Persona Registered:
 Name: Agathion
 Arcana: Chariot
 Level: 20
@@ -588,7 +684,7 @@ Ag: 3
 Lu: 2
 
 Skills:
-1. Self-Control
+1. Self-Control (Auto def buff)
 2. Gentleman's Flattery
 3. Direct Curiosity
 4. 
@@ -642,7 +738,7 @@ Skills:
 4. Confidence Surge (Atk buff)
 5. 3-Second Rule (Charge)
 6. Opening Gambit (Med Phys)
-7. Advance Slash (Heavy Phys)
+7. Advance Slash (Hvy Phys)
 8. Volt Revive (Light Elec)
 
 
@@ -668,6 +764,30 @@ Skills:
 6. 
 7. 
 8. 
+
+
+Persona Registered:
+Name: Ara Mitama
+Arcana: Chariot
+Level: 15
+
+Stats: 
+------------------------
+St: 6
+Ma: 6
+En: 5
+Ag: 1
+Lu: 1
+
+Skills:
+1. Crowd Echo (Med Nuke)
+2. Spotlight Surge (Hvy Nuke)
+3. Flash Bounce (Med Nuke)
+4. Cold Cut (Light Phys)
+5. Calling Fang (Light Phys)
+6. Shocking Humor (Light Elec)
+7. 3-Second Rule (Charge)
+8. Confidence Drive (Atk buff)
 
 
 Persona Registered:
@@ -708,12 +828,36 @@ Ag: 10
 Lu: 4
 
 Skills:
-1. Cognition Rift (Heavy Psy)
+1. Cognition Rift (Hvy Psy)
 2. Atmosphere Read (Med Psy)
 3. Sniper Question (Med Gun)
 4. Soft Deflect (Med Gun)
 5. Psy Boost
 6. Dodge Reverse Fire
+7. Contagion Wave (AOE Def Debuff)
+8. Human Nature Savant (Auto Ag Buff)
+
+
+Persona Registered:
+Name: Principality
+Arcana: Justice
+Level: 22
+
+Stats: 
+------------------------
+St: 7
+Ma: 7
+En: 1
+Ag: 8
+Lu: 3
+
+Skills:
+1. Interest Probe (Med Gun)
+2. Social Probe (Med Gun)
+3. Temperament Read (Light Psy)
+4. Atmosphere Read (Med Psy)
+5. Psy Boost
+6. Gun Boost
 7. Contagion Wave (AOE Def Debuff)
 8. Human Nature Savant (Auto Ag Buff)
 
@@ -756,7 +900,7 @@ Ag: 4
 Lu: 1
 
 Skills:
-1. Prioritized Presence (Heavy Psy)
+1. Prioritized Presence (Hvy Psy)
 2. Tranquil Edge (Med Psy)
 3. Regenerate I (HP Regen)
 4. Invigorate I (SP Regen)
@@ -764,6 +908,30 @@ Skills:
 6. 
 7. 
 8. 
+
+
+Persona Registered:
+Name: Ippon-Datara
+Arcana: Hermit
+Level: 14
+
+Stats: 
+------------------------
+St: 1
+Ma: 6
+En: 5
+Ag: 4
+Lu: 2
+
+Skills:
+1. Prioritized Presence (Hvy Psy)
+2. Tranquil Edge (Med Psy)
+3. Regenerate I (HP Regen)
+4. Invigorate I (SP Regen)
+5. Temper Drop (Rage recovery)
+6. Self-Control (Auto Def buff)
+7. Frequency Barrier (AOE atk buff)
+8. Twin Breath (Lvl 1 Healing)
 
 
 Persona Registered:
@@ -836,6 +1004,30 @@ Skills:
 6. 
 7. 
 8. 
+
+
+Persona Registered:
+Name: Lachesis
+Arcana: Fortune
+Level: 1
+
+Stats: 
+------------------------
+St: 1
+Ma: 1
+En: 1
+Ag: 1
+Lu: 1
+
+Skills:
+1. Affinity Beacon (Debilitate)
+2. Self-Security (Def Buff)
+3. 
+4. 
+5. 
+6. 
+7. 
+8. Hazard Audit (Fear Recovery)
 
 
 Persona Registered:
@@ -978,7 +1170,7 @@ Skills:
 4. Ether Break (Atk debuff)
 5. Tactic Diffuser (Ag debuff)
 6. Self-Security (Def buff)
-7. Cognition Rift (Heavy Psy)
+7. Cognition Rift (Hvy Psy)
 8. Focused Breathing (LVl 1 Healing)
 
 
@@ -1002,7 +1194,31 @@ Skills:
 4. Ether Break (Atk debuff)
 5. Tactic Diffuser (Ag debuff)
 6. Self-Security (Def buff)
-7. Cognition Rift (Heavy Psy)
+7. Cognition Rift (Hvy Psy)
+8. Focused Breathing (LVl 1 Healing)
+
+
+Persona Registered:
+Name: Take-Minakata
+Arcana: Hanged Man
+Level: 12
+
+Stats: 
+------------------------
+St: 1
+Ma: 5
+En: 5
+Ag: 4
+Lu: 1
+
+Skills:
+1. Dodge Phys
+2. Dodge Reverse Phys
+3. Dodge Reverse Ice
+4. Ether Break (Atk debuff)
+5. Tactic Diffuser (Ag debuff)
+6. Self-Security (Def buff)
+7. Cognition Rift (Hvy Psy)
 8. Focused Breathing (LVl 1 Healing)
 
 
@@ -1092,14 +1308,38 @@ Ag: 6
 Lu: 3
 
 Skills:
-1. 
-2. 
+1. Slowed Speech (Ag buff)
+2. Self-Security (Def buff)
 3. 
 4. 
 5. 
 6. 
 7. 
 8. 
+
+
+Persona Registered:
+Name: Pisaca
+Arcana: Death
+Level: 15
+
+Stats: 
+------------------------
+St: 1
+Ma: 9
+En: 1
+Ag: 6
+Lu: 2
+
+Skills:
+1. Slowed Speech (Ag buff)
+2. Self-Security (Def buff)
+3. Cognition Rift (Hvy Psy)
+4. Effort Reaper (Curse Instant Kill)
+5. Timeout Clause (Curse Instant Kill)
+6. Self-Control (Auto Def buff)
+7. Drain Ice
+8. Dodge Reverse Ice
 
 
 Persona Registered:
@@ -1166,7 +1406,7 @@ Lu: 1
 Skills:
 1. Black List (Curse Instant Kill)
 2. Effort Reaper (Curse Instant Kill)
-3. Advance Slash (Heavy Phys)
+3. Advance Slash (Hvy Phys)
 4. Dodge Ice
 5. Curse Boost
 6. Human Nature Savant (Auto Ag buff)
@@ -1188,7 +1428,7 @@ Ag: 8
 Lu: 1
 
 Skills:
-1. Cognition Rift (Heavy Psy)
+1. Cognition Rift (Hvy Psy)
 2. Sixth Observation (Light Psy)
 3. Kinesis Gap (Med Psy)
 4. Effort Reaper (Curse High instant kill)
@@ -1212,14 +1452,38 @@ Ag: 8
 Lu: 1
 
 Skills:
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7. 
-8. 
+1. Cognition Rift (Hvy Psy)
+2. Sixth Observation (Light Psy)
+3. Kinesis Gap (Med Psy)
+4. Effort Reaper (Curse High instant kill)
+5. Hollow Stance (Med Curse)
+6. Drain Reverse Psy
+7. Dodge Reverse Bless
+8. Drain Reverse Fire
+
+
+Persona Registered:
+Name: Kaguya
+Arcana: Moon
+Level: 8
+
+Stats: 
+------------------------
+St: 1
+Ma: 4
+En: 1
+Ag: 5
+Lu: 1
+
+Skills:
+1. Atmosphere Read (Med Psy)
+2. Temperament Read (Light Psy)
+3. Hollow Stance (Med Curse)
+4. Effort Reaper (Curse High instant kill)
+5. Drain Ice
+6. Dodge Reverse Bless
+7. Dodge Reverse Wind
+8. Frame Reset (Confusion Recovery)
 
 
 Persona Registered:
@@ -1271,6 +1535,30 @@ Skills:
 
 
 Persona Registered:
+Name: Mithras
+Arcana: Sun
+Level: 19
+
+Stats: 
+------------------------
+St: 8
+Ma: 8
+En: 3
+Ag: 1
+Lu: 3
+
+Skills:
+1. Charming Smile (Light Fire)
+2. Inferno Grip (Med Fire)
+3. Gentleman's Flattery (Med Fire)
+4. Sonic Quip (Light Elec)
+5. Looksmax (Auto Heat-Riser)
+6. Confidence Drive (Atk buff)
+7. Self-Control (Auto def buff)
+8. Ascendancy Link (Def debuff)
+
+
+Persona Registered:
 Name: Phoenix
 Arcana: Faith
 Level: 11
@@ -1316,5 +1604,29 @@ Skills:
 6. 
 7. 
 8. 
+
+
+Persona Registered:
+Name: Unicorn
+Arcana: Faith
+Level: 18
+
+Stats: 
+------------------------
+St: 3
+Ma: 1
+En: 6
+Ag: 6
+Lu: 6
+
+Skills:
+1. Heartfelt Thanks (Med Bless)
+2. Gracious Thanks (Light Bless)
+3. Warm Smile (Light Bless)
+4. Confidence Drive (Atk buff)
+5. Self-Security (Def buff)
+6. Drain Bless
+7. Looksmax (Auto Heat Riser)
+8. Hazard Audit (Fear Recovery)
 
 
