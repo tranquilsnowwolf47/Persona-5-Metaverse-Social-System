@@ -99,9 +99,9 @@ class Compendium:
                   f,
                   "Orpheus F Picaro", "Fool", 22,
                   6,5,5,6,4,
-                  "Tailwind Cascade (Heavy Wind)","Black List (Curse Instant Kill)","Starter Shot (Light Gun)",
+                  "Tailwind Cascade (Hvy Wind)","Black List (Curse Instant Kill)","Starter Shot (Light Gun)",
                   "Mini-Gun (Light Gun)","Surface Graze (Light Gun)","Acknowledgement Shot (Light Gun)",
-                  "Everflow (Heavy Wind)","Career Current (Med Wind)"
+                  "Everflow (Hvy Wind)","Career Current (Med Wind)"
            )
 
     # 5. High Pixie
@@ -136,8 +136,8 @@ class Compendium:
                 f, 
                 "Jack-o'-Lantern", "Magician",20,
                 4,10,5,3,2,
-                "Winds of Knowledge (Medium Wind)","Career Current (Medium Wind)","Deep Dive (Medium Wind)","Mind Glide (Medium Wind)","Subject Shift (Light Gun)",
-                "Mini-Talk (Light Gun)","Echo Shot (Light Gun)","Velvet Note (Medium Fire)")
+                "Winds of Knowledge (Med Wind)","Career Current (Med Wind)","Deep Dive (Med Wind)","Mind Glide (Med Wind)","Subject Shift (Light Gun)",
+                "Mini-Talk (Light Gun)","Echo Shot (Light Gun)","Velvet Note (Med Fire)")
 
     # 2. Cait Sith
     def register_cait_sith_build(self,f):
@@ -213,6 +213,17 @@ class Compendium:
                   "","","","","",
                   "","","",
            )
+    
+    # 5. Kikuri-Hime
+    def register_kikuri_hime_build(self,f):
+           # Register update: 3/11/26
+           return self.register_persona(
+                  f,
+                  "Kikuri-Hime", "Priestess", 14,
+                  1,6,6,4,1,
+                  "Sixth Observation (Light Psy)", "Cognition Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
+                  "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)"
+           )
 
     # Empress Personas:
     # ------------------------------------------------------------------------------------
@@ -228,13 +239,16 @@ class Compendium:
     # 2. Yaksini
     def register_yaksini_bulid(self,f):
            # Register update: 12/17/25
+           # Register update: 3/11/26
            return self.register_persona(
                   f,
-                  "Yaksini", "Empress", 16,
-                  1,1,1,1,1,
+                  "Yaksini", "Empress", 17,
+                  6,8,3,4,1,
                   "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
                   "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)",
            )
+    
+    # 3. Lamia 
 
 
     # Emperor Personas:
@@ -293,8 +307,8 @@ class Compendium:
                   f,
                   "Barong", "Emperor", 28,
                   13,9,5,4,1,
-                  "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Heavy Phys)",
-                  "Value Touch (Heavy Fire)", "Ember Gaze (Medium Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
+                  "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Hvy Phys)",
+                  "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
 
     # Hierophant Personas:
@@ -352,6 +366,17 @@ class Compendium:
                   "", "", "","",
                   "", "", "",""
            )
+    
+    # 5. Kushinada
+    def register_kushinada_build(self,f):
+           # Register update: 3/11/26
+           return self.register_persona(
+                  f,
+                  "Kushinada", "Lovers", 11,
+                  4,6,1,3,1,
+                  "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
+                  "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)"
+           )
 
     # Chariot Personas:
     # ------------------------------------------------------------------------------------
@@ -384,7 +409,7 @@ class Compendium:
                   "Shiki-Ouji","Chariot",26,
                   10,7,7,5,1,
                   "Sync Surge (Med Nuke)","Hyper Link (Med Nuke)","Flare Blast (Med Nuke)","Confidence Surge (Atk buff)",
-                  "3-Second Rule (Charge)","Opening Gambit (Med Phys)","Advance Slash (Heavy Phys)","Volt Revive (Light Elec)"
+                  "3-Second Rule (Charge)","Opening Gambit (Med Phys)","Advance Slash (Hvy Phys)","Volt Revive (Light Elec)"
            )
 
     # 4. Kin-Ki
@@ -396,6 +421,17 @@ class Compendium:
                   7,6,8,3,1,
                   "", "", "","",
                   "", "", "",""
+           )
+    
+    # 5. Ara Mitama 
+    def register_ara_mitama_build(self,f):
+           # Register update: 3/11/26
+           return self.register_persona(
+                  f,
+                  "Ara Mitama", "Chariot", 15,
+                  6,6,5,1,1,
+                  "Crowd Echo (Med Nuke)", "Spotlight Surge (Hvy Nuke)", "Flash Bounce (Med Nuke)","Cold Cut (Light Phys)",
+                  "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)"
            )
 
     # Justice Personas:
@@ -420,7 +456,7 @@ class Compendium:
                   # Register update: 2/7/26
                   "Archangel","Justice", 22,
                   7,5,2,10,4,
-                  "Cognition Rift (Heavy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
+                  "Cognition Rift (Hvy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
                   "Psy Boost","Dodge Reverse Fire","Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
            )
  
@@ -454,20 +490,22 @@ class Compendium:
                   f,
                   "Koropokkuru", "Hermit", 15,
                   1,7,6,4,1,
-                  "Prioritized Presence (Heavy Psy)","Tranquil Edge (Med Psy)","Regenerate I (HP Regen)","Invigorate I (SP Regen)",
+                  "Prioritized Presence (Hvy Psy)","Tranquil Edge (Med Psy)","Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                   "Temper Drop (Rage recovery)","","","",
            )
 
     # 3. Ippon-Datara
     def register_ippon_datara_build(self,f):
            # Register update: 2/18/26
+           # Register update: 3/11/26
            return self.register_persona(
                   f, 
-                  "Ippon-Datara", "Hermit", 10,
-                  1,6,1,4,2,
-                  "Prioritized Presence (Heavy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
-                  "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Focused Breathing (Lvl 1 Healing)"
+                  "Ippon-Datara", "Hermit", 14,
+                  1,6,5,4,2,
+                  "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
+                  "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
            )
+    
 
     # Fortune Personas:
     # ------------------------------------------------------------------------------------
@@ -507,7 +545,7 @@ class Compendium:
            f,
            "Lachesis", "Fortune", 23,
            3,3,3,7,11,
-           "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Heavy Curse)",
+           "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
            "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)"
         
     
@@ -589,7 +627,7 @@ class Compendium:
                   "Inugami", "Hanged Man", 19,
                   5,5,7,4,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
-                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Heavy Psy)", "Focused Breathing (LVl 1 Healing)"
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
            )
 
     # 3. Orthrus
@@ -601,11 +639,20 @@ class Compendium:
                   "Orthrus", "Hanged Man", 15,
                   1,5,6,6,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
-                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Heavy Psy)", "Focused Breathing (LVl 1 Healing)"
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
            )
     
-    # 4. 
+    # 4. Take-Minakata
+    def register_take_minakata_build(self,f):
+           # Register update: 3/11/26
+           return self.register_persona(
+                  f,
+                  "Take-Minakata", "Hanged Man", 12,
+                  1,5,5,4,1,
+                  "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
 
+           )
 
     # Death Personas:
     # ------------------------------------------------------------------------------------
@@ -663,7 +710,7 @@ class Compendium:
                   f,
                   "Pisaca", "Death", 15,
                   1,9,1,6,2,
-                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Heavy Psy)","Effort Reaper (Curse Instant Kill)",
+                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                   "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice"         
            )
 
@@ -708,7 +755,7 @@ class Compendium:
                   f,
                   "Belphegor", "Tower", 12,
                   2,7,1,5,1,
-                  "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Heavy Phys)","Dodge Ice","Curse Boost",
+                  "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
                   "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)",
            )
 
@@ -722,7 +769,7 @@ class Compendium:
                   f,
                   "Succubus", "Moon", 19,
                   1,7,6,8,1,
-                  "Cognition Rift (Heavy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
+                  "Cognition Rift (Hvy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
                   "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
            )
         
@@ -733,7 +780,7 @@ class Compendium:
                   f,
                   "Onmoraki", "Moon", 20,
                   1,8,6,8,1,
-                  "Cognition Rift (Heavy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
+                  "Cognition Rift (Hvy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
                   "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
            )
 
@@ -742,10 +789,10 @@ class Compendium:
            # Register update: 3/10/26
            return self.register_persona(
                   f,
-                  "Kaguya", "Moon", 7,
-                  1,4,1,4,1,
+                  "Kaguya", "Moon", 8,
+                  1,4,1,5,1,
                   "Atmosphere Read (Med Psy)", "Temperament Read (Light Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
-                  "Drain Ice","Dodge Reverse Bless","Dodge Phys", "Frame Reset (Confusion Recovery)"
+                  "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)"
            )  
 
     # Sun Personas:
@@ -806,6 +853,17 @@ class Compendium:
                   3,1,8,6,7,
                   "","","","","","","",""
            )
+    
+    # 3. Unicorn
+    def register_unicorn_build(self,f):
+           # Register update: 3/11/26
+           return self.register_persona(
+                  f,
+                  "Unicorn", "Faith", 18,
+                  3,1,6,6,6,
+                  "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
+                  "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)"
+           )
 
 
 comp = Compendium()
@@ -829,6 +887,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_apsaras_build(file)
     comp.register_koh_i_noor_build(file)
     comp.register_isis_build(file)
+    comp.register_kikuri_hime_build(file)
 
     # Empress Personas
     comp.register_queens_necklace_build(file)
@@ -849,12 +908,14 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_saki_mitama_build(file)
     comp.register_ame_no_uzume_build(file)
     comp.register_leanan_sidhe_build(file)
+    comp.register_kushinada_build(file)
 
     # Chariot Personas
     comp.register_agathion_build(file)
     comp.register_slime_build(file)
     comp.register_shiki_ouji_build(file)
     comp.register_kinki_build(file)
+    comp.register_ara_mitama_build(file)
 
     # Justice Personas
     comp.register_angel_build(file)
@@ -882,6 +943,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_hua_po_build(file)
     comp.register_inugami_build(file)
     comp.register_orthrus_build(file)
+    comp.register_take_minakata_build(file)
 
     # Death Personas
     comp.register_mandrake_build(file)
@@ -916,6 +978,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     # Faith Personas
     comp.register_phoenix_build(file)
     comp.register_tam_lin_build(file)
+    comp.register_unicorn_build(file)
      
      # Councillor 
 
