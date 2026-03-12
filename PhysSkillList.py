@@ -54,7 +54,7 @@ This move values clarity over comfort and decisiveness over delay.
 Ex 2: “Let’s grab coffee sometime.”
 Ex 3: “We should meet up again sometime”
 Ex 4: “We should do something together soon”).
-Deals heavy Phys damage. """)
+Deals heavy Phys damage with a high chance of critical. """)
 
 consequence_hammer = HeavySkills("Consequence Hammer", "Phys", "Heavy", "18%",
 """   - Enforce consequences for continued negative behavior by clearly stating what will happen if the behavior does not change. 
@@ -136,7 +136,7 @@ Ex 3: “I’ll drop my handle in your phone so you’ve got it.”
 Ex 4: “Let me give you my contact real quick.”
 Ex 5: “Let me give you my tag real quick”
 Ex 6: “Let me give you my instagram before you go.”)
-Deals medium Phys damage.""")
+Deals medium Phys damage with a high chance of critical.""")
 
 assertive_slice = MediumSkills("Assertive Slice", "Phys", "Medium", "10%",
 """   - Confidently and assertively state your needs, preferences, boundaries, or acts without apology, aggression, or hesitation. 
@@ -224,3 +224,4 @@ full_phys_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills
 
 
 #PhysSkills.display_skill(advance_slash)
+
