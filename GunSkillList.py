@@ -61,8 +61,8 @@ Advances interaction without pressure, but may lose power if overused or deliver
 (Ex: "I was thinking of checking out the vendor hall. Want to tag along?", 
 Ex 2: "I’m getting food soon. You’re welcome to come with.", 
 Ex 3: "You seem cool. Wanna link up later if we’re still around?"
-Ex 4: “If you’re still gonna be around later, we should link up at the cosplay meet”
-Ex 5: “I’m hopping over to the artist alley. Wanna come scout with me?”). 
+Ex 4: “Since you’re heading to the cosplay meetup, do you wanna walk with me?”
+Ex 5: “I’m hopping over to the artist alley. Wanna come scout with me?”).
 Deals medium Gun damage.""")
 
 sniper_question = MediumSkills("Sniper Question", "Gun", "Medium", "11%",
