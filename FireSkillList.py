@@ -162,7 +162,7 @@ Ex 2: "I like how you think." ,
 Ex 3: "Oh, is that so?"). 
 Deals light Fire damage.""")
 
-gentlemans_flattery = LightSkills("Gentleman's Flattery", "Fire", "Light", 4,
+gentlemans_flattery = LightSkills("Gentleman's Flattery", "Fire", "Medium", 7,
 """   - A confident, well-placed compliment that highlights a specific, standout detail about the target—how they think, present themselves, or carry effort. 
 Rather than generic praise, this skill signals attentiveness and taste. 
 Delivered smoothly and without overexplaining, it feels bold and flattering, lowering defenses through charisma instead of overt kindness or validation. 
@@ -173,8 +173,9 @@ Ex 3: “Your haircut looks fresh man. The fade suits you well”
 Ex 4: “You have a contagious smile, you know that?”
 Ex 2: “Your look really stylish in that outfit/I just wanted to say that you look really stylish in that outfit”
 Ex 6: “Is that a Katana umbrella? That’s awesome as hell”	
-Ex 7: “Is that a Naruto t-shirt? You have some really good taste”).
-Deals light Fire damage.""")
+Ex 7: “Is that a Naruto t-shirt? You have some really good taste”
+Ex 8: “I love your style/I’m a huge fan of your style/“I just wanted to say that I’m a huge fan of your style”.
+Deals medium Fire damage.""")
 
 charming_smile = LightSkills("Charming Smile", "Fire", "Light", 4,
 """   - Flash a confident, charming smile the moment you make eye contact. No words needed, your charisma does the talking nonverbally. 
