@@ -1,5 +1,10 @@
-# Program that handles EXP with individual Personas
+# Filename: PersonaEXPProgramV1.py
+# Date: 3/26/26
+# Author: Aoi | shadowsnowwolf 
 
+
+# Program that handles EXP with individual Personas
+# Make an option to create a Persona from scratch
 
 class Persona:
     # Constructor that defines the attributes of the Persona
@@ -91,7 +96,9 @@ class Persona:
            self.base_lu += lu_allotment # Increments the Lu stat with the input variable
 
 
-    def display_menu(self):
+    # This needs to be a class method
+    @classmethod
+    def display_menu(cls, persona):
             # Option choices:
             # Level up
             # Display current allotment points
@@ -101,10 +108,16 @@ class Persona:
             # Allocate en
             # Allocate ag
             # Allocate lu
-            menu_options = ("Level Up a Persona","Display current Persona allotment points","Display Persona info",
-                            "Allocate St Points","Allocate Ma Points","Allocate En Points","Allocate Ag Points",
+            menu_options = ("Level Up a Persona",
+                            "Display Current Persona Allotment points",
+                            "Display Persona info",
+                            "Allocate St Points",
+                            "Allocate Ma Points",
+                            "Allocate En Points",
+                            "Allocate Ag Points",
                             "Allocate Lu Points")
             menu_option_indexes = (1,2,3,4,5,6,7,8)
+
             print("Persona Menu Option Choices:")
             print("---------------------------------------------------------------")
             for option_index, menu_option in enumerate(menu_options, start=1):
