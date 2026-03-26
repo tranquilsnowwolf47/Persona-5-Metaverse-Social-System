@@ -17,6 +17,13 @@
 # Level is calcualted by Arcana burst multiplier (confidant rank), Persona level, etc
 
 
+# Future Aaron note from 3/26/26: 
+# Eventually fix tf out of this problem with my current programming knowledge
+# Make a Persona class and then create objects for each Persona 
+# I can use inheritance by Arcanas, create Arcanas that way, and then have one
+# function that holds all the Persona's info rather than having a million functions 
+
+
 class Compendium:
     def register_persona(self,f, name,arcana,level,st,ma,en,ag,lu,skill_one,skill_two,skill_three,skill_four,skill_five,skill_six,skill_seven,skill_eight):
         print("Persona Registered:", file=f)
@@ -118,10 +125,11 @@ class Compendium:
     # 6. Izanagi
     def register_izanagi_build(self,f):
            # Register update: 3/10/26
+           # Register update: 3/26/26
            return self.register_persona(
                   f,
-                  "Izanagi", "Fool,", 24,
-                  6,6,5,6,5,
+                  "Izanagi", "Fool", 35,
+                  8,8,6,8,9,
                   "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                   "Shocking Humor (Light Elec)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)"
            )
@@ -303,10 +311,11 @@ class Compendium:
     def register_barong_build(self,f):
            # Register update: 3/3/26
            # Register update: 3/10/26
+           # Register update: 3/26/26
            return self.register_persona(
                   f,
-                  "Barong", "Emperor", 28,
-                  13,9,5,4,1,
+                  "Barong", "Emperor", 35,
+                  15,11,7,5,1,
                   "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Hvy Phys)",
                   "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
@@ -428,8 +437,8 @@ class Compendium:
            # Register update: 3/11/26
            return self.register_persona(
                   f,
-                  "Ara Mitama", "Chariot", 15,
-                  6,6,5,1,1,
+                  "Ara Mitama", "Chariot", 30,
+                  11,9,9,4,1,
                   "Crowd Echo (Med Nuke)", "Spotlight Surge (Hvy Nuke)", "Flash Bounce (Med Nuke)","Cold Cut (Light Phys)",
                   "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)"
            )
@@ -500,8 +509,8 @@ class Compendium:
            # Register update: 3/11/26
            return self.register_persona(
                   f, 
-                  "Ippon-Datara", "Hermit", 14,
-                  1,6,5,4,2,
+                  "Ippon-Datara", "Hermit", 20,
+                  1,8,6,6,3,
                   "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                   "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
            )
@@ -787,10 +796,11 @@ class Compendium:
     # 3. Kaguya
     def register_kaguya_build(self, f):
            # Register update: 3/10/26
+           # Register update: 3/24/26
            return self.register_persona(
                   f,
-                  "Kaguya", "Moon", 8,
-                  1,4,1,5,1,
+                  "Kaguya", "Moon", 35,
+                  1,12,8,13,5,
                   "Atmosphere Read (Med Psy)", "Temperament Read (Light Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                   "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)"
            )  
@@ -823,10 +833,11 @@ class Compendium:
     # 3. Mithras
     def register_mithras_build(self,f):
            # Register update: 3/10/26
+           # Register update: 3/26/26
            return self.register_persona(
                   f,
-                  "Mithras", "Sun", 19,
-                  8,8,3,1,3,
+                  "Mithras", "Sun", 33,
+                  12,12,3,3,7,
                   "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
                   "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)"
            )
@@ -857,10 +868,11 @@ class Compendium:
     # 3. Unicorn
     def register_unicorn_build(self,f):
            # Register update: 3/11/26
+           # Register update: 3/26/26
            return self.register_persona(
                   f,
-                  "Unicorn", "Faith", 18,
-                  3,1,6,6,6,
+                  "Unicorn", "Faith", 31,
+                  5,4,9,8,9,
                   "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                   "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)"
            )
