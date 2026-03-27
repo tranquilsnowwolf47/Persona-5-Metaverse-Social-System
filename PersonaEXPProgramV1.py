@@ -99,18 +99,20 @@ class Persona:
     # This needs to be a class method
     @classmethod
     def display_menu(cls, persona):
+        loop = True
+        while loop:
             # Option choices:
             # Level up
             # Display current allotment points
             # Display persona info
-            # Allocate st
+            # Allocwate st
             # Allocate ma
             # Allocate en
             # Allocate ag
             # Allocate lu
-            menu_options = ("Level Up a Persona",
+            menu_options = ("Display Persona Info",
                             "Display Current Persona Allotment points",
-                            "Display Persona info",
+                            "Level Up a Persona",
                             "Allocate St Points",
                             "Allocate Ma Points",
                             "Allocate En Points",
@@ -129,25 +131,28 @@ class Persona:
                 valid_menu_choice = False
                 print("You did not enter the correct option choice.")
             elif menu_option_choice == menu_option_indexes[0]:
-                Persona.level_up() # Call the function
+                persona.display_persona_info() # Call the function
+                print()
             elif menu_option_choice == menu_option_indexes[1]:
-                Persona.display_current_allotment_points() # Call the function
+                persona.display_current_allotment_points() # Call the function
             elif menu_option_choice == menu_option_indexes[2]:
-                Persona.display_persona_info() # Call the function
+                persona.level_up() # Call the function
             elif menu_option_choice == menu_option_indexes[3]:
-                Persona.allot_st() # Call the function
+                persona.allot_st() # Call the function
             elif menu_option_choice == menu_option_indexes[4]:
-                Persona.allot_ma() # Call the function
+                persona.allot_ma() # Call the function
             elif menu_option_choice == menu_option_indexes[5]:
-                Persona.allot_en() # Call the function
+                persona.allot_en() # Call the function
             elif menu_option_choice == menu_option_indexes[6]:
-                Persona.allot_ag() # Call the function
+                persona.allot_ag() # Call the function
             elif menu_option_choice == menu_option_indexes[7]:
-                Persona.allot_lu() # Call the function
+                persona.allot_lu() # Call the function
 
+            print()
+            loop_choice = input("Would you like to do another? ").lower()
+            if loop_choice != "y":
+                loop = False
+                print("Exiting the program.")
 
-    menu_options = ("Level Up a Persona","Display current Persona allotment points","Display Persona info",
-                            "Allocate St Points","Allocate Ma Points","Allocate En Points","Allocate Ag Points",
-                            "Allocate Lu Points")
-
+    
     
