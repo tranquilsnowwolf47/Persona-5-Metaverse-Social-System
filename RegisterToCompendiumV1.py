@@ -175,6 +175,16 @@ class Compendium:
               5,9,4,5,1,
               "","","","","","","",""
            )
+    
+     # 5. Sandman
+    def register_sandman_build(self,f):
+           # Register update: 3/27/26
+           return self.register_persona(
+                  f,
+                  "Sandman", "Magician", 25,
+                  5,12,6,5,1,
+                  "","","","","","","",""
+           )
 
     # Priestess Personas:
     # ------------------------------------------------------------------------------------
@@ -225,10 +235,11 @@ class Compendium:
     # 5. Kikuri-Hime
     def register_kikuri_hime_build(self,f):
            # Register update: 3/11/26
+           # Register update: 3/27/26
            return self.register_persona(
                   f,
-                  "Kikuri-Hime", "Priestess", 14,
-                  1,6,6,4,1,
+                  "Kikuri-Hime", "Priestess", 30,
+                  1,10,12,10,1,
                   "Sixth Observation (Light Psy)", "Cognition Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
                   "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)"
            )
@@ -379,10 +390,11 @@ class Compendium:
     # 5. Kushinada
     def register_kushinada_build(self,f):
            # Register update: 3/11/26
+           # Register update: 3/27/26
            return self.register_persona(
                   f,
-                  "Kushinada", "Lovers", 11,
-                  4,6,1,3,1,
+                  "Kushinada", "Lovers", 25,
+                  6,11,1,6,4,
                   "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
                   "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)"
            )
@@ -475,8 +487,9 @@ class Compendium:
                   f,
                   # Register update: 2/18/26
                   # Register update: 3/10/26
-                  "Principality", "Justice", 22,
-                  7,7,1,8,3,
+                  # Register update: 3/27/26
+                  "Principality", "Justice", 33,
+                  11,7,1,13,5,
                   "Interest Probe (Med Gun)", "Social Probe (Med Gun)", "Temperament Read (Light Psy)","Atmosphere Read (Med Psy)",
                   "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
            )
@@ -550,24 +563,14 @@ class Compendium:
     
     # 4. Lachesis
     def register_lachesis_build(self,f):
+           # Register update: 3/3/26
            # Register update: 3/10/26
+           # Register update: 3/27/26
            f,
-           "Lachesis", "Fortune", 23,
-           3,3,3,7,11,
+           "Lachesis", "Fortune", 35,
+           6,6,3,9,15,
            "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
            "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)"
-        
-    
-    # 4. Lachesis 
-    def register_lachesis_build(self,f):
-           # Register update: 3/3/26
-           return self.register_persona(
-                  f,
-                  "Lachesis", "Fortune", 1,
-                  1,1,1,1,1,
-                  "Affinity Beacon (Debilitate)", "Self-Security (Def Buff)", "", "",
-                  "", "", "", "Hazard Audit (Fear Recovery)"
-           )
     
 
 
@@ -606,9 +609,10 @@ class Compendium:
     def register_rakshasa_build(self, f):
            return self.register_persona(
                   # Register update: 2/7/26
+                  # Register update: 3/27/26
                   f, 
-                  "Rakshasa", "Strength", 18,
-                  1,4,11,3,3,
+                  "Rakshasa", "Strength", 25,
+                  4,6,13,3,3,
                   "", "", "","",
                   "", "", "",""
            )
@@ -654,10 +658,11 @@ class Compendium:
     # 4. Take-Minakata
     def register_take_minakata_build(self,f):
            # Register update: 3/11/26
+           # Register update: 3/27/26
            return self.register_persona(
                   f,
-                  "Take-Minakata", "Hanged Man", 12,
-                  1,5,5,4,1,
+                  "Take-Minakata", "Hanged Man", 30,
+                  5,10,10,8,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
                   "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
 
@@ -893,6 +898,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_cait_sith_build(file)
     comp.register_jack_frost_build(file)
     comp.register_nekomata_build(file)
+    comp.register_sandman_build(file)
 
     # Priestess Personas
     comp.register_silky_build(file)
