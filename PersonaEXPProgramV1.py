@@ -149,7 +149,7 @@ class Persona:
                 persona.allot_lu() # Call the function
 
             print()
-            loop_choice = input("Would you like to do another? ").lower()
+            loop_choice = input("Would you like to choose another option? ").lower()
             if loop_choice != "y":
                 loop = False
                 print("Exiting the program.")
