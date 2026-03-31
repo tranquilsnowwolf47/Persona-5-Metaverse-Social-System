@@ -160,4 +160,8 @@ class Persona:
                 print("Exiting the program.")
 
     
-    
+# Call methods and objects here (you can make as many Persona objects as you want)
+
+
+#sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
+#Persona.display_menu(sample_persona)
