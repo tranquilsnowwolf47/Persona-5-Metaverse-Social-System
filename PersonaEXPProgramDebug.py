@@ -1,14 +1,8 @@
 # Debug program for the Persona EXP Program
 
 
-import PersonaEXPProgramV1
-sandman = PersonaEXPProgramV1.Persona("Sandman","Magician",18,1,1,1,1,1,17)
-
-
-
-
-
-
+import PersonaEXPProgram
+pisaca = PersonaEXPProgram.Persona("Pisaca","Death",15,1,9,1,6,2,0)
 
 #lachesis.display_persona_info()
 #lachesis.level_up()
@@ -21,7 +15,7 @@ sandman = PersonaEXPProgramV1.Persona("Sandman","Magician",18,1,1,1,1,1,17)
 #lachesis.allot_lu()
 #print()
 #lachesis.display_persona_info()
-PersonaEXPProgramV1.Persona.display_menu(sandman)
+PersonaEXPProgram.Persona.display_menu(pisaca)
 
 
 #PersonaEXPProgram.Persona.display_menu(izanagi)
