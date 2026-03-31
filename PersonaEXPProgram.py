@@ -1,10 +1,15 @@
-# Filename: PersonaEXPProgramV1.py
+# Filename: PersonaEXPProgram.py
 # Date: 3/26/26
 # Author: Aoi | shadowsnowwolf 
 
-
 # Program that handles EXP with individual Personas
 # Make an option to create a Persona from scratch
+
+# Processing: 
+# Displays a menu that lets the user choose various options
+# The user can see Persona info, level up their Personas, see their
+# allotment points, or put their current allotment points into the 5 battle 
+# stats to strengthen their Personas 
 
 class Persona:
     # Constructor that defines the attributes of the Persona
