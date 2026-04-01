@@ -19,3 +19,6 @@ On top of using 'Personas' which are various social mentalities and mindsets, my
 The Wild Card is a mechanic in Persona games in which the protagonist is able to switch to multiple Personas which have different skills and elements as opposed to being restricted to one Persona, which is the case for the other main characters. 
 
 
+
+While working on the system, I came to a road block where it started taking way too long to conduct Metaverse operations like building Personas. While it didn't seem like much, I would rotate new Personas around once a month, and with me being able to have up to 12 Personas at once in my party, normal operations took hours and even days worth of effort before I could even start optimally using my newly built Personas with fresh new social techniques. Since I'm a computer science major and programming makes life much easier, I decided: "Eureka! I'll just use my programming skills to automate these processes!", and thus, the Metaverse System programs were born. These programs have drastically cut my system refinemnt time and automated processeses, allowing me to free up more time for other important life things like hitting the gym and studying! (And of course, more programming to make the systems more optimal and save me more time!)
+
