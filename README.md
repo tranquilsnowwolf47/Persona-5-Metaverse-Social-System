@@ -7,6 +7,8 @@ In general, I learned a lot of elaborate social techniques due to researching vi
 
 I took one of my favorite JRPGs and games of all time, Persona 5, and translated it's combat system into social interaction, making social interaction a fun game with rewards for improving your skills and a constant sense of novelty while improving real-life professional and personal skills. 
 
+For a long time, I had undiagnosed ADHD, it I struggled to work with my brain, causing lots of unnecessary difficulty through learning and concepts that I just didn't seem to understand for most of my childhood. However, in my adult years, I began to realize that ADHD brains really like gamifying things and using analogies, so this system was created with that in mind. The Metaverse Social System is neurodivergent-friendly and still optimal to use by neurotypical people, it's just particularly effective towards those with ADHD.
+
 While taking classes in the traditional art of Shaolin Kempo Karate, I learned about the concept of pressure testing, which involves having to perform a practiced effort under stress and pressure, which would reveal how effective that technique would actually be when it counts. This would go for my combinations, self-defense techniques etc.
 
 After learning about this concept, I randomly thought "what if I tried doing this with social skills"? 
