@@ -720,10 +720,11 @@ class Compendium:
     def register_pisaca_build(self, f):
            # Register update: 2/18/26
            # Register update: 3/3/26
+           # Register update: 3/27/26
            return self.register_persona(
                   f,
-                  "Pisaca", "Death", 15,
-                  1,9,1,6,2,
+                  "Pisaca", "Death", 31,
+                  2,13,8,9,3,
                   "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                   "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice"         
            )
