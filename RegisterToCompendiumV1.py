@@ -525,6 +525,7 @@ class Compendium:
                 1,6,6,1,7,
                 "Cooldown (Ice)", "Prioritized Presence (Med Psy)","Soulshare (Ice)","Empathic Echo (Ice)","Reassuring Chill (Ice)","","",""
             )
+    
     # 2. Koropokkuru 
     def register_koropokkuru_build(self,f):
            # Register Update: 12/17/25
@@ -549,6 +550,16 @@ class Compendium:
                   "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
            )
     
+    # 4. Sudama
+    def register_sudama_build(self,f):
+           # Register update: 4/3/26
+           return self.register_persona(
+                  f,
+                  "Sudama", "Hermit", 10,
+                  1,6,3,3,1,
+                  "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
+                  "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
+           )
 
     # Fortune Personas:
     # ------------------------------------------------------------------------------------
@@ -634,6 +645,17 @@ class Compendium:
                   f, 
                   "Rakshasa", "Strength", 25,
                   4,6,13,3,3,
+                  "", "", "","",
+                  "", "", "",""
+           )
+    
+    # 5. Orlov
+    def register_orlov_build(self,f):
+           return self.register_persona(
+                  # Register update: 4/3/26
+                  f,
+                  "Orlove", "Strength", 12,
+                  3,2,7,3,1,
                   "", "", "","",
                   "", "", "",""
            )
@@ -881,6 +903,19 @@ class Compendium:
                   "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)"
            )
     
+    # 4. Yurlungur
+    def register_yurlungur_build(self,f):
+       # Register update: 4/3/26
+       return self.register_persona(
+              f,
+              "Yurlungur", "Sun", 28,
+              9,10,3,3,7,
+              "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
+              "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)"
+              )
+    
+
+    
    # Faith Personas:
    # ------------------------------------------------------------------------------------
    # 1. Phoenix
@@ -912,6 +947,17 @@ class Compendium:
                   f,
                   "Unicorn", "Faith", 31,
                   5,4,9,8,9,
+                  "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
+                  "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)"
+           )
+    
+    # 4. Okuninushi
+    def register_okuninushi_build(self,f):
+           # Register update: 4/3/26
+           return self.register_persona(
+                  f,
+                  "Okuninushi", "Faith", 15,
+                  2,1,5,5,6,
                   "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                   "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)"
            )
@@ -980,6 +1026,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_bicorn_build(file)
     comp.register_koropokkuru_build(file)
     comp.register_ippon_datara_build(file)
+    comp.register_sudama_build(file)
 
     # Fortune Personas
     comp.register_stone_of_scone_build(file)
@@ -992,6 +1039,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_shiisaa_build(file)
     comp.register_oni_build(file)
     comp.register_rakshasa_build(file)
+    comp.register_orlov_build(file)
 
     # Hanged Man Personas
     comp.register_hua_po_build(file)
@@ -1027,6 +1075,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_suzaku_build(file)
     comp.register_thunderbird_build(file)
     comp.register_mithras_build(file)
+    comp.register_yurlungur_build(file)
 
     # Judgement
 
@@ -1034,6 +1083,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_phoenix_build(file)
     comp.register_tam_lin_build(file)
     comp.register_unicorn_build(file)
+    comp.register_okuninushi_build(file)
      
      # Councillor 
 
