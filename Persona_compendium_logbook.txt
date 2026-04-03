@@ -120,16 +120,40 @@ Skills:
 
 Persona Registered:
 Name: Izanagi
-Arcana: Fool,
-Level: 24
+Arcana: Fool
+Level: 35
 
 Stats: 
 ------------------------
-St: 6
-Ma: 6
-En: 5
-Ag: 6
-Lu: 5
+St: 8
+Ma: 8
+En: 6
+Ag: 8
+Lu: 9
+
+Skills:
+1. Mind Glide (Med Wind)
+2. Career Current (Med Wind)
+3. Commentary Jab (Med Gun)
+4. Black List (Curse Instant Kill)
+5. Shocking Humor (Light Elec)
+6. Quick Invite (Med Gun)
+7. Purpose Focus (Concentrate)
+8. Everflow (Hvy Wind)
+
+
+Persona Registered:
+Name: Izanagi Picaro
+Arcana: Fool
+Level: 28
+
+Stats: 
+------------------------
+St: 8
+Ma: 7
+En: 1
+Ag: 8
+Lu: 8
 
 Skills:
 1. Mind Glide (Med Wind)
@@ -224,6 +248,30 @@ Stats:
 St: 5
 Ma: 9
 En: 4
+Ag: 5
+Lu: 1
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Sandman
+Arcana: Magician
+Level: 25
+
+Stats: 
+------------------------
+St: 5
+Ma: 12
+En: 6
 Ag: 5
 Lu: 1
 
@@ -337,14 +385,14 @@ Skills:
 Persona Registered:
 Name: Kikuri-Hime
 Arcana: Priestess
-Level: 14
+Level: 30
 
 Stats: 
 ------------------------
 St: 1
-Ma: 6
-En: 6
-Ag: 4
+Ma: 10
+En: 12
+Ag: 10
 Lu: 1
 
 Skills:
@@ -505,14 +553,14 @@ Skills:
 Persona Registered:
 Name: Barong
 Arcana: Emperor
-Level: 28
+Level: 35
 
 Stats: 
 ------------------------
-St: 13
-Ma: 9
-En: 5
-Ag: 4
+St: 15
+Ma: 11
+En: 7
+Ag: 5
 Lu: 1
 
 Skills:
@@ -649,15 +697,39 @@ Skills:
 Persona Registered:
 Name: Kushinada
 Arcana: Lovers
-Level: 11
+Level: 25
 
 Stats: 
 ------------------------
-St: 4
+St: 6
+Ma: 11
+En: 1
+Ag: 6
+Lu: 4
+
+Skills:
+1. Sync Surge (Med Nuke)
+2. Tailwind Cascade (Hvy Wind)
+3. Purpose Focus (Concentrate)
+4. Confidence Drive (Atk buff)
+5. Twin Breath (Lvl 1 Healing)
+6. Focused Breathing (Lvl 1 Healing)
+7. Hazard Audit (Fear Recovery)
+8. Temper Drop (Rage Recovery)
+
+
+Persona Registered:
+Name: Narcissus
+Arcana: Lovers
+Level: 12
+
+Stats: 
+------------------------
+St: 3
 Ma: 6
 En: 1
-Ag: 3
-Lu: 1
+Ag: 4
+Lu: 2
 
 Skills:
 1. Sync Surge (Med Nuke)
@@ -769,14 +841,14 @@ Skills:
 Persona Registered:
 Name: Ara Mitama
 Arcana: Chariot
-Level: 15
+Level: 30
 
 Stats: 
 ------------------------
-St: 6
-Ma: 6
-En: 5
-Ag: 1
+St: 11
+Ma: 9
+En: 9
+Ag: 4
 Lu: 1
 
 Skills:
@@ -841,15 +913,15 @@ Skills:
 Persona Registered:
 Name: Principality
 Arcana: Justice
-Level: 22
+Level: 33
 
 Stats: 
 ------------------------
-St: 7
+St: 11
 Ma: 7
 En: 1
-Ag: 8
-Lu: 3
+Ag: 13
+Lu: 5
 
 Skills:
 1. Interest Probe (Med Gun)
@@ -913,15 +985,39 @@ Skills:
 Persona Registered:
 Name: Ippon-Datara
 Arcana: Hermit
-Level: 14
+Level: 20
+
+Stats: 
+------------------------
+St: 1
+Ma: 8
+En: 6
+Ag: 6
+Lu: 3
+
+Skills:
+1. Prioritized Presence (Hvy Psy)
+2. Tranquil Edge (Med Psy)
+3. Regenerate I (HP Regen)
+4. Invigorate I (SP Regen)
+5. Temper Drop (Rage recovery)
+6. Self-Control (Auto Def buff)
+7. Frequency Barrier (AOE atk buff)
+8. Twin Breath (Lvl 1 Healing)
+
+
+Persona Registered:
+Name: Sudama
+Arcana: Hermit
+Level: 10
 
 Stats: 
 ------------------------
 St: 1
 Ma: 6
-En: 5
-Ag: 4
-Lu: 2
+En: 3
+Ag: 3
+Lu: 1
 
 Skills:
 1. Prioritized Presence (Hvy Psy)
@@ -1007,30 +1103,6 @@ Skills:
 
 
 Persona Registered:
-Name: Lachesis
-Arcana: Fortune
-Level: 1
-
-Stats: 
-------------------------
-St: 1
-Ma: 1
-En: 1
-Ag: 1
-Lu: 1
-
-Skills:
-1. Affinity Beacon (Debilitate)
-2. Self-Security (Def Buff)
-3. 
-4. 
-5. 
-6. 
-7. 
-8. Hazard Audit (Fear Recovery)
-
-
-Persona Registered:
 Name: Kelpie
 Arcana: Strength
 Level: 16
@@ -1105,15 +1177,39 @@ Skills:
 Persona Registered:
 Name: Rakshasa
 Arcana: Strength
-Level: 18
+Level: 25
 
 Stats: 
 ------------------------
-St: 1
-Ma: 4
-En: 11
+St: 4
+Ma: 6
+En: 13
 Ag: 3
 Lu: 3
+
+Skills:
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered:
+Name: Orlove
+Arcana: Strength
+Level: 12
+
+Stats: 
+------------------------
+St: 3
+Ma: 2
+En: 7
+Ag: 3
+Lu: 1
 
 Skills:
 1. 
@@ -1201,14 +1297,14 @@ Skills:
 Persona Registered:
 Name: Take-Minakata
 Arcana: Hanged Man
-Level: 12
+Level: 30
 
 Stats: 
 ------------------------
-St: 1
-Ma: 5
-En: 5
-Ag: 4
+St: 5
+Ma: 10
+En: 10
+Ag: 8
 Lu: 1
 
 Skills:
@@ -1321,15 +1417,39 @@ Skills:
 Persona Registered:
 Name: Pisaca
 Arcana: Death
+Level: 31
+
+Stats: 
+------------------------
+St: 2
+Ma: 13
+En: 8
+Ag: 9
+Lu: 3
+
+Skills:
+1. Slowed Speech (Ag buff)
+2. Self-Security (Def buff)
+3. Cognition Rift (Hvy Psy)
+4. Effort Reaper (Curse Instant Kill)
+5. Timeout Clause (Curse Instant Kill)
+6. Self-Control (Auto Def buff)
+7. Drain Ice
+8. Dodge Reverse Ice
+
+
+Persona Registered:
+Name: Hell Biker
+Arcana: Death
 Level: 15
 
 Stats: 
 ------------------------
 St: 1
-Ma: 9
-En: 1
-Ag: 6
-Lu: 2
+Ma: 6
+En: 4
+Ag: 5
+Lu: 3
 
 Skills:
 1. Slowed Speech (Ag buff)
@@ -1465,15 +1585,15 @@ Skills:
 Persona Registered:
 Name: Kaguya
 Arcana: Moon
-Level: 8
+Level: 35
 
 Stats: 
 ------------------------
 St: 1
-Ma: 4
-En: 1
-Ag: 5
-Lu: 1
+Ma: 12
+En: 8
+Ag: 13
+Lu: 5
 
 Skills:
 1. Atmosphere Read (Med Psy)
@@ -1537,15 +1657,39 @@ Skills:
 Persona Registered:
 Name: Mithras
 Arcana: Sun
-Level: 19
+Level: 33
 
 Stats: 
 ------------------------
-St: 8
-Ma: 8
+St: 12
+Ma: 12
 En: 3
-Ag: 1
-Lu: 3
+Ag: 3
+Lu: 7
+
+Skills:
+1. Charming Smile (Light Fire)
+2. Inferno Grip (Med Fire)
+3. Gentleman's Flattery (Med Fire)
+4. Sonic Quip (Light Elec)
+5. Looksmax (Auto Heat-Riser)
+6. Confidence Drive (Atk buff)
+7. Self-Control (Auto def buff)
+8. Ascendancy Link (Def debuff)
+
+
+Persona Registered:
+Name: Yurlungur
+Arcana: Sun
+Level: 28
+
+Stats: 
+------------------------
+St: 9
+Ma: 10
+En: 3
+Ag: 3
+Lu: 7
 
 Skills:
 1. Charming Smile (Light Fire)
@@ -1609,14 +1753,38 @@ Skills:
 Persona Registered:
 Name: Unicorn
 Arcana: Faith
-Level: 18
+Level: 31
 
 Stats: 
 ------------------------
-St: 3
+St: 5
+Ma: 4
+En: 9
+Ag: 8
+Lu: 9
+
+Skills:
+1. Heartfelt Thanks (Med Bless)
+2. Gracious Thanks (Light Bless)
+3. Warm Smile (Light Bless)
+4. Confidence Drive (Atk buff)
+5. Self-Security (Def buff)
+6. Drain Bless
+7. Looksmax (Auto Heat Riser)
+8. Hazard Audit (Fear Recovery)
+
+
+Persona Registered:
+Name: Okuninushi
+Arcana: Faith
+Level: 15
+
+Stats: 
+------------------------
+St: 2
 Ma: 1
-En: 6
-Ag: 6
+En: 5
+Ag: 5
 Lu: 6
 
 Skills:
