@@ -134,6 +134,16 @@ class Compendium:
                   "Shocking Humor (Light Elec)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)"
            )
 
+    # 7. Izanagi Picaro
+    def register_izanagi_picaro_build(self,f):
+           # Register update: 4/3/26
+           return self.register_persona(
+                  f,
+                  "Izanagi Picaro", "Fool", 28,
+                  8,7,1,8,8,
+                  "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
+                  "Shocking Humor (Light Elec)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)"
+           )
 
     # Magician Personas:
     # ------------------------------------------------------------------------------------
@@ -395,6 +405,17 @@ class Compendium:
                   f,
                   "Kushinada", "Lovers", 25,
                   6,11,1,6,4,
+                  "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
+                  "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)"
+           )
+    
+    # 6. Narcissus
+    def register_narcissus_build(self,f):
+           # Register update: 4/3/26
+           return self.register_persona(
+                  f,
+                  "Narcissus", "Lovers", 12,
+                  3,6,1,4,2,
                   "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
                   "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)"
            )
@@ -728,6 +749,18 @@ class Compendium:
                   "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                   "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice"         
            )
+    
+    # 6. Hell Biker
+    def register_hell_biker_build(self,f):
+           # Register update: 4/3/26
+           return self.register_persona(
+                  f,
+                  "Hell Biker", "Death", 15,
+                  1,6,4,5,3,
+                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
+                  "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice"         
+           )
+           
 
     # Temperance Personas:
     # ------------------------------------------------------------------------------------
@@ -893,6 +926,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_orpheus_f_picaro_build(file)
     comp.register_high_pixie_build(file)
     comp.register_izanagi_build(file)
+    comp.register_izanagi_picaro_build(file)
 
     # Magician Personas
     comp.register_jack_o_lantern_build(file)
@@ -928,6 +962,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_ame_no_uzume_build(file)
     comp.register_leanan_sidhe_build(file)
     comp.register_kushinada_build(file)
+    comp.register_narcissus_build(file)
 
     # Chariot Personas
     comp.register_agathion_build(file)
@@ -970,6 +1005,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     comp.register_matador_build(file)
     comp.register_nue_build(file)
     comp.register_pisaca_build(file)
+    comp.register_hell_biker_build(file)
 
     # Temperance Personas
     comp.register_genbu_build(file)
