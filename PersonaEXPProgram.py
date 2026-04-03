@@ -165,13 +165,27 @@ class Persona:
 
 #sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
 #Persona.display_menu(sample_persona)
+#hell_biker = Persona("Hell Biker","Death",1,1,1,1,1,1,0)
+#narcissus = Persona("Narcissus","Lovers",1,1,1,1,1,1,0)
 
-izanagi_picaro = Persona("Izanagi Picaro","Fool",1,1,1,1,1,1,0)
-sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
-sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
-sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
-sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
+okuninushi = Persona("Okuninushi","Faith",1,1,1,1,1,1,0)
+sudama = Persona("Sudama","Hermit",1,1,1,1,1,1,0)
+orlov = Persona("Orlov","Strength",1,1,1,1,1,1,0)
+yurlungur = Persona("Yurlungur","Sun",1,1,1,1,1,1,0)
+
+persona_list = [okuninushi, sudama, orlov, yurlungur]
+for persona in persona_list:
+    Persona.display_menu(persona)
 
 
-#Persona.display_menu(izanagi_picaro)
+#Persona.display_menu(hell_biker)
+#Persona.display_menu(narcissus)
+#Persona.display_menu(okuninushi)
+#Persona.display_menu(sudama)
+#Persona.display_menu(orlov)
+#Persona.display_menu(yurlungur)
+#Persona.display_menu()
+#Persona.display_menu()
+#Persona.display_menu()
+
 
