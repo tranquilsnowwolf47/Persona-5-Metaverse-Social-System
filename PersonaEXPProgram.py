@@ -154,7 +154,7 @@ class Persona:
                 persona.allot_lu() # Call the function
 
             print()
-            loop_choice = input("Would you like to choose another option? ").lower()
+            loop_choice = input("Would you like to choose another option? (y for yes, anything else for now): ").lower()
             if loop_choice != "y":
                 loop = False
                 print("Exiting the program.")
@@ -165,3 +165,13 @@ class Persona:
 
 #sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
 #Persona.display_menu(sample_persona)
+
+izanagi_picaro = Persona("Izanagi Picaro","Fool",1,1,1,1,1,1,0)
+sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
+sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
+sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
+sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
+
+
+#Persona.display_menu(izanagi_picaro)
+
