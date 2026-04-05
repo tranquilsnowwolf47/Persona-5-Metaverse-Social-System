@@ -1,5 +1,5 @@
 # Filename: PersonaOptimalBuildProgram.py
-# Date: 1/30/26
+# Date: 1/30/25
 # Author: Aoi | shadowsnowwolf
 
 # Processing:
@@ -269,9 +269,10 @@ fortune_skills = {
 }
 
 strength_skills = {
-    OptimalBuildSystem.skill_types[10] : 4, # Buff
-    OptimalBuildSystem.skill_types[0] : 2, # Phys
+    OptimalBuildSystem.skill_types[10] : 2, # Buff
+    OptimalBuildSystem.skill_types[0] : 1, # Phys
     OptimalBuildSystem.skill_types[12] : 2, # Passive Buffs
+    OptimalBuildSystem.skill_types[15] : 3 # Passives
 }
 
 hanged_man_skills = {
@@ -366,9 +367,9 @@ councillor_skills = {
 
 loop = True
 while loop:
-    #print("List of Arcanas: ")
-    #for arcana in OptimalBuildSystem.list_of_arcanas:
-        #print(arcana)
+    print("\nList of Arcanas: ")
+    for arcana in OptimalBuildSystem.list_of_arcanas:
+        print(arcana)
     arcana_choice = input("\nPlease enter an Arcana (Enter Q to quit): ").capitalize() # Get the user input
     if arcana_choice == "Q":
                 print("\nYou have exited the program. Goodbye Trickster.") # Allow condition to exit the program if the user types Q 
