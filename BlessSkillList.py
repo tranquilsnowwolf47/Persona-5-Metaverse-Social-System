@@ -34,7 +34,7 @@ class LightSkills(BlessSkillls):
     pass
 
 # Medium Damage Grade Skills
-hope_pulse = MediumSkills("Hope Pulse", "Bless", "Medium", 7,
+hope_pulse = MediumSkills("Hope Pulse", "Bless", "Medium", 14,
 """   - Share a brief but uplifting perspective that flips negativity into a brighter outlook. 
 Used when the mood turns heavy, discouraging, or awkward, this spark of optimism reframes the moment and subtly lifts group dynamics toward positivity. 
 The effect works best when it feels genuine and grounded rather than forced.
@@ -44,7 +44,7 @@ Ex 3: Friend after rejection: “Guess I wasn’t good enough.” You: “Or may
 Coworker: “Man, this meeting was pointless.” You: “Pointless meetings are just practice runs for when we actually get to shine. At least we’re warmed up now. 
 Deals medium Bless damage. """)
 
-light_of_insight = MediumSkills("Light of Insight", "Bless", "Medium", 8,
+light_of_insight = MediumSkills("Light of Insight", "Bless", "Medium", 14,
 """   - Offer a perspective that makes obstacles feel manageable, turning worry or hesitation into clarity and hope. 
 This skill subtly shifts the mental focus of everyone present toward positive action.
 (Ex: “What feels like a dead-end is really just the start of the next chapter.”
@@ -54,7 +54,7 @@ Ex 4: “You’ve got the skills to figure this out. Sometimes you just need a f
 Ex 5: “It’s okay to stumble. Each step forward counts, even if it’s small.”
 Deals medium Bless damage. """)
 
-heartfelt_thanks = MediumSkills("Heartfelt Thanks", "Bless", "Medium", 7,
+heartfelt_thanks = MediumSkills("Heartfelt Thanks", "Bless", "Medium", 12,
 """   - Acknowledge and celebrate someone’s effort in connecting, no matter how awkward or inexperienced they are. 
 Your sincere recognition makes them feel valued, builds confidence, and encourages future attempts at social engagement. Also applies to when someone approaches you. 
 (Ex: “Hey, that was really kind of you to say! I appreciate it!”
@@ -64,7 +64,7 @@ Ex 4: “It meant a lot that you approached me”
 Ex 5: “Thanks a lot for approaching me! It was a lot of fun talking with you”).
 Deals medium Bless damage. """)
 
-benevolence_ray = MediumSkills("Benevolence Ray", "Bless", "Medium", 7,
+benevolence_ray = MediumSkills("Benevolence Ray", "Bless", "Medium", 13,
 """   - Share an observation about the target’s behavior, demeanor, or choices that frames them in a positive light they might not have considered themselves. 
 It’s a subtle reminder of their worth, often catching them pleasantly off guard and opening space for more meaningful connection. 
 Ex: Your friend goes for someone’s number but the person doesn’t give it to them, and you praise their courage for approaching regardless.  
@@ -74,7 +74,7 @@ Deals medium Bless damage.""")
 
 
 # Light Damage Grade Skills
-gentle_push = LightSkills("Gentle Push", "Bless", "Light", 4,
+gentle_push = LightSkills("Gentle Push", "Bless", "Light", 5,
 """   - Warmly encourage the target to take a small leap. 
 The support is lighthearted but targeted, designed to make participation feel safe and supportive, rather than intimidating. 
 Perfect for moments where a little confidence boost can spark action. 
@@ -86,7 +86,7 @@ Ex 5: “You should ask them if you have a question. Go for it.”
 Ex 6: “If you give it a shot, it might be something you actually really enjoy”).
 Deals light Bless damage.""")
 
-sunbeam_remark = LightSkills("Sunbeam Remark", "Bless", "Light", 5,
+sunbeam_remark = LightSkills("Sunbeam Remark", "Bless", "Light", 6,
 """   - Deliver a brief, radiant compliment that casts someone in a warm and positive light, like a spotlight that subtly lifts the atmosphere. 
 The intent is to make the person feel like they stand out and that they feel unique, impressive, or exceptional in the moment. 
 Works best when the compliment is specific, sincere, and casually delivered. 
@@ -97,7 +97,7 @@ Ex 4: “You’ve got a really magnetic presence in the way you speak”
 Ex 5: “Your energy really brightens the room”).
 Deals light Bless damage.""")
 
-encouraging_boost = LightSkills("Encouraging Boost", "Bless", "Light", 4,
+encouraging_boost = LightSkills("Encouraging Boost", "Bless", "Light", 7,
 """   - Offer a timely spark of support while someone’s in the middle of their effort. 
 The encouragement validates their progress and fuels momentum, lifting their morale without sounding forced. Works best when it’s specific and in-the-moment, so they feel seen and energized rather than flattered. 
 It inspires the person to keep going and validates their efforts.
@@ -111,12 +111,12 @@ Ex 7: “Let’s go, you got 2 more reps! Finish strong!”
 Ex 8: “You’re a lot more focused than you think. Just look at the progress you’ve been making”).
 Deals light Bless damage.""")
 
-warm_smile = LightSkills("Warm Smile", "Bless", "Light", 4,                    
+warm_smile = LightSkills("Warm Smile", "Bless", "Light", 5,                    
 """   - A deliberate, heartfelt smile paired with steady eye contact. 
 Rather than just being nice, it’s a signal that says you’re welcome here, disarming social tension and creating a micro-moment of trust in the middle of the exchange. 
 Deals light Bless damage.""")
 
-gracious_thanks = LightSkills("Gracious Thanks", "Bless", "Light", 0,
+gracious_thanks = LightSkills("Gracious Thanks", "Bless", "Light", 4,
 """   - When someone offers you a compliment, you respond with warm gratitude that magnifies the positivity of the moment. 
 Rather than brushing it off or downplaying it, you acknowledge their kindness and make them feel good for expressing it. 
 This simple thank-you creates a ripple of optimism that lingers. 
