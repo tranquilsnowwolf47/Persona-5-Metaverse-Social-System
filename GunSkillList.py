@@ -38,7 +38,33 @@ example = quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "",
 """   - X""")
 
 # Heavy Damage Grade Skills 
-quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "20%",
+silver_exit = HeavySkills("Silver Exit", "Gun", "Heavy", "20%",
+"""   - When a conversational attempt fails to hit a weakness, you perform a smooth, confident disengagement that removes tension and preserves your composure. 
+The skill allows you to exit the interaction gracefully, avoiding awkwardness, rejection, or any social backlash. Your exit is deliberate and controlled, making it feel natural or even charming, leaving the target with no friction to react against. 
+Has a high chance of allowing you to trigger an All-Out Attack, decisively ending the conversation on your terms.
+(Ex: “I was just curious.”
+Ex 2: “Take it as a compliment.”
+Ex 3: “Yeah, no worries”
+Ex 4: “All good”
+Ex 5: “Just a random thought.”
+Ex 6: “Just a thought”).
+Deals heavy Gun damage with high chance of critical. """)
+
+background_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "18%",
+"""   - You ask direct but natural questions about a person’s upbringing, family structure, and early environment to quickly map core behavioral patterns. 
+The purpose is rapid profiling—identifying traits like independence, emotional stability, attachment style, discipline, and consistency through formative background signals. 
+Responses reveal how they were shaped over time, allowing you to judge compatibility and behavioral reliability early in the interaction. 
+This skill is most effective when used early to filter whether further engagement is worth your time is to test for compatibility.
+(Ex: “What was it like growing up for you?”
+Ex 2: “Are you close with your family?”
+Ex 3: “Did you grow up more independent or with a lot of structure?”
+Ex 4: “What’s your relationship like with your parents?”
+Ex 5: “How would you describe your home life growing up?”
+Ex 6: “Were things pretty strict or relaxed in your household?”
+Ex 7: “Do you take more after your mom or dad?”).
+Deals heavy Gun damage with moderate chance of critical.""")
+
+quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "14%",
 """   - During a brief interaction, you ask 2–3 carefully chosen questions designed to read the target’s interest, energy, and reciprocation with surgical precision. 
 The questions are casual but precise, giving you meaningful insight while keeping the interaction low-risk. 
 Each question is casual on the surface, but strategically chosen to reveal how engaged they are, how they think, and whether they’re genuinely open to you, just being polite, or if they’re not interested at all. 
@@ -54,7 +80,7 @@ Ex 7: “What are you studying if you don’t mind me asking?”).
 Deals heavy Gun damage.""")
 
 # Medium Damage Grade Skills
-quick_invite = MediumSkills("Quick Invite", "Gun", "Medium", "15%",
+quick_invite = MediumSkills("Quick Invite", "Gun", "Medium", "10%",
 """   - Casually extend an invitation light enough to stay chill, but pointed enough to shift the dynamic. Quick Invite is the social equivalent of tossing the ball into their court without overplaying your hand. 
 It’s a mid-risk, mid-reward move used to test interest and escalate the relationship if it’s meant to be. Best used after minor rapport has been established as timing and tone are needed to effectively use the skill. 
 Advances interaction without pressure, but may lose power if overused or delivered with hesitation. 
@@ -65,7 +91,7 @@ Ex 4: “Since you’re heading to the cosplay meetup, do you wanna walk with me
 Ex 5: “I’m hopping over to the artist alley. Wanna come scout with me?”).
 Deals medium Gun damage.""")
 
-sniper_question = MediumSkills("Sniper Question", "Gun", "Medium", "11%",
+sniper_question = MediumSkills("Sniper Question", "Gun", "Medium", "10%",
 """   - Take a specific detail that the target mentioned– a slip, a hint, or a breadcrumb, and fire it off like a test shot. 
 This question cuts through vague conversation, forces the target to elaborate on a point they made earlier, lowers their evasiness, and pushes them into authenticity without risking major backlash if they dodge. 
 (Ex: "You said you love surprises. Which one actually surprised you?"
@@ -90,7 +116,7 @@ Ex 7: “So what kind of coffee and entrees do you usually get here?”
 Ex 8: “You know any good clothing shops?”).
 Deals medium Gun damage. """)
 
-weekend_needle = MediumSkills("Weekend Needle", "Gun", "Medium", "10%",
+weekend_needle = MediumSkills("Weekend Needle", "Gun", "Medium", "9%",
 """   - Ask a casual, timely question about the target’s upcoming or recent weekend to gauge their availability, lifestyle, or overall vibe. 
 This low-pressure move allows you to gauge the target’s lifestyle without getting personal and opens the door to shared plans or deeper conversation without directly inviting them. 
 If their reply comes back engaged or enthusiastic, you gain a clean 1 More opportunity. 
@@ -100,7 +126,7 @@ Ex 3: “Are you having a chill weekend or a busy one?”
 Ex 4: “Any cool plans lined up for the weekend?”).
 Deals medium Gun damage. """)
 
-soft_deflect = MediumSkills("Soft Deflect", "Gun", "Medium", "12%",
+soft_deflect = MediumSkills("Soft Deflect", "Gun", "Medium", "10%",
 """   - Fire a calm, precise verbal shot to redirect unwanted behavior, conversation, or boundary-crossing intentions without overcommitting. 
 Soft Deflect acts as a low-risk, high-reward maneuver by asserting boundaries, preserving your frame, and reasserting your position without full-on aggression. 
 Keeps you in high-value social standing by not overreacting. 
@@ -113,7 +139,7 @@ Ex 6: “I’m not really into that stuff”
 Ex 7: “I’m not really in the mood for that to be honest”).
 Deals medium Gun damage.""")
 
-social_probe = MediumSkills("Social Probe", "Gun", "Medium","12%",
+social_probe = MediumSkills("Social Probe", "Gun", "Medium","10%",
 """   - Ask a swift, low commitment question at first to gauge a person's social availability/openness and interest in networking outside the moment. 
 You ask the target if they have social media, and their response extracts their level of investment/receptiveness to further connection. High chance of triggering a Hold Up. If they say yes, you get the chance to trigger a Shadow Negotiation. 
 If an excuse comes up, it gives you the opportunity to All-Out Attack.
@@ -133,7 +159,7 @@ Deals medium Gun damage.""")
 
 
 # Light Damage Grade Skills
-commentary_jab = LightSkills("Commentary Jab", "Gun", "Light", "5%",
+commentary_jab = LightSkills("Commentary Jab", "Gun", "Light", "6%",
 """   - Fire off a swift, social shot that makes a brief observation about your surroundings. Useful for safely testing waters and opening dialogues. 
 You can use it in the initial approach or early in conversations to gauge receptiveness and follow up with additional Gun skill combos or other elemental combo depending on if you get a 1 More. 
 Ideal for public or casual settings where an overly direct approach might be inappropriate or awkward. Low-risk and easily recoverable if not reciprocated and naturally invites responses without pressure. 
@@ -146,7 +172,7 @@ Ex 6: “I didn’t expect this place to smell so good– what’s cooking over 
 Ex 7: “That guy’s cosplay is incredible. Have you seen anything like it before?”).
 Deals light Gun damage. """)
 
-binary_choice = LightSkills("Binary Choice", "Gun", "Light", "9%",
+binary_choice = LightSkills("Binary Choice", "Gun", "Light", "5%",
 """   - Fire off a clean, low-risk either-or question that trims the fat off the conversation and forces a quick read. 
 Binary Choice narrows the target’s options, breaks hesitation, and gets passive or indecisive people actually committing to something—without making the interaction heavy. 
 By presenting two simple questions, you force a quick pick and open a window for deeper conversation.  
@@ -155,7 +181,7 @@ Ex 2: "Would you say you’re more of an introvert or an extrovert, and why? ",
 Ex 3: "You more of a coffee or tea person, and why?"). 
 Deals light Gun damage.""")
 
-mood_check = LightSkills("Mood Check", "Gun", "Light", "5%",
+mood_check = LightSkills("Mood Check", "Gun", "Light", "6%",
 """   - A light, casual question aimed at gauging the target’s emotional state/energy without getting too personal and/or overstepping. 
 It's subtle, friendly, and non-intrusive, letting you assess receptiveness before escalating the interaction. 
 Perfect for opening moments, low-commitment conversation, or when someone’s energy seems off. 
@@ -166,7 +192,7 @@ Ex 4: “You seem to be in a good mood today. What’s making it a good one?”
 Ex 5: “Feeling a bit tired today or just relaxed?”). 
 Deals light Gun damage.""")
 
-surface_graze = LightSkills("Surface Graze", "Gun", "Light", "5%",
+surface_graze = LightSkills("Surface Graze", "Gun", "Light", "6%",
 """   - Make a quick, neutral observation about a visible, surface-level aspect of the person: clothing, accessories, hairstyle, etc. 
 It's a simple engagement tool that shows awareness without diving deep. If they respond positively, it opens the path for more personalized conversation. 
 (Ex: "That's a cool jacket, where'd you get it?", 
@@ -207,7 +233,7 @@ Ex 6: “Hey, good to see you!”
 Ex 7: “What’s up man”). 
 Deals light Gun damage.""")
 
-courtesy_shot = LightSkills("Courtesy Shot", "Gun", "Light", "6%",
+courtesy_shot = LightSkills("Courtesy Shot", "Gun", "Light", "5%",
 """   - Deliver a polished, respectful greeting that signals professionalism and courtesy. Your tone, phrasing, and demeanor convey respect, potentially creating a 1 More opportunity. 
 Best used in offices, networking events, business-related inquiries, or any first-meet setting where respect and a good first impression opens doors. (Ex: "Good afternoon ma'am, it's great to see you", 
 Ex 2: "Good evening sir, how are you?"
@@ -216,7 +242,7 @@ Ex 4: “Good morning! I’ve been looking forward to this meeting”
 Ex 5: “Good afternoon, it’s a pleasure to speak with you today). 
 Deals light Gun damage.""")
 
-intent_snap = LightSkills("Intent Snap", "Gun", "Light", "6%",
+intent_snap = LightSkills("Intent Snap", "Gun", "Light", "5%",
 """   - Fire a subtle, non-confrontational question to quickly gauge someone’s intent, presence, or level of engagement. 
 Delivered in a friendly, approachable tone, Extraction Shot gives the illusion of being helpful, but functions as a tactical scan for reading a person’s initial intent. 
 Invites clarification and is great for dealing with socially ambiguous, passive, or nervous individuals.
@@ -265,7 +291,7 @@ Deals light Gun damage.""")
 
 
 severe_skills = ()
-heavy_skills = (quick_probe)
+heavy_skills = (silver_exit, background_probe, quick_probe)
 medium_skills = (quick_invite, sniper_question, interest_probe, weekend_needle, soft_deflect, social_probe, subject_grenade)
 light_skills = (commentary_jab, binary_choice, mood_check, surface_graze, mini_gun, starter_shot, courtesy_shot, intent_snap, echo_shot, subtext_bullet, acknowledgement_shot)
 full_gun_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
