@@ -24,16 +24,16 @@ class AOESkills(BuffSkills):
     pass
 
 # Singular Buff Skills 
-confidence_drive = SingularSkills("Confidence Drive", "Atk Buff | Tarukaja effect", 7,
+confidence_drive = SingularSkills("Confidence Drive", "Atk Buff | Tarukaja effect", 8,
 """   - Embrace your inner confidence, improving your social performance due to your assurance about yourself and your abilities. 
 Attack raises temporarily per battle until the effect wears off. Can be stacked and applied again. """)
 
-self_security = SingularSkills("Self-Security", "Def Buff | Rakukaja effect", 7,
+self_security = SingularSkills("Self-Security", "Def Buff | Rakukaja effect", 8,
 """   - Hone your inner self-security, making yourself unshaken by the opinions, disapproval, or scorn of others. 
 You don’t care if others like you– you care about how you view yourself. 
 Defense raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-slowed_speech = SingularSkills("Slowed Speech", "Ag Buff | Sukukaja effect", 7,
+slowed_speech = SingularSkills("Slowed Speech", "Ag Buff | Sukukaja effect", 8,
 """   - Slow your verbal tempo which forces you to breathe, choose words deliberately, and leave micro-pauses that let you read reactions and react to unexpected questions or statements in real time. 
 You take verbal pauses when needed as well as subtly express to others that you're not in a rush. 
 Your social accuracy increases as you trip over your words less and say more of what you meant to say which causes evasion to go up from being less coerced to trip over your words. 
@@ -54,7 +54,7 @@ Within three seconds, you launch and take action before doubt has time to hijack
 Also applies to making decisions where overthinking could creep up if the skill isn’t used. Increases the damage of your next Physical/Gun attack by 2.5x.""")
 
 purpose_focus = AOESkills("Purpose Focus", "Magic Attack Buff | Concentrate effect", 12,
-"""   - Before engaging, center yourself by locking in a clear purpose for the interaction, such as seeing if you and the person are compatible, making a potential new friend, networking, trying out a social technique, or simply having a conversation. 
+"""   - Before engaging, center yourself by locking in a clear purpose for the interaction, such as seeing if you and the person are compatible, making a potential new friend, networking, trying out a social technique, having a conversation, or pushing for a date with someone you find attractive. 
 This primes your mindset so you enter with direction instead of hesitation, preventing idle or awkward exchanges. Once the interaction begins, the purpose naturally fades into the background, allowing you to focus on presence, flow, and connection without outcome pressure. 
 Your posture, tone, and energy automatically align with your intent, making the approach feel confident and deliberate rather than random. 
 Activation Cue: Take three deep breaths, silently repeat, “I am here to [chosen purpose],” and allow the intent to settle into your body language, tone, and energy. 
