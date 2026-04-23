@@ -37,14 +37,14 @@ example = MediumSkills("X", "Ice", "Medium", 0,
 """   - X""")
 
 # Heavy Damage Grade Skills
-thermal_reset = HeavySkills("Thermal Reset", "Ice", "Heavy", 14,
+thermal_reset = HeavySkills("Thermal Reset", "Ice", "Heavy", 24,
 """   - You intentionally disengage from a tense or emotionally volatile situation, suspending reaction, speech, and decision-making until composure is fully restored. 
 This halts impulsive behavior, prevents regret-based actions, and reasserts emotional sovereignty. You refuse to act while compromised. 
 Useful in high-stake arguments, authority conflicts, relationship flashpoints, or texts you really want to clap back to. 
 Deals heavy Ice damage and may cure Rage, Fear, and Confusion for the user. 
 """)
 
-crystal_resonsance = HeavySkills("Crystal Resonance", "Ice", "Heavy", 12,
+crystal_resonsance = HeavySkills("Crystal Resonance", "Ice", "Heavy", 22,
 """   - You recall something emotionally meaningful the person previously shared and reflect it with care. 
 It shows you're not just listening but holding the information close to them.  
 (Ex: "You said this kind of thing drains you. Want to step away?", 
@@ -57,7 +57,7 @@ Deals heavy Ice damage.""")
 
 
 # Medium Damage Grade Skills 
-platonic_curtain = MediumSkills("Platonic Curtain", "Medium", "Heavy", 8,
+platonic_curtain = MediumSkills("Platonic Curtain", "Medium", "Heavy", 14,
 """   - Lower the emotional temperature and clearly establish platonic intent when friendliness is misinterpreted as flirtation or when romantic boundaries already exist. 
 Through calm tone, neutral framing, and emotional maturity, you remove ambiguity without embarrassment, rejection, or tension. 
 This stabilizes the interaction, preserves mutual respect, and prevents future misunderstandings or social fallout.
@@ -69,7 +69,7 @@ This stabilizes the interaction, preserves mutual respect, and prevents future m
  Ex 6: Calm delivery, relaxed posture, no apology).
 Deals medium Ice damage.""")
 
-glacier_wall = MediumSkills("Glacier Wall", "Ice", "Medium", 8,
+glacier_wall = MediumSkills("Glacier Wall", "Ice", "Medium", 14,
 """   - A calm statement that gently enforces your boundaries without escalating the situation. 
 Used when someone pushes past comfort, tries to test limits, or asks a question that makes you uncomfortable regardless if their intention is malicious or not. 
 (Ex: "I don’t really want to talk about that" 
@@ -77,7 +77,7 @@ Ex 2: “It’s complicated"
 Ex 3: “It’s not something I really talk about often”). 
 Deals medium Ice damage.""")
 
-cold_admission = MediumSkills("Cold Admission", "Ice", "Medium", 10,
+cold_admission = MediumSkills("Cold Admission", "Ice", "Medium", 14,
 """   - Calmly and directly acknowledge your mistake without excuses, emotional leakage, or self-deprecation. 
 By taking clean accountability, you immediately lower emotional temperature, halt escalation, and stabilize the interaction. 
 This prevents defensive spirals, disarms hostility, and reasserts composure through emotional maturity. 
@@ -87,7 +87,7 @@ Ex 3: "You're right-- I dropped the ball there"
 Ex 4: "I should have paid better attention. I won't let that happen next time").
 Deals medium Ice damage.""")
 
-safe_space = MediumSkills("Safe Space", "Ice", "Medium", 8,
+safe_space = MediumSkills("Safe Space", "Ice", "Medium", 11,
 """   - You lower your emotional armor intentionally, making space for the other person to open up. Creates trust through subtle vulnerability and grounded energy. 
 (Ex: "You don't have to talk about it if you're not ready, just know I'm not judging" , 
 Ex 2: "We can talk about it whenever is most comfortable for you. You can take your time."
@@ -98,7 +98,7 @@ Ex 6: “Whatever pace feels right for you is fine with me”
 Ex 7: “I’m here to listen if you ever need to talk.”). 
 Deals medium Ice damage.""")
 
-anchor_presence = MediumSkills("Anchor Presence", "Ice", "Medium", 9,
+anchor_presence = MediumSkills("Anchor Presence", "Ice", "Medium", 14,
 """   - Radiate a calm, collected aura that steadies the atmosphere with your presence. 
 By staying grounded and listening without interrupting, you give space for others to vent or speak while your presence naturally cools tension. 
 Whether someone’s spiraling, overreacting, or running hot, your stillness grounds the room, helping them regulate by syncing with your vibe. 
@@ -106,7 +106,7 @@ Not reacting to emotional energy diffuses the energy on its own, and you remain 
 Ex: A customer is upset with you, but you don’t react and remain calm and professional, their anger and tension starts to diffuse on their own seeing as they didn’t get you to react. 
 Deals medium Ice damage.""")
 
-soulshare = MediumSkills("Soulshare", "Ice", "Medium", 8,
+soulshare = MediumSkills("Soulshare", "Ice", "Medium", 14,
 """   - You share a personal story, experience, or moment that reveals something real about yourself that allows you to relate on an emotional level with your target. 
 It's meant to connect and relate rather than impress. Soulshare creates emotional resonance, helping others feel seen, safe, or inspired. 
 The story doesn't need to be dramatic, it just needs to be genuine and delivered with self-awareness and intention. 
@@ -118,7 +118,7 @@ Ex 5: Sharing a memory that mirrors someone else's experience to build rapport,
 Ex 6: Sharing about an experience you had when someone goes through a similar difficulty to relate the feeling). 
 Deals medium Ice damage.""")
 
-cooldown = MediumSkills("Cooldown", "Ice", "Medium", 9,
+cooldown = MediumSkills("Cooldown", "Ice", "Medium", 13,
 """   - Gently but firmly reduce emotional tension in a heated or uncomfortable situation. 
 Whether someone is getting loud, defensive, or passive-aggressive, Cooldown slows the momentum without grounding energy, which restores clarity and safety to the conversation. 
 Rather than overpowering, it regulates the vibe through maturity and composure. 
@@ -128,7 +128,7 @@ Ex 3: “I think we’re both a little on edge. Let’s reset, yeah?”,
 Ex 4: "I’m not trying to escalate. Let’s slow this down"). 
 Deals medium Ice damage.""")
 
-frostfade = MediumSkills("Frostfade", "Ice", "Medium", 8,
+frostfade = MediumSkills("Frostfade", "Ice", "Medium", 12,
 """   - Calmly disengage or redirect from a social situation that drains, discomforts, or disrespects you. Whether through an excuse, a gentle shutdown, or a smooth redirection, Frostfade allows you to exit gracefully without emotional friction. 
 It prioritizes emotional safety, control, and self-respect, and helps you preserve energy when staying would cost you too much. Also good to use when you feel low chemistry between the parties. 
 (Great for female Phantom Thieves for dealing with creepy dudes).
@@ -140,7 +140,7 @@ Ex 5: “Sorry, I have somewhere to be”
 Ex 6: “It was nice meeting you but I’ve gotta head out now”). 
 Deals medium Ice damage.""")
 
-icebreak_shield = MediumSkills("Icebreaker Shield", "Ice", "Medium", 7,
+icebreak_shield = MediumSkills("Icebreaker Shield", "Ice", "Medium", 12,
 """   -  During conflicts or heated discussions, you express your perspective using “I statements” to reduce perceived aggression. 
 Your calm, measured delivery defuses tension, keeps the conversation controlled, and makes the other person more receptive to your point of view. 
 (Ex: “I feel frustrated when plans change last minute. It makes it hard for me to stay organized.”
@@ -151,7 +151,7 @@ Ex 5: “I feel ignored when I’m sharing something important and I don’t fee
 Ex 5: “I feel pressured when decisions are made for me instead of with me”).
 Deals medium Ice damage.""")
 
-reflective_icebreak = MediumSkills("Reflective Icebreaker", "Ice", "Medium", 7,
+reflective_icebreak = MediumSkills("Reflective Icebreaker", "Ice", "Medium", 11,
 """   - Once rapport has been established, you create a pause in the flow to reflect on something meaningful that was said, not to analyze, but to show you've been listening, feeling, and absorbing the moment. 
 This move deepens connection through thoughtful recognition, emotional mirroring, or subtle vulnerability, gently cooling any remaining tension beneath the surface. 
 (Ex: "It's cool hearing how passionate you are about that, it really shows", 
@@ -162,7 +162,7 @@ Ex 5: “I’m glad we were able to have a conversation like this. I really felt
 Ex 6: “That part of the conversation gave me a clearer picture of where you’re coming from”). 
 Deals medium Ice damage.""")
 
-emotional_mirror = MediumSkills("Emotional Mirror", "Ice", "Medium", 7,
+emotional_mirror = MediumSkills("Emotional Mirror", "Ice", "Medium", 11,
 """   - Go deeper by validating not just the emotion, but its importance to them. 
 Shows you recognize the meaning behind what they feel, building comfort and trust.
 (Ex: “You were in a relationship with them for years. I could imagine the heartbreak of losing them”
@@ -172,7 +172,7 @@ Ex 4: “I see why this trinket means so much to you. The memories you carried i
 Ex 5: “I know how much this dojo means to you. It’s like your happy place”). 
 Deals medium Ice damage.""")
 
-mirrored_empathy = MediumSkills("Mirrored Empathy", "Ice", "Medium", 6,
+mirrored_empathy = MediumSkills("Mirrored Empathy", "Ice", "Medium", 10,
 """   - Empathize with the target in a way that show’s relation to their feelings to stabilize negative feelings through validation. 
 Effective when someone is venting or openly emotional, showing you’re on the same wavelength. 
 (Ex: "I totally get why you're upset. That would bother me too" 
@@ -190,7 +190,7 @@ Ideal when sensing anxiety, nervousness, or hesitation in someone.
 Saying something along the lines of: "It's okay, take your time" can ease tension in conversation and help the target relax. 
 Deals light Ice damage.""")
 
-acknowledgement_frost = LightSkills("Acknowledgement Frost", "Ice", "Light", 3,
+acknowledgement_frost = LightSkills("Acknowledgement Frost", "Ice", "Light", 4,
 """   - Briefly and clearly acknowledge another's viewpoint, signaling genuine understanding without extensive emotional commitment. 
 When you acknowledge the person, you do so without emotional weight. 
 Useful for minor frustrations, casual concerns, or when you want to acknowledge without overinvesting. 
@@ -207,4 +207,4 @@ severe_skills = ()
 heavy_skills = (thermal_reset, crystal_resonsance)
 medium_skills = (platonic_curtain, glacier_wall, cold_admission, safe_space, anchor_presence, soulshare, cooldown, frostfade, icebreak_shield, reflective_icebreak, emotional_mirror, mirrored_empathy)
 light_skills = (reasurring_chill, acknowledgement_frost)
-full_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
+full__skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
