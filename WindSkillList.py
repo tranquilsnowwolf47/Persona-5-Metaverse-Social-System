@@ -36,7 +36,7 @@ class LightSkills(WindSkills):
     pass
 
 # Heavy Skills
-everflow = HeavySkills("Everflow", "Wind", "Heavy", 14,
+everflow = HeavySkills("Everflow", "Wind", "Heavy", 24,
 """   - Anchors you fully in the present moment and dissolves overthinking restoring natural conversational flow. 
 As long as the user remains present and curious, each exchange organically creates the next. 
 Silences stop being threats and become openings, allowing conversation to continuously regenerate. 
@@ -45,7 +45,7 @@ Excels in first meetings, dates, interviews, and long conversations.
 (Ex: Them: “This place is kinda crowded” You: “You: “Yeah—do you usually like busy spots, or are you more low-key?”).
 Deals heavy Wind damage.""")
 
-tailwind_cascade = HeavySkills("Tailwind Cascade", "Wind", "Heavy", 14,
+tailwind_cascade = HeavySkills("Tailwind Cascade", "Wind", "Heavy", 23,
 """   - Deploy a layered chain of follow-up questions that compounds momentum, actively cycles the conversation toward higher-value topics, and stress-tests interest and alignment. 
 Each follow-up builds on the last response, increasing clarity while keeping flow natural and pressure low.
 (Ex: "What part of the work actually keeps you busy?"
@@ -58,16 +58,16 @@ Deals heavy Wind damage.""")
 
 
 # Medium Skills
-callback_gale = MediumSkills("Callback Gale", "Wind", "Medium", 7,
+callback_gale = MediumSkills("Callback Gale", "Wind", "Medium", 11,
 """   - Deliberately reference a personal detail they mentioned previously to bring new potential conversation topics into the mix. 
 You can use it when you've had at least one back-and-forth. 
 For example, if earlier they said they love weekend hikes, bring it up again when you shift topics to lead into new social territory. 
 (Ex: "Last week, you mentioned how much you love weekend hikes. What are your favorite trails to go on and why?"
 Ex 2: “You mentioned earlier that you’re learning guitar. What’s your practicing process look like?”
 Ex 3: “You said you’ve been binge-watching a series. Are you keeping up with it now, or have you switched to something else?”). 
-Deals medium Wind damage. """)
+Deals medium Wind damage.""")
 
-deep_dive = MediumSkills("Deep Dive", "Wind", "Medium", 8,
+deep_dive = MediumSkills("Deep Dive", "Wind", "Medium", 10,
 """   - Follow up after sensing shared interest, asking a more specific, layered question that invites the other person to share opinions, stories, or insider takes. 
 This is the moment where you move past surface-level curiosity and genuinely explore their world. 
 Effective to use after Interest Probe (Gun) lands and they show passion or familiarity with a topic. 
@@ -75,9 +75,9 @@ Can also be used when you want to deepen connection and get them talking more me
 (Ex 1: "Okay, so what's your hot take on the new season?", 
 Ex 2: "You've been to a few cons, right? What's your favorite experience so far?", 
 Ex 3: "You like Persona 5? Who’s your favorite character?"). 
-Deals medium Wind damage. """)
+Deals medium Wind damage.""")
 
-entry_path = MediumSkills("Entry Path", "Wind", "Medium", 8,
+entry_path = MediumSkills("Entry Path", "Wind", "Medium", 11,
 """   - Guide the conversation toward how you could personally get started in a skill, hobby, or field that the target is knowledgeable or experienced in. 
 By positioning them as a reference point or informal guide, you invite practical advice, step-by-step explanations, and natural teaching energy. 
 This builds connection through curiosity, respect, and shared interests while keeping the conversation active and forward-moving.
@@ -89,18 +89,18 @@ This builds connection through curiosity, respect, and shared interests while ke
  Ex 6: “If you were starting over today, what would you do differently?”
 Ex 7: “If you could relearn coding from the beginning what would you do differently?”
 Ex 8: “If I wanted to learn how to code, how would you recommend I start?”).
-Deals medium Wind damage. """)
+Deals medium Wind damage.""")
 
-depth_anchor = MediumSkills("Depth Anchor", "Wind", "Medium", 9,
+depth_anchor = MediumSkills("Depth Anchor", "Wind", "Medium", 11,
 """   - Ask the target for their reasoning for getting into an action, goal, interest, or thing. 
 This shifts conversation from “what” and “how” into identity-level insight, naturally opening storylines, emotions, and value alignment, and getting the user to open up on their reasoning.
 (Ex 1: “What made you want to study biomedical sciences?”
 Ex 2: "“What pushed you to choose that path instead of the others?”
 Ex 3: "What made you choose that specific sport over others?"
 Ex 4: “What made you choose IT over software engineer?”). 
-Deals medium Wind damage. """)
+Deals medium Wind damage.""")
 
-career_current = MediumSkills("Career Current", "Wind", "Medium", 7,
+career_current = MediumSkills("Career Current", "Wind", "Medium", 12,
 """   - Guide the conversation toward someone’s occupation, career path, or professional goals in a natural, curious way. 
 Thoughtful questions reveal their ambitions, values, and work habits, while showing genuine interest. 
 This builds connection, encourages sharing, and gives you meaningful insight into their priorities.
@@ -113,15 +113,15 @@ Ex 5: “So what do you do for work?”
 Ex 6: “What kind of job are you looking for after graduation?”).
 Deals medium Wind damage.""")
 
-mind_glide = MediumSkills("Mind Glide", "Wind", "Medium", 7,
+mind_glide = MediumSkills("Mind Glide", "Wind", "Medium", 14,
 """   - Shift across various social topics, even ones you're not deeply familiar with to keep the conversation flowing and show a genuine willingness to learn. 
 Demonstrates social adaptability and interests in other's worlds, and may open up windows for mutual connection if you discover a mutual interest. 
 Can also be used to shift topics if the current topic is fizzling out or getting awkward, or also when you notice someone is quiet about the topic so you decide to shift to something they may be more able to contribute to. 
 (Ex: "I'm not super familiar with that, but it sounds cool. How does it work?", 
 Ex 2: "I've never really gotten into that, but it sounds interesting. What do you like about it?"). 
-Deals medium Wind damage. """)
+Deals medium Wind damage.""")
 
-thought_unravel = MediumSkills("Thought Unravel", "Wind", "Medium", 8,
+thought_unravel = MediumSkills("Thought Unravel", "Wind", "Medium", 11,
 """   - Ask a sincere, open-ended question that gently pulls at the threads of someone's thoughts, encouraging them to reflect or open up. 
 Ideal for deepening connection or drawing insight from a shadow. 
 (Ex: “What does that mean to you?” 
@@ -129,7 +129,7 @@ Ex 2: “How did that change the way you see things?
 Ex 3: “So what’s your take on this situation?”).
 Deals medium Wind damage.""")
 
-winds_of_knowledge = MediumSkills("Winds of Knowledge", "Wind", "Medium", 7,
+winds_of_knowledge = MediumSkills("Winds of Knowledge", "Wind", "Medium", 10,
 """   - Share something you're genuinely knowledgeable about when it fits the moment, using your insight to enrich the conversation and spark connection. 
 If a topic is brought up, you can explain more about that topic in a way that's educational and fulfilling to the conversation. 
 It’s not about showing off, but giving value and sparking conversation.
