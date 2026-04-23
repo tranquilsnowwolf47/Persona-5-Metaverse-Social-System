@@ -1,3 +1,7 @@
+# Filename: RegisterToCompendiumV2.py
+# Date: 4/23/26
+# Author: Aoi | shadowsnowwolf 
+
 # Update 2026:
 # Note:
 # Need to write to files, don't append. 
