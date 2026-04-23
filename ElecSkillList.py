@@ -37,7 +37,7 @@ example = LightSkills("X", "Elec", "Light", 0,
 """   - X""")
 
 # Heavy Damage Grade Skills
-lightning_retort = HeavySkills("Lightning Retort", "Elec", "Heavy", 13,
+lightning_retort = HeavySkills("Lightning Retort", "Elec", "Heavy", 24,
 """   - A sharp, surgical comeback that cuts deep into the target's ego, delivering a heavy confidence and ego blow. Effective against overconfident, condescending targets, or those who try to make you less than you are. 
 (Ex: Them: *Dismisses your idea* "Sure, good luck making that happen." You: "Right, because your track record speaks for itself" 
 Ex 2: Them: “You’ll never pull that off.” You: “Says the CEO of losers”
@@ -49,7 +49,7 @@ Ex 7: Them: “Why are you even talking to me? I’m out of your league” You: 
 Ex 8: Them: “I’m pretty, and you’re ugly” You: “You’re a 3 on a good day”).
 Deals heavy Elec damage.""")
 
-verbal_parry = HeavySkills("Verbal Parry", "Elec", "Heavy", 12,
+verbal_parry = HeavySkills("Verbal Parry", "Elec", "Heavy", 22,
 """   - A witty, playful deflection that treats the target’s jab as inconsequential. It uses wit and light sarcasm while maintaining your frame and flipping the ego damage on the target instead. Perfect for handling insults, shit-tests, and ego checks using humor and wit to defuse their strike without losing composure. Even harsh digs and insults can be spun into a clever response that projects confidence and unpredictability, turning their attempt to cut you down into fuel for your spark. 
 (Ex: Them: "Wow, you're kinda full of yourself." You: "Not my fault that I’m as confident as I am." 
 Ex 2: Them: “You’re ugly.” You: “I’m so hurt. Grab a mirror silly” Wave them off 
@@ -73,7 +73,7 @@ Ex 5: “I have a love-hate relationship with mornings… mostly hate.”
 Ex 6: “If there was a reward for overthinking I’d reach a guinness world record”). 
 Deals light Elec damage.""")
 
-current_confirmaiton = LightSkills("Current Confirmation", "Elec", "Light", 3,
+current_confirmaiton = LightSkills("Current Confirmation", "Elec", "Light", 6,
 """   - A sly, lightning-quick reframing jab that playfully interprets the target’s hesitation, half-answers, indirect agreements, or non-committal answers as agreement. This move jolts the social tempo by converting ambiguity into momentum, teasing them into engagement without pressure. Perfect for keeping the vibe light, witty, and confidently forward.
 (Ex: "You blinked. That counts as a response" 
 Ex 2: "I speak fluent sarcasm. That was a yes, right?"
@@ -84,7 +84,7 @@ Ex 6: “You didn’t say no, which scientifically means yes”
 Ex 7: “Blink twice if you agree. Welp, looks like we have our answer.”).
 Deals light Elec damage.""")
 
-sonic_quip = LightSkills("Sonic Quip", "Elec", "Light", 4,
+sonic_quip = LightSkills("Sonic Quip", "Elec", "Light", 5,
 """   - A sharp, reactive one-liner that sparks with playful wit. Used to flip comments, banter, or awkward remarks into humor in the moment, showing fast reflexes and clever timing. Best used when the other person gives you something to bounce off of. 
 (Ex: Them: “That’s kind of random.” You: “So am I. Guess I’m like a lucky dice huh?”
 Ex 2: Them: “You’re late.” You: “Perfect timing. I arrived exactly when the plot needed me”
@@ -93,7 +93,7 @@ Ex 4: Them: “You’re late” You: “Yep. And with style”
 Ex 5: Them: “You look tired” You: “Yeah… coffee and I are negotiating”).
 Deals light Elec damage.""")
 
-deadpan_discharge = LightSkills("Deadpan Discharge", "Elec", "Light", 5,
+deadpan_discharge = LightSkills("Deadpan Discharge", "Elec", "Light", 6,
 """   - Respond to a comment, observation, or situation with flat, ironic, or sarcastic humor. Can spark laughter, catch people off guard, and test social receptiveness while signaling wit and cleverness. Can create a 1 More by disarming tension, drawing the target into playful engagement, making the target laugh, or creating a reaction within them.
 (Ex: Them: “I burned dinner again” You: “Nice. Was the fire department impressed this time?”
 Ex 2: Them: “I overspent shopping again” You: “Wow, I’m surprised your bank account hasn’t submitted a complaint for domestic abuse yet”
