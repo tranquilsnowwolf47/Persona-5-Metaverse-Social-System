@@ -47,14 +47,19 @@ def get_skill_type():
         if skill_type_choice in elemental_skills:
             damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
             if damage_grade_validation == "Y":
-                damage_grade_choice = input("Please enter a damage grade (or enter Instant Kill for Instant Kill skills): ").capitalize()
+                damage_grade_choice = input("Please enter a damage grade (or enter Instant Kill for Instant Kill skills (Curse only)): ").capitalize()
+                # If the user chooses Light damage grade, display light skills
+                if damage_grade_choice == damage_grades[0]:
+                    pass
+            # If the user doesn't choose a specific damage grade, just display the list of all elemental skills to them
             else:
                 print("List of elemental skills: ")
                 print("------------------------------------")
-                for elemental_skill in elemental_skills:
+                for elemental_skill in elemental_skills: # I would put the data here from the imported modules, replace later
                     print(elemental_skill)
 
-print(elemental_skills[9])
+#print(elemental_skills[9])
+
     
-    # If they choose an attack skill
-    
+#display_skill_types()
+#get_skill_type()
