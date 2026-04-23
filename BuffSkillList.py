@@ -41,19 +41,19 @@ Extremely effective if you typically speak too quickly, stutter a lot, or don’
 If you misuse the skill and freeze during an interaction however, it can create awkwardness and tension. 
 Accuracy/Evasion raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-aura_max = SingularSkills("Aura Max", "Atk + Def + Accuracy/Evasion Buff | Heat Riser effect", 7,
+aura_max = SingularSkills("Aura Max", "Atk + Def + Accuracy/Evasion Buff | Heat Riser effect", 30,
 """   - After building momentum through social warm-ups (multiple low-stakes interactions), you deliberately ignite your inner aura, locking in your activated state. 
 Your posture settles, breathing stabilizes, and awareness widens. 
 Aura Max converts warm-up momentum into a sustained peak window, causing your presence to become ultra-enhanced-- raising your Attack, Defense, and Accuracy/Evasion temporarily per battle until the effect wears off. 
 Confidence becomes steady, composure holds under pressure, and timing sharpens to instinct. 
 This skill amplifies existing flow rather than creating it—activating from a cold state has reduced effectiveness and higher strain. Can be stacked and reapplied.""")
 
-three_second_rule = AOESkills("3 Second Rule", "Phys/Gun Attack Buff | Charge effect", 12,
+three_second_rule = AOESkills("3 Second Rule", "Phys/Gun Attack Buff | Charge effect", 15,
 """   - The moment you spot someone you're drawn to or want you approach, you set a triggered internal countdown. 
 Within three seconds, you launch and take action before doubt has time to hijack your thoughts and mind. It's a rapid-fire overdrive that converts hesitation into forward motion. 
 Also applies to making decisions where overthinking could creep up if the skill isn’t used. Increases the damage of your next Physical/Gun attack by 2.5x.""")
 
-purpose_focus = AOESkills("Purpose Focus", "Magic Attack Buff | Concentrate effect", 12,
+purpose_focus = AOESkills("Purpose Focus", "Magic Attack Buff | Concentrate effect", 15,
 """   - Before engaging, center yourself by locking in a clear purpose for the interaction, such as seeing if you and the person are compatible, making a potential new friend, networking, trying out a social technique, having a conversation, or pushing for a date with someone you find attractive. 
 This primes your mindset so you enter with direction instead of hesitation, preventing idle or awkward exchanges. Once the interaction begins, the purpose naturally fades into the background, allowing you to focus on presence, flow, and connection without outcome pressure. 
 Your posture, tone, and energy automatically align with your intent, making the approach feel confident and deliberate rather than random. 
@@ -62,16 +62,16 @@ Increases the damage of your next magic attack by 2.5x.""")
 
 
 # AOE Buff skills 
-pep_talk = AOESkills("Pep Talk", "AOE Atk Buff | Matarukaja effect", 12,
+pep_talk = AOESkills("Pep Talk", "AOE Atk Buff | Matarukaja effect", 24,
 """   - Rally your friends and boost their confidence, improving your social performance along with theirs due to the belief that you have in one another’s social competence. 
 Attack raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-collective_closure = AOESkills("Collective Closure Talk", "AOE Def Buff | Marakukaja effect", 12,
+collective_closure = AOESkills("Collective Closure Talk", "AOE Def Buff | Marakukaja effect", 24,
 """   - Reassure yourself and your friends of their resilience and mental fortitude to refine their sense of self-security. 
 Particularly effective if you or your friends dwell on failure or feel your confidence and self-ability drop. 
 Defense raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-flow_sync = AOESkills("Flow Sync", "AOE Accuracy/Evasion Buff | Masukukaja effect", 12,
+flow_sync = AOESkills("Flow Sync", "AOE Accuracy/Evasion Buff | Masukukaja effect", 24,
 """   - Remind your friends when they’re speaking too quickly in conversations or brief them/give constructive critique on any verbal or social errors that they’re making. 
 This accountability helps them to slow down the cadence of the conversation, boosting their Accuracy/Evasion and yours due to increased situational awareness, increasing conversational flow and speed. 
 Use the skill sparingly though, as using it too frequently at once can come across as stepping on toes or overbearing. 
