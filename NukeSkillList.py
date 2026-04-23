@@ -36,7 +36,17 @@ class LightSkills(NukeSkills):
 example = MediumSkills("X", "Nuke", "Medium", 0,
 """   - X""")
 
-spotlight_surge = HeavySkills("Spotlight Surge", "Nuke", "Heavy", 12,
+overload_break = HeavySkills("Overload Break", "Nuke", "Medium", 24,
+"""   - Trigger a high-energy surge in response to success, momentum shifts, or exciting moments, amplifying positive emotion and presence to maximize hype. This skill converts wins, clutch moments, or favorable outcomes into an expressive burst that elevates both personal and group energy. The reaction is fully committed and unrestrained, reinforcing confidence through visible enthusiasm and strong emotional timing. It is used to lock in momentum and make positive moments more impactful and memorable without altering the underlying outcome itself.
+(Ex: reacting strongly after winning or succeeding at something
+Ex 2: hyping up a group after a good result or performance
+Ex 3: celebrating a clutch moment with full energy and presence
+Ex 4: turning a small win into a memorable hype spike
+Ex 5: amplifying excitement during an already positive moment
+Ex 6: reacting enthusiastically to a funny or exciting shift in the situation).
+Deals heavy Nuke damage.""")
+
+spotlight_surge = HeavySkills("Spotlight Surge", "Nuke", "Heavy", 20,
 """   - Perform a daring or impressive public stunt in an appropriate setting, whether it’s at a convention, event, or social gathering to draw attention and generate hype. 
 The act is bold enough to grab eyes, spark conversations, and boost your social presence. 
 Timing, confidence, and security in how you may be perceived by others amplify the effect. 
@@ -46,14 +56,14 @@ Ex 2: Showing off a skill or talent publicly in a way that’s exciting or memor
 Ex 3: Doing a spontaneous dance, pose, or dramatic entrance during a cosplay rave).
 Deals heavy Nuke damage.""")
 
-crowd_echo = MediumSkills("Crowd Echo", "Nuke", "Medium", 8,
+crowd_echo = MediumSkills("Crowd Echo", "Nuke", "Medium", 10,
 """   - You catch onto someone’s excitement and instantly magnify it, bouncing their energy back in a way that amplifies the whole mood. 
 Creates a contagious loop of excitement that fuels connection. 
 (Ex: Person: “This is the best con I’ve been to!” You: “Right?! The energy here is insane!”
 Ex 2: Person: “Dude, that cosplay is fire!” You: “Thanks man! Yours is super clean too!”).
 Deals medium Nuke damage. """)
 
-flare_blast = MediumSkills("Flare Blast", "Nuke", "Medium", 9,
+flare_blast = MediumSkills("Flare Blast", "Nuke", "Medium", 12,
 """   - Deliver a high-energy compliment or playful remark that instantly electrifies the target or group. 
 Perfect for boosting morale, amplifying excitement, or drawing attention in a way that feels natural and fun.
 (Ex: “You really crushed that cosplay! Everyone is noticing!”
@@ -61,7 +71,7 @@ Ex 2: “That pose was next-level, I’m lowkey taking notes!”
 Ex 3: “Your cosplay makes you look like you came straight out of a cutscene!”).
 Deals medium Nuke damage. """)
 
-hyper_link = MediumSkills("Hyper Link", "Nuke", "Medium", 0,
+hyper_link = MediumSkills("Hyper Link", "Nuke", "Medium", 12,
 """   -  Connect multiple people by highlighting shared excitement or achievements, sparking mutual hype. 
 By drawing attention to common energy or accomplishments, you strengthen bonds and elevate the group’s mood.
 (Ex: “You both made that anime fight look amazing. Could you imagine if the three of us did a collab?” (In the example of a Cloud vs Sephiroth, and you’re a Sora cosplayer for higher chance of success)
@@ -75,14 +85,14 @@ The energy spreads, boosting both your morale and that of anyone nearby.
 Ex 2: “You regular Megacon each year too?! We totally gotta link up when we see each other again!”).
 Deals medium Nuke damage. """)
 
-flash_bounce = MediumSkills("Flash Bounce", "Nuke", "Medium", 9,
+flash_bounce = MediumSkills("Flash Bounce", "Nuke", "Medium", 10,
 """   - Catch someone’s excitement or hype and bounce it back with equal energy, instantly amplifying the vibe. 
 Great for one-on-one or small-group interactions where mirroring enthusiasm sparks connection and spreads positivity. 
 (Ex: Person: “Your cosplay is insane!” You: “Thank you so much! Yours is next-level too!”
 Ex 2: Person: “I love your keyblade prop!” You: “I love your Scissor Blade prop too! It looks awesome!”).
 Deals medium Nuke damage. """)
 
-quick_cheer = LightSkills("Quick Cheer", "Nuke", "Light", 5,
+quick_cheer = LightSkills("Quick Cheer", "Nuke", "Light", 4,
 """   - Give a short, high-energy cheer or reaction that instantly uplifts someone’s mood. Perfect for brief, casual social moments. 
 (Ex: “That move was awesome dude!”
 Ex 2:  “You nailed that pose!”
@@ -91,7 +101,7 @@ Ex 4: “The attention to detail in your cosplay is top-notch”).
 Deals light Nuke damage.""")
 
 severe_skills = ()
-heavy_skills = (spotlight_surge)
+heavy_skills = (overload_break, spotlight_surge)
 medium_skills = (crowd_echo, flare_blast, hyper_link, sync_surge, flash_bounce)
 light_skills = (quick_cheer)
 full_nuke_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
