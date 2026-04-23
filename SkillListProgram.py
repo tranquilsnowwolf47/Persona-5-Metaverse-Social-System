@@ -27,9 +27,13 @@ valid_skill_types = ("Phys","Gun","Fire","Ice","Elec","Wind","Psy","Nuke","Bless
 
 
 print("Skill types:")
+print("-----------------------------")
 for skill_type in valid_skill_types:
     print(skill_type)
+try:
+    skill_type = input("\nPlease enter a skill type: ") 
+except ValueError:
+    print("You did not enter a valid skill type.")
 
-skill_type = input("\nPleae enter a skill type: ") 
 # if 
 damage_grade_choice = input("Would you look to choose a specific damage grade? (Y-N): ")
