@@ -27,7 +27,10 @@ valid_skill_types = ("Phys","Gun","Fire","Ice","Elec","Wind","Psy","Nuke","Bless
 
 # Elemental skills that reference indexes from valid skill types 
 elemental_skills = (valid_skill_types[0],valid_skill_types[1],valid_skill_types[2],valid_skill_types[3],
-valid_skill_types[4],valid_skill_types[5])
+valid_skill_types[4],valid_skill_types[5], valid_skill_types[6], valid_skill_types[7], valid_skill_types[8],
+valid_skill_types[9])
+
+damage_grades = ("Light", "Medium", "Heavy", "Severe")
 
 def display_skill_types():
     print("Skill types:")
@@ -40,9 +43,18 @@ def get_skill_type():
     if skill_type_choice not in valid_skill_types:
         print("You did not enter a valid skill type.")
     else:
-        if skill_type_choice 
-    
-    
+        # If the user chooses an elemental skill, give them the choice the filter by damage grade
+        if skill_type_choice in elemental_skills:
+            damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+            if damage_grade_validation == "Y":
+                damage_grade_choice = input("Please enter a damage grade (or enter Instant Kill for Instant Kill skills): ").capitalize()
+            else:
+                print("List of elemental skills: ")
+                print("------------------------------------")
+                for elemental_skill in elemental_skills:
+                    print(elemental_skill)
+
+print(elemental_skills[9])
     
     # If they choose an attack skill
-    #damage_grade_choice = input("Would you like to choose a specific damage grade? (Y-N): ")
+    
