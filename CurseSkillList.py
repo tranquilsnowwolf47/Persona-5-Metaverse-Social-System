@@ -51,13 +51,20 @@ Deals severe Curse damage.""")
 
 
 # Instant Kill Skills
-black_list = InstantKillSkills("Black List", "Curse", "Instant kill", 25,
+get_blocked_for_me = InstantKillSkills("Get Blocked For Me!", "Curse", "Instant kill", 44,
+"""   -  When a target crosses your preset cutoff conditions (disrespect, repeated flaking, low-effort engagement, or any personally defined disqualifier), they are immediately removed from your entire access ecosystem—blocked across all platforms, DM threads closed, contact pathways severed, and future re-entry eliminated. 
+No warning is given, no explanation is offered, and no follow-up occurs. This move treats disqualification as final state rather than debate, collapsing ambiguity by fully erasing access rather than negotiating behavior. 
+Designed to protect your attention economy, preserve momentum, and enforce absolute standards by permanently removing low-value or misaligned connections. Erases any chance of the target(s) having access to you. 
+Note!!: Only useable by the Alice Persona
+Very high chance of inflicting instant kill on all applicable targets.""")
+
+black_list = InstantKillSkills("Black List", "Curse", "Instant kill", 24,
 """   - When flakey behavior crosses your preset tolerance window (as early as the first flake, never later than the third), the target is immediately cut off—DM closed, unfollowed, or access revoked. 
 No message is sent and no clarification is offered. This move treats lack of follow-through as final intent, cutting through excuses and ambiguity by removing the target from your attention economy entirely. 
 Designed to preserve momentum, enforce standards, speed-run options, and eliminate low-investment connections. 
-Very high chance of inflicting instant kill.""")
+High chance of inflicting instant kill.""")
 
-effort_reaper = InstantKillSkills("Effort Reaper", "Curse", "Instant kill", 15,
+effort_reaper = InstantKillSkills("Effort Reaper", "Curse", "Instant kill", 23,
 """   - Monitors the target’s communication over time, tracking patterns of short, non-committal, or disengaged responses. 
 Once their minimal effort crosses your set threshold, you end the interaction entirely, removing them from your roster without ceremony. 
 This decisive move eliminates “dry” time-wasters before they drain more of your energy or block better opportunities. 
@@ -71,7 +78,7 @@ This move filters out low-investment individuals, protects your time, and preven
 Works best when applied consistently to maintain strong boundaries. Against flaky or uninterested targets, it can function like a delayed instant kill. 
 High chance of inflicting instant kill.""")
 
-flake_snare = InstantKillSkills("Flake Snare", "Curse", "Instant kill", 7,
+flake_snare = InstantKillSkills("Flake Snare", "Curse", "Instant kill", 15,
 """   - Call out the gap between someone's words and actions when they cancel or "can't make it" without offering a new time. 
 By directly asking if they'd like to reschedule or pointing out the lack of follow-up, you force clarity on their intent. 
 This move can flush out low investment, reveal disinterest, test for reactions, or motivate genuine people to lock in another time. 
@@ -80,7 +87,7 @@ Medium chance of inflicting instant kill.""")
 
 
 # Heavy Damage Grade Skills
-data_hex = HeavySkills("Data Hex", "Curse", "Heavy", 12,
+data_hex = HeavySkills("Data Hex", "Curse", "Heavy", 22,
 """   - Steer the conversation with carefully framed prompts and follow-ups to coax personal details and extract desired information from the target. 
 By masking probing questions as genuine curiosity, you lower their guard and draw out insights they may not have intended to share. 
 The information you harvest can then lead to 1 Mores, build rapport faster, create information leverage, or be used to qualify or disqualify someone based on how they choose to respond. 
@@ -96,7 +103,7 @@ Ex 5: “Do you go to parties much?”
 Ex: 6: “Who’s someone that you wish you were still close with?”). 
 Deals heavy Curse damage.""")
 
-hidden_blueprint = HeavySkills("", "Curse", "Heavy", 13,
+hidden_blueprint = HeavySkills("Hidden Blueprint", "Curse", "Heavy", 22,
 """   - Deliberately withhold details of long term goals, future plans, or upcoming moves, revealing nothing until you've already achieved or nearly achieved them. 
 This secrecy creates a compelling aura of mystery and prevents others from gaining leverage over your ambitions, nullifying chances of sabotaging your progress in a long, delayed gratification journey. 
 (Ex: Withholding your plans to talk about the job you applied for until after you get it. 
@@ -104,7 +111,7 @@ Prevents copers from criticizing your decision to get that specific job that you
 Ex 2: Not telling negative family members about your long term career goals until you've gotten significant results in the grand scheme of things). 
 Deals heavy Curse damage.""")
 
-veiled_initiative = HeavySkills("Veiled Initiative", "Curse", "Heavy", 11,
+veiled_initiative = HeavySkills("Veiled Initiative", "Curse", "Heavy", 23,
 """   - Intentionally refrain from sharing spontaneous, sensitive plans, early ambitions, or vulnerable details that would invite criticism, discouragement, or meddling. 
 By withholding information that others could judge, sabotage, or talk you out of, you force your target’s Shadow to operate in the dark where uncertainty breeds hesitation. 
 This skill is built on the foundation of human nature that people often undermine what they don’t understand. 
@@ -115,7 +122,7 @@ Deals heavy Curse damage.""")
 
 
 # Medium Damage Grade Skills
-friendzone_seal = MediumSkills("Friendzone Seal", "Curse", "Medium", 9,
+friendzone_seal = MediumSkills("Friendzone Seal", "Curse", "Medium", 14,
 """   - Preemptively establish a strictly platonic frame before romantic feelings or expectations can develop. 
 By casually positioning the connection as “friends only” early on, you prevent romantic interpretation at the root and keep the dynamic clean, comfortable, and aligned. 
 This skill quietly closes a romantic route before it ever opens, avoiding future awkwardness or emotional buildup.
@@ -126,7 +133,7 @@ This skill quietly closes a romantic route before it ever opens, avoiding future
  Ex 5: “You remind me of my friends back home”).
 Deals medium Curse damage.""")
 
-dark_tease = MediumSkills("Dark Tease", "Curse", "Medium", 7,
+dark_tease = MediumSkills("Dark Tease", "Curse", "Medium", 10,
 """   - Deliver a playful jab at the target's quirks or habits. 
 Your teasing is enough to amuse confident types and gain points for playful types, but can backfire on the insecure and sensitive. 
 When it lands successfully, it sparks banter and promotes playful conversation.
@@ -135,25 +142,25 @@ Ex 2: “You’re that ripped and you don’t even work out? You’ve got to be 
 Ex 3: "People are supposed to laugh when you make a joke you know").
 Deals medium Curse damage.""")
 
-blackout = MediumSkills("Blackout", "Curse", "Medium", 8,
+blackout = MediumSkills("Blackout", "Curse", "Medium", 14,
 """   - Purposely withhold response to the target's words or provocations, letting silence and ambiguity do the work. 
 By ignoring them, you refuse to engage– defusing their eagerness for conflict, creating a mystery spark that piques their curiosity, as well as disables problematic behavior, shifting the power dynamic in your favor. 
 Particularly effective against people who are eager to start arguments, conflict, or problems. 
 Deals medium Curse damage.""")
 
-verbal_hex = MediumSkills("Verbal Hex", "Curse", "Medium", 7,
+verbal_hex = MediumSkills("Verbal Hex", "Curse", "Medium", 12,
 """   - Boldly challenge the target's opinion, inviting tension, debate, or deeper engagement. Can gain you respect or trigger someone's ego depending on how it's used. 
 A risky but rewarding move if used in the right scenario. 
 Hitting them with a "Why do you think that?" or a “You sure about that?” is a great way of achieving this effect-- however, it can bruise egos and trigger someone to let their guard up or shut the conversation down entirely if used on the wrong temperament. 
 Deals medium Curse damage.""")
 
-chrono_veil = MediumSkills("Chrono Veil", "Curse", "Medium", 7,
+chrono_veil = MediumSkills("Chrono Veil", "Curse", "Medium", 14,
 """   - Intentionally delay making plans or responding to requests, creating anticipation, mystery, and a sense of value around your time. 
 This creates a scarcity effect which amplifies the target's curiosity and investment, while also preserving your emotional bandwidth and reinforcing healthy boundaries. 
 Delay committing time to the target for a chosen interval of time to build excitement, stimulate emotions, and make the time that you spend with them more fulfilling. 
 Deals medium Curse damage.""")
 
-refusal_rite = MediumSkills("Refusal Rite", "Curse", "Medium", 7,
+refusal_rite = MediumSkills("Refusal Rite", "Curse", "Medium", 12,
 """   - Deny the target's request, whether it's time, a favor, attention, or energy. 
 This assertion of boundaries commands respect, asserts authority, and can reveal the true nature of the connection. 
 Extremely effective for testing the authenticity of the connections and to see how the other person reacts. 
@@ -161,7 +168,7 @@ This skill can be fantastic at revealing someone's priorities, level of self-sec
 (Ex: Person: “Can you get my groceries for me?” You: ”Nope”). 
 Deals medium Curse damage.""")
 
-minimum_echo = MediumSkills("Minimum Echo", "Curse", "Medium", 9,
+minimum_echo = MediumSkills("Minimum Echo", "Curse", "Medium", 14,
 """   - Respond to inquiries with only enough detail to acknowledge the question. 
 By disclosing only minor or vague details, you can create mystery and compel the target to dig deeper or reveal more. 
 This controlled withholding lowers their informational defense, sparks curiosity, and can unsettle those who prefer certainty or direct answers. 
@@ -172,7 +179,7 @@ Ex 2: Them: “What’s your salary range?” You: “Enough to cover the import
 Ex 3: Them: What kind of car did you come in? You: “An SUV”). 
 Deals medium Curse damage. """)
 
-catalyst_trigger = MediumSkills("Catalyst Trigger", "Curse", "Medium", 7,
+catalyst_trigger = MediumSkills("Catalyst Trigger", "Curse", "Medium", 12,
 """   - Say a daring statement or challenge that cuts past small talk and presses on sensitive territory, challenging the other person in some way. 
 This assertive risk can spark spirited debate or deeper honesty, but if mistimed, it can trigger the Shadow's guard or disengage them. 
 Use this skill to jolt the interaction off autopilot and force genuine reactions.
@@ -180,7 +187,7 @@ Use this skill to jolt the interaction off autopilot and force genuine reactions
 Ex 2: “You seem to talk a lot about helping others but it doesn’t seem like you’re really doing it”). 
 Deals medium Curse damage.""")
 
-clock_hold = MediumSkills("Clock Hold", "Curse", "Medium", 7,
+clock_hold = MediumSkills("Clock Hold", "Curse", "Medium", 14,
 """   - After securing someone’s contact information, you intentionally wait an extended period before re-initiating contact. 
 This calculated pause disrupts expectations, subtly signaling independence and high value while fostering anticipation and curiosity. 
 On invested targets, it can heighten intrigue and make your eventual message land with greater impact. 
@@ -188,7 +195,7 @@ On low-investment or easily distracted targets, it risks cooling their interest 
 Best used when you’ve already left a strong first impression. 
 Deals medium Curse damage.""")
 
-reality_spike = MediumSkills("Reality Spike", "Curse", "Medium", 4,
+reality_spike = MediumSkills("Reality Spike", "Curse", "Medium", 13,
 """   - Drop a blunt, unfiltered observation that shatters the flow of polite conversation, exposing an unspoken truth or tension the target would rather keep hidden. 
 This direct strike can destabilize their composure, strip away facades, and force genuine reactions. 
 Powerful for breaking through false fronts, but risks backlash and triggering egos if used recklessly. 
@@ -202,7 +209,7 @@ Ex 7: “You keep blaming circumstances, but deep down you know it’s your lack
 Ex 8: “Come on. You already know why you’re unhappy. You just don’t want to admit it”). 
 Deals medium Curse damage.""")
 
-hollow_stance = MediumSkills("Hollow Stance", "Curse", "Medium", 6,
+hollow_stance = MediumSkills("Hollow Stance", "Curse", "Medium", 12,
 """   - Emit an emotionally detached aura of indifference. 
 By showing little visible investment in the target and displaying little care in their words, and their actions, you introduce ambiguity that can spark curiosity, frustrate needy behavior, or shift the power balance in your favor. 
 Showing neutrality may trigger certain emotional effects in the target which could be effective for maintaining boundaries and testing the target's resilience. 
@@ -215,8 +222,8 @@ mocking_mirror = LightSkills("Mocking Mirror", "Curse", "Light", 4,
 This intentional self-depreciation can show humility and humanize yourself which can disarm the target, lower their defenses, and spark empathy or playful teasing. 
 Overuse or overly harsh self-put-downs risks undermining your frame, inviting loss of respect or disengagement from the target if they start to see you as low-value. 
 Strategic use of this skill is advised.
-(Ex: "I'm the worst cook you've ever met", 
-Ex 2: "Don't mind my dance moves, I dance like a drunk dodo bird"
+(Ex: "I'm the worst cook ever", 
+Ex 2: "I'm absolute shit at dancing"
 Ex 3: "Don’t bring me near devices. I break everything I touch"). 
 Deals light Curse damage.""")
 
@@ -227,14 +234,14 @@ If used on the wrong Shadow type however, it can be resisted entirely, and may t
 This high-risk move can forge rapid rapport with the right crowd or backfire miserably if mistimed. 
 Deals light Curse damage.""")
 
-vanity_bait = LightSkills("Vanity Bait", "Curse", "Light", 5,
+vanity_bait = LightSkills("Vanity Bait", "Curse", "Light", 7,
 """   - Deliver a compliment with little to no genuine sentiment, crafted to bait ego-driven targets into revealing their vanity or self-importance. 
 On narcissistic or approval-hungry individuals, this can prompt them to drop their guard, overshare, or chase further validation. 
 Against perceptive or self-secure targets, however, the move can backfire—damaging rapport or making you appear insincere. 
 Best used sparingly and with a clear follow-up plan to exploit the information gained. 
 Deals light Curse damage and has a chance of lowering the target’s Defense.""")
 
-faux_focus = LightSkills("Faux Focus", "Curse", "Light", 4,
+faux_focus = LightSkills("Faux Focus", "Curse", "Light", 6,
 """   - Feign attentiveness, listening to keep the target’s ego satisfied while conserving your own mental energy. 
 Through well-timed nods, vague affirmations, and occasional eye contact, you create the illusion of engagement without genuinely processing their every word. 
 Especially effective against narcissists or distorted individuals who punish perceived inattention during long, self-indulgent rants. 
@@ -242,7 +249,7 @@ Overuse risks dulling genuine rapport with healthy people, but against the wrong
 Deals light Curse damage.""")
 
 severe_skills = (honey_basher)
-instant_kill_skills = (black_list, effort_reaper, timeout_clause, flake_snare)
+instant_kill_skills = (get_blocked_for_me, black_list, effort_reaper, timeout_clause, flake_snare)
 heavy_skills = (data_hex, hidden_blueprint, veiled_initiative)
 medium_skills = (friendzone_seal, dark_tease, blackout, verbal_hex, chrono_veil, refusal_rite, minimum_echo, catalyst_trigger, clock_hold, reality_spike, hollow_stance)
 light_skills = (mocking_mirror, cursed_joke, vanity_bait, faux_focus)
