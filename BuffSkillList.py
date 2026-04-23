@@ -41,11 +41,12 @@ Extremely effective if you typically speak too quickly, stutter a lot, or don’
 If you misuse the skill and freeze during an interaction however, it can create awkwardness and tension. 
 Accuracy/Evasion raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-aura_max = SingularSkills("Aura Max", "Atk + Def + Accuracy/Evasion Buff | Heat Riser effect", 30,
+frequency_charge = SingularSkills("Frequency Charge", "Atk + Def + Accuracy/Evasion Buff | Heat Riser effect", 30,
 """   - After building momentum through social warm-ups (multiple low-stakes interactions), you deliberately ignite your inner aura, locking in your activated state. 
 Your posture settles, breathing stabilizes, and awareness widens. 
-Aura Max converts warm-up momentum into a sustained peak window, causing your presence to become ultra-enhanced-- raising your Attack, Defense, and Accuracy/Evasion temporarily per battle until the effect wears off. 
-Confidence becomes steady, composure holds under pressure, and timing sharpens to instinct. 
+Frequency Charge converts warm-up momentum into a sustained peak window, causing your presence to become ultra-enhanced-- raising your Attack, Defense, and Accuracy/Evasion temporarily per battle until the effect wears off. 
+Confidence becomes steady, composure holds under pressure, and timing sharpens to instinct.
+You can also trigger the effect by reading a book or article out loud with clear enunciation for about 10-15 minutes before social interaction, or through recording yourself speaking on random topic(s) before social interaction.
 This skill amplifies existing flow rather than creating it—activating from a cold state has reduced effectiveness and higher strain. Can be stacked and reapplied.""")
 
 three_second_rule = AOESkills("3 Second Rule", "Phys/Gun Attack Buff | Charge effect", 15,
@@ -77,5 +78,5 @@ This accountability helps them to slow down the cadence of the conversation, boo
 Use the skill sparingly though, as using it too frequently at once can come across as stepping on toes or overbearing. 
 Accuracy/Evasion raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-singular_skills = (confidence_drive, self_security, slowed_speech, three_second_rule, purpose_focus)
+singular_skills = (confidence_drive, self_security, slowed_speech, frequency_charge, three_second_rule, purpose_focus)
 AOE_skills = (pep_talk, collective_closure, flow_sync)
