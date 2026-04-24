@@ -7,7 +7,7 @@
 # Imports the Skill lists as modules 
 
 # Imports the modules of all the skill categories 
-#import PhysSkillList
+import PhysSkillList
 #import GunSkillList
 #import FireSkillList
 #import IceSkillList
