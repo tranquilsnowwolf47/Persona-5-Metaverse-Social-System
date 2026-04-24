@@ -13,6 +13,17 @@
 
 # Store Personas as Objects
 
+# For now, this Program will focus on just registering Personas to the compendium.
+# Later, we'll have it do everything, like retrieve Persona info, etc. I would have to read 
+# the data from the variable of the Persona object in that case to see 
+
+# Give the user the option choice to register multiple Personas at once
+# (Use a list or tuple for this)
+
+# Maybe make inherited classes from the Persona class for each Arcana
+# Logic:
+# Compendium --> Persona --> Arcana (i.e, Fool)
+
 
 class Compendium:
     # Constructor that sets the attributes for a Persona's info
@@ -41,11 +52,28 @@ class Compendium:
         self.skill6 = skill6
         self.skill7 = skill7
         self.skill8 = skill8
-        
+
+    def display_persona_arcanas():
+        # List of Arcanas that the user will be able to choose from
+        list_of_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant",
+                "Lovers","Chariot","Justice","Hermit","Fortune","Strength",
+                "Hanged Man","Death","Temperance","Devil","Tower","Star",
+                "Moon","Sun","Judgement","Faith","Councillor") 
+
+        # Uses a for loop to display all the Arcanas 
+        print("List of Arcanas: ")
+        print("---------------------------------------------")
+        for valid_arcana in list_of_arcanas:
+            print(valid_arcana)
+    
 
     # Gets input from the user on the Persona they want to register
     def get_persona_info(self):
-        name = input("Please enter the Persona's name to register: ")
+        # User inputs
+        name = input("Enter the Persona's name to register: ")
+        # Calls the function so the user can see the list of Arcanas
+        self.display_persona_arcanas()
+
         arcana = input("Enter the Arcana: ")
         try:
             level = int(input("Enter the level: "))
@@ -108,7 +136,7 @@ class Compendium:
         except ValueError:
             print("Please enter a valid string.")
         
-        return name, arcana, level, st, ma, ag, en, lu, skill1, skill2, skill3, skill4, skill5, skill6, skill7,skill8
+        return name, arcana, level, st, ma, en, ag, lu, skill1, skill2, skill3, skill4, skill5, skill6, skill7,skill8
 
     # Format's the data from the user input and returns it's info
     def set_persona_info(self):
@@ -119,17 +147,18 @@ class Compendium:
         self.arcana = persona_info_output[1] # arcana input
         self.level = persona_info_output[2] # level input
         self.st = persona_info_output[3] # st input
-        self.ma = persona_info_output[4] # ma
-        self.en = persona_info_output[5] # en
-        self.lu = persona_info_output[6] # lu
-        self.skill1 = persona_info_output[7] # skill 1
-        self.skill2 = persona_info_output[8] # skill 2
-        self.skill3 = persona_info_output[9] # skill 3
-        self.skill4 = persona_info_output[10] # skill 4
-        self.skill5 = persona_info_output[11] # skill 5
-        self.skill6 = persona_info_output[12] # skill 6
-        self.skill7 = persona_info_output[13] # skill 7
-        self.skill8 = persona_info_output[14] # skill 8
+        self.ma = persona_info_output[4] # ma input
+        self.en = persona_info_output[5] # en input
+        self.ag = persona_info_input[6] # ag input
+        self.lu = persona_info_output[7] # lu input
+        self.skill1 = persona_info_output[8] # skill 1 input
+        self.skill2 = persona_info_output[9] # skill 2 input
+        self.skill3 = persona_info_output[10] # skill 3 input
+        self.skill4 = persona_info_output[11] # skill 4 input
+        self.skill5 = persona_info_output[12] # skill 5 input
+        self.skill6 = persona_info_output[13] # skill 6 input
+        self.skill7 = persona_info_output[14] # skill 7 input
+        self.skill8 = persona_info_output[15] # skill 8 input
         
         persona_info_output =  f"""
     Persona Registered:  
@@ -144,26 +173,31 @@ class Compendium:
     Lu: {self.lu}
 
     Skills:
-    1. {self.skill_one}
-    2. {self.skill_two}
-    3. {self.skill_three}
-    4. {self.skill_four}
-    5. {self.skill_five}
-    6. {self.skill_six}
-    7. {self.skill_seven}
-    8. {self.skill_eight}
+    1. {self.skill1}
+    2. {self.skill2}
+    3. {self.skill3}
+    4. {self.skill4}
+    5. {self.skill5}
+    6. {self.skill6}
+    7. {self.skill7}
+    8. {self.skill8}
     \n"""
-        return persona_info
+        return persona_info_output
 
     # Writes the data to the file 
-    def register_persona(self, filename="PersonaCompendiumLogbook.txt", mode="w"):
-        arsene_build = set_persona_info()
-        with open(filename, mode) as compendium:
-            compendium.write(arsene)
+    def register_persona(self, filename="persona_compendium.txt", mode="w"):
+        # Set the data as a variable to manipulate 
+        arsene_build = self.set_persona_info()  # Test build for debugging
+
+        # Type cast the data to a string so it can be validly written
+        arsene_build = str(arsene_build)
+
+        # Writes the data as a string into the compenidum
+        with open(filename, mode) as compendium: # I would write all the persona objects in here, not just this one
+            compendium.write(arsene_build)
         
 
 class Persona(Compendium):
     pass
 
-persona_input = Persona.get_persona_info()
-arsene_build = Persona(*persona_input)
+
