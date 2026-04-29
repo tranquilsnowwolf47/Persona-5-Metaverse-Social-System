@@ -1,8 +1,26 @@
 # Debug program for the Persona EXP Program
 
 
+
+
 import PersonaEXPProgram
-pisaca = PersonaEXPProgram.Persona("Pisaca","Death",15,1,9,1,6,2,0)
+izanagi_picaro = PersonaEXPProgram.Persona("Izanagi Picaro","Fool",31,9,7,1,8,9,1)
+sandman = PersonaEXPProgram.Persona("Sandman","Magician",)
+anubis = PersonaEXPProgram.Persona("Anubis","Judgement",)
+berith = PersonaEXPProgram.Persona("Berith","Hierophant",)
+genbu = PersonaEXPProgram.Persona("Genbu","Temperance",)
+orlov = PersonaEXPProgram.Persona("Orlov","Strength",)
+sudama = PersonaEXPProgram.Persona("Sudama","Hermit",)
+lamia = PersonaEXPProgram.Persona("Lamia","Empress",)
+okuninushi = PersonaEXPProgram.Persona("Okuninushi","Faith",)
+narcissus = PersonaEXPProgram.Persona("Narcissus","Lovers",)
+belphegor = PersonaEXPProgram.Persona("Belphegor","Tower",)
+hell_biker = PersonaEXPProgram.Persona("Hell Biker","Death",)
+
+# Performs operations for all personas in the tuple
+personas = (izanagi_picaro, sandman, anubis, berith, genbu, orlov, sudama, lamia, okuninushi, narcissus, belphegor, hell_biker)
+for persona in personas:
+    PersonaEXPProgram.Persona.display_menu(persona)
 
 #lachesis.display_persona_info()
 #lachesis.level_up()
@@ -15,7 +33,6 @@ pisaca = PersonaEXPProgram.Persona("Pisaca","Death",15,1,9,1,6,2,0)
 #lachesis.allot_lu()
 #print()
 #lachesis.display_persona_info()
-PersonaEXPProgram.Persona.display_menu(pisaca)
 
 
 #PersonaEXPProgram.Persona.display_menu(izanagi)
