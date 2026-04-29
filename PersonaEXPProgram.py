@@ -122,8 +122,9 @@ class Persona:
                             "Allocate Ma Points",
                             "Allocate En Points",
                             "Allocate Ag Points",
-                            "Allocate Lu Points")
-            menu_option_indexes = (1,2,3,4,5,6,7,8)
+                            "Allocate Lu Points"
+                            "Exit")
+            menu_option_indexes = (1,2,3,4,5,6,7,8,9)
 
             print("Persona Menu Option Choices:")
             print("---------------------------------------------------------------")
@@ -152,6 +153,9 @@ class Persona:
                 persona.allot_ag() # Call the function
             elif menu_option_choice == menu_option_indexes[7]:
                 persona.allot_lu() # Call the function
+            elif menu_option_choice == menu_option_choice[8]:
+                print("Exited.")
+                continue
 
             print()
             loop_choice = input("Would you like to choose another option? (y for yes, anything else for now): ").lower()
@@ -170,10 +174,10 @@ class Persona:
 
 izanagi_picaro = Persona("Izanagi Picaro","Fool",31,9,7,1,8,9,1)
 sandman = Persona("Sandman","Magician",19,5,12,6,5,1,1)
-anubis = Persona("Anubis","Judgement",6,1,2,1,3,1,,1)
+anubis = Persona("Anubis","Judgement",6,1,2,1,3,1,1)
 berith = Persona("Berith","Hierophant",12,6,1,2,1,1,5)
 genbu = Persona("Genbu","Temperance",16,1,5,6,4,1,4)
-orlov = Persona("Orlov","Strength",14,4,6,13,3,3)
+orlov = Persona("Orlov","Strength",14,3,2,7,3,1,2)
 sudama = Persona("Sudama","Hermit",12,1,7,3,3,1,1)
 lamia = Persona("Lamia","Empress",16,6,8,3,4,1,4)
 okuninushi = Persona("Okuninushi","Faith",18,2,1,6,5,6,2)
@@ -183,7 +187,9 @@ hell_biker = Persona("Hell Biker","Death",18,1,6,4,5,3,3)
 
 # Performs operations for all personas in the tuple
 personas = (izanagi_picaro, sandman, anubis, berith, genbu, orlov, sudama, lamia, okuninushi, narcissus, belphegor, hell_biker)
+
 for persona in personas:
+    print(f"Current Persona: {persona.name} ({persona.arcana})")
     Persona.display_menu(persona)
 
 
