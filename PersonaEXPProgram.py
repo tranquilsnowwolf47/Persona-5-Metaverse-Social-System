@@ -1,4 +1,4 @@
-# Filename: PersonaEXPProgram.py
+# Filename: .py
 # Date: 3/26/26
 # Author: Aoi | shadowsnowwolf 
 
@@ -168,13 +168,22 @@ class Persona:
 #hell_biker = Persona("Hell Biker","Death",1,1,1,1,1,1,0)
 #narcissus = Persona("Narcissus","Lovers",1,1,1,1,1,1,0)
 
-okuninushi = Persona("Okuninushi","Faith",1,1,1,1,1,1,0)
-sudama = Persona("Sudama","Hermit",1,1,1,1,1,1,0)
-orlov = Persona("Orlov","Strength",1,1,1,1,1,1,0)
-yurlungur = Persona("Yurlungur","Sun",1,1,1,1,1,1,0)
+izanagi_picaro = Persona("Izanagi Picaro","Fool",31,9,7,1,8,9,1)
+sandman = Persona("Sandman","Magician",)
+anubis = Persona("Anubis","Judgement",)
+berith = Persona("Berith","Hierophant",)
+genbu = Persona("Genbu","Temperance",)
+orlov = Persona("Orlov","Strength",)
+sudama = Persona("Sudama","Hermit",)
+lamia = Persona("Lamia","Empress",)
+okuninushi = Persona("Okuninushi","Faith",)
+narcissus = Persona("Narcissus","Lovers",)
+belphegor = Persona("Belphegor","Tower",)
+hell_biker = Persona("Hell Biker","Death",)
 
-persona_list = [okuninushi, sudama, orlov, yurlungur]
-for persona in persona_list:
+# Performs operations for all personas in the tuple
+personas = (izanagi_picaro, sandman, anubis, berith, genbu, orlov, sudama, lamia, okuninushi, narcissus, belphegor, hell_biker)
+for persona in personas:
     Persona.display_menu(persona)
 
 
