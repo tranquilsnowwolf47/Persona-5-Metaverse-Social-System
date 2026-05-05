@@ -117,13 +117,13 @@ class Persona:
             # Allocate lu
             menu_options = ("Display Persona Info",
                             "Display Current Persona Allotment points",
-                            "Level Up a Persona",
+                            "Level Up Persona",
                             "Allocate St Points",
                             "Allocate Ma Points",
                             "Allocate En Points",
                             "Allocate Ag Points",
-                            "Allocate Lu Points"
-                            "Exit")
+                            "Allocate Lu Points",
+                            "Skip")
             menu_option_indexes = (1,2,3,4,5,6,7,8,9)
 
             print("Persona Menu Option Choices:")
@@ -132,7 +132,7 @@ class Persona:
                 print(f"{option_index}. {menu_option}")
 
             print()
-            menu_option_choice = int(input("Please choose an option choice (1-8): "))
+            menu_option_choice = int(input("Please choose an option choice (1-9): "))
             if menu_option_choice not in menu_option_indexes:
                 valid_menu_choice = False
                 print("You did not enter the correct option choice.")
@@ -153,7 +153,7 @@ class Persona:
                 persona.allot_ag() # Call the function
             elif menu_option_choice == menu_option_indexes[7]:
                 persona.allot_lu() # Call the function
-            elif menu_option_choice == menu_option_choice[8]:
+            elif menu_option_choice == menu_option_indexes[8]:
                 print("Exited.")
                 continue
 
@@ -172,21 +172,23 @@ class Persona:
 #hell_biker = Persona("Hell Biker","Death",1,1,1,1,1,1,0)
 #narcissus = Persona("Narcissus","Lovers",1,1,1,1,1,1,0)
 
-izanagi_picaro = Persona("Izanagi Picaro","Fool",31,9,7,1,8,9,1)
-sandman = Persona("Sandman","Magician",19,5,12,6,5,1,1)
-anubis = Persona("Anubis","Judgement",6,1,2,1,3,1,1)
-berith = Persona("Berith","Hierophant",12,6,1,2,1,1,5)
-genbu = Persona("Genbu","Temperance",16,1,5,6,4,1,4)
+#hell_biker = Persona("Hell Biker","Death",29,2,10,7,8,3,3)
+#belphegor = Persona("Belphegor","Tower",21,2,7,1,5,1,9)
+#narcissus = Persona("Narcissus","Lovers",20,3,7,1,4,2,7)
+
+
 orlov = Persona("Orlov","Strength",14,3,2,7,3,1,2)
-sudama = Persona("Sudama","Hermit",12,1,7,3,3,1,1)
-lamia = Persona("Lamia","Empress",16,6,8,3,4,1,4)
-okuninushi = Persona("Okuninushi","Faith",18,2,1,6,5,6,2)
-narcissus = Persona("Narcissus","Lovers",20,3,7,1,4,2,7)
-belphegor = Persona("Belphegor","Tower",21,2,7,1,5,1,9)
-hell_biker = Persona("Hell Biker","Death",18,1,6,4,5,3,3)
+genbu = Persona("Genbu","Temperance",16,1,5,6,4,1,4)
+berith = Persona("Berith","Hierophant",12,6,1,2,1,1,5)
+anubis = Persona("Anubis","Judgement",6,1,2,1,3,1,1)
+sandman = Persona("Sandman","Magician",19,5,12,6,5,1,1)
+kodama = Persona("Kodama","Star",4,1,1,1,1,1,3)
+yurlungur = Persona("Yurlungur","Sun",18,2,1,6,5,6,2)
+
+
 
 # Performs operations for all personas in the tuple
-personas = (izanagi_picaro, sandman, anubis, berith, genbu, orlov, sudama, lamia, okuninushi, narcissus, belphegor, hell_biker)
+personas = (orlov, genbu, berith, anubis, sandman, kodama, yurlungur)
 
 for persona in personas:
     print(f"Current Persona: {persona.name} ({persona.arcana})")
