@@ -181,14 +181,14 @@ orlov = Persona("Orlov","Strength",14,3,2,7,3,1,2)
 genbu = Persona("Genbu","Temperance",16,1,5,6,4,1,4)
 berith = Persona("Berith","Hierophant",12,6,1,2,1,1,5)
 anubis = Persona("Anubis","Judgement",6,1,2,1,3,1,1)
-sandman = Persona("Sandman","Magician",19,5,12,6,5,1,1)
+sandman = Persona("Sandman","Magician",29,8,16,6,8,1,1)
 kodama = Persona("Kodama","Star",4,1,1,1,1,1,3)
-yurlungur = Persona("Yurlungur","Sun",18,2,1,6,5,6,2)
+yurlungur = Persona("Yurlungur","Sun",30,10,10,3,4,7,0)
 
 
 
 # Performs operations for all personas in the tuple
-personas = (sandman, kodama, yurlungur)
+personas = (yurlungur, kodama)
 
 for persona in personas:
     print(f"Current Persona: {persona.name} ({persona.arcana})")
