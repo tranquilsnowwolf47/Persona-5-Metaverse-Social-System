@@ -137,12 +137,13 @@ class Compendium:
     # 7. Izanagi Picaro
     def register_izanagi_picaro_build(self,f):
            # Register update: 4/3/26
+           # Register update: 4/30/26
            return self.register_persona(
                   f,
-                  "Izanagi Picaro", "Fool", 28,
-                  8,7,1,8,8,
+                  "Izanagi Picaro", "Fool", 36,
+                  9,7,6,9,9,
                   "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
-                  "Shocking Humor (Light Elec)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)"
+                  "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)"
            )
 
     # Magician Personas:
@@ -250,7 +251,7 @@ class Compendium:
                   f,
                   "Kikuri-Hime", "Priestess", 30,
                   1,10,12,10,1,
-                  "Sixth Observation (Light Psy)", "Cognition Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
+                  "Sixth Observation (Light Psy)", "Intent Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
                   "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)"
            )
 
@@ -278,7 +279,15 @@ class Compendium:
            )
     
     # 3. Lamia 
-
+    def register_lamia_build(self,f):
+           # Register update: 5/1/26
+           return self.register_persona(
+                  f,
+                  "Lamia","Empress", 21,
+                  11,10,3,6,1,
+                  "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
+                  "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)",
+           )
 
     # Emperor Personas:
     # ------------------------------------------------------------------------------------
@@ -412,10 +421,11 @@ class Compendium:
     # 6. Narcissus
     def register_narcissus_build(self,f):
            # Register update: 4/3/26
+           # Register update: 5/1/26
            return self.register_persona(
                   f,
-                  "Narcissus", "Lovers", 12,
-                  3,6,1,4,2,
+                  "Narcissus", "Lovers", 25,
+                  6,10,1,8,4,
                   "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
                   "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)"
            )
@@ -498,7 +508,7 @@ class Compendium:
                   # Register update: 2/7/26
                   "Archangel","Justice", 22,
                   7,5,2,10,4,
-                  "Cognition Rift (Hvy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
+                  "Intent Rift (Hvy Psy)","Atmosphere Read (Med Psy)","Sniper Question (Med Gun)","Soft Deflect (Med Gun)",
                   "Psy Boost","Dodge Reverse Fire","Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
            )
  
@@ -553,10 +563,11 @@ class Compendium:
     # 4. Sudama
     def register_sudama_build(self,f):
            # Register update: 4/3/26
+           # Register update: 5/1/26
            return self.register_persona(
                   f,
-                  "Sudama", "Hermit", 10,
-                  1,6,3,3,1,
+                  "Sudama", "Hermit", 20,
+                  1,11,5,6,1,
                   "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                   "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
            )
@@ -683,7 +694,7 @@ class Compendium:
                   "Inugami", "Hanged Man", 19,
                   5,5,7,4,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
-                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Intent Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
            )
 
     # 3. Orthrus
@@ -695,7 +706,7 @@ class Compendium:
                   "Orthrus", "Hanged Man", 15,
                   1,5,6,6,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
-                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Intent Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
            )
     
     # 4. Take-Minakata
@@ -707,7 +718,7 @@ class Compendium:
                   "Take-Minakata", "Hanged Man", 30,
                   5,10,10,8,1,
                   "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
-                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Cognition Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
+                  "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Intent Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
 
            )
 
@@ -768,18 +779,19 @@ class Compendium:
                   f,
                   "Pisaca", "Death", 31,
                   2,13,8,9,3,
-                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
+                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Intent Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                   "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice"         
            )
     
     # 6. Hell Biker
     def register_hell_biker_build(self,f):
            # Register update: 4/3/26
+           # Register update: 5/1/26
            return self.register_persona(
                   f,
-                  "Hell Biker", "Death", 15,
-                  1,6,4,5,3,
-                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Cognition Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
+                  "Hell Biker", "Death", 29,
+                  2,12,7,9,3,
+                  "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Intent Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                   "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice"         
            )
            
@@ -821,10 +833,11 @@ class Compendium:
            # Register update: 12/19/25
            # Register update: 1/8/25
            # Register update: 2/8/26
+           # Reguster update: 5/1/26
            return self.register_persona(
                   f,
-                  "Belphegor", "Tower", 12,
-                  2,7,1,5,1,
+                  "Belphegor", "Tower", 27,
+                  2,10,6,10,3,
                   "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
                   "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)",
            )
@@ -839,7 +852,7 @@ class Compendium:
                   f,
                   "Succubus", "Moon", 19,
                   1,7,6,8,1,
-                  "Cognition Rift (Hvy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
+                  "Intent Rift (Hvy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
                   "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
            )
         
@@ -850,7 +863,7 @@ class Compendium:
                   f,
                   "Onmoraki", "Moon", 20,
                   1,8,6,8,1,
-                  "Cognition Rift (Hvy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
+                  "Intent Rift (Hvy Psy)","Sixth Observation (Light Psy)","Kinesis Gap (Med Psy)","Effort Reaper (Curse High instant kill)",
                   "Hollow Stance (Med Curse)","Drain Reverse Psy","Dodge Reverse Bless","Drain Reverse Fire"
            )
 
@@ -954,10 +967,11 @@ class Compendium:
     # 4. Okuninushi
     def register_okuninushi_build(self,f):
            # Register update: 4/3/26
+           # Register update: 5/1/26
            return self.register_persona(
                   f,
-                  "Okuninushi", "Faith", 15,
-                  2,1,5,5,6,
+                  "Okuninushi", "Faith", 25,
+                  5,4,9,5,6,
                   "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                   "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)"
            )
@@ -991,6 +1005,7 @@ with open("Persona_compendium_logbook.txt", "w") as file:
     # Empress Personas
     comp.register_queens_necklace_build(file)
     comp.register_yaksini_bulid(file)
+    comp.register_lamia_build(file)
 
     # Emperor Personas
     comp.register_eligor_build(file)
