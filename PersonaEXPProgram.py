@@ -188,7 +188,7 @@ yurlungur = Persona("Yurlungur","Sun",18,2,1,6,5,6,2)
 
 
 # Performs operations for all personas in the tuple
-personas = (orlov, genbu, berith, anubis, sandman, kodama, yurlungur)
+personas = (sandman, kodama, yurlungur)
 
 for persona in personas:
     print(f"Current Persona: {persona.name} ({persona.arcana})")
