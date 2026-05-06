@@ -1,4 +1,6 @@
-Persona Registered:
+
+
+Persona Registered: 
 Name: Arsene
 Arcana: Fool
 Level: 28
@@ -11,7 +13,7 @@ En: 7
 Ag: 7
 Lu: 4
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag Buff)
 2. 3 Second Rule (Charge)
 3. Ether Break (Atk debuff)
@@ -22,7 +24,7 @@ Skills:
 8. Shadow Read (Hvy Psy)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Obariyon
 Arcana: Fool
 Level: 31
@@ -35,7 +37,7 @@ En: 7
 Ag: 5
 Lu: 7
 
-Skills:
+Skills: 
 1. Mind Glide (Med Wind)
 2. Deep Dive (Med Wind)
 3. Interest Probe (Med Gun)
@@ -46,7 +48,7 @@ Skills:
 8. Looksmax (Auto Heat-Riser)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Orpheus F
 Arcana: Fool
 Level: 29
@@ -59,7 +61,7 @@ En: 7
 Ag: 7
 Lu: 4
 
-Skills:
+Skills: 
 1. Act Sense (Med Psy)
 2. Tranquil Edge (Med Psy)
 3. Ether Break (Atk debuff)
@@ -70,7 +72,7 @@ Skills:
 8. Minimum Echo (Med Curse)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Orpheus F Picaro
 Arcana: Fool
 Level: 22
@@ -83,7 +85,7 @@ En: 5
 Ag: 6
 Lu: 4
 
-Skills:
+Skills: 
 1. Tailwind Cascade (Hvy Wind)
 2. Black List (Curse Instant Kill)
 3. Starter Shot (Light Gun)
@@ -94,7 +96,7 @@ Skills:
 8. Career Current (Med Wind)
 
 
-Persona Registered:
+Persona Registered: 
 Name: High Pixie
 Arcana: Fool
 Level: 30
@@ -107,7 +109,7 @@ En: 6
 Ag: 7
 Lu: 9
 
-Skills:
+Skills: 
 1. Affinity Beacon (Debilitate)
 2. Acknowledgement Shot (Light Gun)
 3. Opening Gambit (Med Phys)
@@ -118,7 +120,7 @@ Skills:
 8. Slowed Speech (Ag buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Izanagi
 Arcana: Fool
 Level: 35
@@ -131,7 +133,7 @@ En: 6
 Ag: 8
 Lu: 9
 
-Skills:
+Skills: 
 1. Mind Glide (Med Wind)
 2. Career Current (Med Wind)
 3. Commentary Jab (Med Gun)
@@ -142,31 +144,55 @@ Skills:
 8. Everflow (Hvy Wind)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Izanagi Picaro
 Arcana: Fool
-Level: 28
+Level: 36
 
 Stats: 
 ------------------------
-St: 8
+St: 9
 Ma: 7
-En: 1
-Ag: 8
-Lu: 8
+En: 6
+Ag: 9
+Lu: 9
 
-Skills:
+Skills: 
 1. Mind Glide (Med Wind)
 2. Career Current (Med Wind)
 3. Commentary Jab (Med Gun)
 4. Black List (Curse Instant Kill)
-5. Shocking Humor (Light Elec)
+5. Data Hex (Hvy Curse)
 6. Quick Invite (Med Gun)
 7. Purpose Focus (Concentrate)
 8. Everflow (Hvy Wind)
 
 
-Persona Registered:
+Persona Registered: 
+Name: Orhpeus
+Arcana: Fool
+Level: 25
+
+Stats: 
+------------------------
+St: 5
+Ma: 6
+En: 4
+Ag: 7
+Lu: 7
+
+Skills: 
+1. Mind Glide (Med Wind)
+2. Career Current (Med Wind)
+3. Commentary Jab (Med Gun)
+4. Black List (Curse Instant Kill)
+5. Data Hex (Hvy Curse)
+6. Quick Invite (Med Gun)
+7. Purpose Focus (Concentrate)
+8. Everflow (Hvy Wind)
+
+
+Persona Registered: 
 Name: Jack-o'-Lantern
 Arcana: Magician
 Level: 20
@@ -179,7 +205,7 @@ En: 5
 Ag: 3
 Lu: 2
 
-Skills:
+Skills: 
 1. Winds of Knowledge (Med Wind)
 2. Career Current (Med Wind)
 3. Deep Dive (Med Wind)
@@ -190,7 +216,7 @@ Skills:
 8. Velvet Note (Med Fire)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Cait Sith
 Arcana: Magician
 Level: 21
@@ -203,7 +229,7 @@ En: 5
 Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -214,7 +240,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Jack Frost
 Arcana: Magician
 Level: 22
@@ -227,7 +253,7 @@ En: 5
 Ag: 5
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -238,7 +264,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Nekomata
 Arcana: Magician
 Level: 20
@@ -251,7 +277,7 @@ En: 4
 Ag: 5
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -262,20 +288,20 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Sandman
 Arcana: Magician
-Level: 25
+Level: 29
 
 Stats: 
 ------------------------
-St: 5
-Ma: 12
+St: 8
+Ma: 17
 En: 6
-Ag: 5
+Ag: 8
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -286,7 +312,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Silky
 Arcana: Priestess
 Level: 17
@@ -299,7 +325,7 @@ En: 6
 Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. Shadow Read (Hvy Psy)
 2. Temperament Read (Light Psy)
 3. Environment Scan (Med Psy)
@@ -310,7 +336,7 @@ Skills:
 8. Slowed Speech (Ag Buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Apsaras
 Arcana: Priestess
 Level: 29
@@ -323,7 +349,7 @@ En: 8
 Ag: 10
 Lu: 4
 
-Skills:
+Skills: 
 1. Shadow Read (Hvy Psy)
 2. Temperament Read (Light Psy)
 3. Environment Scan (Psy)
@@ -334,7 +360,7 @@ Skills:
 8. Slowed Speech (Ag Buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Koh-i-Noor
 Arcana: Priestess
 Level: 23
@@ -347,7 +373,7 @@ En: 6
 Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -358,7 +384,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Isis
 Arcana: Priestess
 Level: 17
@@ -371,7 +397,7 @@ En: 6
 Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -382,7 +408,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Kikuri-Hime
 Arcana: Priestess
 Level: 30
@@ -395,9 +421,9 @@ En: 12
 Ag: 10
 Lu: 1
 
-Skills:
+Skills: 
 1. Sixth Observation (Light Psy)
-2. Cognition Rift (Hvy Psy)
+2. Intent Rift (Hvy Psy)
 3. Interest Gauge (Light Psy)
 4. Cold Admission (Med Ice)
 5. Anchor Presence (Med Ice)
@@ -406,7 +432,7 @@ Skills:
 8. Coordination Vector (AOE Ag debuff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Queen's Necklace
 Arcana: Empress
 Level: 16
@@ -419,7 +445,7 @@ En: 3
 Ag: 6
 Lu: 3
 
-Skills:
+Skills: 
 1. Temperament Read
 2. 
 3. 
@@ -430,7 +456,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Yaksini
 Arcana: Empress
 Level: 17
@@ -443,7 +469,7 @@ En: 3
 Ag: 4
 Lu: 1
 
-Skills:
+Skills: 
 1. Warm Smile (Light Bless)
 2. Gracious Thanks (Light Bless)
 3. Hope Pulse (Med Bless)
@@ -454,7 +480,31 @@ Skills:
 8. Slowed Speech (Ag Buff)
 
 
-Persona Registered:
+Persona Registered: 
+Name: Lamia
+Arcana: Empress
+Level: 21
+
+Stats: 
+------------------------
+St: 11
+Ma: 10
+En: 3
+Ag: 6
+Lu: 1
+
+Skills: 
+1. Warm Smile (Light Bless)
+2. Gracious Thanks (Light Bless)
+3. Hope Pulse (Med Bless)
+4. Light of Insight (Med Bless)
+5. Reassuring Chill (Light Ice)
+6. Acknowledgement Frost (Light Ice)
+7. Assertive Slice (Med Phys)
+8. Slowed Speech (Ag Buff)
+
+
+Persona Registered: 
 Name: Eligor
 Arcana: Emperor
 Level: 24
@@ -467,7 +517,7 @@ En: 7
 Ag: 3
 Lu: 5
 
-Skills:
+Skills: 
 1. Assertive Slice (Phys)
 2. Request Denial (Curse)
 3. Name Repeat (Psy)
@@ -478,7 +528,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Regent
 Arcana: Emperor
 Level: 28
@@ -491,7 +541,7 @@ En: 10
 Ag: 2
 Lu: 1
 
-Skills:
+Skills: 
 1. Assertive Slice (Med Phys)
 2. Stonewall (Med Phys)
 3. Decision Strike (Med Phys)
@@ -502,7 +552,7 @@ Skills:
 8. Rhythm Break (Ag Debuff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Setanta
 Arcana: Emperor
 Level: 30
@@ -515,7 +565,7 @@ En: 10
 Ag: 2
 Lu: 1
 
-Skills:
+Skills: 
 1. Assertive Slice (Med Phys)
 2. Stonewall (Med Phys)
 3. Decision Strike (Med Phys)
@@ -526,7 +576,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Thoth
 Arcana: Emperor
 Level: 37
@@ -539,7 +589,7 @@ En: 8
 Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. Assertive Slice (Med Phys)
 2. Decision Strike (Med Phys)
 3. Social Dominance (Med Phys)
@@ -550,7 +600,7 @@ Skills:
 8. 3-Second Rule (Charge)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Barong
 Arcana: Emperor
 Level: 35
@@ -563,7 +613,7 @@ En: 7
 Ag: 5
 Lu: 1
 
-Skills:
+Skills: 
 1. Assertive Slice (Med Phys)
 2. Social Dominance (Med Phys)
 3. Decision Strike (Med Phys)
@@ -574,20 +624,20 @@ Skills:
 8. 3 Second Rule (Charge)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Berith
 Arcana: Hierophant
-Level: 7
+Level: 20
 
 Stats: 
 ------------------------
-St: 6
-Ma: 1
+St: 10
+Ma: 8
 En: 2
-Ag: 1
+Ag: 3
 Lu: 1
 
-Skills:
+Skills: 
 1. Alpha Directive (Med Phys)
 2. Career Current (Med Wind)
 3. Confidence Drive (Atk buff)
@@ -598,7 +648,7 @@ Skills:
 8. Purpose Anchor (Despair Recovery)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Pixie
 Arcana: Lovers
 Level: 19
@@ -611,7 +661,7 @@ En: 4
 Ag: 5
 Lu: 5
 
-Skills:
+Skills: 
 1. Self Respect Affirmation
 2. Prioritized Presence (Med Psy)
 3. Nonchalance (Med Psy)
@@ -622,7 +672,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Saki Mitama
 Arcana: Lovers
 Level: 25
@@ -635,7 +685,7 @@ En: 3
 Ag: 6
 Lu: 6
 
-Skills:
+Skills: 
 1. Focused Breathing (Lvl 1 Healing)
 2. Cat Nap (Lvl 2 Healing)
 3. 
@@ -646,7 +696,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Ame-no-Uzume
 Arcana: Lovers
 Level: 25
@@ -659,7 +709,7 @@ En: 3
 Ag: 5
 Lu: 5
 
-Skills:
+Skills: 
 1. Focused Breathing (Lvl 1 Healing)
 2. Cat Nap (Lvl 2 Healing)
 3. 
@@ -670,7 +720,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Leanan Sidhe
 Arcana: Lovers
 Level: 19
@@ -683,7 +733,7 @@ En: 1
 Ag: 5
 Lu: 4
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -694,7 +744,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Kushinada
 Arcana: Lovers
 Level: 25
@@ -707,7 +757,7 @@ En: 1
 Ag: 6
 Lu: 4
 
-Skills:
+Skills: 
 1. Sync Surge (Med Nuke)
 2. Tailwind Cascade (Hvy Wind)
 3. Purpose Focus (Concentrate)
@@ -718,20 +768,20 @@ Skills:
 8. Temper Drop (Rage Recovery)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Narcissus
 Arcana: Lovers
-Level: 12
+Level: 25
 
 Stats: 
 ------------------------
-St: 3
-Ma: 6
+St: 6
+Ma: 10
 En: 1
-Ag: 4
-Lu: 2
+Ag: 8
+Lu: 4
 
-Skills:
+Skills: 
 1. Sync Surge (Med Nuke)
 2. Tailwind Cascade (Hvy Wind)
 3. Purpose Focus (Concentrate)
@@ -742,7 +792,7 @@ Skills:
 8. Temper Drop (Rage Recovery)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Agathion
 Arcana: Chariot
 Level: 20
@@ -755,7 +805,7 @@ En: 5
 Ag: 3
 Lu: 2
 
-Skills:
+Skills: 
 1. Self-Control (Auto def buff)
 2. Gentleman's Flattery
 3. Direct Curiosity
@@ -766,7 +816,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Slime
 Arcana: Chariot
 Level: 20
@@ -779,7 +829,7 @@ En: 5
 Ag: 4
 Lu: 1
 
-Skills:
+Skills: 
 1. Sync surge (Med Nuke)
 2. Hyper Link (Med Nuke)
 3. Flare Blast (Med Nuke)
@@ -790,7 +840,7 @@ Skills:
 8. Brain Flicker (Med Elec)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Shiki-Ouji
 Arcana: Chariot
 Level: 26
@@ -803,7 +853,7 @@ En: 7
 Ag: 5
 Lu: 1
 
-Skills:
+Skills: 
 1. Sync Surge (Med Nuke)
 2. Hyper Link (Med Nuke)
 3. Flare Blast (Med Nuke)
@@ -814,7 +864,7 @@ Skills:
 8. Volt Revive (Light Elec)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Kin-Ki
 Arcana: Chariot
 Level: 21
@@ -827,7 +877,7 @@ En: 8
 Ag: 3
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -838,7 +888,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Ara Mitama
 Arcana: Chariot
 Level: 30
@@ -851,7 +901,7 @@ En: 9
 Ag: 4
 Lu: 1
 
-Skills:
+Skills: 
 1. Crowd Echo (Med Nuke)
 2. Spotlight Surge (Hvy Nuke)
 3. Flash Bounce (Med Nuke)
@@ -862,7 +912,7 @@ Skills:
 8. Confidence Drive (Atk buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Angel
 Arcana: Justice
 Level: 27
@@ -875,7 +925,7 @@ En: 6
 Ag: 6
 Lu: 5
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -886,7 +936,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Archangel
 Arcana: Justice
 Level: 22
@@ -899,8 +949,8 @@ En: 2
 Ag: 10
 Lu: 4
 
-Skills:
-1. Cognition Rift (Hvy Psy)
+Skills: 
+1. Intent Rift (Hvy Psy)
 2. Atmosphere Read (Med Psy)
 3. Sniper Question (Med Gun)
 4. Soft Deflect (Med Gun)
@@ -910,7 +960,7 @@ Skills:
 8. Human Nature Savant (Auto Ag Buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Principality
 Arcana: Justice
 Level: 33
@@ -923,7 +973,7 @@ En: 1
 Ag: 13
 Lu: 5
 
-Skills:
+Skills: 
 1. Interest Probe (Med Gun)
 2. Social Probe (Med Gun)
 3. Temperament Read (Light Psy)
@@ -934,7 +984,7 @@ Skills:
 8. Human Nature Savant (Auto Ag Buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Bicorn
 Arcana: Hermit
 Level: 16
@@ -947,7 +997,7 @@ En: 6
 Ag: 1
 Lu: 7
 
-Skills:
+Skills: 
 1. Cooldown (Ice)
 2. Prioritized Presence (Med Psy)
 3. Soulshare (Ice)
@@ -958,7 +1008,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Koropokkuru
 Arcana: Hermit
 Level: 15
@@ -971,7 +1021,7 @@ En: 6
 Ag: 4
 Lu: 1
 
-Skills:
+Skills: 
 1. Prioritized Presence (Hvy Psy)
 2. Tranquil Edge (Med Psy)
 3. Regenerate I (HP Regen)
@@ -982,7 +1032,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Ippon-Datara
 Arcana: Hermit
 Level: 20
@@ -995,7 +1045,7 @@ En: 6
 Ag: 6
 Lu: 3
 
-Skills:
+Skills: 
 1. Prioritized Presence (Hvy Psy)
 2. Tranquil Edge (Med Psy)
 3. Regenerate I (HP Regen)
@@ -1006,20 +1056,20 @@ Skills:
 8. Twin Breath (Lvl 1 Healing)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Sudama
 Arcana: Hermit
-Level: 10
+Level: 20
 
 Stats: 
 ------------------------
 St: 1
-Ma: 6
-En: 3
-Ag: 3
+Ma: 11
+En: 5
+Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. Prioritized Presence (Hvy Psy)
 2. Tranquil Edge (Med Psy)
 3. Regenerate I (HP Regen)
@@ -1030,7 +1080,7 @@ Skills:
 8. Twin Breath (Lvl 1 Healing)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Stone of Scone
 Arcana: Fortune
 Level: 13
@@ -1043,7 +1093,7 @@ En: 3
 Ag: 3
 Lu: 6
 
-Skills:
+Skills: 
 1. Social Competence
 2. Interest Level Read
 3. 
@@ -1054,7 +1104,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Clotho
 Arcana: Fortune
 Level: 20
@@ -1067,7 +1117,7 @@ En: 4
 Ag: 6
 Lu: 9
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1078,7 +1128,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Ariadne
 Arcana: Fortune
 Level: 21
@@ -1091,7 +1141,7 @@ En: 4
 Ag: 6
 Lu: 10
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1102,7 +1152,31 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
+Name: Lachesis
+Arcana: Fortune
+Level: 35
+
+Stats: 
+------------------------
+St: 6
+Ma: 6
+En: 3
+Ag: 9
+Lu: 15
+
+Skills: 
+1. Affinity Beacon (Debilitate)
+2. Self-Security (Def buff)
+3. Temperament Read (Light Psy)
+4. Veiled Initiative (Hvy Curse)
+5. Looksmax (Auto Heat Riser)
+6. Human Nature Savant (Auto Ag Buff)
+7. Psy Boost
+8. Hazard Audit (Fear Recovery)
+
+
+Persona Registered: 
 Name: Kelpie
 Arcana: Strength
 Level: 16
@@ -1115,7 +1189,7 @@ En: 7
 Ag: 1
 Lu: 2
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1126,7 +1200,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Shiisaa
 Arcana: Strength
 Level: 21
@@ -1139,7 +1213,7 @@ En: 11
 Ag: 3
 Lu: 2
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1150,7 +1224,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Oni
 Arcana: Strength
 Level: 15
@@ -1163,7 +1237,7 @@ En: 9
 Ag: 1
 Lu: 2
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1174,7 +1248,7 @@ Skills:
 8. Self-Control (Auto Def buff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Rakshasa
 Arcana: Strength
 Level: 25
@@ -1187,7 +1261,7 @@ En: 13
 Ag: 3
 Lu: 3
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1198,20 +1272,20 @@ Skills:
 8. 
 
 
-Persona Registered:
-Name: Orlove
+Persona Registered: 
+Name: Orlov
 Arcana: Strength
-Level: 12
+Level: 25
 
 Stats: 
 ------------------------
-St: 3
-Ma: 2
-En: 7
+St: 4
+Ma: 5
+En: 14
 Ag: 3
-Lu: 1
+Lu: 3
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1222,7 +1296,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Hua Po
 Arcana: Hanged Man
 Level: 18
@@ -1235,8 +1309,8 @@ En: 8
 Ag: 3
 Lu: 1
 
-Skills:
-1. Prioritized Presence,
+Skills: 
+1. Prioritized Presence
 2. Slowed Speech
 3. Echo Shot
 4. Casual Greeting Shot
@@ -1246,7 +1320,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Inugami
 Arcana: Hanged Man
 Level: 19
@@ -1259,18 +1333,18 @@ En: 7
 Ag: 4
 Lu: 1
 
-Skills:
+Skills: 
 1. Dodge Phys
 2. Dodge Reverse Phys
 3. Dodge Reverse Ice
 4. Ether Break (Atk debuff)
 5. Tactic Diffuser (Ag debuff)
 6. Self-Security (Def buff)
-7. Cognition Rift (Hvy Psy)
+7. Intent Rift (Hvy Psy)
 8. Focused Breathing (LVl 1 Healing)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Orthrus
 Arcana: Hanged Man
 Level: 15
@@ -1283,18 +1357,18 @@ En: 6
 Ag: 6
 Lu: 1
 
-Skills:
+Skills: 
 1. Dodge Phys
 2. Dodge Reverse Phys
 3. Dodge Reverse Ice
 4. Ether Break (Atk debuff)
 5. Tactic Diffuser (Ag debuff)
 6. Self-Security (Def buff)
-7. Cognition Rift (Hvy Psy)
+7. Intent Rift (Hvy Psy)
 8. Focused Breathing (LVl 1 Healing)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Take-Minakata
 Arcana: Hanged Man
 Level: 30
@@ -1307,18 +1381,18 @@ En: 10
 Ag: 8
 Lu: 1
 
-Skills:
+Skills: 
 1. Dodge Phys
 2. Dodge Reverse Phys
 3. Dodge Reverse Ice
 4. Ether Break (Atk debuff)
 5. Tactic Diffuser (Ag debuff)
 6. Self-Security (Def buff)
-7. Cognition Rift (Hvy Psy)
+7. Intent Rift (Hvy Psy)
 8. Focused Breathing (LVl 1 Healing)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Mandrake
 Arcana: Death
 Level: 20
@@ -1331,7 +1405,7 @@ En: 7
 Ag: 5
 Lu: 7
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Control (Auto-Def buff)
 3. Self-Security (Def buff)
@@ -1342,7 +1416,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Mokoi
 Arcana: Death
 Level: 27
@@ -1355,7 +1429,7 @@ En: 9
 Ag: 8
 Lu: 4
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Control (Auto Def buff)
 3. Self-Security (Def buff)
@@ -1366,7 +1440,7 @@ Skills:
 8. Minimum Echo (Med Curse)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Matador
 Arcana: Death
 Level: 26
@@ -1379,7 +1453,7 @@ En: 9
 Ag: 5
 Lu: 1
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Control (Auto Def buff)
 3. Human Nature Savant (Auto Ag Buff)
@@ -1390,7 +1464,7 @@ Skills:
 8. Minimum Echo (Med Curse)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Nue
 Arcana: Death
 Level: 22
@@ -1403,7 +1477,7 @@ En: 5
 Ag: 6
 Lu: 3
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Security (Def buff)
 3. 
@@ -1414,7 +1488,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Pisaca
 Arcana: Death
 Level: 31
@@ -1427,10 +1501,10 @@ En: 8
 Ag: 9
 Lu: 3
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Security (Def buff)
-3. Cognition Rift (Hvy Psy)
+3. Intent Rift (Hvy Psy)
 4. Effort Reaper (Curse Instant Kill)
 5. Timeout Clause (Curse Instant Kill)
 6. Self-Control (Auto Def buff)
@@ -1438,23 +1512,23 @@ Skills:
 8. Dodge Reverse Ice
 
 
-Persona Registered:
+Persona Registered: 
 Name: Hell Biker
 Arcana: Death
-Level: 15
+Level: 29
 
 Stats: 
 ------------------------
-St: 1
-Ma: 6
-En: 4
-Ag: 5
+St: 2
+Ma: 12
+En: 7
+Ag: 9
 Lu: 3
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Security (Def buff)
-3. Cognition Rift (Hvy Psy)
+3. Intent Rift (Hvy Psy)
 4. Effort Reaper (Curse Instant Kill)
 5. Timeout Clause (Curse Instant Kill)
 6. Self-Control (Auto Def buff)
@@ -1462,20 +1536,20 @@ Skills:
 8. Dodge Reverse Ice
 
 
-Persona Registered:
+Persona Registered: 
 Name: Genbu
 Arcana: Temperance
-Level: 13
+Level: 23
 
 Stats: 
 ------------------------
-St: 1
-Ma: 5
+St: 3
+Ma: 7
 En: 6
-Ag: 4
+Ag: 11
 Lu: 1
 
-Skills:
+Skills: 
 1. Slowed Speech (Ag buff)
 2. Self-Control (Auto def buff)
 3. Regen I (HP Regen)
@@ -1486,7 +1560,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Incubus
 Arcana: Devil
 Level: 1
@@ -1499,7 +1573,7 @@ En: 1
 Ag: 1
 Lu: 1
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1510,20 +1584,20 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Belphegor
 Arcana: Tower
-Level: 12
+Level: 27
 
 Stats: 
 ------------------------
 St: 2
-Ma: 7
-En: 1
-Ag: 5
-Lu: 1
+Ma: 10
+En: 6
+Ag: 10
+Lu: 3
 
-Skills:
+Skills: 
 1. Black List (Curse Instant Kill)
 2. Effort Reaper (Curse Instant Kill)
 3. Advance Slash (Hvy Phys)
@@ -1534,7 +1608,31 @@ Skills:
 8. Tactic Diffuser (Ag debuff)
 
 
-Persona Registered:
+Persona Registered: 
+Name: Kodama
+Arcana: Star
+Level: 17
+
+Stats: 
+------------------------
+St: 3
+Ma: 8
+En: 5
+Ag: 4
+Lu: 1
+
+Skills: 
+1. Purpose Focus (Concentrate)
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered: 
 Name: Succubus
 Arcana: Moon
 Level: 19
@@ -1547,8 +1645,8 @@ En: 6
 Ag: 8
 Lu: 1
 
-Skills:
-1. Cognition Rift (Hvy Psy)
+Skills: 
+1. Intent Rift (Hvy Psy)
 2. Sixth Observation (Light Psy)
 3. Kinesis Gap (Med Psy)
 4. Effort Reaper (Curse High instant kill)
@@ -1558,7 +1656,7 @@ Skills:
 8. Drain Reverse Fire
 
 
-Persona Registered:
+Persona Registered: 
 Name: Onmoraki
 Arcana: Moon
 Level: 20
@@ -1571,8 +1669,8 @@ En: 6
 Ag: 8
 Lu: 1
 
-Skills:
-1. Cognition Rift (Hvy Psy)
+Skills: 
+1. Intent Rift (Hvy Psy)
 2. Sixth Observation (Light Psy)
 3. Kinesis Gap (Med Psy)
 4. Effort Reaper (Curse High instant kill)
@@ -1582,7 +1680,7 @@ Skills:
 8. Drain Reverse Fire
 
 
-Persona Registered:
+Persona Registered: 
 Name: Kaguya
 Arcana: Moon
 Level: 35
@@ -1595,7 +1693,7 @@ En: 8
 Ag: 13
 Lu: 5
 
-Skills:
+Skills: 
 1. Atmosphere Read (Med Psy)
 2. Temperament Read (Light Psy)
 3. Hollow Stance (Med Curse)
@@ -1606,7 +1704,7 @@ Skills:
 8. Frame Reset (Confusion Recovery)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Suzaku
 Arcana: Sun
 Level: 23
@@ -1619,7 +1717,7 @@ En: 5
 Ag: 3
 Lu: 4
 
-Skills:
+Skills: 
 1. Ember Gaze (Med Fire)
 2. 
 3. 
@@ -1630,7 +1728,7 @@ Skills:
 8. Ascendancy Wave (AOE Ag Debuff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Thunderbird
 Arcana: Sun
 Level: 19
@@ -1643,7 +1741,7 @@ En: 3
 Ag: 3
 Lu: 1
 
-Skills:
+Skills: 
 1. Charming Smile (Light Fire)
 2. Inferno Grip (Med Fire)
 3. Flame Tease (Med Fire)
@@ -1654,7 +1752,7 @@ Skills:
 8. Ether Break (Atk debuff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Mithras
 Arcana: Sun
 Level: 33
@@ -1667,7 +1765,7 @@ En: 3
 Ag: 3
 Lu: 7
 
-Skills:
+Skills: 
 1. Charming Smile (Light Fire)
 2. Inferno Grip (Med Fire)
 3. Gentleman's Flattery (Med Fire)
@@ -1678,20 +1776,20 @@ Skills:
 8. Ascendancy Link (Def debuff)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Yurlungur
 Arcana: Sun
-Level: 28
+Level: 32
 
 Stats: 
 ------------------------
-St: 9
-Ma: 10
+St: 11
+Ma: 11
 En: 3
-Ag: 3
+Ag: 4
 Lu: 7
 
-Skills:
+Skills: 
 1. Charming Smile (Light Fire)
 2. Inferno Grip (Med Fire)
 3. Gentleman's Flattery (Med Fire)
@@ -1702,7 +1800,31 @@ Skills:
 8. Ascendancy Link (Def debuff)
 
 
-Persona Registered:
+Persona Registered: 
+Name: Anubis
+Arcana: Judgement
+Level: 16
+
+Stats: 
+------------------------
+St: 1
+Ma: 8
+En: 3
+Ag: 6
+Lu: 1
+
+Skills: 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered: 
 Name: Phoenix
 Arcana: Faith
 Level: 11
@@ -1715,7 +1837,7 @@ En: 3
 Ag: 1
 Lu: 2
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1726,7 +1848,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Tam Lin
 Arcana: Faith
 Level: 22
@@ -1739,7 +1861,7 @@ En: 8
 Ag: 6
 Lu: 7
 
-Skills:
+Skills: 
 1. 
 2. 
 3. 
@@ -1750,7 +1872,7 @@ Skills:
 8. 
 
 
-Persona Registered:
+Persona Registered: 
 Name: Unicorn
 Arcana: Faith
 Level: 31
@@ -1763,7 +1885,7 @@ En: 9
 Ag: 8
 Lu: 9
 
-Skills:
+Skills: 
 1. Heartfelt Thanks (Med Bless)
 2. Gracious Thanks (Light Bless)
 3. Warm Smile (Light Bless)
@@ -1774,20 +1896,20 @@ Skills:
 8. Hazard Audit (Fear Recovery)
 
 
-Persona Registered:
+Persona Registered: 
 Name: Okuninushi
 Arcana: Faith
-Level: 15
+Level: 25
 
 Stats: 
 ------------------------
-St: 2
-Ma: 1
-En: 5
+St: 5
+Ma: 4
+En: 9
 Ag: 5
 Lu: 6
 
-Skills:
+Skills: 
 1. Heartfelt Thanks (Med Bless)
 2. Gracious Thanks (Light Bless)
 3. Warm Smile (Light Bless)
@@ -1796,5 +1918,3 @@ Skills:
 6. Drain Bless
 7. Looksmax (Auto Heat Riser)
 8. Hazard Audit (Fear Recovery)
-
-
