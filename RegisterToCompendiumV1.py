@@ -260,9 +260,10 @@ nekomata = MagicianPersonas(
                 "","","","","","","","")
 # 5. Sandman
 # Register update: 3/27/26
+# Register update: 5/6/26
 sandman = MagicianPersonas( 
-                    "Sandman", "Magician", 25,
-                    5,12,6,5,1,
+                    "Sandman", "Magician", 29,
+                    8,17,6,8,1,
                     "","","","","","","","")
 
 # All Magician Personas registered 
@@ -389,9 +390,10 @@ emperor_personas = (eligor, regent, setanta, thoth, barong)
 # 1. Berith 
 # Register update: 1/8/26
 # Register update: 2/7/26
+# Register update: 5/6/26
 berith = HierophantPersonas(
-                    "Berith", "Hierophant", 7,
-                    6,1,2,1,1,
+                    "Berith", "Hierophant", 20,
+                    10,8,2,3,1,
                     "Alpha Directive (Med Phys)","Career Current (Med Wind)","Confidence Drive (Atk buff)","Slowed Speech (Ag buff)",
                     "Social Competence (Auto Atk buff)","Wind Boost","Dodge Reverse Curse","Purpose Anchor (Despair Recovery)")
 
@@ -620,9 +622,10 @@ rakshasa = StrengthPersonas(
                     "", "", "","")
 # 5. Orlov
 # Register update: 4/3/26
+# Register update: 5/6/26
 orlov = StrengthPersonas(
-                    "Orlov", "Strength", 12,
-                    3,2,7,3,1,
+                    "Orlov", "Strength", 25,
+                    4,5,14,3,3,
                     "", "", "","",
                     "", "", "","")
 
@@ -724,11 +727,12 @@ death_personas = (mandrake, mokoi, matador, nue, pisaca, hell_biker)
 # Register update: 12/19/25
 # Register update: 1/8/26
 # Register update: 2/7/26
+# Register update: 5/6/26
 genbu = TemperancePersonas( 
-                    "Genbu", "Temperance", 13,
-                    1,5,6,4,1,
+                    "Genbu", "Temperance", 23,
+                    3,7,6,11,1,
                     "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
-                    "","","","",)
+                    "","","","")
 
 temperance_personas = (genbu,)
 
@@ -761,8 +765,14 @@ tower_personas = (belphegor,)
 
 # Star Personas:
 # ------------------------------------------------------------------------------------
+# Register update: 5/6/26
+kodama = StarPersonas(
+                        "Kodama", "Star", 17,
+                        3,8,5,4,1,
+                        "Purpose Focus (Concentrate)","","","",
+                        "","","","")
 
-star_personas = ()
+star_personas = (kodama,)
 
 # Moon Personas:
 # ------------------------------------------------------------------------------------
@@ -797,37 +807,47 @@ moon_personas = (succubus, onmoraki, kaguya)
 # 1. Suzaku
 # Register update: 10/4/25
 # Register update: 11/17/25
-suzaku = SunPersonas("Suzaku", "Sun", 23,
+suzaku = SunPersonas(
+                "Suzaku", "Sun", 23,
                 7,8,5,3,4,
                 "Ember Gaze (Med Fire)","","","","Looksmax (Auto Heat-Riser)","Confidence (Atk buff)","Social Competence (Auto Atk Buff)",
                 "Ascendancy Wave (AOE Ag Debuff)")
 # 2. Thunderbird
 # Register update: 2/7/26
-thunderbird = SunPersonas("Thunderbird", "Sun", 19,
-                  8,8,3,3,1,
-                  "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Flame Tease (Med Fire)","Sonic Quip (Light Elec)",
-                  "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ether Break (Atk debuff)")
+thunderbird = SunPersonas(
+                    "Thunderbird", "Sun", 19,
+                    8,8,3,3,1,
+                    "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Flame Tease (Med Fire)","Sonic Quip (Light Elec)",
+                    "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ether Break (Atk debuff)")
 # 3. Mithras
 # Register update: 3/10/26
 # Register update: 3/26/26
-mithras = SunPersonas("Mithras", "Sun", 33,
-                  12,12,3,3,7,
-                  "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
-                  "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)")
+mithras = SunPersonas(
+                    "Mithras", "Sun", 33,
+                    12,12,3,3,7,
+                    "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
+                    "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)")
 # 4. Yurlungur
 # Register update: 4/3/26
-yurlungur = SunPersonas("Yurlungur", "Sun", 28,
-              9,10,3,3,7,
-              "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
-              "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)")
+# Register update: 5/6/26
+yurlungur = SunPersonas(
+                "Yurlungur", "Sun", 32,
+                11,11,3,4,7,
+                "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
+                "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)")
 
 sun_personas = (suzaku, thunderbird, mithras, yurlungur)
 
 
 # Judgement Personas:
 # ------------------------------------------------------------------------------------
-
-judgement_personas = ()
+# Register update: 5/6/26
+anubis = JudgementPersonas(
+        "Anubis","Judgement",16,
+        1,8,3,6,1,
+        "","","","",
+        "","","","")
+judgement_personas = (anubis,)
 
 # Faith Personas:
 # ------------------------------------------------------------------------------------
@@ -1036,24 +1056,21 @@ for councillor_persona in councillor_personas:
     
 
 
-    
-
-
 # Writes the formatted info to the file 
-with open("Persona_compendium_logbookV2.txt","w") as compendium_log:
+with open("Persona_compendium_logbookV1.txt","w") as compendium_log:
     # Write Fool Personas to the compendium
     for fool_persona_log in fool_personas_log_data:
         compendium_log.write(fool_persona_log)
 
-    # Magician Personas
+    # Magician Personas to the compendium
     for magician_persona_log in magician_personas_log_data:
         compendium_log.write(magician_persona_log)
         
-    # Priestess Personas
+    # Priestess Personas to the compendium
     for priestess_persona_log in priestess_personas_log_data:
             compendium_log.write(priestess_persona_log)
 
-    # Empress Personas
+    # Empress Personas to the compendium
     for empress_persona_log in empress_personas_log_data:
         compendium_log.write(empress_persona_log)
 
@@ -1129,6 +1146,7 @@ with open("Persona_compendium_logbookV2.txt","w") as compendium_log:
     for faith_persona_log in faith_personas_log_data:
         compendium_log.write(faith_persona_log)
     
+    # Let the user know that the Personas have been registered
     print("Current Personas registered to compendium.")
     print("Previous Personas have been overwritten.")
 
