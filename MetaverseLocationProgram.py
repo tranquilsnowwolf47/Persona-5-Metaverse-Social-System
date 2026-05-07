@@ -12,20 +12,49 @@
 
 class MetaverseLocation:
     # Contructor that defines the attributes of a Metaverse Location
-    def __init__(self, name, metaverse_location_type, location, priority, social_receptiveness,
-                 repeatability, risk, reward, treasure_demon_potential, resource_cost, growth_alignment, 
-                 loot_potential, awakening_potential, date_duration, party_compatability, rarity, exp_yield):
-        # Name of the Palace
+    def __init__(self, name, metaverse_location_type, location, priority, date, distance, rarity,
+                 social_receptiveness, repeatability, exp_yield, loot_potential, risk, reward, resource_cost, 
+                 treasure_demon_potential, growth_alignment, awakening_potential, date_duration, party_compatability):
+        # Name of the Metaverse Location
         self.name = name
         # Attribute for the Metaverse Location type (Palace, Jail, Mementos)
         self.name = metaverse_location_type
-        # 
+        # Real world location of the Metaverse location
         self.location = location
-        # The Metaverse location's priority
+        # The Metaverse location's priority (in terms of how relevant it is to puruse that area)
         self.priority = priority
-
+        # The date in which the event takes place (if applicable)
+        self.date = date
+        # The distance that the location is in in relativity to you
+        self.distance = distance
+        # How difficult or infrequent it is to access the location
+        self.rarity = rarity
+        # How receptive the Shadows in the are are to engaing in combat 
+        self.social_receptiveness = social_receptiveness
+        # How accessible the location is and how often you can go to and back from it (includes transportation friction, scheduling feasability)
+        self.repeatability = repeatability
+        #
+        self.exp_yield = exp_yield
+        #
+        self.loot_potential = loot_potential
+        #
+        self.risk = risk
+        #
+        self.reward = reward
         # The amount of anticipated HP, SP, item usage, or strategy that will be required for successful infiltration
         self.resource_cost = resource_cost
+        #
+        self.treasure_demon_potential = treasure_demon_potential
+        #
+        self.growth_alignment = growth_alignment
+        #
+        self.awakening_potential = awakening_potential
+        #
+        self.date_duration = date_duration
+        #
+        self.party_compataiblity = party_compatability
+
+
 
     # Categorieze the Metaverse Location types into a tuple 
     metaverse_location_types = ("Palace", "Jail", "Mementos")
