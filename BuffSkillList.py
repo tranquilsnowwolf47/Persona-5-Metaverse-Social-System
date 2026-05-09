@@ -17,6 +17,10 @@ class BuffSkills:
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
 
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.type})")
+
 class SingularSkills(BuffSkills):
     pass
 
@@ -78,6 +82,11 @@ This accountability helps them to slow down the cadence of the conversation, boo
 Use the skill sparingly though, as using it too frequently at once can come across as stepping on toes or overbearing. 
 Accuracy/Evasion raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
+# List of singular buff skill objects
 singular_skills = (confidence_drive, self_security, slowed_speech, frequency_charge, three_second_rule, purpose_focus)
+
+# List of AOE buff skill objects
 AOE_skills = (pep_talk, collective_closure, flow_sync)
+
+# List of all buff skill objects
 full_buff_skill_list = (singular_skills, AOE_skills)
