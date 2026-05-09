@@ -80,3 +80,4 @@ Accuracy/Evasion raises temporarily per battle until the effect wears off. Can b
 
 singular_skills = (confidence_drive, self_security, slowed_speech, frequency_charge, three_second_rule, purpose_focus)
 AOE_skills = (pep_talk, collective_closure, flow_sync)
+full_buff_skill_list = (singular_skills, AOE_skills)
