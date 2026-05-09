@@ -12,7 +12,7 @@
 
 class MetaverseLocation:
     # Contructor that defines the attributes of a Metaverse Location
-    def __init__(self, name, metaverse_location_type, location, infiltration_priority, date,  cost, distance, rarity,
+    def __init__(self, name, metaverse_location_type, location, infiltration_priority, date, cost, distance, rarity,
                  social_receptiveness, security_level_sensitivity, repeatability, exp_yield, loot_potential, risk, reward, 
                  resource_cost, treasure_demon_potential, growth_alignment, awakening_potential, date_duration, party_compatability):
         # Name of the Metaverse Location
@@ -148,17 +148,17 @@ fau = Palace("Florida Atlantic University (FAU) | Castle of Wrath", Palace.metav
              Palace.exp_yield_types[2], Palace.loot_potential_types[2], Palace.risk_types[1], Palace.reward_types[2], Palace.resource_cost_types[1], 
              Palace.treasure_demon_potential_types[2], Palace.growth_alignment[2], Palace.awakening_potential_types[3], Palace.date_duration_types[2], Palace.party_compatability_types[3])
 
-supercon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
+supercon = Palace("Supercon", Palace.metaverse_location_types[0], "Miami Beach Convention Center | Miami, FL", Palace.infiltration_priority_types[0], "", "",
                   Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[1], 
                   Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
 
-otakufest = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
+otakufest = Palace("", Palace.metaverse_location_types[0], "Palm Beach Convention Center | West Palm Beach, FL", Palace.infiltration_priority_types[0], "", "",
                    Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                    Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
                    Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
 
-megacon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
+megacon = Palace("", Palace.metaverse_location_types[0], "Orange County Convention Center | Orlando FL", Palace.infiltration_priority_types[0], "", "",
                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
@@ -264,6 +264,11 @@ plasticon = MementosFloor("", MementosFloor.metaverse_location_types[2], "", Mem
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
                         MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], MementosFloor.date_duration_types[0], MementosFloor.party_compatability_types[0])
 
+cosplay_beach_party = MementosFloor("Cosplay Beach Party", MementosFloor.metaverse_location_types[2], "Fort Lauderdale Beach, FL", MementosFloor.infiltration_priority_types[2], "Saturday, May 16th", "")
+
+baoshi_foodhall = 0
+
+waifu_and_wetmode = 0
 
 # Tuple that holds all teh list of Mementos floor objects
 mementos_floors = (hero_hype_con, hero_hype_con, sunrise_comic_con, fau_career_fair, plasticon)
