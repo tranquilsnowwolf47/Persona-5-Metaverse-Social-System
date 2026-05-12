@@ -34,8 +34,8 @@ class LightSkills(GunSkills):
     pass
 
 # Template variable 
-example = quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "",
-"""   - X""")
+#example = quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "",
+#"""   - X""")
 
 # Heavy Damage Grade Skills 
 silver_exit = HeavySkills("Silver Exit", "Gun", "Heavy", "20%",
@@ -50,7 +50,7 @@ Ex 5: “Just a random thought.”
 Ex 6: “Just a thought”).
 Deals heavy Gun damage with high chance of critical. """)
 
-background_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "18%",
+background_probe = HeavySkills("Background Probe", "Gun", "Heavy", "18%",
 """   - You ask direct but natural questions about a person’s upbringing, family structure, and early environment to quickly map core behavioral patterns. 
 The purpose is rapid profiling—identifying traits like independence, emotional stability, attachment style, discipline, and consistency through formative background signals. 
 Responses reveal how they were shaped over time, allowing you to judge compatibility and behavioral reliability early in the interaction. 
