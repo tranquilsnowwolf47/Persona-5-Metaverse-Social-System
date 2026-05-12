@@ -41,18 +41,17 @@ damage_grades = ("Light", "Medium", "Heavy", "Severe", "Instant Kill")
 damage_grades_indexes = (1,2,3,4)
 hp_recovery_grades = ("Light", "Moderate", "Full")
 
-# Displays the skill types to the user 
-def display_skill_types():
+
+while True:
+    # Display the skill types to the user 
     print("Persona Skill Types:")
     print("-----------------------------")
     for index, skill_type in enumerate(skill_types,start=1):
         print(f"{index}. {skill_type}")
 
-# Gets the choice of the skill type to display from the user   
-def get_skill_type():
     # Get the skill type from the user
     skill_type_choice = int(input("\nPlease enter a skill type (1-17): "))
-    
+
     # If the skill type is in the index range, proceed with operations
     if skill_type_choice in skill_types_indexes:
             # Phys 
@@ -104,7 +103,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Gun Skills:")
@@ -136,7 +135,7 @@ def get_skill_type():
                     # Display all skills 
                     print("\nGun Skills:")
                     print("-----------------------------------------------------")    
-                    for group in PhysSkillList.full_phys_skill_list:
+                    for group in GunSkillList.full_gun_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
 
@@ -148,7 +147,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Fire Skills:")
@@ -189,7 +188,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Ice Skills:")
@@ -231,7 +230,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Elec Skills:")
@@ -273,7 +272,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Wind Skills:")
@@ -315,7 +314,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light Psy skills
                         print("\nLight Psy Skills: ")
@@ -357,7 +356,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light Nuke skills
                         print("\nLight Nuke Skills:")
@@ -399,7 +398,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light Bless skills
                         print("\nLight Bless Skills:")
@@ -441,7 +440,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades,start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter an option choice (1-5): ")
+                    damage_grade_choice = int(input("Enter an option choice (1-5): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light Curse skills
                         print("\nLight Curse Skills:")
@@ -584,9 +583,12 @@ def get_skill_type():
     else:
         print("You did not enter a valid skill type.")
 
+    loop_input = input("\nWould you like to try again? (Enter 'y' for yes, anything else to exit): ").lower()
+    if loop_input != "y":
+        print("Exited the program.")
+        break
+
             
 
 
     
-display_skill_types()
-get_skill_type()
