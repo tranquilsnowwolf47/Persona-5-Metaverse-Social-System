@@ -253,4 +253,4 @@ instant_kill_skills = (get_blocked_for_me, black_list, effort_reaper, timeout_cl
 heavy_skills = (data_hex, hidden_blueprint, veiled_initiative)
 medium_skills = (friendzone_seal, dark_tease, blackout, verbal_hex, chrono_veil, refusal_rite, minimum_echo, catalyst_trigger, clock_hold, reality_spike, hollow_stance)
 light_skills = (mocking_mirror, cursed_joke, vanity_bait, faux_focus)
-full_curse_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
+full_curse_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills, instant_kill_skills)
