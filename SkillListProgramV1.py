@@ -63,7 +63,7 @@ def get_skill_type():
                     print("Damage grades:")
                     for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
-                    damage_grade_choice = input("Enter a damage grade (1-4): ")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Phys Skills:")
@@ -108,21 +108,28 @@ def get_skill_type():
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("\nLight Gun Skills:")
-                        print("-----------------------------------------------------")       
+                        print("-----------------------------------------------------")  
+                        for skill in GunSkillList.light_skills:
+                            skill.display_simplified_info()     
 
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Gun Skills:")
                         print("-----------------------------------------------------")    
+                        for skill in GunSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Gun Skills:")
-
-                        print("-----------------------------------------------------")    
+                        print("-----------------------------------------------------") 
+                        for skill in GunSkillList.heavy_skills:  
+                            skill.display_simplified_info() 
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Gun Skills:")
-                        print("-----------------------------------------------------")    
+                        print("-----------------------------------------------------") 
+                        for skill in GunSkillList.severe_skills:
+                            skill.display_simplified_info()   
 
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
