@@ -30,7 +30,7 @@ class PhysSkills:
 
     # Shows the simplified version of the skill 
     def display_simplified_info(self):
-        print(f"{self.name} ({self.damage_grade})")
+        print(f"{self.name} ({self.damage_grade} {self.element})")
 
 class SevereSkills(PhysSkills):
     pass
