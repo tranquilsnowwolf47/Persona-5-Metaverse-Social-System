@@ -33,8 +33,8 @@ class MediumSkills(FireSkills):
 class LightSkills(FireSkills):
     pass
 
-example = quick_probe = HeavySkills("Quick Probe", "Gun", "Heavy", "",
-"""   - X""")
+#example = quick_probe = HeavySkills("X", "Fire", "Heavy", "",
+#"""   - X""")
 
 # Heavy Damage Grade Skills
 value_touch = HeavySkills("Value Touch","Fire","Heavy", 22,
@@ -183,7 +183,7 @@ This simple gesture carries a magnetic energy that can pull the target in, makin
 Deals light Fire damage.""")
 
 severe_skills = ()
-heavy_skills = (value_touch)
+heavy_skills = (value_touch,)
 medium_skills = (heat_check, flame_tease, confidence_burn, magnetic_presence, value_burn, ember_gaze, inferno_grip, lady_shake, velvet_note, gentlemans_flattery)
 light_skills = (high_lighter, confident_compliment, vocal_flare, charming_smile)
 full_fire_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
