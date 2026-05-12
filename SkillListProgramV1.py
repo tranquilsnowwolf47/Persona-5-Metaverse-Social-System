@@ -74,20 +74,26 @@ def get_skill_type():
                         # Display the list of Light skills
                         print("Light Phys Skills:")
                         for skill in PhysSkillList.light_skills:
-                            print(skill)
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("Medium Phys Skills:")
+                        for skill in PhysSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("Heavy Phys Skills:")
+                        for skill in PhysSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("Severe Phys Skills:")
+                        for skill in PhysSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    for 
             # Gun
             elif skill_type_choice == 2:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
@@ -113,7 +119,9 @@ def get_skill_type():
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    for group in PhysSkillList.full_phys_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Fire
             elif skill_type_choice == 3:
@@ -126,21 +134,31 @@ def get_skill_type():
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Fire Skills: ")
+                        print("Light Fire Skills:")
+                        for skill in FireSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("Medium Fire Skills:")
+                        for skill in FireSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("Heavy Fire Skills:")
+                        for skill in FireSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("Severe Fire Skills:")
+                        for skill in FireSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
-
+                    for group in FireSkillList.full_fire_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
+                            
             # Ice
             elif skill_type_choice == 4:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
@@ -153,19 +171,29 @@ def get_skill_type():
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("Light Ice Skills: ")
+                        for skill in IceSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("Medium Ice Skills:")
+                        for skill in IceSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("Heavy Ice Skills:")
+                        for skill in IceSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("Severe Ice Skills:")
+                        for skill in IceSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    for group in IceSkillList.full_ice_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Elec
             elif skill_type_choice == 5:
@@ -179,19 +207,29 @@ def get_skill_type():
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
                         print("Light Elec Skills: ")
+                        for skill in ElecSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("Medium Elec Skills:")
+                        for skill in ElecSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("Heavy Elec Skills:")
+                        for skill in ElecSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("Severe Elec Skills:")
+                        for skill in ElecSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    for group in ElecSkillList.full_elec_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Wind
             elif skill_type_choice == 6:
