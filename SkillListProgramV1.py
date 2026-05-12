@@ -28,20 +28,20 @@ import PassiveSkillList
 skill_types = ("Phys","Gun","Fire","Ice","Elec","Wind","Psy","Nuke","Bless","Curse",
                 "Buff","Debuff","Passive Buff","HP Recovery","Ailment Recovery","Passives", "Status Ailment") 
 
+# The indexes for the skill types which correlate to each skill type
+skill_types_indexes = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)
+
 # Elemental skills that reference indexes from valid skill types 
 elemental_skills = (skill_types[0],skill_types[1],skill_types[2],skill_types[3],
 skill_types[4],skill_types[5], skill_types[6], skill_types[7], skill_types[8],
 skill_types[9])
-
-# The indexes for the skill types which correlate to each skill type
-valid_skill_types_indexes = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)
 
 # Damage grade for elemental skills 
 damage_grades = ("Light", "Medium", "Heavy", "Severe", "Instant Kill")
 damage_grades_indexes = (1,2,3,4)
 hp_recovery_grades = ("Light", "Moderate", "Full")
 
-# Displays teh skill types to the user 
+# Displays the skill types to the user 
 def display_skill_types():
     print("Skill types:")
     print("-----------------------------")
@@ -53,72 +53,70 @@ def get_skill_type():
     # Get the skill type from the user
     skill_type_choice = int(input("\nPlease enter a skill type (1-17): "))
     
-    # If the user didn't enter a valid skill type, let them know
-    if skill_type_choice not in skill_types:
-        print("You did not enter a valid skill type.")
-
-    # Otherwise, proceed with operations
-    else:
-        # If the user chooses an elemental skill, give them the choice the filter by damage grade
-        if skill_type_choice in elemental_skills:
+    # If the skill type is in the index range, proceed with operations
+    if skill_type_choice in skill_types_indexes:
             # Phys 
             if skill_type_choice == 1:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Phys Skills:")
+                        print("\nLight Phys Skills:")
                         for skill in PhysSkillList.light_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
-                        print("Medium Phys Skills:")
+                        print("\nMedium Phys Skills:")
                         for skill in PhysSkillList.medium_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
-                        print("Heavy Phys Skills:")
+                        print("\nHeavy Phys Skills:")
                         for skill in PhysSkillList.heavy_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Phys Skills:")
+                        print("\nSevere Phys Skills:")
                         for skill in PhysSkillList.severe_skills:
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
-                    # Display all skills 
-                    for 
+                    # Display all skills       
+                    print("\nPhys Skills: ")              
+                    for group in PhysSkillList.full_phys_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
             # Gun
             elif skill_type_choice == 2:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Gun Skills:")
+                        print("\nLight Gun Skills:")
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
-                        print("Medium Gun Skills:")
+                        print("\nMedium Gun Skills:")
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
-                        print("Heavy Gun Skills:")
+                        print("\nHeavy Gun Skills:")
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Gun Skills:")
+                        print("\nSevere Gun Skills:")
 
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
+                    print("\nGun Skills:")
                     for group in PhysSkillList.full_phys_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
@@ -129,32 +127,33 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Fire Skills:")
+                        print("\nLight Fire Skills:")
                         for skill in FireSkillList.light_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
-                        print("Medium Fire Skills:")
+                        print("\nMedium Fire Skills:")
                         for skill in FireSkillList.medium_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
-                        print("Heavy Fire Skills:")
+                        print("\nHeavy Fire Skills:")
                         for skill in FireSkillList.heavy_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Fire Skills:")
+                        print("\nSevere Fire Skills:")
                         for skill in FireSkillList.severe_skills:
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
+                    print("\nFire Skills:")
                     for group in FireSkillList.full_fire_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
@@ -165,32 +164,33 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Ice Skills: ")
+                        print("\nLight Ice Skills:")
                         for skill in IceSkillList.light_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
-                        print("Medium Ice Skills:")
+                        print("\nMedium Ice Skills:")
                         for skill in IceSkillList.medium_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
-                        print("Heavy Ice Skills:")
+                        print("\nHeavy Ice Skills:")
                         for skill in IceSkillList.heavy_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Ice Skills:")
+                        print("\nSevere Ice Skills:")
                         for skill in IceSkillList.severe_skills:
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
+                    print("\nIce Skills:")
                     for group in IceSkillList.full_ice_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
@@ -201,32 +201,33 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Elec Skills: ")
+                        print("\nLight Elec Skills:")
                         for skill in ElecSkillList.light_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
-                        print("Medium Elec Skills:")
+                        print("\nMedium Elec Skills:")
                         for skill in ElecSkillList.medium_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
-                        print("Heavy Elec Skills:")
+                        print("\nHeavy Elec Skills:")
                         for skill in ElecSkillList.heavy_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Elec Skills:")
+                        print("\nSevere Elec Skills:")
                         for skill in ElecSkillList.severe_skills:
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
+                    print("\nElec Skills:")
                     for group in ElecSkillList.full_elec_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
@@ -237,25 +238,36 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light skills
-                        print("Light Wind Skills: ")
+                        print("\nLight Wind Skills:")
+                        for skill in WindSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
-                        print("Medium Wind Skills:")
+                        print("\nMedium Wind Skills:")
+                        for skill in WindSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
-                        print("Heavy Wind Skills:")
+                        print("\nHeavy Wind Skills:")
+                        for skill in WindSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Wind Skills:")
+                        print("\nSevere Wind Skills:")
+                        for skill in WindSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    print("\nWind Skills:")
+                    for group in WindSkillList.full_wind_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Psy
             elif skill_type_choice == 7:
@@ -263,25 +275,36 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light Psy skills
-                        print("Light Psy Skills: ")
+                        print("\nLight Psy Skills: ")
+                        for skill in PsySkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Psy skills
-                        print("Medium Psy Skills:")
+                        print("\nMedium Psy Skills:")
+                        for skill in PsySkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Psy skills
-                        print("Heavy Psy Skills:")
+                        print("\nHeavy Psy Skills:")
+                        for skill in PsySkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Psy skills
-                        print("Severe Psy Skills:")
+                        print("\nSevere Psy Skills:")
+                        for skill in PsySkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    print("\nPsy Skills:")
+                    for group in PsySkillList.full_psy_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Nuke
             elif skill_type_choice == 8:
@@ -289,25 +312,36 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light Nuke skills
-                        print("Light Nuke Skills: ")
+                        print("\nLight Nuke Skills:")
+                        for skill in NukeSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Nuke skills
-                        print("Medium Nuke Skills:")
+                        print("\nMedium Nuke Skills:")
+                        for skill in NukeSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Nuke skills
-                        print("Heavy Nuke Skills:")
+                        print("\nHeavy Nuke Skills:")
+                        for skill in NukeSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Nuke skills
-                        print("Severe Nuke Skills:")
+                        print("\nSevere Nuke Skills:")
+                        for skill in NukeSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    print("\nNuke Skills:")
+                    for group in NukeSkillList.full_nuke_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Bless
             elif skill_type_choice == 9:
@@ -315,25 +349,36 @@ def get_skill_type():
                 damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
                 if damage_grade_validation == "Y":
                     print("Damage grades:")
-                    for index, damage_grade in enumerate(damage_grades[0:3],start=1):
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
                         print(f"{index}. {damage_grade}")
                     damage_grade_choice = input("Enter a damage grade (1-4): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light Bless skills
-                        print("Light Bless Skills: ")
+                        print("\nLight Bless Skills:")
+                        for skill in BlessSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Bless skills
-                        print("Medium Bless Skills:")
+                        print("\nMedium Bless Skills:")
+                        for skill in BlessSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Bless skills
-                        print("Heavy Bless Skills:")
+                        print("\nHeavy Bless Skills:")
+                        for skill in BlessSkillList.heavy_skills:
+                            skill.display_simplflified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Bless skills
-                        print("Severe Bless Skills:")
+                        print("\nSevere Bless Skills:")
+                        for skill in BlessSkillList.severe_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
+                    print("\nBless Skills:")
+                    for group in BlessSkillList.full_bless_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Curse
             elif skill_type_choice == 10:
@@ -346,144 +391,142 @@ def get_skill_type():
                     damage_grade_choice = input("Enter an option choice (1-5): ")
                     if damage_grade_choice == 1:
                         # Display the list of Light Curse skills
-                        print("Light Curse Skills: ")
+                        print("\nLight Curse Skills:")
+                        for skill in CurseSkillList.light_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Curse skills
-                        print("Medium Curse Skills:")
+                        print("\nMedium Curse Skills:")
+                        for skill in CurseSkillList.medium_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Curse skills
-                        print("Heavy Curse Skills:")
+                        print("\nHeavy Curse Skills:")
+                        for skill in CurseSkillList.heavy_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
-                        print("Severe Curse Skills:")
+                        print("\nSevere Curse Skills:")
+                        for skill in CurseSkillList.severe_skills:
+                            skill.display_simplified_info()
                     elif damage_grade_choice == 5:
                         # Display the list of Curse Instant kill skills 
+                        print("\nCurse Instant Kill Skills:")
+                        for skill in CurseSkillList.instant_kill_skills:
+                            skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
-                    pass
-
-
-            damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
-            if damage_grade_validation == "Y":
-                damage_grade_choice = input("Please enter a damage grade (or enter Instant Kill for Instant Kill skills (Curse only)): ").capitalize()
-                # If the user chooses Light damage grade, display light skills
-                if damage_grade_choice == damage_grades[0]:
-                    pass
-            # If the user doesn't choose a specific damage grade, just display the list of all elemental skills to them
-            else:
-                print("List of elemental skills: ")
-                print("------------------------------------")
-                for elemental_skill in elemental_skills: # I would put the data here from the imported modules, replace later
-                    print(elemental_skill)
+                    print("\nCurse Skills:")
+                    for group in CurseSkillList.full_curse_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
         
-        
-        
-        # if the user chooses other than an elemental skill
-        # Buffs
-        # --------------------------------------------------------------
-        if skill_type_choice == 11: 
-            valid_buff_format_choices = ("Singular", "AOE", "Both")
-            buff_format_choice_indexes = (1,2,3)
-            print("Buff choices:")
-            for index, buff_choice in enumerate(valid_buff_format_choices,start=1):
-                print(f"{index}. {buff_choice}")
-            print("Would you like to see AOE buff skills, singular buff skills or both?")
-            buff_format_choice = int(input("Enter a choice (1-3): "))
-            # Display the list of all singular buff skills
-            if buff_format_choice == 1:
-                for skill in BuffSkillList.singular_skills:
-                    skill.display_simplified_info()
-            # Display the list of AOE buff skills 
-            elif buff_format_choice == 2:
-                for skill in BuffSkillList.AOE_skills:
-                    skill.display_simplified_info()
-            # Display the list of all buffs skills
-            elif buff_format_choice == 3:
-                for group in BuffSkillList.full_buff_skill_list:
-                    for buff in group:
-                        buff.display_simplified_info()
+            # if the user chooses other than an elemental skill
+            # Buffs
+            # --------------------------------------------------------------
+            elif skill_type_choice == 11: 
+                valid_buff_format_choices = ("Singular", "AOE", "Both")
+                buff_format_choice_indexes = (1,2,3)
+                print("Buff choices:")
+                for index, buff_choice in enumerate(valid_buff_format_choices,start=1):
+                    print(f"{index}. {buff_choice}")
+                print("Would you like to see AOE buff skills, singular buff skills or both?")
+                buff_format_choice = int(input("Enter a choice (1-3): "))
+                # Display the list of all singular buff skills
+                if buff_format_choice == 1:
+                    for skill in BuffSkillList.singular_skills:
+                        skill.display_simplified_info()
+                # Display the list of AOE buff skills 
+                elif buff_format_choice == 2:
+                    for skill in BuffSkillList.AOE_skills:
+                        skill.display_simplified_info()
+                # Display the list of all buffs skills
+                elif buff_format_choice == 3:
+                    for group in BuffSkillList.full_buff_skill_list:
+                        for buff in group:
+                            buff.display_simplified_info()
                     
-        # Debuffs
-        # --------------------------------------------------------------
-        elif skill_type_choice == 12:
-            valid_debuff_format_choices = ("Singular", "AOE", "Both")
-            debuff_format_choice_indexes = (1,2,3)
-            print("Debuff choices:")
-            for index, debuff_choice in enumerate(valid_debuff_format_choices,start=1):
-                print(f"{index}. {debuff_choice}")
-            print("Would you like to see AOE buff skills, singular buff skills or both?")
-            debuff_format_choice = int(input("Enter a choice (1-3): "))
-            # Display the list of all singular debuff skills
-            if buff_format_choice == 1:
-                for skill in DebuffSkillList.singular_skills:
-                    skill.display_simplified_info()
-
-            # Display the list of all AOE debuff skills
-            elif buff_format_choice == 2:
-                for skill in DebuffSkillList.aoe_skills:
-                    skill.display_simplified_info()
-
-            # Display the list of all debuff skills
-            elif buff_format_choice == 3:
-                for group in DebuffSkillList.full_debuff_skills:
-                    for skill in group:
-                        skill.display_simplified_info()
-            
-        # Passive Buffs   
-        # --------------------------------------------------------------
-        elif skill_type_choice == 13:
-            for skill in PassiveBuffList.passive_buffs:
-                skill.display_simplified_info()
-
-        # HP Recovery
-        # --------------------------------------------------------------
-        elif skill_type_choice == 14:
-            pass
-
-        # Ailment Recovery
-        elif skill_type_choice == 15:
-            print("Ailment Recovery skills are not yet available, sorry :(")
-            print("(Comning soon)")
-
-        # Passives
-        # --------------------------------------------------------------
-        elif skill_type_choice == 16:
-            valid_passive_choices = ("Normal", "Affinity", "Both")
-            passive_format_choice_indexes = (1,2,3)
-            print("Passive choices:")
-            for index, passive_choice in enumerate(valid_passive_choices,start=1):
-                print(f"{index}. {passive_choice}")
-            print("Would you like to see Normal passive skills, affinity passive skills or both?")
-            passive_format_choice = int(input("Enter a chioce (1-3): "))
-            # Display the list of normal passives
-            if passive_format_choice == 1:
-                for skill in PassiveSkillList.normal_passive_skills:
-                    skill.display_simplified_info()
-            # Display the list of affinity passives
-            elif passive_format_choice == 2:
-                for skill in PassiveSkillList.affinity_passive_skills:
-                    skill.display_simplified_info()
-            # Display all passive skills
-            elif passive_format_choice == 3:
-                for group in PassiveSkillList.full_passive_skill_list:
-                    for skill in group:
+            # Debuffs
+            # --------------------------------------------------------------
+            elif skill_type_choice == 12:
+                valid_debuff_format_choices = ("Singular", "AOE", "Both")
+                debuff_format_choice_indexes = (1,2,3)
+                print("Debuff choices:")
+                for index, debuff_choice in enumerate(valid_debuff_format_choices,start=1):
+                    print(f"{index}. {debuff_choice}")
+                print("Would you like to see AOE buff skills, singular buff skills or both?")
+                debuff_format_choice = int(input("Enter a choice (1-3): "))
+                # Display the list of all singular debuff skills
+                if buff_format_choice == 1:
+                    for skill in DebuffSkillList.singular_skills:
                         skill.display_simplified_info()
 
+                # Display the list of all AOE debuff skills
+                elif buff_format_choice == 2:
+                    for skill in DebuffSkillList.aoe_skills:
+                        skill.display_simplified_info()
 
-        # Status Ailment
-        # --------------------------------------------------------------
-        if skill_type_choice == 17:
-            print("Status Ailment skills are not yet available, sorry :(")
-            print("(Comning soon)")
+                # Display the list of all debuff skills
+                elif buff_format_choice == 3:
+                    for group in DebuffSkillList.full_debuff_skills:
+                        for skill in group:
+                            skill.display_simplified_info()
+                
+            # Passive Buffs   
+            # --------------------------------------------------------------
+            elif skill_type_choice == 13:
+                print("\nPassive Buff Skills:")
+                for skill in PassiveBuffList.passive_buffs:
+                    skill.display_simplified_info()
+
+            # HP Recovery
+            # --------------------------------------------------------------
+            elif skill_type_choice == 14:
+                pass
+
+            # Ailment Recovery
+            elif skill_type_choice == 15:
+                print("Ailment Recovery skills are not yet available, sorry :(")
+                print("(Comning soon)")
+
+            # Passives
+            # --------------------------------------------------------------
+            elif skill_type_choice == 16:
+                valid_passive_choices = ("Normal", "Affinity", "Both")
+                passive_format_choice_indexes = (1,2,3)
+                print("Passive choices:")
+                for index, passive_choice in enumerate(valid_passive_choices,start=1):
+                    print(f"{index}. {passive_choice}")
+                print("Would you like to see Normal passive skills, affinity passive skills or both?")
+                passive_format_choice = int(input("Enter a chioce (1-3): "))
+                # Display the list of normal passives
+                if passive_format_choice == 1:
+                    for skill in PassiveSkillList.normal_passive_skills:
+                        skill.display_simplified_info()
+                # Display the list of affinity passives
+                elif passive_format_choice == 2:
+                    for skill in PassiveSkillList.affinity_passive_skills:
+                        skill.display_simplified_info()
+                # Display all passive skills
+                elif passive_format_choice == 3:
+                    print("Passive Skills:")
+                    for group in PassiveSkillList.full_passive_skill_list:
+                        for skill in group:
+                            skill.display_simplified_info()
+
+            # Status Ailment
+            # --------------------------------------------------------------
+            elif skill_type_choice == 17:
+                print("Status Ailment skills are not yet available, sorry :(")
+                print("(Comning soon)")
+
+    # If the user didn't enter a valid skill type, let them know
+    else:
+        print("You did not enter a valid skill type.")
 
             
 
-
-
-            
-
-#print(elemental_skills[9])
 
     
 display_skill_types()
