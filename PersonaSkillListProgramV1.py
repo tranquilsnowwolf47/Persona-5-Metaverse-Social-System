@@ -8,6 +8,8 @@
 
 # Note to self:
 # Throw some try-except block in that bad boy
+# I also need to make modules for 17 (Status Ailment Skills)
+# 15 (Ailment Recovery skills)
 
 
 # Imports the modules of all the skill categories 
@@ -18,15 +20,15 @@ import IceSkills
 import ElecSkills
 import WindSkills
 import PsySkills
-import NukeSkillList
+import NukeSkills
 import BlessSkills
 import CurseSkills
 import BuffSkills
 import DebuffSkills
-import PassiveBuffList
-import HPRecoverySkillList
-import AilmentRecoverySkillList
-import PassiveSkillList
+import PassiveBuffSkills
+import HPRecoverySkills
+import AilmentRecoverySkills
+import PassiveSkills
 
 # A tuple that holds all Persona skill types that the user whill be able to choose from
 skill_types = ("Phys","Gun","Fire","Ice","Elec","Wind","Psy","Nuke","Bless","Curse",
@@ -43,7 +45,6 @@ skill_types[9])
 # Damage grade for elemental skills 
 damage_grades = ("Light", "Medium", "Heavy", "Severe", "Instant Kill")
 damage_grades_indexes = (1,2,3,4)
-hp_recovery_grades = ("Light", "Moderate", "Full")
 
 
 while True:
@@ -365,32 +366,32 @@ while True:
                         # Display the list of Light Nuke skills
                         print("\nLight Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkillList.light_skills:
+                        for skill in NukeSkills.light_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Nuke skills
                         print("\nMedium Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkillList.medium_skills:
+                        for skill in NukeSkills.medium_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Nuke skills
                         print("\nHeavy Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkillList.heavy_skills:
+                        for skill in NukeSkills.heavy_skills:
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Nuke skills
                         print("\nSevere Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkillList.severe_skills:
+                        for skill in NukeSkills.severe_skills:
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
                     print("\nNuke Skills:")
                     print("-----------------------------------------------------")    
-                    for group in NukeSkillList.full_nuke_skill_list:
+                    for group in NukeSkills.full_nuke_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
 
@@ -515,7 +516,7 @@ while True:
                         for buff in group:
                             buff.display_simplified_info()
                     
-            # Debuffs 
+            # Debuffs | Debugged
             # --------------------------------------------------------------
             elif skill_type_choice == 12:
                 valid_debuff_format_choices = ("Singular", "AOE", "Both")
@@ -547,24 +548,61 @@ while True:
                         for skill in group:
                             skill.display_simplified_info()
                 
-            # Passive Buffs   
+            # Passive Buffs | Debugged  
             # --------------------------------------------------------------
             elif skill_type_choice == 13:
                 print("\nPassive Buff Skills:")
-                for skill in PassiveBuffList.passive_buffs:
+                print("-----------------------------------------------------")  
+                for skill in PassiveBuffSkills.passive_buffs:
                     skill.display_simplified_info()
 
-            # HP Recovery
+            # HP Recovery | Debugged  
             # --------------------------------------------------------------
             elif skill_type_choice == 14:
-                pass
+                valid_hp_recovery_grade_choices = ("Light", "Moderate", "Full", "All")
+                hp_recovery_grades_choice_indexes = (1,2,3,4)
+
+                # Display the list of HP Recovery skill grades 
+                print("HP Recovery Skill Grades:")
+                print("-----------------------------------------------------")  
+                for index, grade in enumerate(valid_hp_recovery_grade_choices,start=1):
+                    print(f"{index}. {grade}")
+                print("Would you like see Light HP Recovery skills, Moderate HP Recovery skills, Full HP Recovery skills, or All HP Recovery skills?")
+                # Get the user's input 
+                hp_recovery_skill_choice = int(input("Enter a choice (1-3): "))
+                
+                # Display the list of Light HP Recovery skills
+                if hp_recovery_skill_choice == 1:
+                    print("\nLight HP Recovery Skills:")
+                    print("-----------------------------------------------------")  
+                    for skill in HPRecoverySkills.light_recovery_skills:
+                        skill.display_simplified_info()
+                # Display the list of moderate HP Recovery skills
+                elif hp_recovery_skill_choice == 2:
+                    print("\nModerate HP Recovery Skills:")
+                    print("-----------------------------------------------------")  
+                    for skill in HPRecoverySkills.moderate_recovery_skills:
+                        skill.display_simplified_info()
+                # Display the list of Full HP Recovery skills
+                elif hp_recovery_skill_choice == 3:
+                    print("\nFull HP Recovery Skills:")
+                    print("-----------------------------------------------------")  
+                    for skill in HPRecoverySkills.full_recovery_skills:
+                        skill.display_simplified_info()
+                elif hp_recovery_skill_choice == 4:
+                    print("\nHP Recovery Skills:")
+                    print("-----------------------------------------------------")  
+                    for group in HPRecoverySkills.all_HP_recovery_skills:
+                        for skill in group:
+                            skill.display_simplified_info()
 
             # Ailment Recovery
+            # --------------------------------------------------------------
             elif skill_type_choice == 15:
-                print("Ailment Recovery skills are not yet available, sorry :(")
+                print("\nAilment Recovery skills are not yet available, sorry :(")
                 print("(Comning soon)")
 
-            # Passives
+            # Passives | Debugged
             # --------------------------------------------------------------
             elif skill_type_choice == 16:
                 valid_passive_choices = ("Normal", "Affinity", "Both")
@@ -576,23 +614,28 @@ while True:
                 passive_format_choice = int(input("Enter a chioce (1-3): "))
                 # Display the list of normal passives
                 if passive_format_choice == 1:
-                    for skill in PassiveSkillList.normal_passive_skills:
+                    print("\nNormal Passive Skills:")
+                    print("-----------------------------------------------------")  
+                    for skill in PassiveSkills.normal_passive_skills:
                         skill.display_simplified_info()
                 # Display the list of affinity passives
                 elif passive_format_choice == 2:
-                    for skill in PassiveSkillList.affinity_passive_skills:
+                    print("\nAffinity Passive Skills:")
+                    print("-----------------------------------------------------")  
+                    for skill in PassiveSkills.affinity_passive_skills:
                         skill.display_simplified_info()
                 # Display all passive skills
                 elif passive_format_choice == 3:
-                    print("Passive Skills:")
-                    for group in PassiveSkillList.full_passive_skill_list:
+                    print("\nPassive Skills:")
+                    print("-----------------------------------------------------")  
+                    for group in PassiveSkills.full_passive_skill_list:
                         for skill in group:
                             skill.display_simplified_info()
 
             # Status Ailment
             # --------------------------------------------------------------
             elif skill_type_choice == 17:
-                print("Status Ailment skills are not yet available, sorry :(")
+                print("\nStatus Ailment skills are not yet available, sorry :(")
                 print("(Comning soon)")
 
     # If the user didn't enter a valid skill type, let them know
