@@ -1,4 +1,4 @@
-# Filename: DebuffSkillList.py
+# Filename: DebuffSkills.py
 # Date: 2/11/26
 # Author: Aoi | shadowsnowwolf
 # List of Debuff Skills 
@@ -15,6 +15,10 @@ class DebuffSkills:
         print(f"- {self.name} ({self.type})")
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
+
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.type})")
 
 class SingularSkills(DebuffSkills):
     pass
@@ -86,5 +90,11 @@ Your awareness of their mechanics reduces the chance that their moves succeed as
 Ex 2: A group tries to push their product onto you through validating each other’s opinions or claiming social conformity). 
 On hit, all Shadows in the group’s accuracy/evasion is temporarily reduced. Can be stacked and reapplied.""")
 
+# Singular debuff skills
 singular_skills = (ether_break, ascendancy_link, tactic_diffuser, affinity_beacon)
+
+# AOE debuff skills
 aoe_skills = (frequency_barrier, contagion_wave, coordination_vector)
+
+# 
+full_debuff_skills = (singular_skills, aoe_skills)
