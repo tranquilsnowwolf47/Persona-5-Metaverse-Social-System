@@ -1,4 +1,4 @@
-# Filename: BuffSkillList.py
+# Filename: BuffSkills.py
 # Date: 2/11/26
 # Author: Aoi | shadowsnowwolf
 # List of Buff Skills 
