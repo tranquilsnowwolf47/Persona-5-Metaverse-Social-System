@@ -1,4 +1,4 @@
-# Filename: PsySkillList.py
+# Filename: PsySkills.py
 # Date: 2/7/26
 # Author: Aoi | shadowsnowwolf
 # List of Psy skills (Mind reading/Psychological perception)
