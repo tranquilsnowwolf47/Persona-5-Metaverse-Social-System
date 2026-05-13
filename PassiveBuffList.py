@@ -1,4 +1,4 @@
-# Filename: PassiveBuffSkillList.py
+# Filename: PassiveBuffSkills.py
 # Date: 2/12/26
 # Author: Aoi | shadowsnowwolf
 # List of Passive Buff Skills 
@@ -15,6 +15,10 @@ class PassiveBuffSkills:
         print(f"- {self.name} ({self.type})")
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
+
+    # Displays the simplified info for the skill 
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.type})")
 
 social_competence = PassiveBuffSkills("Social Competence", "Passive Atk Buff | Auto-Tarukaja effect", 8,
 """"   - Enter every social encounter with a foundation of practiced social skill. 
