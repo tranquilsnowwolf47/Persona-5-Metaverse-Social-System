@@ -16,6 +16,10 @@ class HPRecoverySkills:
         print(f"SP Cost: {self.SP_cost}")
         print(f"Description:\n{self.description}")
 
+    # Shows the simplified info of the skill
+    def display_simplified_info(self):
+        print(f"{self.name} ({self.type})")
+
 
 #example = LightRecoverySkills("X", "Light HP Recovery", 0,
 #"""   - X""")
@@ -54,7 +58,7 @@ Restores a small amount of HP (18%).""")
 
 
 # Moderate HP Recovery Skills
-focused_breathing = ModerateRecoverySkills("Focused Breathing", "Light HP Recovery", 6,
+focused_breathing = ModerateRecoverySkills("Focused Breathing", "Moderate HP Recovery", 6,
 """   - Calm yourself down and lower your heart rate through deliberate breathing, reducing minor stress and regaining a small amount of HP. 
 In this skill, you slowly inhale through your nose, and let out a long exhale through your mouth. 
 Inhale for 4 seconds through your nose, hold for 1 second, and then exhale 3 seconds out through your mouth. Repeat 3 times for one cast. 
