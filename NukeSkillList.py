@@ -33,10 +33,10 @@ class MediumSkills(NukeSkills):
 class LightSkills(NukeSkills):
     pass
 
-example = MediumSkills("X", "Nuke", "Medium", 0,
-"""   - X""")
+#example = MediumSkills("X", "Nuke", "Medium", 0,
+#"""   - X""")
 
-overload_break = HeavySkills("Overload Break", "Nuke", "Medium", 24,
+overload_break = HeavySkills("Overload Break", "Nuke", "Heavy", 24,
 """   - Trigger a high-energy surge in response to success, momentum shifts, or exciting moments, amplifying positive emotion and presence to maximize hype. This skill converts wins, clutch moments, or favorable outcomes into an expressive burst that elevates both personal and group energy. The reaction is fully committed and unrestrained, reinforcing confidence through visible enthusiasm and strong emotional timing. It is used to lock in momentum and make positive moments more impactful and memorable without altering the underlying outcome itself.
 (Ex: reacting strongly after winning or succeeding at something
 Ex 2: hyping up a group after a good result or performance
@@ -103,5 +103,5 @@ Deals light Nuke damage.""")
 severe_skills = ()
 heavy_skills = (overload_break, spotlight_surge)
 medium_skills = (crowd_echo, flare_blast, hyper_link, sync_surge, flash_bounce)
-light_skills = (quick_cheer)
+light_skills = (quick_cheer,)
 full_nuke_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
