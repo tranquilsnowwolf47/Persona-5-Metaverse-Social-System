@@ -1,4 +1,4 @@
-# Filename: HPRecoverySkillList.py
+# Filename: HPRecoverySkills.py
 # Date: 2/19/26
 # Author: Aoi | shadowsnowwolf
 # List of HP (Social Stamina) recovery skills
