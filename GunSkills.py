@@ -1,4 +1,4 @@
-# Name: GunSkillList.py
+# Name: GunSkills.py
 # Date: 2/6/26
 # Author: Aoi | shadowsnowwolf
 # List of Gun (Low risk/light probing) skills from the Metaverse Social System sorted by damage grade 
