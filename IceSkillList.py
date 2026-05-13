@@ -57,7 +57,7 @@ Deals heavy Ice damage.""")
 
 
 # Medium Damage Grade Skills 
-platonic_curtain = MediumSkills("Platonic Curtain", "Medium", "Heavy", 14,
+platonic_curtain = MediumSkills("Platonic Curtain", "Ice", "Heavy", 14,
 """   - Lower the emotional temperature and clearly establish platonic intent when friendliness is misinterpreted as flirtation or when romantic boundaries already exist. 
 Through calm tone, neutral framing, and emotional maturity, you remove ambiguity without embarrassment, rejection, or tension. 
 This stabilizes the interaction, preserves mutual respect, and prevents future misunderstandings or social fallout.
