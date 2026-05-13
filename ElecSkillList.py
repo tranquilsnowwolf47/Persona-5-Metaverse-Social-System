@@ -33,8 +33,8 @@ class MediumSkills(ElecSkills):
 class LightSkills(ElecSkills):
     pass
 
-example = LightSkills("X", "Elec", "Light", 0,
-"""   - X""")
+#example = LightSkills("X", "Elec", "Light", 0,
+#"""   - X""")
 
 # Heavy Damage Grade Skills
 lightning_retort = HeavySkills("Lightning Retort", "Elec", "Heavy", 24,
