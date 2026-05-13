@@ -109,7 +109,11 @@ Ex 5: replaying or continuing until the response is sustained, not momentary
 Ex 6: reaching a point where your breathing and mood have visibly shifted).
 Fully restores HP (100%).""")
 
-
+# List of Light HP Recovery skills
 light_recovery_skills = (twin_breath, centered_breathing, charged_breathing)
+# List of Moderate HP Recovery skills
 moderate_recovery_skills = (focused_breathing, cognitive_reframe, cat_nap, white_reset, sage_stillness)
+# List of Full HP Recovery skills
 full_recovery_skills = (concentrated_breathing, laughter_trigger)
+# List of all HP Recovery skills 
+all_HP_recovery_skills = (light_recovery_skills, moderate_recovery_skills, full_recovery_skills)
