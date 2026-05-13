@@ -248,7 +248,7 @@ Especially effective against narcissists or distorted individuals who punish per
 Overuse risks dulling genuine rapport with healthy people, but against the wrong crowd, it can save you from unnecessary conflict or drama. 
 Deals light Curse damage.""")
 
-severe_skills = (honey_basher)
+severe_skills = (honey_basher,)
 instant_kill_skills = (get_blocked_for_me, black_list, effort_reaper, timeout_clause, flake_snare)
 heavy_skills = (data_hex, hidden_blueprint, veiled_initiative)
 medium_skills = (friendzone_seal, dark_tease, blackout, verbal_hex, chrono_veil, refusal_rite, minimum_echo, catalyst_trigger, clock_hold, reality_spike, hollow_stance)
