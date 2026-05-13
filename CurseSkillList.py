@@ -51,34 +51,34 @@ Deals severe Curse damage.""")
 
 
 # Instant Kill Skills
-get_blocked_for_me = InstantKillSkills("Get Blocked For Me!", "Curse", "Instant kill", 44,
+get_blocked_for_me = InstantKillSkills("Get Blocked For Me!", "Curse", "Instant Kill", 44,
 """   -  When a target crosses your preset cutoff conditions (disrespect, repeated flaking, low-effort engagement, or any personally defined disqualifier), they are immediately removed from your entire access ecosystem—blocked across all platforms, DM threads closed, contact pathways severed, and future re-entry eliminated. 
 No warning is given, no explanation is offered, and no follow-up occurs. This move treats disqualification as final state rather than debate, collapsing ambiguity by fully erasing access rather than negotiating behavior. 
 Designed to protect your attention economy, preserve momentum, and enforce absolute standards by permanently removing low-value or misaligned connections. Erases any chance of the target(s) having access to you. 
 Note!!: Only useable by the Alice Persona
 Very high chance of inflicting instant kill on all applicable targets.""")
 
-black_list = InstantKillSkills("Black List", "Curse", "Instant kill", 24,
+black_list = InstantKillSkills("Black List", "Curse", "Instant Kill", 24,
 """   - When flakey behavior crosses your preset tolerance window (as early as the first flake, never later than the third), the target is immediately cut off—DM closed, unfollowed, or access revoked. 
 No message is sent and no clarification is offered. This move treats lack of follow-through as final intent, cutting through excuses and ambiguity by removing the target from your attention economy entirely. 
 Designed to preserve momentum, enforce standards, speed-run options, and eliminate low-investment connections. 
 High chance of inflicting instant kill.""")
 
-effort_reaper = InstantKillSkills("Effort Reaper", "Curse", "Instant kill", 23,
+effort_reaper = InstantKillSkills("Effort Reaper", "Curse", "Instant Kill", 23,
 """   - Monitors the target’s communication over time, tracking patterns of short, non-committal, or disengaged responses. 
 Once their minimal effort crosses your set threshold, you end the interaction entirely, removing them from your roster without ceremony. 
 This decisive move eliminates “dry” time-wasters before they drain more of your energy or block better opportunities. 
 Functions as an instant kill against low-effort communicators; misses entirely if the target maintains healthy engagement. 
 High chance of inflicting instant kill.""")
 
-timeout_clause = InstantKillSkills("Timeout Clause", "Curse", "Instant kill", 15,
+timeout_clause = InstantKillSkills("Timeout Clause", "Curse", "Instant Kill", 15,
 """   - When dealing with new connections, you set a strict 5-day window (or any other window of your choice) for replies. 
 If they haven’t responded by the deadline, you close the conversation without further effort. 
 This move filters out low-investment individuals, protects your time, and prevents you from chasing dead-end interactions. 
 Works best when applied consistently to maintain strong boundaries. Against flaky or uninterested targets, it can function like a delayed instant kill. 
 High chance of inflicting instant kill.""")
 
-flake_snare = InstantKillSkills("Flake Snare", "Curse", "Instant kill", 15,
+flake_snare = InstantKillSkills("Flake Snare", "Curse", "Instant Kill", 15,
 """   - Call out the gap between someone's words and actions when they cancel or "can't make it" without offering a new time. 
 By directly asking if they'd like to reschedule or pointing out the lack of follow-up, you force clarity on their intent. 
 This move can flush out low investment, reveal disinterest, test for reactions, or motivate genuine people to lock in another time. 
@@ -253,4 +253,4 @@ instant_kill_skills = (get_blocked_for_me, black_list, effort_reaper, timeout_cl
 heavy_skills = (data_hex, hidden_blueprint, veiled_initiative)
 medium_skills = (friendzone_seal, dark_tease, blackout, verbal_hex, chrono_veil, refusal_rite, minimum_echo, catalyst_trigger, clock_hold, reality_spike, hollow_stance)
 light_skills = (mocking_mirror, cursed_joke, vanity_bait, faux_focus)
-full_curse_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills, instant_kill_skills)
+full_curse_skill_list = (instant_kill_skills, severe_skills, heavy_skills, medium_skills, light_skills)
