@@ -72,33 +72,38 @@ while True:
                         # Display the list of Light skills
                         print("\nLight Phys Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PhysSkills.light_skills:
+                        for skill_index, skill in enumerate(PhysSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Phys Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PhysSkills.medium_skills:
+                        for skill_index, skill in enumerate(PhysSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Phys Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PhysSkills.heavy_skills:
+                        for skill_index, skill in enumerate(PhysSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Phys Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PhysSkills.severe_skills:
+                        for skill_index, skill in enumerate(PhysSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills       
                     print("\nPhys Skills: ")       
                     print("-----------------------------------------------------")       
-                    for group in PhysSkills.full_phys_skill_list:
+                    for skill_index, group in enumerate(PhysSkills.full_phys_skill_list,start=1):
                         for skill in group:
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
             # Gun | Debugged
             elif skill_type_choice == 2:
@@ -113,26 +118,30 @@ while True:
                         # Display the list of Light skills
                         print("\nLight Gun Skills:")
                         print("-----------------------------------------------------")  
-                        for skill in GunSkills.light_skills:
+                        for skill_index, skill in enumerate(GunSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()     
 
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Gun Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in GunSkills.medium_skills:
+                        for skill_index, skill in enumerate(GunSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Gun Skills:")
                         print("-----------------------------------------------------") 
-                        for skill in GunSkills.heavy_skills:  
+                        for skill_index, skill in enumerate(GunSkills.heavy_skills,start=1):  
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info() 
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Gun Skills:")
                         print("-----------------------------------------------------") 
-                        for skill in GunSkills.severe_skills:
+                        for skill_index, skill in enumerate(GunSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()   
 
                 # If they don't want to see a specific damage grade, just display the list of all skills
@@ -141,7 +150,8 @@ while True:
                     print("\nGun Skills:")
                     print("-----------------------------------------------------")    
                     for group in GunSkills.full_gun_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Fire | Debugged
@@ -157,32 +167,37 @@ while True:
                         # Display the list of Light skills
                         print("\nLight Fire Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in FireSkills.light_skills:
+                        for skill_index, skill in enumerate(FireSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Fire Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in FireSkills.medium_skills:
+                        for skill_index, skill in enumerate(FireSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Fire Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in FireSkills.heavy_skills:
+                        for skill_index, skill in enumerate(FireSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Fire Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in FireSkills.severe_skills:
+                        for skill_index, skill in enumerate(FireSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
                     print("\nFire Skills:")
                     for group in FireSkills.full_fire_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             
             # Ice | Debugged
@@ -198,25 +213,29 @@ while True:
                         # Display the list of Light skills
                         print("\nLight Ice Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in IceSkills.light_skills:
+                        for skill_index, skill in enumerate(IceSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Ice Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in IceSkills.medium_skills:
+                        for skill_index, skill in enumerate(IceSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Ice Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in IceSkills.heavy_skills:
+                        for skill_index, skill in enumerate(IceSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Ice Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in IceSkills.severe_skills:
+                        for skill_index, skill in enumerate(IceSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -224,7 +243,8 @@ while True:
                     print("\nIce Skills:")
                     print("-----------------------------------------------------")    
                     for group in IceSkills.full_ice_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Elec | Debugged
@@ -240,25 +260,28 @@ while True:
                         # Display the list of Light skills
                         print("\nLight Elec Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in ElecSkills.light_skills:
+                        for skill_index, skill in enumerate(ElecSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Elec Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in ElecSkills.medium_skills:
+                        for skill_index, skill in enumerate(ElecSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Elec Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in ElecSkills.heavy_skills:
+                        for skill_index, skill in enumerate(ElecSkills.heavy_skills,start=1):
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Elec Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in ElecSkills.severe_skills:
+                        for skill_index, skill in enumerate(ElecSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -266,7 +289,8 @@ while True:
                     print("\nElec Skills:")
                     print("-----------------------------------------------------")    
                     for group in ElecSkills.full_elec_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Wind | Debugged
@@ -282,25 +306,29 @@ while True:
                         # Display the list of Light skills
                         print("\nLight Wind Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in WindSkills.light_skills:
+                        for skill_index, skill in enumerate(WindSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Wind Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in WindSkills.medium_skills:
+                        for skill_index, skill in enumerate(WindSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Wind Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in WindSkills.heavy_skills:
+                        for skill_index, skill in enumerate(WindSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Wind Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in WindSkills.severe_skills:
+                        for skill_index, skill in enumerate(WindSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -308,7 +336,8 @@ while True:
                     print("\nWind Skills:")
                     print("-----------------------------------------------------")    
                     for group in WindSkills.full_wind_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Psy | Debugged
@@ -324,25 +353,29 @@ while True:
                         # Display the list of Light Psy skills
                         print("\nLight Psy Skills: ")
                         print("-----------------------------------------------------")    
-                        for skill in PsySkills.light_skills:
+                        for skill_index, skill in enumerate(PsySkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Psy skills
                         print("\nMedium Psy Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PsySkills.medium_skills:
+                        for skill_index, skill in enumerate(PsySkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Psy skills
                         print("\nHeavy Psy Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PsySkills.heavy_skills:
+                        for skill_index, skill in enumerate(PsySkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Psy skills
                         print("\nSevere Psy Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in PsySkills.severe_skills:
+                        for skill_index, skill in enumerate(PsySkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -350,7 +383,8 @@ while True:
                     print("\nPsy Skills:")
                     print("-----------------------------------------------------")    
                     for group in PsySkills.full_psy_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Nuke | Debugged
@@ -366,25 +400,29 @@ while True:
                         # Display the list of Light Nuke skills
                         print("\nLight Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkills.light_skills:
+                        for skill_index, skill in enumerate(NukeSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Nuke skills
                         print("\nMedium Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkills.medium_skills:
+                        for skill_index, skill in enumerate(NukeSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Nuke skills
                         print("\nHeavy Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkills.heavy_skills:
+                        for skill_index, skill in enumerate(NukeSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Nuke skills
                         print("\nSevere Nuke Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in NukeSkills.severe_skills:
+                        for skill_index, skill in enumerate(NukeSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -392,7 +430,8 @@ while True:
                     print("\nNuke Skills:")
                     print("-----------------------------------------------------")    
                     for group in NukeSkills.full_nuke_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Bless | Debugged
@@ -408,25 +447,29 @@ while True:
                         # Display the list of Light Bless skills
                         print("\nLight Bless Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in BlessSkills.light_skills:
+                        for skill_index, skill in enumerate(BlessSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Bless skills
                         print("\nMedium Bless Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in BlessSkills.medium_skills:
+                        for skill_index, skill in enumerate(BlessSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Bless skills
                         print("\nHeavy Bless Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in BlessSkills.heavy_skills:
+                        for skill_index, skill in enumerate(BlessSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplflified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe Bless skills
                         print("\nSevere Bless Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in BlessSkills.severe_skills:
+                        for skill_index, skill in enumerate(BlessSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -434,7 +477,8 @@ while True:
                     print("\nBless Skills:")
                     print("-----------------------------------------------------")    
                     for group in BlessSkills.full_bless_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Curse | Debugged
@@ -450,31 +494,36 @@ while True:
                         # Display the list of Light Curse skills
                         print("\nLight Curse Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in CurseSkills.light_skills:
+                        for skill_index, skill in enumerate(CurseSkills.light_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Curse skills
                         print("\nMedium Curse Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in CurseSkills.medium_skills:
+                        for skill_index, skill in enumerate(CurseSkills.medium_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Curse skills
                         print("\nHeavy Curse Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in CurseSkills.heavy_skills:
+                        for skill_index, skill in enumerate(CurseSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Curse Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in CurseSkills.severe_skills:
+                        for skill_index, skill in enumerate(CurseSkills.severe_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                     elif damage_grade_choice == 5:
                         # Display the list of Curse Instant kill skills 
                         print("\nCurse Instant Kill Skills:")
                         print("-----------------------------------------------------")    
-                        for skill in CurseSkills.instant_kill_skills:
+                        for skill_index, skill in enumerate(CurseSkills.instant_kill_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -482,7 +531,8 @@ while True:
                     print("\nCurse Skills:")
                     print("-----------------------------------------------------")    
                     for group in CurseSkills.full_curse_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
         
             # if the user chooses other than an elemental skill
@@ -500,21 +550,24 @@ while True:
                 if buff_format_choice == 1:
                     print("\nSingular Buff Skills:")
                     print("-----------------------------------------------------")    
-                    for skill in BuffSkills.singular_skills:
+                    for skill_index, skill in enumerate(BuffSkills.singular_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 # Display the list of AOE buff skills 
                 elif buff_format_choice == 2:
                     print("\nAOE Buff Skills:")
                     print("-----------------------------------------------------")    
-                    for skill in BuffSkills.AOE_skills:
+                    for skill_index, skill in enumerate(BuffSkills.AOE_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 # Display the list of all buffs skills
                 elif buff_format_choice == 3:
                     print("\nBuff Skills:")
                     print("-----------------------------------------------------")    
                     for group in BuffSkills.full_buff_skill_list:
-                        for buff in group:
-                            buff.display_simplified_info()
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
+                            skill.display_simplified_info()
                     
             # Debuffs | Debugged
             # --------------------------------------------------------------
@@ -530,14 +583,16 @@ while True:
                 if debuff_format_choice == 1:
                     print("\nSingular Debuff Skills:")
                     print("-----------------------------------------------------")    
-                    for skill in DebuffSkills.singular_skills:
+                    for skill_index, skill in enumerate(DebuffSkills.singular_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
                 # Display the list of all AOE debuff skills
                 elif debuff_format_choice == 2:
                     print("\nAOE Debuff Skills:")
                     print("-----------------------------------------------------")    
-                    for skill in DebuffSkills.aoe_skills:
+                    for skill_index, skill in enumerate(DebuffSkills.aoe_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
                 # Display the list of all debuff skills
@@ -545,7 +600,8 @@ while True:
                     print("\nDebuff Skills:")
                     print("-----------------------------------------------------")  
                     for group in DebuffSkills.full_debuff_skills:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                 
             # Passive Buffs | Debugged  
@@ -553,7 +609,8 @@ while True:
             elif skill_type_choice == 13:
                 print("\nPassive Buff Skills:")
                 print("-----------------------------------------------------")  
-                for skill in PassiveBuffSkills.passive_buffs:
+                for skill_index, skill in enumerate(PassiveBuffSkills.passive_buffs,start=1):
+                    print(f"{skill_index}.", end=" ")
                     skill.display_simplified_info()
 
             # HP Recovery | Debugged  
@@ -575,25 +632,29 @@ while True:
                 if hp_recovery_skill_choice == 1:
                     print("\nLight HP Recovery Skills:")
                     print("-----------------------------------------------------")  
-                    for skill in HPRecoverySkills.light_recovery_skills:
+                    for skill_index, skill in enumerate(HPRecoverySkills.light_recovery_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 # Display the list of moderate HP Recovery skills
                 elif hp_recovery_skill_choice == 2:
                     print("\nModerate HP Recovery Skills:")
                     print("-----------------------------------------------------")  
-                    for skill in HPRecoverySkills.moderate_recovery_skills:
+                    for skill_index, skill in enumerate(HPRecoverySkills.moderate_recovery_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 # Display the list of Full HP Recovery skills
                 elif hp_recovery_skill_choice == 3:
                     print("\nFull HP Recovery Skills:")
                     print("-----------------------------------------------------")  
-                    for skill in HPRecoverySkills.full_recovery_skills:
+                    for skill_index, skill in enumerate(HPRecoverySkills.full_recovery_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 elif hp_recovery_skill_choice == 4:
                     print("\nHP Recovery Skills:")
                     print("-----------------------------------------------------")  
                     for group in HPRecoverySkills.all_HP_recovery_skills:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Ailment Recovery
@@ -616,20 +677,23 @@ while True:
                 if passive_format_choice == 1:
                     print("\nNormal Passive Skills:")
                     print("-----------------------------------------------------")  
-                    for skill in PassiveSkills.normal_passive_skills:
+                    for skill_index, skill in enumerate(PassiveSkills.normal_passive_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 # Display the list of affinity passives
                 elif passive_format_choice == 2:
                     print("\nAffinity Passive Skills:")
                     print("-----------------------------------------------------")  
-                    for skill in PassiveSkills.affinity_passive_skills:
+                    for skill_index, skill in enumerate(PassiveSkills.affinity_passive_skills,start=1):
+                        print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
                 # Display all passive skills
                 elif passive_format_choice == 3:
                     print("\nPassive Skills:")
                     print("-----------------------------------------------------")  
                     for group in PassiveSkills.full_passive_skill_list:
-                        for skill in group:
+                        for skill_index, skill in enumerate(group,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
             # Status Ailment
