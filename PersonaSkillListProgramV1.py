@@ -100,11 +100,13 @@ while True:
                 else:
                     # Display all skills       
                     print("\nPhys Skills: ")       
-                    print("-----------------------------------------------------")       
-                    for skill_index, group in enumerate(PhysSkills.full_phys_skill_list,start=1):
+                    print("-----------------------------------------------------")  
+                    skill_index = 1     
+                    for group in PhysSkills.full_phys_skill_list:
                         for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            counter += 1
             # Gun | Debugged
             elif skill_type_choice == 2:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
@@ -150,7 +152,7 @@ while True:
                     print("\nGun Skills:")
                     print("-----------------------------------------------------")    
                     for group in GunSkills.full_gun_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill_index, skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
@@ -196,7 +198,7 @@ while True:
                     # Display all skills 
                     print("\nFire Skills:")
                     for group in FireSkills.full_fire_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill_index, skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             
