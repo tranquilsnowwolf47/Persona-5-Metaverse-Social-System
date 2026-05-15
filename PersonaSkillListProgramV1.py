@@ -11,6 +11,10 @@
 # I also need to make modules for 17 (Status Ailment Skills)
 # 15 (Ailment Recovery skills)
 
+# It's operational for now, but I'd like to eventually implement the choice to see
+# the description of the skill, which would just call the display info method.
+# It's good enough for now, but I'll get to that
+
 
 # Imports the modules of all the skill categories 
 import PhysSkills
