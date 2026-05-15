@@ -71,7 +71,7 @@ pep_talk = AOESkills("Pep Talk", "AOE Atk Buff | Matarukaja effect", 24,
 """   - Rally your friends and boost their confidence, improving your social performance along with theirs due to the belief that you have in one another’s social competence. 
 Attack raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
 
-collective_closure = AOESkills("Collective Closure Talk", "AOE Def Buff | Marakukaja effect", 24,
+collective_closure = AOESkills("Collective Closure", "AOE Def Buff | Marakukaja effect", 24,
 """   - Reassure yourself and your friends of their resilience and mental fortitude to refine their sense of self-security. 
 Particularly effective if you or your friends dwell on failure or feel your confidence and self-ability drop. 
 Defense raises temporarily per battle until the effect wears off. Can be stacked and reapplied.""")
