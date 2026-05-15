@@ -697,7 +697,7 @@ while True:
                 print("Passive choices:")
                 for index, passive_choice in enumerate(valid_passive_choices,start=1):
                     print(f"{index}. {passive_choice}")
-                print("Would you like to see Normal passive skills, affinity passive skills or both?")
+                print("Would you like to see Normal Passive skills, Affinity Passive skills or both?")
                 passive_format_choice = int(input("Enter a chioce (1-3): "))
                 # Display the list of normal passives
                 if passive_format_choice == 1:
@@ -719,7 +719,7 @@ while True:
                     print("-----------------------------------------------------")  
                     skill_index = 1
                     for group in PassiveSkills.full_passive_skill_list:
-                        for skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
