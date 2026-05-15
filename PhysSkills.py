@@ -101,7 +101,7 @@ Used in tense negotiations, confrontations, standoffs, or when you want to asser
 (Ex: Meeting an aggressive glare without blinking, holding a stare through a heated silence, or fixing your eyes on someone mid-challenge until they speak first).
 Deals heavy Phys damage.""")
 
-social_dominance = HeavySkills("Social Dominance", "Phys", "Medium", "17%",
+social_dominance = HeavySkills("Social Dominance", "Phys", "Heavy", "17%",
 """   - After establishing brief rapport, assertively give your social handle to the target rather than requesting theirs. 
 This skill forces commitment and eliminates ambiguity, pressuring Ice-type or Reverse Bless-type defenses that would allow silent avoidance or fake compliance. 
 Delivered confidently and directly, it asserts dominance without chasing or over-investing. If accepted, the target is committed to the connection, raising your social momentum and forward pressure. 
