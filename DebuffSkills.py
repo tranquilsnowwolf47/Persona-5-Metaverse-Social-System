@@ -43,7 +43,7 @@ The display of credibility makes the target take you more seriously and drop the
 This perception shift drastically lowers their need to quality test you, reducing their social defenses. 
 On hit, the target's defense is temporarily reduced. Can be stacked and reapplied.""")
 
-tactic_diffuser = SingularSkills("Tactic DIffuser", "Ag Debuff | Sakunda effect", 8,
+tactic_diffuser = SingularSkills("Tactic Diffuser", "Ag Debuff | Sakunda effect", 8,
 """   - Engage your social instincts to perceive the tactic or maneuver behind a Shadow’s move, whether that be probing, baiting, manipulative questioning, scamming, shit testing, boundary testing, behavior manipulation, or attempts at information extraction. 
 Unlike Ether Break, which exposes the why behind an attack, Tactic Diffuser focuses on the what: the actual strategy or maneuver they are attempting. 
 By recognizing the tactic before it lands, you gain a brief internal window of awareness (“Ahhh, I know what they’re trying to hit me with”), giving you time to dodge their attack, counter, or neutralize its effect. 
