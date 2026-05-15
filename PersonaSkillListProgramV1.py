@@ -106,7 +106,7 @@ while True:
                         for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
-                            counter += 1
+                            skill_index += 1
             # Gun | Debugged
             elif skill_type_choice == 2:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
@@ -151,10 +151,12 @@ while True:
                     # Display all skills 
                     print("\nGun Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in GunSkills.full_gun_skill_list:
-                        for skill_index, skill in group:
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Fire | Debugged
             elif skill_type_choice == 3:
@@ -197,10 +199,12 @@ while True:
                 else:
                     # Display all skills 
                     print("\nFire Skills:")
+                    skill_index = 1
                     for group in FireSkills.full_fire_skill_list:
-                        for skill_index, skill in group:
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
                             
             # Ice | Debugged
             elif skill_type_choice == 4:
@@ -244,10 +248,12 @@ while True:
                     # Display all skills 
                     print("\nIce Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in IceSkills.full_ice_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Elec | Debugged
             elif skill_type_choice == 5:
@@ -290,10 +296,12 @@ while True:
                     # Display all skills 
                     print("\nElec Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in ElecSkills.full_elec_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Wind | Debugged
             elif skill_type_choice == 6:
@@ -337,10 +345,12 @@ while True:
                     # Display all skills 
                     print("\nWind Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in WindSkills.full_wind_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Psy | Debugged
             elif skill_type_choice == 7:
@@ -384,10 +394,12 @@ while True:
                     # Display all skills 
                     print("\nPsy Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in PsySkills.full_psy_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Nuke | Debugged
             elif skill_type_choice == 8:
@@ -431,10 +443,12 @@ while True:
                     # Display all skills 
                     print("\nNuke Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in NukeSkills.full_nuke_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Bless | Debugged
             elif skill_type_choice == 9:
@@ -478,10 +492,12 @@ while True:
                     # Display all skills 
                     print("\nBless Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in BlessSkills.full_bless_skill_list:
                         for skill_index, skill in enumerate(group,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Curse | Debugged
             elif skill_type_choice == 10:
@@ -532,10 +548,12 @@ while True:
                     # Display all skills 
                     print("\nCurse Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in CurseSkills.full_curse_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
         
             # if the user chooses other than an elemental skill
             # Buffs | Debugged
@@ -566,10 +584,12 @@ while True:
                 elif buff_format_choice == 3:
                     print("\nBuff Skills:")
                     print("-----------------------------------------------------")    
+                    skill_index = 1
                     for group in BuffSkills.full_buff_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
                     
             # Debuffs | Debugged
             # --------------------------------------------------------------
@@ -601,10 +621,12 @@ while True:
                 elif debuff_format_choice == 3:
                     print("\nDebuff Skills:")
                     print("-----------------------------------------------------")  
+                    skill_index = 1
                     for group in DebuffSkills.full_debuff_skills:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
                 
             # Passive Buffs | Debugged  
             # --------------------------------------------------------------
@@ -654,10 +676,12 @@ while True:
                 elif hp_recovery_skill_choice == 4:
                     print("\nHP Recovery Skills:")
                     print("-----------------------------------------------------")  
+                    skill_index = 1
                     for group in HPRecoverySkills.all_HP_recovery_skills:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Ailment Recovery
             # --------------------------------------------------------------
@@ -693,10 +717,12 @@ while True:
                 elif passive_format_choice == 3:
                     print("\nPassive Skills:")
                     print("-----------------------------------------------------")  
+                    skill_index = 1
                     for group in PassiveSkills.full_passive_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in enumerate(group,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                            skill_index += 1
 
             # Status Ailment
             # --------------------------------------------------------------
