@@ -20,7 +20,24 @@ class ShadowLog:
         self.reccomended_tactics = reccomended_tactics
         self.loot = loot
         self.synopsis = synopsis
-    
+     
+     shadow_types = ("Normal", "Mini Boss", "Boss")
+     
+     def display_shadow_log_info(self):
+         print(f"Shadow Name: {self.shadow_name}")
+         print(f"Arcana: {self.shadow_arcana}")
+         print(f"Type: {self.type}")
+         print(f"Third Eye Color: {self.third_eye_color}")
+         print(f"Temperament/Behavior: {self.temperament}")
+         print(f"Affinity: {}")
+         print(f"Resistances: {}")
+         print(f"Neutral: {}")
+         print(f"Weaknesses: {}")
+         print(f"Encounter Context/Location: {}")
+         print(f"Reccomended Tactics: {}")
+         print(f"Loot/Outcome: {}")
+         print(f"Synopsis: {}")
+         
 
 class BossShadowLog:
     def __init__(self):
