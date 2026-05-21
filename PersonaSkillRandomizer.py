@@ -12,10 +12,13 @@
 # if they don't care about the damage grade, just cycle through all skills of that element
 # for the 8 skills that are to the user's liking, append them to a list or whatever
 
-
 # I need the Persona's name
 # Arcana
 
+
+# Bugs: 
+# Severe skills where there aren't any yet
+# elec skill medium (none yet)
 
 # Update needed:
 # Later on, make it so that you can't have the same skill randomized
@@ -148,31 +151,248 @@ for i in range(loop_index):
 
     # Fire Randomizer
     elif skill_type_choice == 3:
-        pass
+            # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Fire skill was added.\n")
+                        randomized_skills.append(random.choice(FireSkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Fire skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(FireSkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Fire skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(FireSkills.heavy_skills))    
+                    # Dev note: There's no Severe Fire skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Fire skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(FireSkills.severe_skills)) 
+                        if random.choice(FireSkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_fire_skills = FireSkills.light_skills + FireSkills.medium_skills + FireSkills.heavy_skills + FireSkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Fire skill was added.\n")
+                    randomized_skills.append(random.choice(all_fire_skills)) 
 
     # Ice Randomizer
     elif skill_type_choice == 4:
-        pass
+        # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Ice skill was added.\n")
+                        randomized_skills.append(random.choice(IceSkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Ice skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(IceSkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Ice skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(IceSkills.heavy_skills))    
+                    # Dev note: There's no Severe Ice skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Ice skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(IceSkills.severe_skills)) 
+                        if random.choice(IceSkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_ice_skills = IceSkills.light_skills + IceSkills.medium_skills + IceSkills.heavy_skills + IceSkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Gun skill was added.\n")
+                    randomized_skills.append(random.choice(all_ice_skills)) 
 
     # Elec Randomizer
     elif skill_type_choice == 5:
-        pass
+        # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Elec skill was added.\n")
+                        randomized_skills.append(random.choice(ElecSkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Elec skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(ElecSkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Elec skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(ElecSkills.heavy_skills))    
+                    # Dev note: There's no Severe Elec skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Elec skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(ElecSkills.severe_skills)) 
+                        if random.choice(ElecSkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_elec_skills = ElecSkills.light_skills + ElecSkills.medium_skills + ElecSkills.heavy_skills + ElecSkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Gun skill was added.\n")
+                    randomized_skills.append(random.choice(all_elec_skills)) 
 
     # Wind Randomizer
     elif skill_type_choice == 6:
-        pass
+        # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Wind skill was added.\n")
+                        randomized_skills.append(random.choice(WindSkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Wind skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(WindSkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Wind skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(WindSkills.heavy_skills))    
+                    # Dev note: There's no Severe Wind skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Wind skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(WindSkills.severe_skills)) 
+                        if random.choice(WindSkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_wind_skills = WindSkills.light_skills + WindSkills.medium_skills + WindSkills.heavy_skills + WindSkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Gun skill was added.\n")
+                    randomized_skills.append(random.choice(all_wind_skills)) 
 
     # Psy Randomizer
     elif skill_type_choice == 7:
-        pass
+        # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Psy skill was added.\n")
+                        randomized_skills.append(random.choice(PsySkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Psy skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Psy skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.heavy_skills))    
+                    # Dev note: There's no Severe Psy skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Psy skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.severe_skills)) 
+                        if random.choice(PsySkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_psy_skills = PsySkills.light_skills + PsySkills.medium_skills + PsySkills.heavy_skills + PsySkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Gun skill was added.\n")
+                    randomized_skills.append(random.choice(all_psy_skills)) 
 
     # Nuke Randomizer
     elif skill_type_choice == 8:
-        pass
+        # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Psy skill was added.\n")
+                        randomized_skills.append(random.choice(PsySkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Psy skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Psy skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.heavy_skills))    
+                    # Dev note: There's no Severe Psy skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Psy skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.severe_skills)) 
+                        if random.choice(PsySkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_psy_skills = PsySkills.light_skills + PsySkills.medium_skills + PsySkills.heavy_skills + PsySkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Gun skill was added.\n")
+                    randomized_skills.append(random.choice(all_psy_skills)) 
 
     # Bless Randomizer
     elif skill_type_choice == 9:
-        pass
+        # Ask the user if they'd like to see a specific damage grade for the skill type
+                damage_grade_validation = input("Would you like to choose a specific damage grade? (Y-N): ").upper().strip()
+                if damage_grade_validation == "Y":
+                    print("\nDamage grades:")
+                    for index, damage_grade in enumerate(damage_grades[0:4],start=1):
+                        print(f"{index}. {damage_grade}")
+                    damage_grade_choice = int(input("Enter a damage grade (1-4): "))
+                    if damage_grade_choice == 1:
+                        # Stores the randomized skill object into the list 
+                        print("\nRandom Light Psy skill was added.\n")
+                        randomized_skills.append(random.choice(PsySkills.light_skills))
+                    elif damage_grade_choice == 2:
+                        print("\nRandom Medium Psy skill was added.")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.medium_skills))    
+                    elif damage_grade_choice == 3:
+                        print("\nRandom Heavy Psy skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.heavy_skills))    
+                    # Dev note: There's no Severe Psy skills yet
+                    elif damage_grade_choice == 4:
+                        print("\nRandom Severe Psy skill was added.\n")
+                        # Stores the randomized skill object into the list 
+                        randomized_skills.append(random.choice(PsySkills.severe_skills)) 
+                        if random.choice(PsySkills.severe_skills) == None:
+                                randomized_skills.append("")    
+                # If they don't want to see a specific damage grade, just display the list of all skills
+                else:
+                    all_psy_skills = PsySkills.light_skills + PsySkills.medium_skills + PsySkills.heavy_skills + PsySkills.severe_skills
+                    # Stores the randomized skill object into the list 
+                    print("\nRandom Gun skill was added.\n")
+                    randomized_skills.append(random.choice(all_psy_skills)) 
 
     # Curse Randomizer
     elif skill_type_choice == 10:
