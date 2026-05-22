@@ -431,7 +431,7 @@ for i in range(loop_index):
 
     # Buff Randomizer
     elif skill_type_choice == 11:
-        print("Would you like to see Singular Buff skills, AOE Buff skills, or both?")
+        print("Would you like to randomize a Singular Buff skill, AOE Buff skill, or both?")
         buff_format_choice = int(input("Enter a choice (1-3): "))
         # Stores a randomized singular buff skill
         if buff_format_choice == 1:
@@ -439,37 +439,69 @@ for i in range(loop_index):
             randomized_skills.append(random.choice(BuffSkills.singular_skills))
         # Stores a randomized AOE buff skill
         elif buff_format_choice == 2:
-            print("\nRandom Singular Buff skill was added.\n")
+            print("\nRandom AOE Buff skill was added.\n")
             randomized_skills.append(random.choice(BuffSkills.AOE_skills))
         # Stores a randomized buff skill
         elif buff_format_choice == 3:
            all_buff_skills = BuffSkills.singular_skills + BuffSkills.AOE_skills
-           print("\nRandom Singular Buff skill was added.\n")
+           print("\nRandom Buff skill was added.\n")
            randomized_skills.append(random.choice(all_buff_skills))
     
     # Debuff Randomizer
     elif skill_type_choice == 12:
-        pass
+        print("Would you like to randomize a Singular Debuff skill, AOE Debuff skill, or both?")
+        debuff_format_choice = int(input("Enter a choice (1-3): "))
+        # Stpres a ramdomized singular debuff skill
+        if debuff_format_choice == 1:
+            print("\nRandom Debuff skill was added.\n")
+            randomized_skills.append(random.choice(DebuffSkills.singular_skills))
+        # Stores a ramdomized AOE debuff skill
+        elif debuff_format_choice == 2:
+            print("\nRandom Debuff skill was added.\n")
+            randomized_skills.append(random.choice(DebuffSkills.aoe_skills))
+        # Stores a randomized debuff skill
+        elif debuff_format_choice == 3:
+            all_debuff_skills = DebuffSkills.singular_skills + DebuffSkills.aoe_skills
+            print("\nRandom Debuff skill was added.\n")
+            randomized_skills.append(random.choice(all_debuff_skills))
 
     # Passive Buff Randomizer
     elif skill_type_choice == 13:
-        pass
+        print("\nRandom Passive Buff was added.\n")
+        randomized_skills.append(random.choice(PassiveBuffSkills.passive_buffs))
 
     # HP Recovery Randomizer
     elif skill_type_choice == 14:
-        pass
+        print("\nAilment Recovery skills are not yet available, sorry :(")
+        print("(Comning soon)")
 
     # Ailment Recovery Randomizer
     elif skill_type_choice == 15:
-        pass
+        print("\nAilment Recovery skills are not yet available, sorry :(")
+        print("(Comning soon)")
 
     # Passives Randomizer
     elif skill_type_choice == 16:
-        pass
+        print("Would you like to randomize a Normal Passive skill, Affinity Passive skill or both?")
+        passive_skill_format = int(input("Enter a choice (1-3): "))
+        # Stores a randomized normal passive skill
+        if passive_skill_format == 1:
+            print("\nRandom Passive skill was added.\n")
+            randomized_skills.append(random.choice(PassiveSkills.normal_passive_skills))
+        # Stores a randomized affinity passive skill
+        elif passive_skill_format == 2:
+            print("\nRandom Passive skill was added.\n")
+            randomized_skills.append(random.chocie(PassiveSkills.affinity_passive_skills))
+        # Stores a randomized passive skill
+        elif passive_skill_format == 3:
+            all_passive_skills = PassiveSkills.normal_passive_skills + PassiveSkills.affinity_passive_skills
+            print("\nRandom Passive skill was added.\n")
+            randomized_skills.append(random.choice(all_passive_skills))
 
     # Status Ailment Randomizer
     elif skill_type_choice == 17:
-        pass
+        print("\nStatus Ailment skills are not yet available, sorry :(")
+        print("(Comning soon)")
 
 else:
     print("You did not enter a valid skill type.")
