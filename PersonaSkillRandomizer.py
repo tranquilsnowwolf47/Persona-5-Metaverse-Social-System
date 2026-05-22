@@ -19,6 +19,7 @@
 # Bugs: 
 # Severe skills where there aren't any yet
 # elec skill medium (none yet)
+# bless skill heavy (none yet)
 
 # Update needed:
 # Later on, make it so that you can't have the same skill randomized
@@ -415,16 +416,19 @@ for i in range(loop_index):
                         print("\nRandom Heavy Curse skill was added.\n")
                         # Stores the randomized skill object into the list 
                         randomized_skills.append(random.choice(CurseSkills.heavy_skills))    
-                    # Dev note: There's no Severe Curse skills yet
                     elif damage_grade_choice == 4:
                         print("\nRandom Severe Curse skill was added.\n")
                         # Stores the randomized skill object into the list 
                         randomized_skills.append(random.choice(CurseSkills.severe_skills)) 
-                        if random.choice(CurseSkills.severe_skills) == None:
-                                randomized_skills.append("")    
+                    # Randomize Instant Kill skill
+                    elif damage_grade_choice == 5:
+                         print("\nRandom Instant Kill Curse skill was added.\n")
+                         # Stores the randomized skill object into the list
+                         randomized_skills.append(random.choice(CurseSkills.instant_kill_skills))
+                    
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
-                    all_curse_skills = CurseSkills.light_skills + CurseSkills.medium_skills + CurseSkills.heavy_skills + CurseSkills.severe_skills
+                    all_curse_skills = CurseSkills.light_skills + CurseSkills.medium_skills + CurseSkills.heavy_skills + CurseSkills.severe_skills + CurseSkills.instant_kill_skills
                     # Stores the randomized skill object into the list 
                     print("\nRandom Curse skill was added.\n")
                     randomized_skills.append(random.choice(all_curse_skills)) 
@@ -472,8 +476,14 @@ for i in range(loop_index):
 
     # HP Recovery Randomizer
     elif skill_type_choice == 14:
-        print("\nAilment Recovery skills are not yet available, sorry :(")
-        print("(Comning soon)")
+        print("Would you like to randomize a Light HP Recovery skill, Moderate HP Recovery skill, Full HP Recovery skills, or All HP Recovery skils?")
+        hp_recovery_skill_format = int(input("Enter a choice (1-3): "))
+        if hp_recovery_skill_format == 1:
+            print("\nRandom Light HP Recovery skill added.\n")
+        elif hp_recovery_skill_format == 2:
+            print("\nRandom Light HP Recovery skill added.\n")
+        elif hp_recovery_skill_format == 3:
+            print("\nRandom Light HP Recovery skill added.\n")
 
     # Ailment Recovery Randomizer
     elif skill_type_choice == 15:
