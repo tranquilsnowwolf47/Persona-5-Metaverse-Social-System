@@ -617,7 +617,7 @@ while True:
                 elif debuff_format_choice == 2:
                     print("\nAOE Debuff Skills:")
                     print("-----------------------------------------------------")    
-                    for skill_index, skill in enumerate(DebuffSkills.aoe_skills,start=1):
+                    for skill_index, skill in enumerate(DebuffSkills.AOE_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
@@ -691,7 +691,7 @@ while True:
             # --------------------------------------------------------------
             elif skill_type_choice == 15:
                 print("\nAilment Recovery skills are not yet available, sorry :(")
-                print("(Comning soon)")
+                print("(Coming soon)")
 
             # Passives | Debugged
             # --------------------------------------------------------------
@@ -732,7 +732,7 @@ while True:
             # --------------------------------------------------------------
             elif skill_type_choice == 17:
                 print("\nStatus Ailment skills are not yet available, sorry :(")
-                print("(Comning soon)")
+                print("(Coming soon)")
 
     # If the user didn't enter a valid skill type, let them know
     else:
