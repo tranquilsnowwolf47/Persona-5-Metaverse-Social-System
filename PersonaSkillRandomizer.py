@@ -508,7 +508,7 @@ for i in range(loop_index):
         # Stores a randomized affinity passive skill
         elif passive_skill_format == 2:
             print("\nRandom Passive skill was added.\n")
-            randomized_skills.append(random.chocie(PassiveSkills.affinity_passive_skills))
+            randomized_skills.append(random.choice(PassiveSkills.affinity_passive_skills))
         # Stores a randomized passive skill
         elif passive_skill_format == 3:
             all_passive_skills = PassiveSkills.normal_passive_skills + PassiveSkills.affinity_passive_skills
