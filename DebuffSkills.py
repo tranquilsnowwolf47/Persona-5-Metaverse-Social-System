@@ -94,7 +94,7 @@ On hit, all Shadows in the group’s accuracy/evasion is temporarily reduced. Ca
 singular_skills = (ether_break, ascendancy_link, tactic_diffuser, affinity_beacon)
 
 # AOE debuff skills
-aoe_skills = (frequency_barrier, contagion_wave, coordination_vector)
+AOE_skills = (frequency_barrier, contagion_wave, coordination_vector)
 
 # 
-full_debuff_skills = (singular_skills, aoe_skills)
+full_debuff_skills = (singular_skills, AOE_skills)
