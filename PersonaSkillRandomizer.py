@@ -462,10 +462,10 @@ for i in range(loop_index):
         # Stores a ramdomized AOE debuff skill
         elif debuff_format_choice == 2:
             print("\nRandom Debuff skill was added.\n")
-            randomized_skills.append(random.choice(DebuffSkills.aoe_skills))
+            randomized_skills.append(random.choice(DebuffSkills.AOE_skills))
         # Stores a randomized debuff skill
         elif debuff_format_choice == 3:
-            all_debuff_skills = DebuffSkills.singular_skills + DebuffSkills.aoe_skills
+            all_debuff_skills = DebuffSkills.singular_skills + DebuffSkills.AOE_skills
             print("\nRandom Debuff skill was added.\n")
             randomized_skills.append(random.choice(all_debuff_skills))
 
@@ -477,18 +477,25 @@ for i in range(loop_index):
     # HP Recovery Randomizer
     elif skill_type_choice == 14:
         print("Would you like to randomize a Light HP Recovery skill, Moderate HP Recovery skill, Full HP Recovery skills, or All HP Recovery skils?")
-        hp_recovery_skill_format = int(input("Enter a choice (1-3): "))
+        hp_recovery_skill_format = int(input("Enter a choice (1-4): "))
         if hp_recovery_skill_format == 1:
             print("\nRandom Light HP Recovery skill added.\n")
+            randomized_skills.append(random.choice(HPRecoverySkills.light_recovery_skills))
         elif hp_recovery_skill_format == 2:
-            print("\nRandom Light HP Recovery skill added.\n")
+            print("\nRandom Moderate HP Recovery skill added.\n")
+            randomized_skills.append(random.choice(HPRecoverySkills.moderate_recovery_skills))
         elif hp_recovery_skill_format == 3:
-            print("\nRandom Light HP Recovery skill added.\n")
-
+            print("\nRandom Full HP Recovery skill added.\n")
+            randomized_skills.append(random.choice(HPRecoverySkills.full_recovery_skills))
+        elif hp_recovery_skill_format == 4:
+            all_hp_recovery_skills = HPRecoverySkills.light_recovery_skills + HPRecoverySkills.moderate_recovery_skills + HPRecoverySkills.full_recovery_skills
+            print("\nRandom HP Recovery skill added.\n")
+            randomized_skills.append(random.choice(all_hp_recovery_skills))
+             
     # Ailment Recovery Randomizer
     elif skill_type_choice == 15:
         print("\nAilment Recovery skills are not yet available, sorry :(")
-        print("(Comning soon)")
+        print("(Coming soon)")
 
     # Passives Randomizer
     elif skill_type_choice == 16:
@@ -511,7 +518,7 @@ for i in range(loop_index):
     # Status Ailment Randomizer
     elif skill_type_choice == 17:
         print("\nStatus Ailment skills are not yet available, sorry :(")
-        print("(Comning soon)")
+        print("(Coming soon)")
 
 else:
     print("You did not enter a valid skill type.")
