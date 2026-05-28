@@ -1,4 +1,4 @@
-# Filename: .py
+# Filename: PersonaEXPProgram.py
 # Date: 3/26/26
 # Author: Aoi | shadowsnowwolf 
 
@@ -181,17 +181,16 @@ naga = Persona("Naga","Hermit",20,1,11,5,6,1,0)
 black_ooze = Persona("Black Ooze","Moon",17,1,1,1,1,1,16)
 orichalcum = Persona("Orichalcum","Faith",22,5,4,9,4,4,0)
 koppa_tengu = Persona("Koppa Tengu","Temperance",11,1,1,1,1,1,10)
-zouchouten = Persona("Zouchouten","Strength",12,1,1,1,1,1,11)
+zouchouten = Persona("Zouchouten","Strength",14,1,1,1,1,1,13)
 parvati = Persona("Parvati","Lovers",12,1,1,1,1,1,11)
-white_rider = Persona("White Rider","Chariot",15,1,1,1,1,1,14)
+white_rider = Persona("White Rider","Chariot",16,1,1,1,1,1,15)
 trumpeter = Persona("Trumpeter","Judgement",8,1,1,1,1,1,7)
-atropos = Persona("Atropos", "Fortune", 20,1,1,1,1,1,19)
+atropos = Persona("Atropos", "Fortune",21,1,1,1,1,1,20)
 
 
 
 # Performs operations for all personas in the tuple
-personas = (zouchouten, parvati,
-            white_rider, trumpeter, atropos)
+personas = (white_rider, trumpeter, atropos)
 
 for persona in personas:
     print(f"Current Persona: {persona.name} ({persona.arcana})")
