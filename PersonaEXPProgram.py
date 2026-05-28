@@ -171,24 +171,27 @@ class Persona:
 #Persona.display_menu(sample_persona)
 #hell_biker = Persona("Hell Biker","Death",1,1,1,1,1,1,0)
 #narcissus = Persona("Narcissus","Lovers",1,1,1,1,1,1,0)
-
-#hell_biker = Persona("Hell Biker","Death",29,2,10,7,8,3,3)
+ 
 #belphegor = Persona("Belphegor","Tower",21,2,7,1,5,1,9)
-#narcissus = Persona("Narcissus","Lovers",20,3,7,1,4,2,7)
 
 
-orlov = Persona("Orlov","Strength",14,3,2,7,3,1,2)
-genbu = Persona("Genbu","Temperance",16,1,5,6,4,1,4)
-berith = Persona("Berith","Hierophant",12,6,1,2,1,1,5)
-anubis = Persona("Anubis","Judgement",6,1,2,1,3,1,1)
-sandman = Persona("Sandman","Magician",29,8,16,6,8,1,1)
-kodama = Persona("Kodama","Star",4,1,1,1,1,1,3)
-yurlungur = Persona("Yurlungur","Sun",30,10,10,3,4,7,0)
+orpheus = Persona("Orhpeus", "Fool",36,8,7,6,10,9,0)
+king_frost = Persona("King Frost","Emperor",42,20,13,7,5,1,0)
+naga = Persona("Naga","Hermit",20,1,11,5,6,1,0)
+black_ooze = Persona("Black Ooze","Moon",17,1,1,1,1,1,16)
+orichalcum = Persona("Orichalcum","Faith",22,5,4,9,4,4,0)
+koppa_tengu = Persona("Koppa Tengu","Temperance",11,1,1,1,1,1,10)
+zouchouten = Persona("Zouchouten","Strength",12,1,1,1,1,1,11)
+parvati = Persona("Parvati","Lovers",12,1,1,1,1,1,11)
+white_rider = Persona("White Rider","Chariot",15,1,1,1,1,1,14)
+trumpeter = Persona("Trumpeter","Judgement",8,1,1,1,1,1,7)
+atropos = Persona("Atropos", "Fortune", 20,1,1,1,1,1,19)
 
 
 
 # Performs operations for all personas in the tuple
-personas = (yurlungur, kodama)
+personas = (zouchouten, parvati,
+            white_rider, trumpeter, atropos)
 
 for persona in personas:
     print(f"Current Persona: {persona.name} ({persona.arcana})")
