@@ -456,10 +456,17 @@ narcissus = LoversPersonas(
                     "Narcissus", "Lovers", 25,
                     6,10,1,8,4,
                     "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
-                    "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)"
-           )
+                    "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)")
 
-lovers_personas = (pixie, saki_mitama, ame_no_uzume, leanan_sidhe, kushinada, narcissus)
+# 7. Parvati
+# Register update: 5/28/26
+parvati = LoversPersonas(
+                    "Parvati", "Lovers", 20,
+                    6,8,1,7,2,
+                    "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
+                    "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)")
+
+lovers_personas = (pixie, saki_mitama, ame_no_uzume, leanan_sidhe, kushinada, narcissus, parvati)
 
 # Chariot Personas:
 # ------------------------------------------------------------------------------------
@@ -499,6 +506,10 @@ ara_mitama = ChariotPersonas(
                     11,9,9,4,1,
                     "Crowd Echo (Med Nuke)", "Spotlight Surge (Hvy Nuke)", "Flash Bounce (Med Nuke)","Cold Cut (Light Phys)",
                     "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)")
+
+# 6. White Rider
+# Register update: 5/28/26
+
 
 chariot_personas = (agathion, slime, shiki_ouji, kin_ki, ara_mitama)
 
@@ -652,10 +663,13 @@ orlov = StrengthPersonas(
 # 6. Zouchouten
 # Register update: 5/28/26
 zouchouten = StrengthPersonas(
-                    "Zouchouten", "Strength",
+                    "Zouchouten", "Strength", 20,
+                    4,1,13,3,3,
+                    "", "", "","",
+                    "", "", "",""
 )
 
-strength_personas = (kelpie, shiisa, oni, rakshasa, orlov)
+strength_personas = (kelpie, shiisa, oni, rakshasa, orlov, zouchouten)
 
 # Hanged Man Personas:
 # ------------------------------------------------------------------------------------
@@ -712,8 +726,7 @@ mokoi = DeathPersonas(
                 "Slowed Speech (Ag buff)","Self-Control (Auto Def buff)","Self-Security (Def buff)",
                 "Confidence (Atk buff)","Act Sense (Med Psy)","Tranquil Edge (Med Psy)","Hollow Stance (Light Curse)","Minimum Echo (Med Curse)")
 # 3. Matador
-           # Register update 12/17/25 (had him like a month+ ago but lost the data)
-
+# Register update 12/17/25 (had him like a month+ ago but lost the data)
 matador = DeathPersonas(
                     "Matador", "Death", 26,
                     5,11,9,5,1,
