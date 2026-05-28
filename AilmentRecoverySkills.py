@@ -1,4 +1,5 @@
 # Filename: AilmentRecoverySkills.py
+# Date: 5/28/26
 # Author: Aoi | shadowsnowwolf
 # List of Status Ailment Recovery skills
 
