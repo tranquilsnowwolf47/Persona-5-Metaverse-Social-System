@@ -220,9 +220,10 @@ izanagi_picaro = FoolPersonas(
                     "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
 # 8. Orpheus
 # Register update: 5/5/26
+# Register update: 5/28/26
 orpheus = FoolPersonas(
-                    "Orhpeus", "Fool", "25",
-                    5,6,4,7,7,
+                    "Orpheus", "Fool", 36,
+                    8,7,6,10,9,
                     "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                     "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
 
@@ -383,7 +384,17 @@ barong = EmperorPersonas(
                     "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
 
-emperor_personas = (eligor, regent, setanta, thoth, barong)
+# 6. King Frost
+# Register update: 5/10/26
+# Register update: 5/28/26
+king_frost = EmperorPersonas(
+                    "King Frost", "Emperor", 42,
+                    20,13,7,5,1,
+                    "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Hvy Phys)",
+                    "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
+           )
+
+emperor_personas = (eligor, regent, setanta, thoth, barong, king_frost)
 
 # Hierophant Personas:
 # ------------------------------------------------------------------------------------
@@ -554,7 +565,16 @@ sudama = HermitPersonas(
                     "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                     "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)")
 
-hermit_personas = (bicorn, koropokkuru, ippon_datara, sudama)
+# 5. Naga
+# Register update: 5/28/26
+naga = HermitPersonas(
+                    "Naga", "Hermit", 20,
+                    1,11,5,6,1,
+                    "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
+                    "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
+)
+
+hermit_personas = (bicorn, koropokkuru, ippon_datara, sudama, naga)
 
 # Fortune Personas:
 # ------------------------------------------------------------------------------------
@@ -628,6 +648,12 @@ orlov = StrengthPersonas(
                     4,5,14,3,3,
                     "", "", "","",
                     "", "", "","")
+
+# 6. Zouchouten
+# Register update: 5/28/26
+zouchouten = StrengthPersonas(
+                    "Zouchouten", "Strength",
+)
 
 strength_personas = (kelpie, shiisa, oni, rakshasa, orlov)
 
@@ -734,7 +760,15 @@ genbu = TemperancePersonas(
                     "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
                     "","","","")
 
-temperance_personas = (genbu,)
+# 2. Koppa Tengu
+# Register update: 5/28/26
+koppa_tengu = TemperancePersonas(
+                    "Koppa Tengu", "Temperance", 17,
+                    1,5,5,9,1,
+                    "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
+                    "","","","")
+
+temperance_personas = (genbu, koppa_tengu)
 
 # Devil Personas:
 # ------------------------------------------------------------------------------------
@@ -800,7 +834,15 @@ kaguya = MoonPersonas(
                     "Atmosphere Read (Med Psy)", "Temperament Read (Light Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                     "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
 
-moon_personas = (succubus, onmoraki, kaguya)
+# 4. Black Ooze
+# Register update: 5/28/26
+black_ooze = MoonPersonas(
+                        "Black Ooze", "Moon", 21,
+                        1,9,5,9,1,
+                        "Atmosphere Read (Med Psy)", "Temperament Read (Light Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
+                        "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
+
+moon_personas = (succubus, onmoraki, kaguya, black_ooze)
 
 # Sun Personas:
 # ------------------------------------------------------------------------------------
@@ -881,7 +923,15 @@ okuninushi = FaithPersonas(
                     "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                     "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
 
-faith_personas = (phoenix, tam_lin, unicorn, okuninushi)
+# 5. Orichalcum 
+# Register update: 5/28/26
+orichalcum = FaithPersonas(
+                "Orichalcum", "Faith", 22,
+                5,4,9,4,4,
+                "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
+                "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
+
+faith_personas = (phoenix, tam_lin, unicorn, okuninushi, orichalcum)
 
 # Councillor Personas:
 # ------------------------------------------------------------------------------------
