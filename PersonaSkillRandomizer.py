@@ -494,8 +494,9 @@ for i in range(loop_index):
              
     # Ailment Recovery Randomizer
     elif skill_type_choice == 15:
-        print("\nAilment Recovery skills are not yet available, sorry :(")
-        print("(Coming soon)")
+        print("\nRandom Ailment Recovery skill added.\n")
+        # Stores a randomized Ailment Recovery skill
+        randomized_skills.append(random.choice(AilmentRecoverySkills.singular_ailment_recovery_skills))
 
     # Passives Randomizer
     elif skill_type_choice == 16:
