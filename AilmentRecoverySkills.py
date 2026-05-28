@@ -45,7 +45,7 @@ Ex mentality : "They crossed a line, but I'm not letting it run my nervous syste
 Ex mentality 2: "I'm done carrying this. I've already learned what I needed"
 Cures Rage for one ally.""")
 
-purpose_anchor = AilmentRecoverySkills("","Ailment Recovery", 12, 
+purpose_anchor = AilmentRecoverySkills("Purpose Anchor","Ailment Recovery", 12, 
 """    - Collapse Despair by forcibly reconnecting the target to a concrete reason to act—a responsibility, chosen identity, unfinished path, or near-term objective. Rather than generating optimism, this skill restores willpower by reestablishing meaning and direction. SP bleed stops immediately as purpose replaces nihilism; initiative and presence stabilize as action becomes justified again.
 Ex mentality: "What is the worst realistic outcome-- and can I survive it?"
 Ex mentality 2: “If nothing mattered, I wouldn’t be here deciding—so what’s the next step?”
@@ -54,7 +54,7 @@ Ex mentality 4: “Even if I feel empty, this task still needs to be done.”
 Ex mentality 5: “I’m allowed to feel nothing and still move forward.”
 Cures Despair for one ally.""")
 
-autonomy_reclamation = AilmentRecoverySkills("","Ailment Recovery", 12, 
+autonomy_reclamation = AilmentRecoverySkills("Autonomy Reclamation","Ailment Recovery", 12, 
 """    - Reassert authorship of thought by identifying and rejecting externally installed narratives, whether imposed by individuals, groups, institutions, media, or culture at large. You consciously separate what you were taught to think from what you have personally verified, dissolving guilt hooks, fear framing, moral pressure, herd logic, and authority bias. This skill restores mental sovereignty by replacing borrowed conclusions with first-principles reasoning.
 Ex mentality: "Who benefits if I believe this?"
 Ex mentality 2: "Did I arrive at this conclusion or did I inherit it?"
@@ -62,7 +62,7 @@ Ex mentality 3: "This is a narrative, not a fact"
 Ex mentality 4: "Authority isn't evidence"
 Cures Brainwash for one ally.""")
 
-attention_snap = AilmentRecoverySkills("","Ailment Recovery", 12, 
+attention_snap = AilmentRecoverySkills("Attention Snap","Ailment Recovery", 12, 
 """    - Cure Sleep by deliberately reasserting your own (or an ally’s) awareness and presence in the interaction. This skill interrupts zoning out, passive nodding, and avoidance by consciously pulling attention back into the moment and recommitting to engagement. HP regeneration from disengagement ends as responsiveness, initiative, and participation are restored. Sleep breaks through self-directed wakefulness, not external pressure.
 Ex mentality: “I’ve been checked out—refocus.”
 Ex mentality 2: “I’m drifting. Eyes up. Stay here.”
@@ -71,7 +71,7 @@ Ex mentality 4: “Pause distractions. Re-enter the conversation.”
 Ex mentality 5: “I’m here now. Let’s continue.
 Cures Sleep for one ally.""")
 
-recall_thread = AilmentRecoverySkills("","Ailment Recovery", 12, 
+recall_thread = AilmentRecoverySkills("Recall Thread","Ailment Recovery", 12, 
 """    - Cure Forget by reconstructing the lost mental thread and restoring access to stalled skills. This skill stabilizes nerves, reduces cognitive overload, and re-centers attention on the last known anchor point (intent, goal, or prior thought), allowing momentum to resume. Skill lock is lifted as clarity replaces pressure-induced blanking, and conversational or action flow restarts cleanly instead of forcing improvisation under panic.
 Ex mentality: “What was I trying to do here—one step back.”
 Ex mentality 2: “Breathe. Resume from the last clear point.”
