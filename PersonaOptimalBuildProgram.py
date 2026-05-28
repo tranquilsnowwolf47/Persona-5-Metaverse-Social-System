@@ -295,6 +295,7 @@ temperance_skills = {
     OptimalBuildSystem.skill_types[10] : 1, # Buff
     OptimalBuildSystem.skill_types[12] : 1, # Passive Buff
     OptimalBuildSystem.skill_types[15] : 2, # Passive
+    OptimalBuildSystem.skill_types[14] : 1, # Ailment Recovery
 }
 
 devil_skills = {
@@ -315,9 +316,9 @@ tower_skills = {
 
 star_skills = {
     OptimalBuildSystem.skill_types[10] : 3, # Buff
-    OptimalBuildSystem.skill_types[7] : 2, # Nuke
-    OptimalBuildSystem.skill_types[14] : 1, # Ailment Recovery
-    OptimalBuildSystem.skill_types[12] : 1, # Passive Buff
+    OptimalBuildSystem.skill_types[8] : 1, # Bless
+    OptimalBuildSystem.skill_types[7] : 1, # Nuke
+    OptimalBuildSystem.skill_types[14] : 2, # Ailment Recovery
     OptimalBuildSystem.skill_types[13] : 1, # HP recovery
 }
 
@@ -339,7 +340,8 @@ sun_skills = {
 judgement_skills = {
     OptimalBuildSystem.skill_types[11] : 2, # Debuff 
     OptimalBuildSystem.skill_types[10] : 2, # Buff 
-    OptimalBuildSystem.skill_types[6] : 2, # Psy
+    OptimalBuildSystem.skill_types[6] : 1, # Psy
+    OptimalBuildSystem.skill_types[3] : 1, # Ice
     OptimalBuildSystem.skill_types[15] : 1, # Passive
     OptimalBuildSystem.skill_types[14] : 1, # Ailment Recovery
 }
