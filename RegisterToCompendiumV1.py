@@ -221,9 +221,10 @@ izanagi_picaro = FoolPersonas(
 # 8. Orpheus
 # Register update: 5/5/26
 # Register update: 5/28/26
+# Register update: 6/13/26
 orpheus = FoolPersonas(
-                    "Orpheus", "Fool", 36,
-                    8,7,6,10,9,
+                    "Orpheus", "Fool", 41,
+                    10,8,7,10,10,
                     "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                     "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
 
@@ -266,6 +267,14 @@ sandman = MagicianPersonas(
                     "Sandman", "Magician", 29,
                     8,17,6,8,1,
                     "","","","","","","","")
+
+# 6. Choronzon
+# Register update: 6/8/26
+choronzon = MagicianPersonas(
+                    "Choronzon", "Magician", 22,
+                    1,1,1,1,1,
+                    "","","","","","","",""
+)
 
 # All Magician Personas registered 
 magician_personas = (jack_o_lantern, cait_sith, jack_frost, nekomata, sandman)
@@ -312,6 +321,16 @@ kikuri_hime = PriestessPersonas(
                     "Sixth Observation (Light Psy)", "Intent Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
                     "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)")
 
+# 6. Sarasvati
+# Register update: 6/12/26
+# Register update: 6/14/26
+sarasvati = PriestessPersonas(
+                    "Sarasvati", "Priestess", 21,
+                    1,6,8,9,1,
+                    "Sixth Observation (Light Psy)", "Intent Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
+                    "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)"
+)
+
 priestess_personas = (silky, apsaras, kohi_i_noor, isis, kikuri_hime)
 
 # Empress Personas:
@@ -337,6 +356,16 @@ lamia = EmpressPersonas(
                     11,10,3,6,1,
                     "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
                     "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)")
+
+# 4. Hariti
+# Register update: 6/8/26
+hariti = EmpressPersonas(
+                    "Hariti", "Empress", 21,
+                    1,1,1,1,1,
+                    "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
+                    "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)"
+
+)
 
 empress_personas = (queens_necklace, yaksini, lamia)
 
@@ -387,9 +416,10 @@ barong = EmperorPersonas(
 # 6. King Frost
 # Register update: 5/10/26
 # Register update: 5/28/26
+# Register update: 6/13/26
 king_frost = EmperorPersonas(
-                    "King Frost", "Emperor", 42,
-                    20,13,7,5,1,
+                    "King Frost", "Emperor", 46,
+                    20,17,7,5,1,
                     "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Hvy Phys)",
                     "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
@@ -408,7 +438,16 @@ berith = HierophantPersonas(
                     "Alpha Directive (Med Phys)","Career Current (Med Wind)","Confidence Drive (Atk buff)","Slowed Speech (Ag buff)",
                     "Social Competence (Auto Atk buff)","Wind Boost","Dodge Reverse Curse","Purpose Anchor (Despair Recovery)")
 
-hierophant_personas = (berith,)
+# 2. Orobas
+# Register update: 6/8/26
+orobas = HierophantPersonas(
+                    "Orobas", "Hierophant", 15,
+                    1,1,1,1,1,
+                    "Alpha Directive (Med Phys)","Career Current (Med Wind)","Confidence Drive (Atk buff)","Slowed Speech (Ag buff)",
+                    "Social Competence (Auto Atk buff)","Wind Boost","Dodge Reverse Curse","Purpose Anchor (Despair Recovery)"
+)
+
+hierophant_personas = (berith,orobas)
 
 # Lovers Personas:
 # ------------------------------------------------------------------------------------
@@ -509,9 +548,15 @@ ara_mitama = ChariotPersonas(
 
 # 6. White Rider
 # Register update: 5/28/26
+# Register update: 6/14/26
+white_rider = ChariotPersonas(
+                    "White Rider", "Chariot", 25,
+                    11,7,6,4,1,
+                    "Crowd Echo (Med Nuke)", "Spotlight Surge (Hvy Nuke)", "Flash Bounce (Med Nuke)","Cold Cut (Light Phys)",
+                    "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)")
 
 
-chariot_personas = (agathion, slime, shiki_ouji, kin_ki, ara_mitama)
+chariot_personas = (agathion, slime, shiki_ouji, kin_ki, ara_mitama, white_rider)
 
 # Justice Personas:
 # ------------------------------------------------------------------------------------
@@ -539,6 +584,15 @@ principality = JusticePersonas(
                     11,7,1,13,5,
                     "Interest Probe (Med Gun)", "Social Probe (Med Gun)", "Temperament Read (Light Psy)","Atmosphere Read (Med Psy)",
                     "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)")
+
+# 4. Power 
+# Register update: 6/12/26
+power = JusticePersonas(
+                    "Power", "Justice", 16,
+                    1,1,1,1,1,
+                    "Interest Probe (Med Gun)", "Social Probe (Med Gun)", "Temperament Read (Light Psy)","Atmosphere Read (Med Psy)",
+                    "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
+)
 
 justice_personas = (angel, archangel, principality)
 
@@ -578,9 +632,10 @@ sudama = HermitPersonas(
 
 # 5. Naga
 # Register update: 5/28/26
+# Register update: 6/13/26
 naga = HermitPersonas(
-                    "Naga", "Hermit", 20,
-                    1,11,5,6,1,
+                    "Naga", "Hermit", 24,
+                    3,11,5,8,1,
                     "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                     "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
 )
@@ -613,12 +668,21 @@ ariadne  = FortunePersonas(
 # Register update: 3/3/26
 # Register update: 3/10/26
 # Register update: 3/27/26
-lachesis = FortunePersonas("Lachesis", "Fortune", 35,
-           6,6,3,9,15,
-           "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
-           "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)")
+lachesis = FortunePersonas(
+                    "Lachesis", "Fortune", 35,
+                    6,6,3,9,15,
+                    "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
+                    "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)")
 
-fortune_personas = (stone_of_scone, clotho, ariadne, lachesis)
+# 5. Atropos
+# Register update: 5/28/26
+atropos = FortunePersonas(
+                    "Atropos", "Fortune", 27,
+                    5,5,4,7,10,
+                    "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
+                    "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)")
+
+fortune_personas = (stone_of_scone, clotho, ariadne, lachesis, atropos)
 
 # Strength Personas:
 # ------------------------------------------------------------------------------------
@@ -706,6 +770,15 @@ take_minakata = HangedManPersonas(
                     "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
                     "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Intent Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)")
 
+# 5. Emperor's Amulet
+# Register update: 6/12/26
+emperors_amulet = HangedManPersonas(
+                    "Emperor's Amulet", "Hanged Man", 20,
+                    1,1,1,1,1,
+                    "Dodge Phys","Dodge Reverse Phys","Dodge Reverse Ice","Ether Break (Atk debuff)",
+                    "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Intent Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
+)
+
 hanged_man_personas = (hua_po, inugami, orthrus, take_minakata)
 
 # Death Personas:
@@ -758,6 +831,14 @@ hell_biker = DeathPersonas(
                     "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Intent Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                     "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice")
 
+# 7. Hope Diamond
+# Register update: 6/11/26
+hope_diamond = DeathPersonas(    
+                    "Hope Diamond", "Death", 14,
+                    1,1,1,1,1,
+                    "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Intent Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
+                    "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice")
+
 death_personas = (mandrake, mokoi, matador, nue, pisaca, hell_biker)
 
 # Temperance Personas:
@@ -786,12 +867,21 @@ temperance_personas = (genbu, koppa_tengu)
 # Devil Personas:
 # ------------------------------------------------------------------------------------
 # 1. Incubus
-# Register update 12/19/25
-incubus = TemperancePersonas(
-                    "Incubus","Devil",1,
-                    1,1,1,1,1,
-                    "","","","","",
+# Register update: 12/19/25
+# Register update: 6/8/26
+incubus = DevilPersonas(
+                    "Incubus","Devil",9,
+                    1,1,5,3,1,
+                    "Drain Reverse Curse","","","","",
                     "","","")
+
+# Register update: 6/8/26
+flauros = DevilPersonas(
+                    "Flauros", "Devil", 4,
+                    1,1,1,1,1,
+                    "Drain Reverse Curse","","","","",
+                    "","","")
+
 
 devil_personas = (incubus,)
 
@@ -808,6 +898,14 @@ belphegor = TowerPersonas(
                     "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
                     "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)")
 
+# 2. Red Rider
+# Register update: 6/11/26
+red_rider = TowerPersonas(
+                    "Red Rider", "Tower", 13,
+                    1,1,1,1,1,
+                    "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
+                    "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)")
+
 tower_personas = (belphegor,)
 
 # Star Personas:
@@ -818,6 +916,14 @@ kodama = StarPersonas(
                         3,8,5,4,1,
                         "Purpose Focus (Concentrate)","","","",
                         "","","","")
+
+# Register update: 6/8/26
+fuuki = StarPersonas(
+                        "Fuu-Ki", "Star", 8,
+                        1,1,1,1,1,
+                        "Purpose Focus (Concentrate)","","","",
+                        "","","",""
+)
 
 star_personas = (kodama,)
 
@@ -849,9 +955,10 @@ kaguya = MoonPersonas(
 
 # 4. Black Ooze
 # Register update: 5/28/26
+# Register update: 6/14/26
 black_ooze = MoonPersonas(
-                        "Black Ooze", "Moon", 21,
-                        1,9,5,9,1,
+                        "Black Ooze", "Moon", 25,
+                        1,9,6,11,2,
                         "Atmosphere Read (Med Psy)", "Temperament Read (Light Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                         "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
 
@@ -891,18 +998,37 @@ yurlungur = SunPersonas(
                 "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
                 "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)")
 
+# 5. Horus
+# Register update: 6/11/26
+horus = SunPersonas(
+                "Yurlungur", "Sun", 27,
+                1,1,1,1,1,
+                "Charming Smile (Light Fire)", "Inferno Grip (Med Fire)", "Gentleman's Flattery (Med Fire)", "Sonic Quip (Light Elec)",
+                "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)"
+)
+
 sun_personas = (suzaku, thunderbird, mithras, yurlungur)
 
 
 # Judgement Personas:
 # ------------------------------------------------------------------------------------
+# 1. Anubis
 # Register update: 5/6/26
 anubis = JudgementPersonas(
-        "Anubis","Judgement",16,
-        1,8,3,6,1,
-        "","","","",
-        "","","","")
-judgement_personas = (anubis,)
+            "Anubis","Judgement",16,
+            1,8,3,6,1,
+            "","","","",
+            "","","","")
+
+# 2. Trumpeter
+# Register update: 5/28/26
+trumpeter = JudgementPersonas(
+            "Trumpter", "Judgement", 15,
+            1,7,5,5,1,
+            "","","","",
+            "","","","")
+
+judgement_personas = (anubis,trumpeter)
 
 # Faith Personas:
 # ------------------------------------------------------------------------------------
@@ -938,9 +1064,10 @@ okuninushi = FaithPersonas(
 
 # 5. Orichalcum 
 # Register update: 5/28/26
+# Register update: 6/14/26
 orichalcum = FaithPersonas(
-                "Orichalcum", "Faith", 22,
-                5,4,9,4,4,
+                "Orichalcum", "Faith", 31,
+                7,4,10,7,7,
                 "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                 "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
 
@@ -948,6 +1075,14 @@ faith_personas = (phoenix, tam_lin, unicorn, okuninushi, orichalcum)
 
 # Councillor Personas:
 # ------------------------------------------------------------------------------------
+# 1. Kushi Mitama
+# Register update: 
+kushi_mitama = CouncillorPersonas(
+                "Kushi Mitama", "Councillor", 1,
+                1,1,1,1,1,
+                "","","","",
+                "","","","",
+)
 
 councillor_personas = ()
 
@@ -959,7 +1094,7 @@ magician_personas_log_data = []
 priestess_personas_log_data = []
 empress_personas_log_data = []
 emperor_personas_log_data = []
-hieroophant_personas_log_data = []
+hierophant_personas_log_data = []
 lovers_personas_log_data = []
 chariot_personas_log_data = []
 justice_personas_log_data = []
@@ -1013,7 +1148,7 @@ for hierophant_persona in hierophant_personas:
     # Call the function that formats the data and put the result in a variable
     formatted_data = hierophant_persona.format_persona_log_entry()
     # Append the data into the list 
-    hieroophant_personas_log_data.append(formatted_data)
+    hierophant_personas_log_data.append(formatted_data)
 
 for lovers_persona in lovers_personas:
     # Call the function that formats the data and put the result in a variable
@@ -1142,7 +1277,7 @@ with open("Persona_compendium_logbookV1.txt","w") as compendium_log:
         compendium_log.write(emperor_persona_log)
 
     # Hierophant Personas
-    for hierophant_persona_log in hieroophant_personas_log_data:
+    for hierophant_persona_log in hierophant_personas_log_data:
         compendium_log.write(hierophant_persona_log)
 
     # Lovers Personas
