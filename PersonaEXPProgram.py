@@ -169,28 +169,46 @@ class Persona:
 
 #sample_persona = Persona("Name","Arcana",1,1,1,1,1,1,0)
 #Persona.display_menu(sample_persona)
-#hell_biker = Persona("Hell Biker","Death",1,1,1,1,1,1,0)
-#narcissus = Persona("Narcissus","Lovers",1,1,1,1,1,1,0)
  
-#belphegor = Persona("Belphegor","Tower",21,2,7,1,5,1,9)
-
 
 orpheus = Persona("Orhpeus", "Fool",36,8,7,6,10,9,0)
 king_frost = Persona("King Frost","Emperor",42,20,13,7,5,1,0)
 naga = Persona("Naga","Hermit",20,1,11,5,6,1,0)
-black_ooze = Persona("Black Ooze","Moon",17,1,1,1,1,1,16)
+black_ooze = Persona("Black Ooze","Moon",21,1,9,5,9,1,0)
 orichalcum = Persona("Orichalcum","Faith",22,5,4,9,4,4,0)
-koppa_tengu = Persona("Koppa Tengu","Temperance",11,1,1,1,1,1,10)
-zouchouten = Persona("Zouchouten","Strength",14,1,1,1,1,1,13)
-parvati = Persona("Parvati","Lovers",12,1,1,1,1,1,11)
-white_rider = Persona("White Rider","Chariot",16,1,1,1,1,1,15)
+white_rider = Persona("White Rider","Chariot",21,10,6,5,3,1,0)
+sarasvati = Persona("Sarasvati","Priestess",18,1,1,1,1,1,17)
+atropos = Persona("Atropos", "Fortune",27,5,5,4,7,10,26)
+parvati = Persona("Parvati","Lovers",20,6,8,1,7,2,0)
+zouchouten = Persona("Zouchouten","Strength",20,4,1,13,3,3,0)
+naga = Persona("Naga", "Hermit",20,1,11,5,6,1,0)
 trumpeter = Persona("Trumpeter","Judgement",8,1,1,1,1,1,7)
-atropos = Persona("Atropos", "Fortune",21,1,1,1,1,1,20)
+koppa_tengu = Persona("Koppa Tengu","Temperance",15,1,7,5,5,1,10)
+orobas = Persona("Orobas","Hierophant",15,1,1,1,1,1,14)
+choronzon = Persona("Choronzon","Magician",22,1,1,1,1,1,21)
+hariti = Persona("Hariti", "Empress",21, 1,1,1,1,1,20)
+flauros = Persona("Flauros", "Devil",4,1,1,1,1,1,3)
+red_rider = Persona("Belphegor","Tower",13,1,1,1,1,1,9)
+hope_diamond = Persona("Hope Diamond","Death",14,1,1,1,1,1,13)
+horus = Persona("Choronzon", "Magician", 27,1,1,1,1,1,26)
+emperors_amulet = Persona("Emperor's Amulet", "Hanged Man", 20,1,1,1,1,1,19)
+power = Persona("Power", "Justice", 16,1,1,1,1,1,15)
+kushi_mitama = Persona("Kushi Mitama","Councillor", 1,1,1,1,1,1,0)
 
+
+#personas = (orpheus, king_frost, naga, black_ooze, orichalcum, white_rider, sarasvati,
+             #atropos, parvati, zouchouten, naga, trumpeter, koppa_tengu, orobas, 
+             #choronzon, hariti, flauros, red_rider, hope_diamond, horus, emperors_amulet, 
+             #power, kushi_mitama)
 
 
 # Performs operations for all personas in the tuple
-personas = (white_rider, trumpeter, atropos)
+personas = (white_rider, sarasvati,
+             atropos, parvati, zouchouten, naga, trumpeter, koppa_tengu, orobas, 
+             choronzon, hariti, flauros, red_rider, hope_diamond, horus, emperors_amulet, 
+             power, kushi_mitama)
+
+
 
 for persona in personas:
     print(f"Current Persona: {persona.name} ({persona.arcana})")
