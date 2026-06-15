@@ -499,9 +499,10 @@ narcissus = LoversPersonas(
 
 # 7. Parvati
 # Register update: 5/28/26
+# Register update: 6/15/26
 parvati = LoversPersonas(
-                    "Parvati", "Lovers", 20,
-                    6,8,1,7,2,
+                    "Parvati", "Lovers", 25,
+                    6,8,1,11,3,
                     "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
                     "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)")
 
@@ -676,9 +677,10 @@ lachesis = FortunePersonas(
 
 # 5. Atropos
 # Register update: 5/28/26
+# Register update: 6/15/26
 atropos = FortunePersonas(
-                    "Atropos", "Fortune", 27,
-                    5,5,4,7,10,
+                    "Atropos", "Fortune", 35,
+                    5,6,4,9,15,
                     "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
                     "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)")
 
@@ -726,9 +728,10 @@ orlov = StrengthPersonas(
 
 # 6. Zouchouten
 # Register update: 5/28/26
+# Register update: 6/15/26
 zouchouten = StrengthPersonas(
-                    "Zouchouten", "Strength", 20,
-                    4,1,13,3,3,
+                    "Zouchouten", "Strength", 26,
+                    4,1,15,7,3,
                     "", "", "","",
                     "", "", "",""
 )
