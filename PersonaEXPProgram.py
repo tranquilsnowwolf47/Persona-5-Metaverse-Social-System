@@ -171,29 +171,29 @@ class Persona:
 #Persona.display_menu(sample_persona)
  
 
-orpheus = Persona("Orhpeus", "Fool",36,8,7,6,10,9,0)
-king_frost = Persona("King Frost","Emperor",42,20,13,7,5,1,0)
-naga = Persona("Naga","Hermit",20,1,11,5,6,1,0)
-black_ooze = Persona("Black Ooze","Moon",21,1,9,5,9,1,0)
-orichalcum = Persona("Orichalcum","Faith",22,5,4,9,4,4,0)
-white_rider = Persona("White Rider","Chariot",21,10,6,5,3,1,0)
-sarasvati = Persona("Sarasvati","Priestess",18,1,1,1,1,1,17)
-atropos = Persona("Atropos", "Fortune",27,5,5,4,7,10,26)
-parvati = Persona("Parvati","Lovers",20,6,8,1,7,2,0)
-zouchouten = Persona("Zouchouten","Strength",20,4,1,13,3,3,0)
-naga = Persona("Naga", "Hermit",20,1,11,5,6,1,0)
-trumpeter = Persona("Trumpeter","Judgement",8,1,1,1,1,1,7)
-koppa_tengu = Persona("Koppa Tengu","Temperance",15,1,7,5,5,1,10)
+orpheus = Persona("Orhpeus", "Fool",41,10,8,7,10,10,0)
+king_frost = Persona("King Frost","Emperor",46,20,17,7,5,1,0)
+naga = Persona("Naga","Hermit",24,3,11,5,8,1,0)
+black_ooze = Persona("Black Ooze","Moon",25,1,9,6,11,2,0)
+orichalcum = Persona("Orichalcum","Faith",31,7,4,10,7,7,0)
+white_rider = Persona("White Rider","Chariot",25,11,7,6,4,1,0)
+sarasvati = Persona("Sarasvati","Priestess",21,1,6,8,9,1,0)
+atropos = Persona("Atropos", "Fortune",35,5,6,4,9,15,0)
+parvati = Persona("Parvati","Lovers",25,6,8,1,11,3,0)
+zouchouten = Persona("Zouchouten","Strength",26,4,1,15,7,3,0)
+naga = Persona("Naga", "Hermit",24,3,11,5,8,1,0)
+trumpeter = Persona("Trumpeter","Judgement",15,1,7,5,5,1,0)
+koppa_tengu = Persona("Koppa Tengu","Temperance",17,1,5,5,9,1,0)
 orobas = Persona("Orobas","Hierophant",15,1,1,1,1,1,14)
 choronzon = Persona("Choronzon","Magician",22,1,1,1,1,1,21)
 hariti = Persona("Hariti", "Empress",21, 1,1,1,1,1,20)
 flauros = Persona("Flauros", "Devil",4,1,1,1,1,1,3)
-red_rider = Persona("Belphegor","Tower",13,1,1,1,1,1,9)
+red_rider = Persona("Belphegor","Tower",13,1,1,1,1,1,12)
 hope_diamond = Persona("Hope Diamond","Death",14,1,1,1,1,1,13)
 horus = Persona("Choronzon", "Magician", 27,1,1,1,1,1,26)
 emperors_amulet = Persona("Emperor's Amulet", "Hanged Man", 20,1,1,1,1,1,19)
 power = Persona("Power", "Justice", 16,1,1,1,1,1,15)
-kushi_mitama = Persona("Kushi Mitama","Councillor", 1,1,1,1,1,1,0)
+kushi_mitama = Persona("Kushi Mitama","Councillor",1,1,1,1,1,1,0)
 
 
 #personas = (orpheus, king_frost, naga, black_ooze, orichalcum, white_rider, sarasvati,
@@ -203,8 +203,7 @@ kushi_mitama = Persona("Kushi Mitama","Councillor", 1,1,1,1,1,1,0)
 
 
 # Performs operations for all personas in the tuple
-personas = (white_rider, sarasvati,
-             atropos, parvati, zouchouten, naga, trumpeter, koppa_tengu, orobas, 
+personas = (trumpeter, koppa_tengu, orobas, 
              choronzon, hariti, flauros, red_rider, hope_diamond, horus, emperors_amulet, 
              power, kushi_mitama)
 
