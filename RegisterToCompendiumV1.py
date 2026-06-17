@@ -273,11 +273,12 @@ sandman = MagicianPersonas(
 choronzon = MagicianPersonas(
                     "Choronzon", "Magician", 22,
                     1,1,1,1,1,
-                    "","","","","","","",""
+                    "Winds of Knowledge (Med Wind)","Depth Anchor (Med Wind)","Mind Glide (Med Wind)","Weekend Needle (Med Gun)",
+                    "Acknowledgement Shot (Light Gun)","Inferno Grip (Med Fire)","Confidence Drive (Atk Buff)","Human Nature Savant (Auto Ag Buff)"
 )
 
 # All Magician Personas registered 
-magician_personas = (jack_o_lantern, cait_sith, jack_frost, nekomata, sandman)
+magician_personas = (jack_o_lantern, cait_sith, jack_frost, nekomata, sandman, choronzon)
 
 
 # Priestess Personas:
@@ -331,7 +332,7 @@ sarasvati = PriestessPersonas(
                     "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)"
 )
 
-priestess_personas = (silky, apsaras, kohi_i_noor, isis, kikuri_hime)
+priestess_personas = (silky, apsaras, kohi_i_noor, isis, kikuri_hime, sarasvati)
 
 # Empress Personas:
 # ------------------------------------------------------------------------------------
@@ -367,7 +368,7 @@ hariti = EmpressPersonas(
 
 )
 
-empress_personas = (queens_necklace, yaksini, lamia)
+empress_personas = (queens_necklace, yaksini, lamia, hariti)
 
 # Emperor Personas:
 # ------------------------------------------------------------------------------------
@@ -595,7 +596,7 @@ power = JusticePersonas(
                     "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
 )
 
-justice_personas = (angel, archangel, principality)
+justice_personas = (angel, archangel, principality, power)
 
 # Hermit Personas:
 # ------------------------------------------------------------------------------------
@@ -782,7 +783,7 @@ emperors_amulet = HangedManPersonas(
                     "Tactic Diffuser (Ag debuff)","Self-Security (Def buff)","Intent Rift (Hvy Psy)", "Focused Breathing (LVl 1 Healing)"
 )
 
-hanged_man_personas = (hua_po, inugami, orthrus, take_minakata)
+hanged_man_personas = (hua_po, inugami, orthrus, take_minakata, emperors_amulet)
 
 # Death Personas:
 # ------------------------------------------------------------------------------------
@@ -842,7 +843,7 @@ hope_diamond = DeathPersonas(
                     "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Intent Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                     "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice")
 
-death_personas = (mandrake, mokoi, matador, nue, pisaca, hell_biker)
+death_personas = (mandrake, mokoi, matador, nue, pisaca, hell_biker, hope_diamond)
 
 # Temperance Personas:
 # ------------------------------------------------------------------------------------
@@ -859,9 +860,10 @@ genbu = TemperancePersonas(
 
 # 2. Koppa Tengu
 # Register update: 5/28/26
+# Register update: 6/15/26
 koppa_tengu = TemperancePersonas(
-                    "Koppa Tengu", "Temperance", 17,
-                    1,5,5,9,1,
+                    "Koppa Tengu", "Temperance", 25,
+                    3,7,7,11,1,
                     "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
                     "","","","")
 
@@ -886,7 +888,7 @@ flauros = DevilPersonas(
                     "","","")
 
 
-devil_personas = (incubus,)
+devil_personas = (incubus, flauros)
 
 # Tower Personas:
 # ------------------------------------------------------------------------------------
@@ -909,7 +911,7 @@ red_rider = TowerPersonas(
                     "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
                     "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)")
 
-tower_personas = (belphegor,)
+tower_personas = (belphegor, red_rider)
 
 # Star Personas:
 # ------------------------------------------------------------------------------------
@@ -928,7 +930,7 @@ fuuki = StarPersonas(
                         "","","",""
 )
 
-star_personas = (kodama,)
+star_personas = (kodama, fuuki)
 
 # Moon Personas:
 # ------------------------------------------------------------------------------------
@@ -962,7 +964,7 @@ kaguya = MoonPersonas(
 black_ooze = MoonPersonas(
                         "Black Ooze", "Moon", 25,
                         1,9,6,11,2,
-                        "Atmosphere Read (Med Psy)", "Temperament Read (Light Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
+                        "Foresight (Med Psy)", "Atmosphere Read (Med Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                         "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
 
 moon_personas = (succubus, onmoraki, kaguya, black_ooze)
@@ -1010,16 +1012,17 @@ horus = SunPersonas(
                 "Looksmax (Auto Heat-Riser)", "Confidence Drive (Atk buff)", "Self-Control (Auto def buff)","Ascendancy Link (Def debuff)"
 )
 
-sun_personas = (suzaku, thunderbird, mithras, yurlungur)
+sun_personas = (suzaku, thunderbird, mithras, yurlungur, horus)
 
 
 # Judgement Personas:
 # ------------------------------------------------------------------------------------
 # 1. Anubis
 # Register update: 5/6/26
+# Register update: 6/15/26
 anubis = JudgementPersonas(
-            "Anubis","Judgement",16,
-            1,8,3,6,1,
+            "Anubis","Judgement",20,
+            1,8,7,7,1,
             "","","","",
             "","","","")
 
@@ -1087,7 +1090,7 @@ kushi_mitama = CouncillorPersonas(
                 "","","","",
 )
 
-councillor_personas = ()
+councillor_personas = (kushi_mitama, )
 
 
 
