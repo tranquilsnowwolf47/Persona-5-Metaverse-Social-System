@@ -203,7 +203,7 @@ kushi_mitama = Persona("Kushi Mitama","Councillor",1,1,1,1,1,1,0)
 
 
 # Performs operations for all personas in the tuple
-personas = (trumpeter, koppa_tengu, orobas, 
+personas = (orobas, 
              choronzon, hariti, flauros, red_rider, hope_diamond, horus, emperors_amulet, 
              power, kushi_mitama)
 
