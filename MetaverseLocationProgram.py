@@ -149,8 +149,8 @@ fau = Palace("Florida Atlantic University (FAU) | Castle of Wrath", Palace.metav
              Palace.exp_yield_types[2], Palace.loot_potential_types[2], Palace.risk_types[1], Palace.reward_types[2], Palace.resource_cost_types[1], 
              Palace.treasure_demon_potential_types[2], Palace.growth_alignment[2], Palace.awakening_potential_types[3], Palace.date_duration_types[2], Palace.party_compatability_types[3])
 
-otakufest = Palace("", Palace.metaverse_location_types[0], "Palm Beach Convention Center | West Palm Beach, FL", Palace.infiltration_priority_types[0], "", "",
-                   Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
+otakufest = Palace("OtakuFest", Palace.metaverse_location_types[0], "Palm Beach Convention Center | West Palm Beach, FL", Palace.infiltration_priority_types[0], "June 19-21st, 2026", "Approximately low $100+ dollars",
+                   Palace.distance_types[1], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                    Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
                    Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
 
