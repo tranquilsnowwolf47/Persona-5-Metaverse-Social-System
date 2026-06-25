@@ -147,7 +147,7 @@ example = Palace("OtakuFest", Palace.metaverse_location_types[0], "", Palace.inf
 # Cleared
 # Debugged
 fau = Palace("Florida Atlantic University (FAU) | Castle of Wrath", Palace.metaverse_location_types[0], "Boca Raton, FL", Palace.infiltration_priority_types[3], "N/A", "A lot of money (college tuition)",
-             Palace.distance_types[3],  Palace.rarity_types[2], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[1], Palace.repeatability_types[2], 
+             Palace.distance_types[3],  Palace.rarity_types[1], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[1], Palace.repeatability_types[2], 
              Palace.exp_yield_types[2], Palace.loot_potential_types[2], Palace.risk_types[1], Palace.reward_types[2], Palace.resource_cost_types[1], 
              Palace.treasure_demon_potential_types[2], Palace.growth_alignment_types[2], Palace.awakening_potential_types[3], "Until I graduate", Palace.party_compatability_types[3])
 
@@ -158,30 +158,30 @@ otakufest = Palace("OtakuFest", Palace.metaverse_location_types[0], "Palm Beach 
                    Palace.exp_yield_types[1], Palace.loot_potential_types[1], Palace.risk_types[3], Palace.reward_types[1], Palace.resource_cost_types[2], 
                    Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[1], "3 days", Palace.party_compatability_types[0])
 
-supercon = Palace("Supercon", Palace.metaverse_location_types[0], "Miami Beach Convention Center | Miami, FL", Palace.infiltration_priority_types[0], "", "",
-                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[1], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+# Cleared
+# Debugged
+supercon = Palace("Supercon", Palace.metaverse_location_types[0], "Miami Beach Convention Center | Miami, FL", Palace.infiltration_priority_types[1], "July 10-12", "About low-medium $100+ (ticket + gas only)",
+                  Palace.distance_types[2], Palace.rarity_types[1], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[2], 
+                  Palace.exp_yield_types[1], Palace.loot_potential_types[0], Palace.risk_types[2], Palace.reward_types[1], Palace.resource_cost_types[2], 
+                  Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[1], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[2])
 
-megacon = Palace("", Palace.metaverse_location_types[0], "Orange County Convention Center | Orlando FL", Palace.infiltration_priority_types[0], "", "",
-                 Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                 Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+# Cleared
+# Debugged
+megacon = Palace("Megacon | Casino of Envy", Palace.metaverse_location_types[0], "Orange County Convention Center | Orlando FL", Palace.infiltration_priority_types[2], "May 20–23, 2027", "Estimate: $250+ (Ticket + gas + Airbnb)",
+                 Palace.distance_types[1], Palace.rarity_types[1], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[4], Palace.repeatability_types[2], 
+                 Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[3], Palace.reward_types[0], Palace.resource_cost_types[2], 
+                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[1], "4 Days", Palace.party_compatability_types[0])
 
-holiday_matsuri = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                         Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                         Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                         Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+# Cleared 
+# Debugged
+holiday_matsuri = Palace("Holiday Matsuri", Palace.metaverse_location_types[0], "Orange County Convention Center | Orlando FL", Palace.infiltration_priority_types[1], "Dec 18–20, 2027", "Estimate: $250+ (Ticket + gas + Airbnb)",
+                         Palace.distance_types[1], Palace.rarity_types[1], Palace.social_receptiveness_types[1], Palace.security_level_sensitivity_types[3], Palace.repeatability_types[2], 
+                         Palace.exp_yield_types[1], Palace.loot_potential_types[1], Palace.risk_types[3], Palace.reward_types[1], Palace.resource_cost_types[2], 
+                         Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[1], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
 
-metrocon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+metrocon = "N/A"
 
-anime_festival_orlando = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                                Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                                Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                                Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+anime_festival_orlando = "N/A"
 
 momocon = "N/A"
 
@@ -222,18 +222,18 @@ jupiter_jail = "N/A"
 
 davie_jail = "N/A"
 
-wpb_jail = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
+wpb_jail = Jail("West Palm Beach Jail", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                 Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
                Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
 
 
-boca_jail = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
+boca_jail = Jail("Boca Jail", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
                Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
 
-miami_jail = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
+miami_jail = Jail("Miami Jail", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                   Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
                Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
