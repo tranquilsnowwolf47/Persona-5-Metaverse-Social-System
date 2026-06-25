@@ -1,14 +1,15 @@
 # Filename: MetaverseLocationProgram.py
 # Date: 5/7/26
 # Author: Aoi | shadowsnowwolf 
-
-
-# I WILL be using file handling in this program
-
 # Description:
 # Program that builds Palaces based on attributes. Contains functions that will assist 
 # with Metaverse infiltration, field strategy, and navigation
 
+
+
+# I WILL be using file handling in this program
+
+# Should be periodically updated as I go to new Metaverse Locations
 
 # Note: 
 # Palaces - limited time palaces, long Palaces
@@ -99,8 +100,8 @@ class MetaverseLocation:
 
     # Displays all necessary details about the Metaverse Location
     def display_location_summary(self):
-        print("Location Summary:")
-        print("-------------------------------------")
+        print("Metaverse Location Summary:")
+        print("--------------------------------------------------------------------------")
         print(f"Name: {self.name}")
         print(f"Type: {self.metaverse_location_type}")
         print(f"Location: {self.location}")
@@ -119,7 +120,7 @@ class MetaverseLocation:
         print(f"Resource Cost: {self.resource_cost}")
         print(f"Treasure Demon Potential: {self.treasure_demon_potential}")
         print(f"Growth Alignment: {self.growth_alignment}")
-        print(f"Awakening Potential: {self.growth_alignment}")
+        print(f"Awakening Potential: {self.awakening_potential}")
         print(f"Date Duration: {self.date_duration}")
         print(f"Party Compatability: {self.party_compatability}")
 
@@ -138,46 +139,49 @@ class MementosFloor(MetaverseLocation):
 # Palace location objects
 
 # Debugged
-example = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
+example = Palace("OtakuFest", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 # Cleared
+# Debugged
 fau = Palace("Florida Atlantic University (FAU) | Castle of Wrath", Palace.metaverse_location_types[0], "Boca Raton, FL", Palace.infiltration_priority_types[3], "N/A", "A lot of money (college tuition)",
              Palace.distance_types[3],  Palace.rarity_types[2], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[1], Palace.repeatability_types[2], 
              Palace.exp_yield_types[2], Palace.loot_potential_types[2], Palace.risk_types[1], Palace.reward_types[2], Palace.resource_cost_types[1], 
-             Palace.treasure_demon_potential_types[2], Palace.growth_alignment[2], Palace.awakening_potential_types[3], Palace.date_duration_types[2], Palace.party_compatability_types[3])
+             Palace.treasure_demon_potential_types[2], Palace.growth_alignment_types[2], Palace.awakening_potential_types[3], "Until I graduate", Palace.party_compatability_types[3])
 
-otakufest = Palace("OtakuFest", Palace.metaverse_location_types[0], "Palm Beach Convention Center | West Palm Beach, FL", Palace.infiltration_priority_types[0], "June 19-21st, 2026", "Approximately low $100+ dollars",
-                   Palace.distance_types[1], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                   Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+# Cleared
+# Debugged
+otakufest = Palace("OtakuFest", Palace.metaverse_location_types[0], "Palm Beach Convention Center | West Palm Beach, FL", Palace.infiltration_priority_types[1], "June 19-21, 2026", "About low $100+ (ticket + gas only)",
+                   Palace.distance_types[4], Palace.rarity_types[2], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[3], Palace.repeatability_types[1], 
+                   Palace.exp_yield_types[1], Palace.loot_potential_types[1], Palace.risk_types[3], Palace.reward_types[1], Palace.resource_cost_types[2], 
+                   Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[1], "3 days", Palace.party_compatability_types[0])
 
 supercon = Palace("Supercon", Palace.metaverse_location_types[0], "Miami Beach Convention Center | Miami, FL", Palace.infiltration_priority_types[0], "", "",
                   Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[1], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 megacon = Palace("", Palace.metaverse_location_types[0], "Orange County Convention Center | Orlando FL", Palace.infiltration_priority_types[0], "", "",
                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 holiday_matsuri = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                          Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                          Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                         Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                         Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 metrocon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                   Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 anime_festival_orlando = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                                 Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                                 Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                                Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                                Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 momocon = "N/A"
 
@@ -200,7 +204,7 @@ voided_palaces = []
 example = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], Jail.date_duration_types[0], Jail.party_compatability_types[0])
+               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
 
 coral_springs_jail = "N/A"
 
@@ -221,18 +225,18 @@ davie_jail = "N/A"
 wpb_jail = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                 Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], Jail.date_duration_types[0], Jail.party_compatability_types[0])
+               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
 
 
 boca_jail = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], Jail.date_duration_types[0], Jail.party_compatability_types[0])
+               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
 
 miami_jail = Jail("", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
                   Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
                Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], Jail.date_duration_types[0], Jail.party_compatability_types[0])
+               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
 
 delray_jail = "N/A"
 
@@ -250,50 +254,50 @@ voided_jails = []
 example = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], MementosFloor.date_duration_types[0], MementosFloor.party_compatability_types[0])
+                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 anime_iwai = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                     Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                     Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                    Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                    Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 miraicon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                   Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 mizucon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 hero_hype_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], MementosFloor.date_duration_types[0], MementosFloor.party_compatability_types[0])
+                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
 ultracon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                   Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment[0], Palace.awakening_potential_types[0], Palace.date_duration_types[0], Palace.party_compatability_types[0])
+                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
 sunrise_comic_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], MementosFloor.date_duration_types[0], MementosFloor.party_compatability_types[0])
+                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
 
 fau_career_fair = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], MementosFloor.date_duration_types[0], MementosFloor.party_compatability_types[0])
+                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
 
 plasticon = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], MementosFloor.date_duration_types[0], MementosFloor.party_compatability_types[0])
+                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
-cosplay_beach_party = MementosFloor("Cosplay Beach Party", MementosFloor.metaverse_location_types[2], "Fort Lauderdale Beach, FL", MementosFloor.infiltration_priority_types[2], "Saturday, May 16th", "")
+#cosplay_beach_party = MementosFloor("Cosplay Beach Party", MementosFloor.metaverse_location_types[2], "Fort Lauderdale Beach, FL", MementosFloor.infiltration_priority_types[2], "Saturday, May 16th", "")
 
 baoshi_foodhall = "N/A"
 
