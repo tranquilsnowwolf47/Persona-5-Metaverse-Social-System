@@ -79,6 +79,17 @@ while True:
                         for skill_index, skill in enumerate(PhysSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                        # The index for the end count of the skills 
+                        total_skill_index = len(PhysSkills.light_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                PhysSkills.cold_cut.display_skill()
+                            elif skill_choice == 2:
+                                PhysSkills.calling_fang.display_skill()
+                        else:
+                            pass
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Phys Skills:")
@@ -86,6 +97,23 @@ while True:
                         for skill_index, skill in enumerate(PhysSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                        # The index for the end count of the skills 
+                        total_skill_index = len(PhysSkills.medium_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                PhysSkills.alpha_directive.display_skill()
+                            elif skill_choice == 2:
+                                PhysSkills.bind_blade.display_skill()
+                            elif skill_choice == 3:
+                                PhysSkills.assertive_slice.display_skill()
+                            elif skill_choice == 4:
+                                PhysSkills.opening_gambit.display_skill()
+                            elif skill_choice == 5:
+                                PhysSkills.stonewall.display_skill()
+                            elif skill_choice == 6:
+                                pass
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Phys Skills:")
@@ -93,6 +121,23 @@ while True:
                         for skill_index, skill in enumerate(PhysSkills.heavy_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                        # The index for the end count of the skills 
+                        total_skill_index = len(PhysSkills.heavy_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                PhysSkills.advance_slash.display_skill()
+                            elif skill_choice == 2:
+                                PhysSkills.consequence_hammer.display_skill()
+                            elif skill_choice == 3:
+                                PhysSkills.verdict_slice.display_skill()
+                            elif skill_choice == 4:
+                                PhysSkills.hard_check.display_skill()
+                            elif skill_choice == 5:
+                                PhysSkills.iron_gaze.display_skill()
+                            elif skill_choice == 6:
+                                PhysSkills.social_dominance()
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Phys Skills:")
@@ -100,6 +145,10 @@ while True:
                         for skill_index, skill in enumerate(PhysSkills.severe_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        
+
+
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills       
@@ -111,6 +160,60 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+                        
+                    # The index for the end count of the skills 
+                    total_skill_index = sum(len(group) for group in PhysSkills.full_phys_skill_list)
+
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            PhysSkills.advance_slash.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            PhysSkills.consequence_hammer.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            PhysSkills.verdict_slice.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            PhysSkills.hard_check.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            PhysSkills.iron_gaze.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            PhysSkills.social_dominance.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            PhysSkills.alpha_directive.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            PhysSkills.bind_blade.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            PhysSkills.assertive_slice.display_skill()
+                        elif skill_choice == 10:
+                            print()
+                            PhysSkills.opening_gambit.display_skill()
+                        elif skill_choice == 11:
+                            print()
+                            PhysSkills.stone_wall.display_skill()
+                        elif skill_choice == 12:
+                            print()
+                            PhysSkills.opening_gambit.display_skill()
+                        elif skill_choice == 13:
+                            print()
+                            PhysSkills.cold_cut.display_skill()
+                        elif skill_choice == 14:
+                            print()
+                            PhysSkills.calling_fang.display_skill()    
+                    else:
+                        pass
+        
+
+
             # Gun | Debugged
             elif skill_type_choice == 2:
                 # Ask the user if they'd like to see a specific damage grade for the skill type
