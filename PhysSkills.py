@@ -168,7 +168,7 @@ Ex 5: “You seemed cool and I wanted to say hi”
 Ex 6: “You seemed interesting and I wanted to say hi”).
 Deals medium Phys damage.""")
 
-stone_wall = MediumSkills("Stonewall", "Phys", "Medium", "10%",
+stonewall = MediumSkills("Stonewall", "Phys", "Medium", "10%",
 """   - Clearly and firmly communicate a non-negotiable boundary without sugarcoating or softening. It draws a line with no room for debate, setting the tone that you respect yourself and expect others to do the same. When someone tests your patience, pushes too far, or tries to emotionally manipulate you, Stonewall slams the door with power and authority. 
 (Ex: "Don’t talk to me like that again", 
 Ex 2: "That’s not something I tolerate. 
