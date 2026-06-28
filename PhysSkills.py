@@ -210,7 +210,7 @@ Deals light Phys damage.""")
 
 severe_skills = () # A tuple that holds every severe Phys skill 
 heavy_skills = (advance_slash, consequence_hammer, verdict_slice, hard_check, iron_gaze, social_dominance) # A tuple that holds every heavy Phys skill
-medium_skills = (alpha_directive, bind_blade, assertive_slice, opening_gambit, stone_wall, decision_strike) # A tuple that holds every medium Phys skill
+medium_skills = (alpha_directive, bind_blade, assertive_slice, opening_gambit, stonewall, decision_strike) # A tuple that holds every medium Phys skill
 light_skills = (cold_cut, calling_fang) # A tuple that holds every light Phys skill
 full_phys_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
 
