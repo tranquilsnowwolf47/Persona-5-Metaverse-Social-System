@@ -25,4 +25,9 @@ def randomize_arcana(number_index=0):
             number_index += 1
             print(f"{number_index}. {randomized_arcanas[arcana_index]}")
 
-randomize_arcana()
+while True:
+    randomize_arcana()
+    remprompt = input("\nWould you like to try again? (Enter y for yes, anything else to quit): ")
+    if remprompt != "y":
+        print("You exited the program.")
+        break
