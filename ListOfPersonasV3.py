@@ -352,11 +352,8 @@ while True:
     for arcana_index, arcana in enumerate(persona_arcanas,start=1):
         print(f"{arcana_index}. {arcana}")
     
-    arcana_choice = int(input("\nPlease enter an Arcana to display Personas for (1-23) (or enter 0 to quit): "))
-    if arcana_choice == 0:
-        print("Exiting the program.")
-        break
-    elif arcana_choice == 1: # Fool
+    arcana_choice = int(input("\nPlease enter an Arcana to display Personas for (1-23): "))
+    if arcana_choice == 1: # Fool
         Personas.display_fool_personas()
     elif arcana_choice == 2: # Magician
         Personas.display_magician_personas()
@@ -405,4 +402,12 @@ while True:
     else:
         valid_arcana_choice = False
         print("Invalid Arcana choice.\n") 
+        
+    reprompt = input("Would you like to try again? (Enter y for yes or anything else to exit): ").lower()
+    if reprompt != "y":
+        print("\nYou ended the program.")
+        break
+    else:
+        pass
+
     
