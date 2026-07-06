@@ -12,10 +12,17 @@ persona_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant
                    "Fortune","Strength","Hanged Man", "Death","Temperance","Devil","Tower","Star","Moon","Sun","Judgement","Faith","Councillor")
 
 
-arcana_index = int(input("Please enter the number of Persona Arcanas to randomize: "))
-persona_index = 0
+def get_number_of_arcanas():
+    number_of_arcanas = int(input("Please enter the number of Persona Arcanas to randomize: "))
+    return number_of_arcanas
 
-for i in range(arcana_index):
-    for arcana in persona_arcanas:
-        persona_index += 1
-        print(f"{persona_index}. {random.choice(arcana)}")
+def randomize_arcana(number_index=0):
+    number_of_arcanas = get_number_of_arcanas()
+    randomized_arcanas = random.sample(persona_arcanas, number_of_arcanas)
+    print("Randomized Persona Arcanas:")
+    print("----------------------------")
+    for arcana_index in range(number_of_arcanas):
+            number_index += 1
+            print(f"{number_index}. {randomized_arcanas[arcana_index]}")
+
+randomize_arcana()
