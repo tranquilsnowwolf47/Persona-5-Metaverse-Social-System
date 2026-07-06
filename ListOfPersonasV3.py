@@ -344,73 +344,65 @@ class Personas:
 valid_arcana_choice = False
 persona_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant","Lovers","Chariot","Justice","Hermit",
                    "Fortune","Strength","Hanged Man", "Death","Temperance","Devil","Tower","Star","Moon","Sun","Judgement","Faith","Councillor")
+                 
 
-
-# Prompts if the user wants to see the arcana list (make this a loop later)
-arcana_list_choice = input("Would you like to see a list of available Personas? (Enter y for yes, anything else for no): ").lower()
-if arcana_list_choice == "y":   # If they choose yes, call the function
-    Personas.display_arcana_list()
-else:
-    print("Cool") # Debugging 
-
-    arcana_choice = "" 
-    while arcana_choice != "End": # Loop 2: Asks the Arcana they want to see Personas for 
-        # Give them the option to view the list of Arcanas if they don't already know what they want to see
+while True:
+    print("Persona Arcanas:")
+    print("-------------------------------------------------------------")
+    for arcana_index, arcana in enumerate(persona_arcanas,start=1):
+        print(f"{arcana_index}. {arcana}")
     
-        arcana_choice = input("Please enter an Arcana to display Personas for (enter End to end): ").strip().title()
-        if arcana_choice == "End":
-            print("Exited.")
-            break
-
-        if arcana_choice in persona_arcanas:
-            valid_arcana_choice = True
-            if valid_arcana_choice:
-                if arcana_choice == persona_arcanas[0]: # Fool
-                    Personas.display_fool_personas()
-                elif arcana_choice == persona_arcanas[1]: # Magician
-                    Personas.display_magician_personas()
-                elif arcana_choice == persona_arcanas[2]: # Priestess
-                    Personas.display_priestess_personas()
-                elif arcana_choice == persona_arcanas[3]: # Empress
-                    Personas.display_empress_personas()
-                elif arcana_choice == persona_arcanas[4]: # Emperor 
-                    Personas.display_emperor_personas()
-                elif arcana_choice == persona_arcanas[5]: # Hierophant
-                    Personas.display_hierophant_personas()
-                elif arcana_choice == persona_arcanas[6]: # Lovers
-                    Personas.display_lovers_personas()
-                elif arcana_choice == persona_arcanas[7]: # Chariot
-                    Personas.display_chariot_personas()
-                elif arcana_choice == persona_arcanas[8]: # Justice
-                    Personas.display_justice_personas()
-                elif arcana_choice == persona_arcanas[9]: # Hermit
-                    Personas.display_hermit_personas()
-                elif arcana_choice == persona_arcanas[10]: # Fortune
-                    Personas.display_fortune_personas()
-                elif arcana_choice == persona_arcanas[11]: # Strength
-                    Personas.display_strength_personas()
-                elif arcana_choice == persona_arcanas[12]: # Hanged Man
-                    Personas.display_hanged_man_personas()
-                elif arcana_choice == persona_arcanas[13]: # Death
-                    Personas.display_death_personas()
-                elif arcana_choice == persona_arcanas[14]: # Temperance 
-                    Personas.display_temperance_personas()
-                elif arcana_choice == persona_arcanas[15]: # Devil
-                    Personas.display_devil_personas()
-                elif arcana_choice == persona_arcanas[16]: # Tower
-                    Personas.display_tower_personas()
-                elif arcana_choice == persona_arcanas[17]: # Star
-                    Personas.display_star_personas()
-                elif arcana_choice == persona_arcanas[18]: # Moon
-                    Personas.display_moon_personas()
-                elif arcana_choice == persona_arcanas[19]: # Sun
-                    Personas.display_sun_personas()
-                elif arcana_choice == persona_arcanas[20]: # Judgement
-                    Personas.display_judgement_personas()
-                elif arcana_choice == persona_arcanas[21]: # Faith
-                    Personas.display_faith_personas()
-                elif arcana_choice == persona_arcanas[22]: # Councillor
-                    Personas.display_councillor_personas()
-        else:
-            valid_arcana_choice = False
-            print("Invalid Arcana choice.\n")
+    arcana_choice = int(input("\nPlease enter an Arcana to display Personas for (1-23) (or enter 0 to quit): "))
+    if arcana_choice == 0:
+        print("Exiting the program.")
+        break
+    elif arcana_choice == 1: # Fool
+        Personas.display_fool_personas()
+    elif arcana_choice == 2: # Magician
+        Personas.display_magician_personas()
+    elif arcana_choice == 3: # Priestess
+        Personas.display_priestess_personas()
+    elif arcana_choice == 4: # Empress
+        Personas.display_empress_personas()
+    elif arcana_choice == 5: # Emperor 
+        Personas.display_emperor_personas()
+    elif arcana_choice == 6: # Hierophant
+        Personas.display_hierophant_personas()
+    elif arcana_choice == 7: # Lovers
+        Personas.display_lovers_personas()
+    elif arcana_choice == 8: # Chariot
+        Personas.display_chariot_personas()
+    elif arcana_choice == 9: # Justice
+        Personas.display_justice_personas()
+    elif arcana_choice == 10: # Hermit
+        Personas.display_hermit_personas()
+    elif arcana_choice == 11: # Fortune
+        Personas.display_fortune_personas()
+    elif arcana_choice == 12: # Strength
+        Personas.display_strength_personas()
+    elif arcana_choice == 13: # Hanged Man
+        Personas.display_hanged_man_personas()
+    elif arcana_choice == 14: # Death
+        Personas.display_death_personas()
+    elif arcana_choice == 15: # Temperance 
+        Personas.display_temperance_personas()
+    elif arcana_choice == 16: # Devil
+        Personas.display_devil_personas()
+    elif arcana_choice == 17: # Tower
+        Personas.display_tower_personas()
+    elif arcana_choice == 18: # Star
+        Personas.display_star_personas()
+    elif arcana_choice == 19: # Moon
+        Personas.display_moon_personas()
+    elif arcana_choice == 20: # Sun
+        Personas.display_sun_personas()
+    elif arcana_choice == 21: # Judgement
+        Personas.display_judgement_personas()
+    elif arcana_choice == 22: # Faith
+        Personas.display_faith_personas()
+    elif arcana_choice == 23: # Councillor
+        Personas.display_councillor_personas()
+    else:
+        valid_arcana_choice = False
+        print("Invalid Arcana choice.\n") 
+    
