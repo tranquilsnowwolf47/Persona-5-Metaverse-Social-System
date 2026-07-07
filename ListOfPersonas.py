@@ -262,7 +262,7 @@ class Personas:
         star_personas_list = Personas.starArcanaPersonasList()
         print("\nList of Star Personas:")
         for persona_index, persona in enumerate(star_personas_list, start=1):
-            print(f"{persona}. {persona_index}")
+            print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
 
     # Done
