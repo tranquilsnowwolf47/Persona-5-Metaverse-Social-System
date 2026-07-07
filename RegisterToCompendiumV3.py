@@ -102,6 +102,26 @@ def get_persona_arcana():
         pass
     elif arcana_choice == 6:
         pass 
+    elif arcana_choice == 7:
+        pass
+    elif arcana_choice == 8:
+        pass
+    elif arcana_choice == 9:
+        pass
+    elif arcana_choice == 10:
+        pass
+    elif arcana_choice == 11:
+        pass
+    elif arcana_choice == 12:
+        pass
+    elif arcana_choice == 13:
+        pass
+    elif arcana_choice == 14:
+        pass
+    elif arcana_choice == 15:
+        pass
+    elif arcana_choice == 16:
+        pass
     
 
 
