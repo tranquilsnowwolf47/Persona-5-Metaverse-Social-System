@@ -1,7 +1,7 @@
 (WIP)
 
 Welcome to the Metaverse Social System! This is a personal project that I created during the summer of 2025, in which I wanted to create a way of improving my social 
-skills in a way that would make it easier for me to understand hidden and untalked-about social dynamics. 
+skills that would make it easier for me to understand hidden and untalked-about social dynamics. 
 
 In general, I learned a lot of elaborate social techniques due to researching videos on social skills and charisma in the past, but a problem I experienced was forgetting to use them in the heat of social interactions under pressure. 
 
