@@ -94,6 +94,15 @@ def get_persona_arcana():
         pass
     elif arcana_choice == 2:
         pass
+    elif arcana_choice == 3:
+        pass
+    elif arcana_choice == 4:
+        pass
+    elif arcana_choice == 5:
+        pass
+    elif arcana_choice == 6:
+        pass 
+    
 
 
 get_persona_arcana()
