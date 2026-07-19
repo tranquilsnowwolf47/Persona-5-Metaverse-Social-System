@@ -228,6 +228,9 @@ orpheus = FoolPersonas(
                     "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                     "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
 
+# 9. Orpheus Picaro
+# Register update: 7/
+
 # All Fool Personas registered 
 fool_personas = (arsene, obariyon, orpheus_f, orpheus_f_picaro, high_pixie, izanagi, 
                  izanagi_picaro, orpheus)
@@ -325,9 +328,10 @@ kikuri_hime = PriestessPersonas(
 # 6. Sarasvati
 # Register update: 6/12/26
 # Register update: 6/14/26
+# Register update: 7/16/26
 sarasvati = PriestessPersonas(
-                    "Sarasvati", "Priestess", 21,
-                    1,6,8,9,1,
+                    "Sarasvati", "Priestess", 29,
+                    1,9,10,12,1,
                     "Sixth Observation (Light Psy)", "Intent Rift (Hvy Psy)", "Interest Gauge (Light Psy)", "Cold Admission (Med Ice)",
                     "Anchor Presence (Med Ice)", "Social Probe (Med Gun)", "Self-Control (Auto def buff)", "Coordination Vector (AOE Ag debuff)"
 )
@@ -418,9 +422,10 @@ barong = EmperorPersonas(
 # Register update: 5/10/26
 # Register update: 5/28/26
 # Register update: 6/13/26
+# Register update: 7/16/26
 king_frost = EmperorPersonas(
-                    "King Frost", "Emperor", 46,
-                    20,17,7,5,1,
+                    "King Frost", "Emperor", 52,
+                    22,18,7,7,2,
                     "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Hvy Phys)",
                     "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
@@ -501,9 +506,10 @@ narcissus = LoversPersonas(
 # 7. Parvati
 # Register update: 5/28/26
 # Register update: 6/15/26
+# Register update: 7/16/26
 parvati = LoversPersonas(
-                    "Parvati", "Lovers", 25,
-                    6,8,1,11,3,
+                    "Parvati", "Lovers", 30,
+                    7,9,3,11,4,
                     "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
                     "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)")
 
@@ -551,9 +557,10 @@ ara_mitama = ChariotPersonas(
 # 6. White Rider
 # Register update: 5/28/26
 # Register update: 6/14/26
+# Register update: 7/16/26
 white_rider = ChariotPersonas(
-                    "White Rider", "Chariot", 25,
-                    11,7,6,4,1,
+                    "White Rider", "Chariot", 32,
+                    11,7,8,5,3,
                     "Crowd Echo (Med Nuke)", "Spotlight Surge (Hvy Nuke)", "Flash Bounce (Med Nuke)","Cold Cut (Light Phys)",
                     "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)")
 
@@ -635,9 +642,10 @@ sudama = HermitPersonas(
 # 5. Naga
 # Register update: 5/28/26
 # Register update: 6/13/26
+# Register update: 7/16/26
 naga = HermitPersonas(
-                    "Naga", "Hermit", 24,
-                    3,11,5,8,1,
+                    "Naga", "Hermit", 26,
+                    4,11,6,8,1,
                     "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                     "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
 )
@@ -679,9 +687,10 @@ lachesis = FortunePersonas(
 # 5. Atropos
 # Register update: 5/28/26
 # Register update: 6/15/26
+# Register update: 7/16/26
 atropos = FortunePersonas(
-                    "Atropos", "Fortune", 35,
-                    5,6,4,9,15,
+                    "Atropos", "Fortune", 40,
+                    5,6,4,11,18,
                     "Affinity Beacon (Debilitate)", "Self-Security (Def buff)", "Temperament Read (Light Psy)", "Veiled Initiative (Hvy Curse)",
                     "Looksmax (Auto Heat Riser)", "Human Nature Savant (Auto Ag Buff)", "Psy Boost", "Hazard Audit (Fear Recovery)")
 
@@ -730,9 +739,10 @@ orlov = StrengthPersonas(
 # 6. Zouchouten
 # Register update: 5/28/26
 # Register update: 6/15/26
+# Register update: 7/16/26
 zouchouten = StrengthPersonas(
-                    "Zouchouten", "Strength", 26,
-                    4,1,15,7,3,
+                    "Zouchouten", "Strength", 33,
+                    7,3,16,8,3,
                     "", "", "","",
                     "", "", "",""
 )
@@ -961,9 +971,10 @@ kaguya = MoonPersonas(
 # 4. Black Ooze
 # Register update: 5/28/26
 # Register update: 6/14/26
+# Register update: 7/16/26
 black_ooze = MoonPersonas(
-                        "Black Ooze", "Moon", 25,
-                        1,9,6,11,2,
+                        "Black Ooze", "Moon", 29,
+                        3,9,6,13,2,
                         "Foresight (Med Psy)", "Atmosphere Read (Med Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                         "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
 
@@ -1028,9 +1039,10 @@ anubis = JudgementPersonas(
 
 # 2. Trumpeter
 # Register update: 5/28/26
+# Register update: 7/16/26
 trumpeter = JudgementPersonas(
-            "Trumpter", "Judgement", 15,
-            1,7,5,5,1,
+            "Trumpter", "Judgement", 23,
+            1,8,8,8,2,
             "","","","",
             "","","","")
 
@@ -1071,9 +1083,10 @@ okuninushi = FaithPersonas(
 # 5. Orichalcum 
 # Register update: 5/28/26
 # Register update: 6/14/26
+# Register update: 7/16/26
 orichalcum = FaithPersonas(
-                "Orichalcum", "Faith", 31,
-                7,4,10,7,7,
+                "Orichalcum", "Faith", 39,
+                7,4,10,12,10,
                 "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                 "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
 
