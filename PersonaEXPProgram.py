@@ -158,7 +158,7 @@ class Persona:
                 continue
 
             print()
-            loop_choice = input("Would you like to choose another option? (y for yes, anything else for now): ").lower()
+            loop_choice = input("Would you like to choose another option? (y for yes, anything else for no): ").lower()
             if loop_choice != "y":
                 loop = False
                 print("Exiting the program.")
@@ -203,8 +203,7 @@ kushi_mitama = Persona("Kushi Mitama","Councillor",1,1,1,1,1,1,0)
 
 
 # Performs operations for all personas in the tuple
-personas = (orpheus, king_frost, naga, black_ooze, orichalcum, white_rider, sarasvati, atropos, parvati, zouchouten,
-            naga, trumpeter, koppa_tengu, orobas, choronzon, hariti, flauros, red_rider, hope_diamond, horus,
+personas = (trumpeter, koppa_tengu, orobas, choronzon, hariti, flauros, red_rider, hope_diamond, horus,
             emperors_amulet, power, kushi_mitama)
 
 
