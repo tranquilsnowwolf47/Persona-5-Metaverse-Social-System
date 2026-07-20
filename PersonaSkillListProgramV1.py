@@ -616,6 +616,21 @@ while True:
                         for skill_index, skill in enumerate(IceSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(IceSkills.light_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                IceSkills.reasurring_chill.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                IceSkills.acknowledgement_frost.display_skill()
+                        else:
+                            pass
+        
+
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Ice Skills:")
@@ -623,6 +638,50 @@ while True:
                         for skill_index, skill in enumerate(IceSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(IceSkills.medium_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                IceSkills.platonic_curtain.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                IceSkills.glacier_wall.display_skill()
+                            elif skill_choice == 3:
+                                print()
+                                IceSkills.cold_admission.display_skill()
+                            elif skill_choice == 4:
+                                print()
+                                IceSkills.safe_space.display_skill()
+                            elif skill_choice == 5:
+                                print()
+                                IceSkills.anchor_presence.display_skill()
+                            elif skill_choice == 6:
+                                print()
+                                IceSkills.soulshare.display_skill()
+                            elif skill_choice == 7:
+                                print()
+                                IceSkills.cooldown.display_skill()
+                            elif skill_choice == 8:
+                                print()
+                                IceSkills.frostfade.display_skill()
+                            elif skill_choice == 9:
+                                print()
+                                IceSkills.icebreak_shield.display_skill()
+                            elif skill_choice == 10:
+                                print()
+                                IceSkills.reflective_icebreak.display_skill()
+                            elif skill_choice == 11:
+                                print()
+                                IceSkills.emotional_mirror.display_skill()
+                            elif skill_choice == 12:
+                                print()
+                                IceSkills.mirrored_empathy.display_skill()
+                        else:
+                            pass
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Ice Skills:")
@@ -630,6 +689,21 @@ while True:
                         for skill_index, skill in enumerate(IceSkills.heavy_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(IceSkills.heavy_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                IceSkills.thermal_reset.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                IceSkills.crystal_resonsance.display_skill()
+                            else:
+                                pass
+
+    
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Ice Skills:")
@@ -637,6 +711,8 @@ while True:
                         for skill_index, skill in enumerate(IceSkills.severe_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
@@ -648,6 +724,62 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    total_skill_index = sum(len(group for group in IceSkills.full_ice_skill_list))        
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            IceSkills.thermal_reset.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            IceSkills.crystal_resonsance.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            IceSkills.platonic_curtain.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            IceSkills.glacier_wall.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            IceSkills.cold_admission.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            IceSkills.safe_space.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            IceSkills.anchor_presence.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            IceSkills.soulshare.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            IceSkills.cooldown.display_skill()
+                        elif skill_choice == 10:
+                            print()
+                            IceSkills.frostfade.display_skill()
+                        elif skill_choice == 11:
+                            print()
+                            IceSkills.icebreak_shield.display_skill()
+                        elif skill_choice == 12:
+                            print()
+                            IceSkills.reflective_icebreak.display_skill()
+                        elif skill_choice == 13:
+                            print()
+                            IceSkills.emotional_mirror.display_skill()
+                        elif skill_choice == 14:
+                            print()
+                            IceSkills.mirrored_empathy.display_skill()
+                        elif skill_choice == 15:
+                            print()
+                            IceSkills.reasurring_chill.display_skill()
+                        elif skill_choice == 16:
+                            print()    
+                            IceSkills.acknowledgement_frost.display_skill()
+                        else:
+                            pass
+
 
             # Elec | Debugged
             elif skill_type_choice == 5:
@@ -665,6 +797,29 @@ while True:
                         for skill_index, skill in enumerate(ElecSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(ElecSkills.light_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                ElecSkills.shocking_humor.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                ElecSkills.current_confirmation.display_skill()
+                            elif skill_choice == 3:
+                                print()
+                                ElecSkills.sonic_quip.display_skill()
+                            elif skill_choice == 4:
+                                print()
+                                ElecSkills.deadpan_discharge.display_skill()
+                            elif skill_choice == 5:
+                                print()
+                                ElecSkills.volt_revive.display_skill()
+                            else:
+                                pass
+
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Elec Skills:")
@@ -672,12 +827,30 @@ while True:
                         for skill_index, skill in enumerate(ElecSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        print("No available Medium Elec skills yet (coming soon)\n")
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Elec Skills:")
                         print("-----------------------------------------------------")    
                         for skill_index, skill in enumerate(ElecSkills.heavy_skills,start=1):
+                            print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                        
+                        total_skill_index = len(ElecSkills.heavy_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                ElecSkills.lightning_retort.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                ElecSkills.verbal_parry.display_skill()
+                            else:
+                                pass
+
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Elec Skills:")
@@ -685,6 +858,8 @@ while True:
                         for skill_index, skill in enumerate(ElecSkills.severe_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        print("Severe Elec skills not yet available (coming soon)")
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
@@ -696,6 +871,35 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    # The index for the end count of the skills 
+                    total_skill_index = sum(len(group) for group in ElecSkills.full_elec_skill_list)        
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            ElecSkills.lightning_retort.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            ElecSkills.verbal_parry.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            ElecSkills.shocking_humor.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            ElecSkills.current_confirmation.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            ElecSkills.sonic_quip.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            ElecSkills.deadpan_discharge.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            ElecSkills.volt_revive.display_skill()
+                        else:
+                            pass
 
             # Wind | Debugged
             elif skill_type_choice == 6:
@@ -713,6 +917,16 @@ while True:
                         for skill_index, skill in enumerate(WindSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(WindSkills.light_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                            if description_choice == "y":
+                                skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                                if skill_choice == 1:
+                                    print()
+                                    WindSkills.inquisitive_breeze.display_skill()
+                                else:
+                                    pass
                     elif damage_grade_choice == 2:
                         # Display the list of Medium skills
                         print("\nMedium Wind Skills:")
@@ -720,6 +934,10 @@ while True:
                         for skill_index, skill in enumerate(WindSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(WindSkills.medium_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
                         print("\nHeavy Wind Skills:")
@@ -727,6 +945,11 @@ while True:
                         for skill_index, skill in enumerate(WindSkills.heavy_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(WindSkills.heavy_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
+
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Wind Skills:")
@@ -734,6 +957,10 @@ while True:
                         for skill_index, skill in enumerate(WindSkills.severe_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(WindSkills.severe_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
@@ -762,6 +989,9 @@ while True:
                         for skill_index, skill in enumerate(PsySkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(PsySkills.light_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Psy skills
                         print("\nMedium Psy Skills:")
@@ -769,6 +999,10 @@ while True:
                         for skill_index, skill in enumerate(PsySkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(Skills.medium_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Psy skills
                         print("\nHeavy Psy Skills:")
@@ -811,6 +1045,9 @@ while True:
                         for skill_index, skill in enumerate(NukeSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(NukeSkills.light_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Nuke skills
                         print("\nMedium Nuke Skills:")
@@ -818,6 +1055,10 @@ while True:
                         for skill_index, skill in enumerate(NukeSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(Skills.medium_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Nuke skills
                         print("\nHeavy Nuke Skills:")
@@ -860,6 +1101,9 @@ while True:
                         for skill_index, skill in enumerate(BlessSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(BlessSkills.light_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Bless skills
                         print("\nMedium Bless Skills:")
@@ -867,6 +1111,10 @@ while True:
                         for skill_index, skill in enumerate(BlessSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(Skills.medium_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Bless skills
                         print("\nHeavy Bless Skills:")
@@ -909,6 +1157,9 @@ while True:
                         for skill_index, skill in enumerate(CurseSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(CurseSkills.light_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Curse skills
                         print("\nMedium Curse Skills:")
@@ -916,6 +1167,10 @@ while True:
                         for skill_index, skill in enumerate(CurseSkills.medium_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                            total_skill_index = len(Skills.medium_skills)
+                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Curse skills
                         print("\nHeavy Curse Skills:")
@@ -1053,6 +1308,9 @@ while True:
                     for skill_index, skill in enumerate(HPRecoverySkills.light_recovery_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
+
+                        total_skill_index = len(HPRecoverySkills.light_recovery_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                 # Display the list of moderate HP Recovery skills
                 elif hp_recovery_skill_choice == 2:
                     print("\nModerate HP Recovery Skills:")
@@ -1060,6 +1318,10 @@ while True:
                     for skill_index, skill in enumerate(HPRecoverySkills.moderate_recovery_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
+
+                        total_skill_index = len(HPRecoverySkills.moderate_recovery_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+
                 # Display the list of Full HP Recovery skills
                 elif hp_recovery_skill_choice == 3:
                     print("\nFull HP Recovery Skills:")
