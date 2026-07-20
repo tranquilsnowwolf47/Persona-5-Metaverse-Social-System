@@ -73,7 +73,7 @@ Ex 5: “I have a love-hate relationship with mornings… mostly hate.”
 Ex 6: “If there was a reward for overthinking I’d reach a guinness world record”). 
 Deals light Elec damage.""")
 
-current_confirmaiton = LightSkills("Current Confirmation", "Elec", "Light", 6,
+current_confirmation = LightSkills("Current Confirmation", "Elec", "Light", 6,
 """   - A sly, lightning-quick reframing jab that playfully interprets the target’s hesitation, half-answers, indirect agreements, or non-committal answers as agreement. This move jolts the social tempo by converting ambiguity into momentum, teasing them into engagement without pressure. Perfect for keeping the vibe light, witty, and confidently forward.
 (Ex: "You blinked. That counts as a response" 
 Ex 2: "I speak fluent sarcasm. That was a yes, right?"
@@ -115,5 +115,5 @@ Deals light Elec damage. """)
 severe_skills = ()
 heavy_skills = (lightning_retort, verbal_parry)
 medium_skills = ()
-light_skills = (shocking_humor, current_confirmaiton, sonic_quip, deadpan_discharge, volt_revive)
+light_skills = (shocking_humor, current_confirmation, sonic_quip, deadpan_discharge, volt_revive)
 full_elec_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
