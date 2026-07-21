@@ -937,6 +937,34 @@ while True:
 
                         total_skill_index = len(WindSkills.medium_skills)
                         description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                                skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                                if skill_choice == 1:
+                                    print()
+                                    WindSkills.callback_gale.display_skill()
+                                elif skill_choice == 2:
+                                    print()
+                                    WindSkills.deep_dive.display_skill()
+                                elif skill_choice == 3:
+                                    print()
+                                    WindSkills.entry_path.display_skill()
+                                elif skill_choice == 4:
+                                    print()
+                                    WindSkills.depth_anchor.display_skill()
+                                elif skill_choice == 5:
+                                    print()
+                                    WindSkills.career_current.display_skill()
+                                elif skill_choice == 6:
+                                    print()
+                                    WindSkills.mind_glide.display_skill()
+                                elif skill_choice == 7:
+                                    print()
+                                    WindSkills.thought_unravel.display_skill()
+                                elif skill_choice == 8:
+                                    print()
+                                    WindSkills.winds_of_knowledge.display_skill()
+                                else:
+                                    pass
 
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy skills
@@ -948,7 +976,14 @@ while True:
 
                         total_skill_index = len(WindSkills.heavy_skills)
                         description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
-
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                WindSkills.everflow.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                WindSkills.tailwind_cascade.display_skill()
 
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
@@ -957,9 +992,11 @@ while True:
                         for skill_index, skill in enumerate(WindSkills.severe_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                        
+                        print("Severe Wind Skills not yet available. Coming soon")
 
-                        total_skill_index = len(WindSkills.severe_skills)
-                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        #total_skill_index = len(WindSkills.severe_skills)
+                        #description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
 
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -972,6 +1009,47 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    # The index for the end count of the skills 
+                    total_skill_index = sum(len(group) for group in WindSkills.full_wind_skill_list)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            WindSkills.everflow.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            WindSkills.tailwind_cascade.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            WindSkills.callback_gale.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            WindSkills.deep_dive.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            WindSkills.entry_path.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            WindSkills.depth_anchor.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            WindSkills.career_current.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            WindSkills.mind_glide.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            WindSkills.thought_unravel.display_skill()
+                        elif skill_choice == 10:
+                            print()
+                            WindSkills.winds_of_knowledge.display_skill()
+                        elif skill_choice == 11:
+                            print()
+                            WindSkills.inquisitive_breeze.display_skill()
+                        else:
+                            pass
 
             # Psy | Debugged
             elif skill_type_choice == 7:
