@@ -1068,8 +1068,8 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                            total_skill_index = len(PsySkills.light_skills)
-                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        total_skill_index = len(PsySkills.light_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Psy skills
                         print("\nMedium Psy Skills:")
@@ -1078,8 +1078,8 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                            total_skill_index = len(Skills.medium_skills)
-                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        total_skill_index = len(PsySkills.medium_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
 
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Psy skills
@@ -1124,8 +1124,8 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                            total_skill_index = len(NukeSkills.light_skills)
-                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        total_skill_index = len(NukeSkills.light_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Nuke skills
                         print("\nMedium Nuke Skills:")
@@ -1134,8 +1134,8 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                            total_skill_index = len(Skills.medium_skills)
-                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        total_skill_index = len(NukeSkills.medium_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
 
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Nuke skills
