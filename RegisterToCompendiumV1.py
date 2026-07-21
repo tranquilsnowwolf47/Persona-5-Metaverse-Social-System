@@ -273,8 +273,9 @@ sandman = MagicianPersonas(
 
 # 6. Choronzon
 # Register update: 6/8/26
+# Register update: 7/20/26
 choronzon = MagicianPersonas(
-                    "Choronzon", "Magician", 22,
+                    "Choronzon", "Magician", 33,
                     1,1,1,1,1,
                     "Winds of Knowledge (Med Wind)","Depth Anchor (Med Wind)","Mind Glide (Med Wind)","Weekend Needle (Med Gun)",
                     "Acknowledgement Shot (Light Gun)","Inferno Grip (Med Fire)","Confidence Drive (Atk Buff)","Human Nature Savant (Auto Ag Buff)"
@@ -446,9 +447,10 @@ berith = HierophantPersonas(
 
 # 2. Orobas
 # Register update: 6/8/26
+# Register update: 7/20/26
 orobas = HierophantPersonas(
-                    "Orobas", "Hierophant", 15,
-                    1,1,1,1,1,
+                    "Orobas", "Hierophant", 23,
+                    10,8,3,5,1,
                     "Alpha Directive (Med Phys)","Career Current (Med Wind)","Confidence Drive (Atk buff)","Slowed Speech (Ag buff)",
                     "Social Competence (Auto Atk buff)","Wind Boost","Dodge Reverse Curse","Purpose Anchor (Despair Recovery)"
 )
