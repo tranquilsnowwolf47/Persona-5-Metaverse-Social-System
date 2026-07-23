@@ -44,7 +44,7 @@ Ex 2: A person overreacts to a comment about their past. Shadow Whisper lets you
 Ex 3: In a conversation, someone puts you down and makes you sound like you’re inferior. Shadow Whisper reveals that the person may have a superiority complex. 
 Deals heavy Psy damage.""")
 
-priority_rift = HeavySkills("Cognition Rift", "Psy", "Heavy", 24,
+priority_rift = HeavySkills("Priority Rift", "Psy", "Heavy", 24,
 """   - Instead of listening to what someone says, you pay attention to their actions instead, allowing you to notice the subtle patterns, the effort they actually put in, the consistency of their actions, and the truth behind how authentic and genuine they really are.
 Cuts through excuses, fluff, and flaking, giving you a clear read on whether they’ll follow through or if they are who they say they are. 
 (Ex: Someone promises to meet up but consistently flakes
@@ -52,7 +52,7 @@ Cuts through excuses, fluff, and flaking, giving you a clear read on whether the
  Ex 3: A family member or romantic interest claims to love you, but they disrespect and take advantage of you
  Ex 4: Someone constantly texts but never follows through with actions (i.e., sending memes but skipping real meetups)
  Ex 4: They compliment you and flirt, but avoid making time for you or cancels plans).
-Deals heavy Psy damage. """)
+Deals heavy Psy damage.""")
 
 foresight = HeavySkills("Foresight", "Psy", "Heavy", 23,
 """   - Anticipate a target’s next behavior, attack, statement, or conversational direction by reading patterns, signals, intuition, and shifts in energy. 
