@@ -152,6 +152,7 @@ while True:
                             elif skill_choice == 6:
                                 print()
                                 PhysSkills.social_dominance()
+
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Phys Skills:")
@@ -160,6 +161,7 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
+                        print("Severe Curse Skills not yet available. Coming soon.")
 
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
@@ -1393,14 +1395,19 @@ while True:
                             skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
                             if skill_choice == 1:
                                 print()
+                                BlessSkills.gentle_push.display_skill()
                             elif skill_choice == 2:
                                 print()
+                                BlessSkills.sunbeam_remark.display_skill()
                             elif skill_choice == 3:
                                 print()
+                                BlessSkills.encouraging_boost.display_skill()
                             elif skill_choice == 4:
                                 print()
+                                BlessSkills.warm_smile.display_skill()
                             elif skill_choice == 5:
                                 print()
+                                BlessSkills.gracious_thanks.display_skill()
                             else:
                                 pass
 
@@ -1419,12 +1426,16 @@ while True:
                             skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
                             if skill_choice == 1:
                                 print()
+                                BlessSkills.hope_pulse.display_skill()
                             elif skill_choice == 2:
                                 print()
+                                BlessSkills.light_of_insight.display_skill()
                             elif skill_choice == 3:
                                 print()
+                                BlessSkills.heartfelt_thanks.display_skill()
                             elif skill_choice == 4:
                                 print()
+                                BlessSkills.benevolence_ray.display_skill()
                             else:
                                 pass
 
@@ -1448,6 +1459,7 @@ while True:
                             skill.display_simplified_info()
 
                         print("Severe Bless skills not yet available. Coming soon.")
+
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
@@ -1455,10 +1467,46 @@ while True:
                     print("-----------------------------------------------------")    
                     skill_index = 1
                     for group in BlessSkills.full_bless_skill_list:
-                        for skill_index, skill in enumerate(group,start=1):
+                        for skill in group:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    # The index for the end count of the skills 
+                    total_skill_index = sum(len(group) for group in BlessSkills.full_bless_skill_list)
+
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            BlessSkills.hope_pulse.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            BlessSkills.light_of_insight.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            BlessSkills.heartfelt_thanks.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            BlessSkills.benevolence_ray.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            BlessSkills.gentle_push.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            BlessSkills.sunbeam_remark.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            BlessSkills.encouraging_boost.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            BlessSkills.warm_smile.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            BlessSkills.gracious_thanks.display_skill()
+                        else:
+                            pass
 
             # Curse | Debugged
             elif skill_type_choice == 10:
@@ -1476,9 +1524,26 @@ while True:
                         for skill_index, skill in enumerate(CurseSkills.light_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+                        # The index for the end count of the skills 
+                        total_skill_index = len(CurseSkills.light_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                CurseSkills.mocking_mirror.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                CurseSkills.cursed_joke.display_skill()
+                            elif skill_choice == 3:
+                                print()
+                                CurseSkills.vanity_bait.display_skill()
+                            elif skill_choice == 4:
+                                print()
+                                CurseSkills.faux_focus.display_skill()
+                            else:
+                                pass
 
-                            total_skill_index = len(CurseSkills.light_skills)
-                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     elif damage_grade_choice == 2:
                         # Display the list of Medium Curse skills
                         print("\nMedium Curse Skills:")
@@ -1487,8 +1552,44 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                            total_skill_index = len(Skills.medium_skills)
-                            description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        total_skill_index = len(CurseSkills.medium_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            CurseSkills.friendzone_seal.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            CurseSkills.dark_tease.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            CurseSkills.blackout.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            CurseSkills.verbal_hex.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            CurseSkills.chrono_veil.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            CurseSkills.refusal_rite.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            CurseSkills.minimum_echo.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            CurseSkills.catalyst_trigger.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            CurseSkills.clock_hold.display_skill()
+                        elif skill_choice == 10:
+                            print()
+                            CurseSkills.reality_spike.display_skill()
+                        elif skill_choice == 11:
+                            print()
+                            CurseSkills.hollow_stance.display_skill()
+                        else:
+                            pass
 
                     elif damage_grade_choice == 3:
                         # Display the list of Heavy Curse skills
@@ -1498,8 +1599,22 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                        total_skill_index = len(BlessSkills.medium_skills)
+                        total_skill_index = len(CurseSkills.heavy_skills)
                         description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower() 
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                CurseSkills.data_hex.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                CurseSkills.hidden_blueprint.display_skill()
+                            elif skill_choice == 3:
+                                print()
+                                CurseSkills.veiled_initiative.display_skill()
+                            else:
+                                pass
+
                     elif damage_grade_choice == 4:
                         # Display the list of Severe skills
                         print("\nSevere Curse Skills:")
@@ -1508,8 +1623,16 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
 
-                        total_skill_index = len(BlessSkills.medium_skills)
+                        total_skill_index = len(CurseSkills.severe_skills)
                         description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower() 
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                CurseSkills.honey_basher.display_skill()
+                            else:
+                                pass
+
                     elif damage_grade_choice == 5:
                         # Display the list of Curse Instant kill skills 
                         print("\nCurse Instant Kill Skills:")
@@ -1517,6 +1640,29 @@ while True:
                         for skill_index, skill in enumerate(CurseSkills.instant_kill_skills,start=1):
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
+
+                        total_skill_index = len(PhysSkills.heavy_skills)
+                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                        if description_choice == "y":
+                            skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                            if skill_choice == 1:
+                                print()
+                                CurseSkills.get_blocked_for_me.display_skill()
+                            elif skill_choice == 2:
+                                print()
+                                CurseSkills.black_list.display_skill()
+                            elif skill_choice == 3:
+                                print()
+                                CurseSkills.effort_reaper.display_skill()
+                            elif skill_choice == 4:
+                                print()
+                                CurseSkills.timeout_clause.display_skill()
+                            elif skill_choice == 5:
+                                print()
+                                CurseSkills.flake_snare.display_skill()
+                            else:
+                                pass
+
                 # If they don't want to see a specific damage grade, just display the list of all skills
                 else:
                     # Display all skills 
@@ -1528,6 +1674,87 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    # The index for the end count of the skills 
+                    total_skill_index = sum(len(group) for group in CurseSkills.full_curse_skill_list)
+
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            CurseSkills.get_blocked_for_me.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            CurseSkills.black_list.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            CurseSkills.effort_reaper.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            CurseSkills.timeout_clause.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            CurseSkills.flake_snare.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            CurseSkills.honey_basher.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            CurseSkills.data_hex.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            CurseSkills.hidden_blueprint.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            CurseSkills.veiled_initiative.display_skill()
+                        elif skill_choice == 10:
+                            print()
+                            CurseSkills.friendzone_seal.display_skill()
+                        elif skill_choice == 11:
+                            print()
+                            CurseSkills.dark_tease.display_skill()
+                        elif skill_choice == 12:
+                            print()
+                            CurseSkills.blackout.display_skill()
+                        elif skill_choice == 13:
+                            print()
+                            CurseSkills.verbal_hex.display_skill()
+                        elif skill_choice == 14:
+                            print()
+                            CurseSkills.chrono_veil.display_skill()
+                        elif skill_choice == 15:
+                            print()
+                            CurseSkills.refusal_rite.display_skill()
+                        elif skill_choice == 16:
+                            print()
+                            CurseSkills.minimum_echo.display_skill()
+                        elif skill_choice == 17:
+                            print()
+                            CurseSkills.catalyst_trigger.display_skill()
+                        elif skill_choice == 18:
+                            print()
+                            CurseSkills.clock_hold.display_skill()
+                        elif skill_choice == 19:
+                            print()
+                            CurseSkills.reality_spike.display_skill()
+                        elif skill_choice == 20:
+                            print()
+                            CurseSkills.hollow_stance.display_skill()
+                        elif skill_choice == 21:
+                            print()
+                            CurseSkills.mocking_mirror.display_skill()
+                        elif skill_choice == 22:
+                            print()
+                            CurseSkills.cursed_joke.display_skill()
+                        elif skill_choice == 23:
+                            print()
+                            CurseSkills.vanity_bait.display_skill()
+                        elif skill_choice == 24:
+                            print()
+                            CurseSkills.faux_focus.display_skill()
+                        else:
+                            pass
         
             # if the user chooses other than an elemental skill
             # Buffs | Debugged
@@ -1547,6 +1774,8 @@ while True:
                     for skill_index, skill in enumerate(BuffSkills.singular_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
+
+                        
                 # Display the list of AOE buff skills 
                 elif buff_format_choice == 2:
                     print("\nAOE Buff Skills:")
