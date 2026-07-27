@@ -122,7 +122,7 @@ class MetaverseLocation:
         print(f"Growth Alignment: {self.growth_alignment}")
         print(f"Awakening Potential: {self.awakening_potential}")
         print(f"Date Duration: {self.date_duration}")
-        print(f"Party Compatability: {self.party_compatability}")
+        print(f"Party Compatability: {self.party_compatability}\n")
 
 
 class Palace(MetaverseLocation):
@@ -194,7 +194,7 @@ anime_expo = "N/A"
 animate_orlando = "N/A"
 
 # Tuple that holds all the list of Palace objects
-palaces = (fau, otakufest, supercon, megacon, holiday_matsuri, metrocon, anime_festival_orlando)
+palaces = (fau, otakufest, supercon, megacon, holiday_matsuri)
 accepted_palaces = []
 voided_palaces = []
 
@@ -222,21 +222,26 @@ jupiter_jail = "N/A"
 
 davie_jail = "N/A"
 
-wpb_jail = Jail("West Palm Beach Jail", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
-                Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
-               Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
+# Cleared 
+# Debugged
+wpb_jail = Jail("West Palm Beach Jail", Jail.metaverse_location_types[1],"West Palm Beach Downtown", Jail.infiltration_priority_types[3], "N/A", "N/A (Only gas money)",
+                Jail.distance_types[4], Jail.rarity_types[2], Jail.social_receptiveness_types[3], Jail.security_level_sensitivity_types[1], Jail.repeatability_types[1],
+               Jail.exp_yield_types[2], Jail.loot_potential_types[3], Jail.risk_types[1], Jail.reward_types[2], Jail.resource_cost_types[1], 
+               Jail.treasure_demon_potential_types[3], Jail.growth_alignment_types[1], Jail.awakening_potential_types[3], "N/A", Jail.party_compatability_types[3])
 
+# Cleared 
+# Debugged
+boca_jail = Jail("Boca Jail", Jail.metaverse_location_types[1],"Boca Raton Downtown", Jail.infiltration_priority_types[3], "N/A", "N/A (Only gas money)",
+               Jail.distance_types[3], Jail.rarity_types[2], Jail.social_receptiveness_types[3], Jail.security_level_sensitivity_types[1], Jail.repeatability_types[2],
+               Jail.exp_yield_types[2], Jail.loot_potential_types[3], Jail.risk_types[1], Jail.reward_types[2], Jail.resource_cost_types[1], 
+               Jail.treasure_demon_potential_types[3], Jail.growth_alignment_types[1], Jail.awakening_potential_types[3], "N/A", Jail.party_compatability_types[3])
 
-boca_jail = Jail("Boca Jail", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
-               Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
-               Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
-
-miami_jail = Jail("Miami Jail", Jail.metaverse_location_types[1],"", Jail.infiltration_priority_types[0], "", "",
-                  Jail.distance_types[0], Jail.rarity_types[0], Jail.social_receptiveness_types[0], Jail.security_level_sensitivity_types[0], Jail.repeatability_types[0],
-               Jail.exp_yield_types[0], Jail.loot_potential_types[0], Jail.risk_types[0], Jail.reward_types[0], Jail.resource_cost_types[0], 
-               Jail.treasure_demon_potential_types[0], Jail.growth_alignment_types[0], Jail.awakening_potential_types[0], "", Jail.party_compatability_types[0])
+# Cleared 
+# Debugged
+miami_jail = Jail("Miami Jail", Jail.metaverse_location_types[1],"Miami Downtown", Jail.infiltration_priority_types[3], "N/A", "N/A (Only gas money)",
+                  Jail.distance_types[2], Jail.rarity_types[2], Jail.social_receptiveness_types[3], Jail.security_level_sensitivity_types[1], Jail.repeatability_types[3],
+               Jail.exp_yield_types[2], Jail.loot_potential_types[3], Jail.risk_types[1], Jail.reward_types[2], Jail.resource_cost_types[1], 
+               Jail.treasure_demon_potential_types[3], Jail.growth_alignment_types[1], Jail.awakening_potential_types[3], "N/A", Jail.party_compatability_types[4])
 
 delray_jail = "N/A"
 
@@ -255,20 +260,17 @@ example = MementosFloor("", MementosFloor.metaverse_location_types[2], "", Memen
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
                         MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
-anime_iwai = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                    Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                    Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                    Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
 
-miraicon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+anime_iwai = "N/A"
 
-mizucon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                 Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                 Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+miraicon = "N/A"
+
+# Cleared
+# Debugged
+mizucon = Palace("Mizucon", Palace.metaverse_location_types[0], "Miccosukee Casino & Resort, Miami FL", Palace.infiltration_priority_types[2], "N/A", "N/A",
+                 Palace.distance_types[2], Palace.rarity_types[1], Palace.social_receptiveness_types[1], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[2], 
+                 Palace.exp_yield_types[2], Palace.loot_potential_types[1], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[2], 
+                 Palace.treasure_demon_potential_types[3], Palace.growth_alignment_types[1], Palace.awakening_potential_types[3], "2 Days", Palace.party_compatability_types[3])
 
 hero_hype_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
@@ -292,10 +294,8 @@ fau_career_fair = MementosFloor("", MementosFloor.metaverse_location_types[2], "
                         MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
 
-plasticon = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
-                        MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
-                        MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
+plasticon = "N/A"
+
 
 #cosplay_beach_party = MementosFloor("Cosplay Beach Party", MementosFloor.metaverse_location_types[2], "Fort Lauderdale Beach, FL", MementosFloor.infiltration_priority_types[2], "Saturday, May 16th", "")
 
@@ -313,6 +313,8 @@ invns_kava_bar = "N/A"
 
 tenth_level_tavern = "N/A"
 
+gym = "N/A"
+
 # Tuple that holds all teh list of Mementos floor objects
-mementos_floors = (hero_hype_con, hero_hype_con, sunrise_comic_con, fau_career_fair, plasticon)
+mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con, fau_career_fair)
 accepted_mementos_floors = []
