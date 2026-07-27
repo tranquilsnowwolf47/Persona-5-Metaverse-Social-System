@@ -1775,7 +1775,12 @@ while True:
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
-                        
+                    total_skill_index = len(BuffSkills.singular_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+
+
                 # Display the list of AOE buff skills 
                 elif buff_format_choice == 2:
                     print("\nAOE Buff Skills:")
@@ -1783,6 +1788,11 @@ while True:
                     for skill_index, skill in enumerate(BuffSkills.AOE_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
+
+                    total_skill_index = len(BuffSkills.AOE_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
                 # Display the list of all buffs skills
                 elif buff_format_choice == 3:
                     print("\nBuff Skills:")
@@ -1812,6 +1822,11 @@ while True:
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
+                    total_skill_index = len(PhysSkills.light_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+
                 # Display the list of all AOE debuff skills
                 elif debuff_format_choice == 2:
                     print("\nAOE Debuff Skills:")
@@ -1819,6 +1834,11 @@ while True:
                     for skill_index, skill in enumerate(DebuffSkills.AOE_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
+
+                    total_skill_index = len(PhysSkills.light_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
 
                 # Display the list of all debuff skills
                 elif debuff_format_choice == 3:
@@ -1839,6 +1859,11 @@ while True:
                 for skill_index, skill in enumerate(PassiveBuffSkills.passive_buffs,start=1):
                     print(f"{skill_index}.", end=" ")
                     skill.display_simplified_info()
+
+                total_skill_index = len(PhysSkills.light_skills)
+                description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                if description_choice == "y":
+                    skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
 
             # HP Recovery | Debugged  
             # --------------------------------------------------------------
@@ -1951,5 +1976,3 @@ while True:
 
             
 
-
-    
