@@ -139,7 +139,7 @@ class MementosFloor(MetaverseLocation):
 # Palace location objects
 
 # Debugged
-example = Palace("OtakuFest", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
+example = Palace("Sample Palace", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
@@ -179,6 +179,10 @@ holiday_matsuri = Palace("Holiday Matsuri", Palace.metaverse_location_types[0], 
                          Palace.exp_yield_types[1], Palace.loot_potential_types[1], Palace.risk_types[3], Palace.reward_types[1], Palace.resource_cost_types[2], 
                          Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[1], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
 
+
+animate_orlando = "N/A"
+
+
 metrocon = "N/A"
 
 anime_festival_orlando = "N/A"
@@ -191,7 +195,6 @@ bold_matsuri = "N/A"
 
 anime_expo = "N/A"
 
-animate_orlando = "N/A"
 
 # Tuple that holds all the list of Palace objects
 palaces = (fau, otakufest, supercon, megacon, holiday_matsuri)
@@ -296,8 +299,6 @@ fau_career_fair = MementosFloor("", MementosFloor.metaverse_location_types[2], "
 
 plasticon = "N/A"
 
-
-#cosplay_beach_party = MementosFloor("Cosplay Beach Party", MementosFloor.metaverse_location_types[2], "Fort Lauderdale Beach, FL", MementosFloor.infiltration_priority_types[2], "Saturday, May 16th", "")
 
 baoshi_foodhall = "N/A"
 
