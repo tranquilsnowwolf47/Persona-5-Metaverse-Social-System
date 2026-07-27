@@ -1779,7 +1779,26 @@ while True:
                     description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     if description_choice == "y":
                         skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
-
+                        if skill_choice == 1:
+                            print()
+                            BuffSkills.confidence_drive.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            BuffSkills.self_security.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            BuffSkills.slowed_speech.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            BuffSkills.frequency_charge.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            BuffSkills.three_second_rule.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            BuffSkills.purpose_focus.display_skill()
+                        else:
+                            pass
 
                 # Display the list of AOE buff skills 
                 elif buff_format_choice == 2:
@@ -1793,6 +1812,18 @@ while True:
                     description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     if description_choice == "y":
                         skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            BuffSkills.pep_talk.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            BuffSkills.collective_closure.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            BuffSkills.flow_sync.display_skill()
+                        else:
+                            pass
+
                 # Display the list of all buffs skills
                 elif buff_format_choice == 3:
                     print("\nBuff Skills:")
@@ -1803,6 +1834,40 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    total_skill_index = len(BuffSkills.full_buff_skill_list)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            BuffSkills.confidence_drive.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            BuffSkills.self_security.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            BuffSkills.slowed_speech.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            BuffSkills.frequency_charge.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            BuffSkills.three_second_rule.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            BuffSkills.purpose_focus.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            BuffSkills.pep_talk.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            BuffSkills.collective_closure.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            BuffSkills.flow_sync.display_skill()
+                        else:
+                            pass 
                     
             # Debuffs | Debugged
             # --------------------------------------------------------------
@@ -1826,6 +1891,20 @@ while True:
                     description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     if description_choice == "y":
                         skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            DebuffSkills.ether_break.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            DebuffSkills.ascendancy_link.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            DebuffSkills.tactic_diffuser.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            DebuffSkills.affinity_beacon.display_skill()
+                        else:
+                            pass
 
                 # Display the list of all AOE debuff skills
                 elif debuff_format_choice == 2:
@@ -1835,10 +1914,21 @@ while True:
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
-                    total_skill_index = len(PhysSkills.light_skills)
+                    total_skill_index = len(DebuffSkills.AOE_skills)
                     description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                     if description_choice == "y":
                         skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            DebuffSkills.frequency_barrier.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            DebuffSkills.contagion_wave.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            DebuffSkills.coordination_vector.display_skill()
+                        else:
+                            pass 
 
                 # Display the list of all debuff skills
                 elif debuff_format_choice == 3:
@@ -1850,7 +1940,35 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
-                
+
+                    total_skill_index = len(DebuffSkills.full_debuff_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            DebuffSkills.ether_break.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            DebuffSkills.ascendancy_link.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            DebuffSkills.tactic_diffuser.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            DebuffSkills.affinity_beacon.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            DebuffSkills.frequency_barrier.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            DebuffSkills.contagion_wave.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            DebuffSkills.coordination_vector.display_skill()
+                        else:
+                            pass
+    
             # Passive Buffs | Debugged  
             # --------------------------------------------------------------
             elif skill_type_choice == 13:
@@ -1864,6 +1982,20 @@ while True:
                 description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
                 if description_choice == "y":
                     skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                    if skill_choice == 1:
+                        print()
+                        PassiveBuffSkills.social_competence.display_skill()
+                    elif skill_choice == 2:
+                        print()
+                        PassiveBuffSkills.self_control.display_skill()
+                    elif skill_choice == 3:
+                        print()
+                        PassiveBuffSkills.human_nature_savant.display_skill()
+                    elif skill_choice == 4:
+                        print()
+                        PassiveBuffSkills.looksmax.display_skill()
+                    else:
+                        pass
 
             # HP Recovery | Debugged  
             # --------------------------------------------------------------
@@ -1878,7 +2010,7 @@ while True:
                     print(f"{index}. {grade}")
                 print("Would you like see Light HP Recovery skills, Moderate HP Recovery skills, Full HP Recovery skills, or All HP Recovery skills?")
                 # Get the user's input 
-                hp_recovery_skill_choice = int(input("Enter a choice (1-3): "))
+                hp_recovery_skill_choice = int(input("Enter a choice (1-4): "))
                 
                 # Display the list of Light HP Recovery skills
                 if hp_recovery_skill_choice == 1:
@@ -1888,8 +2020,22 @@ while True:
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
-                        total_skill_index = len(HPRecoverySkills.light_recovery_skills)
-                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    total_skill_index = len(HPRecoverySkills.light_recovery_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            HPRecoverySkills.twin_breath.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            HPRecoverySkills.centered_breathing.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            HPRecoverySkills.charged_breathing.display_skill()
+                        else:
+                            pass
+
                 # Display the list of moderate HP Recovery skills
                 elif hp_recovery_skill_choice == 2:
                     print("\nModerate HP Recovery Skills:")
@@ -1898,8 +2044,27 @@ while True:
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
 
-                        total_skill_index = len(HPRecoverySkills.moderate_recovery_skills)
-                        description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    total_skill_index = len(HPRecoverySkills.moderate_recovery_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            HPRecoverySkills.focused_breathing.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            HPRecoverySkills.cognitive_reframe.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            HPRecoverySkills.cat_nap.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            HPRecoverySkills.white_reset.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            HPRecoverySkills.sage_stillness.display_skill()
+                        else:
+                            pass
 
                 # Display the list of Full HP Recovery skills
                 elif hp_recovery_skill_choice == 3:
@@ -1908,6 +2073,20 @@ while True:
                     for skill_index, skill in enumerate(HPRecoverySkills.full_recovery_skills,start=1):
                         print(f"{skill_index}.", end=" ")
                         skill.display_simplified_info()
+
+                    total_skill_index = len(HPRecoverySkills.full_recovery_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            HPRecoverySkills.concentrated_breathing.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            HPRecoverySkills.laughter_trigger.display_skill()
+                        else:
+                            pass
+
                 elif hp_recovery_skill_choice == 4:
                     print("\nHP Recovery Skills:")
                     print("-----------------------------------------------------")  
@@ -1917,6 +2096,43 @@ while True:
                             print(f"{skill_index}.", end=" ")
                             skill.display_simplified_info()
                             skill_index += 1
+
+                    total_skill_index = len(HPRecoverySkills.moderate_recovery_skills)
+                    description_choice = input("\nWould you like the see the description of any of the skills? (Enter y for yes or n for no): ").lower()
+                    if description_choice == "y":
+                        skill_choice = int(input(f"Please enter a skill to see the descrption of: (1-{total_skill_index}): "))
+                        if skill_choice == 1:
+                            print()
+                            HPRecoverySkills.twin_breath.display_skill()
+                        elif skill_choice == 2:
+                            print()
+                            HPRecoverySkills.centered_breathing.display_skill()
+                        elif skill_choice == 3:
+                            print()
+                            HPRecoverySkills.charged_breathing.display_skill()
+                        elif skill_choice == 4:
+                            print()
+                            HPRecoverySkills.focused_breathing.display_skill()
+                        elif skill_choice == 5:
+                            print()
+                            HPRecoverySkills.cognitive_reframe.display_skill()
+                        elif skill_choice == 6:
+                            print()
+                            HPRecoverySkills.cat_nap.display_skill()
+                        elif skill_choice == 7:
+                            print()
+                            HPRecoverySkills.white_reset.display_skill()
+                        elif skill_choice == 8:
+                            print()
+                            HPRecoverySkills.sage_stillness.display_skill()
+                        elif skill_choice == 9:
+                            print()
+                            HPRecoverySkills.concentrated_breathing.display_skill()
+                        elif skill_choice == 10:
+                            print()
+                            HPRecoverySkills.laughter_trigger.display_skill()
+                        else:
+                            pass
 
             # Ailment Recovery
             # --------------------------------------------------------------
