@@ -2501,19 +2501,19 @@ while True:
                             PassiveSkills.null_reverse_phys.display_skill()
                         elif skill_choice == 73:
                             print()
-                            PassiveSkills.null_reverse_.display_skill()
+                            PassiveSkills.null_reverse_gun.display_skill()
                         elif skill_choice == 74:
                             print()
-                            PassiveSkills. .display_skill()
+                            PassiveSkills.null_reverse_fire.display_skill()
                         elif skill_choice == 75:
                             print()
-                            #PassiveSkills. .display_skill()
+                            PassiveSkills.null_reverse_ice.display_skill()
                         elif skill_choice == 76:
                             print()
-                            #PassiveSkills. .display_skill()
+                            PassiveSkills.null_reverse_elec.display_skill()
                         elif skill_choice == 77:
                             print()
-                            #PassiveSkills. .display_skill()
+                            PassiveSkills.null_reverse_wind.display_skill()
                         elif skill_choice == 78:
                             print()
                             #PassiveSkills. .display_skill()
