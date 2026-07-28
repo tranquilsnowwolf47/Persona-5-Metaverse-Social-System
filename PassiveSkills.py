@@ -506,7 +506,7 @@ normal_passive_skills = (diamond_mirror, aegis_mirror, regenerate_I, regenerate_
 gun_amp, fire_amp, ice_amp, elec_amp, wind_amp, psy_amp, nuke_amp, bless_amp, curse_amp)
 
 # Tuple that holds all Affinity Passive skills  
-affinity_passive_skills = (dodge_phys, dodge_gun, dodge_fire, dodge_ice, dodge_wind, dodge_psy, dodge_nuke, dodge_bless, dodge_curse, dodge_reverse_phys, dodge_reverse_gun, dodge_reverse_fire, dodge_reverse_ice,
+affinity_passive_skills = (dodge_phys, dodge_gun, dodge_fire, dodge_ice, dodge_elec, dodge_wind, dodge_psy, dodge_nuke, dodge_bless, dodge_curse, dodge_reverse_phys, dodge_reverse_gun, dodge_reverse_fire, dodge_reverse_ice,
 dodge_reverse_elec, dodge_reverse_wind, dodge_reverse_psy, dodge_reverse_nuke, dodge_reverse_bless, dodge_reverse_curse,
 evade_phys, evade_gun, evade_fire, evade_ice, evade_elec, evade_wind, evade_psy, evade_nuke, evade_bless, evade_curse, evade_reverse_phys, evade_reverse_gun, evade_reverse_fire,
 evade_reverse_ice, evade_reverse_elec, evade_reverse_wind, evade_reverse_psy, evade_reverse_nuke, evade_reverse_bless, evade_reverse_curse,
