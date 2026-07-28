@@ -2435,40 +2435,40 @@ while True:
                             PassiveSkills.resist_bless.display_skill()
                         elif skill_choice == 50:
                             print()
-                            PassiveSkills.resist_reverse_phys.display_skill()
+                            PassiveSkills.resist_curse.display_skill()
                         elif skill_choice == 51:
                             print()
-                            PassiveSkills.resist_reverse_gun.display_skill()
+                            PassiveSkills.resist_reverse_phys.display_skill()
                         elif skill_choice == 52:
                             print()
-                            PassiveSkills.resist_reverse_fire.display_skill()
+                            PassiveSkills.resist_reverse_gun.display_skill()
                         elif skill_choice == 53:
                             print()
-                            PassiveSkills.resist_reverse_ice.display_skill()
+                            PassiveSkills.resist_reverse_fire.display_skill()
                         elif skill_choice == 54:
                             print()
-                            PassiveSkills.resist_reverse_elec.display_skill()
+                            PassiveSkills.resist_reverse_ice.display_skill()
                         elif skill_choice == 55:
                             print()
-                            PassiveSkills.resist_reverse_wind.display_skill()
+                            PassiveSkills.resist_reverse_elec.display_skill()
                         elif skill_choice == 56:
                             print()
-                            PassiveSkills.resist_reverse_psy.display_skill()
+                            PassiveSkills.resist_reverse_wind.display_skill()
                         elif skill_choice == 57:
                             print()
-                            PassiveSkills.resist_reverse_nuke.display_skill()
+                            PassiveSkills.resist_reverse_psy.display_skill()
                         elif skill_choice == 58:
                             print()
-                            PassiveSkills.resist_reverse_bless.display_skill()
+                            PassiveSkills.resist_reverse_nuke.display_skill()
                         elif skill_choice == 59:
                             print()
-                            PassiveSkills.resist_reverse_.curse.display_skill()
+                            PassiveSkills.resist_reverse_bless.display_skill()
                         elif skill_choice == 60:
                             print()
-                            PassiveSkills._display_skill()
+                            PassiveSkills.resist_reverse_curse.display_skill()
                         elif skill_choice == 61:
                             print()
-                            #PassiveSkills. .display_skill()
+                            PassiveSkills. .display_skill()
                         elif skill_choice == 62:
                             print()
                             #PassiveSkills. .display_skill()
