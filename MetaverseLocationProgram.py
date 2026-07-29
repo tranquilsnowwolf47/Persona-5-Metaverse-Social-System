@@ -270,7 +270,7 @@ miraicon = "N/A"
 
 # Cleared
 # Debugged
-mizucon = Palace("Mizucon", Palace.metaverse_location_types[0], "Miccosukee Casino & Resort, Miami FL", Palace.infiltration_priority_types[2], "N/A", "N/A",
+mizucon = MementosFloor("Mizucon", Palace.metaverse_location_types[2], "Miccosukee Casino & Resort, Miami FL", Palace.infiltration_priority_types[2], "N/A", "N/A",
                  Palace.distance_types[2], Palace.rarity_types[1], Palace.social_receptiveness_types[1], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[2], 
                  Palace.exp_yield_types[2], Palace.loot_potential_types[1], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[2], 
                  Palace.treasure_demon_potential_types[3], Palace.growth_alignment_types[1], Palace.awakening_potential_types[3], "2 Days", Palace.party_compatability_types[3])
@@ -280,10 +280,12 @@ hero_hype_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "",
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
                         MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
-ultracon = Palace("", Palace.metaverse_location_types[0], "", Palace.infiltration_priority_types[0], "", "",
-                  Palace.distance_types[0], Palace.rarity_types[0], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[0], Palace.repeatability_types[0], 
-                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[0], Palace.reward_types[0], Palace.resource_cost_types[0], 
-                  Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[0], "", Palace.party_compatability_types[0])
+# Cleared 
+# Debugged
+ultracon = MementosFloor("Ultracon", Palace.metaverse_location_types[2], "South Florida Fairgrounds, West Palm Beach, FL", Palace.infiltration_priority_types[2], "September 18-20th 2026", "Approximately $89 (ticket + gas)",
+                  Palace.distance_types[5], Palace.rarity_types[1], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[0], 
+                  Palace.exp_yield_types[2], Palace.loot_potential_types[3], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[2], 
+                  Palace.treasure_demon_potential_types[3], Palace.growth_alignment_types[1], Palace.awakening_potential_types[3], "3 Days", Palace.party_compatability_types[2])
 
 sunrise_comic_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
@@ -319,3 +321,29 @@ gym = "N/A"
 # Tuple that holds all teh list of Mementos floor objects
 mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con, fau_career_fair)
 accepted_mementos_floors = []
+
+
+
+print("Welcome to the Metaverse Location Program!")
+print("This program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events")
+
+def get_location_type():
+    for location_index, location in enumerate(MetaverseLocation.metaverse_location_types, start=1):
+        print(f"{location_index}. {location}")
+
+    try:
+        location_choice = int(input("Please enter a location type to see Infiltration Logs for: (1-3)"))
+        # Palaces
+        if location_choice == 1:
+            # Use a for loop to print a list of the Palace names 
+            pass
+        # Jails
+        elif location_choice == 2:
+            # Use a for loop to print a list of the Jails names
+            pass
+        # Mementos Locations
+        elif location_choice == 3:
+            # Use a for loop to print a list of the Mementos Location names
+            pass
+    except:
+        print("You did not enter the correct location type.")
