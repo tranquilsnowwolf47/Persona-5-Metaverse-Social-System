@@ -230,7 +230,7 @@ def get_persona_arcana():
     arcana_choice = int(input("\nPlease enter the Arcana of the Persona you'd like to register (1-23): "))
     return arcana_choice
 
-
+selected_personas_arcana = ""
 
 
 arcana_choice = get_persona_arcana()
@@ -240,49 +240,94 @@ def get_persona_choice():
     persona_choice = int(input(f"Please enter a Persona (1-x): "))
 
 if arcana_choice == 1:
+    selected_persona_arcana = f"{persona.arcanas[]}"
     Persona.display_fool_personas()
+    x = int(input("Enter a Persona to register (1-y)":
 elif arcana_choice == 2:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_magician_personas()
 elif arcana_choice == 3:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_priestess_personas()
 elif arcana_choice == 4:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_empress_personas()
 elif arcana_choice == 5:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_emperor_personas()
 elif arcana_choice == 6:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_hierophant_personas()
 elif arcana_choice == 7:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_lovers_personas()
 elif arcana_choice == 8:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Persona.display_chariot_personas()
 elif arcana_choice == 9:
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
     Personas.display_justice_personas()
 elif arcana_choice == 10:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_hermit_personas()
 elif arcana_choice == 11:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_fortune_personas()
 elif arcana_choice == 12:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_strength_personas()
 elif arcana_choice == 13:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_hanged_man_personas()
 elif arcana_choice == 14:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_death_personas()
 elif arcana_choice == 15:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_temperance_personas()
 elif arcana_choice == 16:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_devil_personas()
 elif arcana_choice == 17:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_tower_personas()
 elif arcana_choice == 18:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_star_personas()
 elif arcana_choice == 19:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_moon_personas()
 elif arcana_choice == 20:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_sun_personas()
 elif arcana_choice == 21:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_judgement_personas()
 elif arcana_choice == 22:
-    pass
+        selected_persona_arcana = f"{persona.arcanas[]}"
+
+    Persona.display_faith_personas()
 elif arcana_choice == 23:
-    pass
+      selected_persona_arcana = f"{persona.arcanas[]}"
+    Persona.display_councillor_personas()
     
