@@ -395,44 +395,160 @@ class CouncillorPersonas(Persona):
 # Objects
 # Fool Personas:
 # ------------------------------------------------------------------------------------
+arsene = FoolPersonas("Arsene", f"{Persona.persona_arcanas[0]},")
+obariyon = 
+orpheus_f = 
+orpheus_f_picaro = 
+high_pixie = 
+izanagi = 
+izanagi_picaro =
+orpheus =
+orpheus_picaro =
+
+
+fool_personas = ()
 
 # Magician Personas:
 # ------------------------------------------------------------------------------------
+jack_o_lantern = 
+cait_sith = 
+jack_frost = 
+nekomata = 
+sandman = 
+choronzon = 
+magician_personas = ()
+
 
 # Priestess Personas:
 # ------------------------------------------------------------------------------------
+silky = 
+apsaras = 
+kohi_i_noor = 
+isis = 
+kikuri_hime =
+sarasvati = 
+
+
+priestess_personas = ()
 
 # Empress Personas:
 # ------------------------------------------------------------------------------------
+queens_necklace = 
+yaksini = 
+lamia = 
+hariti = 
+
+empress_personas = ()
 
 # Emperor Personas:
 # ------------------------------------------------------------------------------------
+eligor = 
+regent = 
+setanta = 
+thoth = 
+barong = 
+king_frost = 
+
+emperor_personas = ()
 
 # Hierophant Personas:
 # ------------------------------------------------------------------------------------
+berith = 
+orobas = 
+
+hierophant_personas = ()
+
+# Lovers Personas:
+# ------------------------------------------------------------------------------------
+pixie = 
+saki_mitama = 
+ame_no_uzume = 
+leanan_sidhe =
+kushinada = 
+narcissus = 
+parvati = 
+
+lovers_personas = ()
+
 
 # Chariot Personas:
 # ------------------------------------------------------------------------------------
+agation = 
+slime = 
+shiki_ouji = 
+kin_ki = 
+ara_mitama = 
+white_rider = 
+athena = 
+
+chariot_personas = ()
 
 # Justice Personas:
 # ------------------------------------------------------------------------------------
+angel = 
+archangel = 
+principality = 
+power = 
+
+justice_personas = ()
 
 # Hermit Personas:
 # ------------------------------------------------------------------------------------
+hermit_personas = ()
 
 # Fortune Personas:
 # ------------------------------------------------------------------------------------
+fortune_personas = ()
 
 # Strength Personas:
 # ------------------------------------------------------------------------------------
+strength_personas = ()
 
 # Hanged Man Personas:
 # ------------------------------------------------------------------------------------
+hanged_man_personas = ()
+# Death Personas:
+# ------------------------------------------------------------------------------------
+
+death_personas = ()
+# Temperance Personas:
+# ------------------------------------------------------------------------------------
+
+temeperance_personas = ()
+# Devil Personas:
+# ------------------------------------------------------------------------------------
+
+devil_personas = ()
+# Tower Personas:
+# ------------------------------------------------------------------------------------
 
 
+tower_personas = ()
+# Star Personas:
+# ------------------------------------------------------------------------------------
 
+star_personas = ()
+# Moon Personas: 
+# ------------------------------------------------------------------------------------
+
+moon_personas = ()
+# Sun Personas:
+# ------------------------------------------------------------------------------------
+
+sun_personas = ()
+# Judgement Personas:
+# ------------------------------------------------------------------------------------
+
+
+judgement_personas = ()
+# Faith Personas:
 # ---------------------------------------------------------------------------
 
+faith_personas = ()
+# Councillor Personas:
+# ---------------------------------------------------------------------------
+
+councillor_personas = ()
 
 # Operations
 def get_persona_arcana():
@@ -698,3 +814,142 @@ sun_personas_log_data = []
 judgement_personas_log_data = []
 faith_personas_log_data = []
 councillor_personas_log_data = []
+
+# Uses a for loop to format all Fool Personas' info a string 
+for fool_persona in fool_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = fool_persona.format_persona_log_entry()
+    # Append the data into the list 
+    fool_personas_log_data.append(formatted_data)
+
+for magician_persona in magician_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = magician_persona.format_persona_log_entry()
+    # Append the data into the list 
+    magician_personas_log_data.append(formatted_data)
+
+for priestess_persona in priestess_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = priestess_persona.format_persona_log_entry()
+    # Append the data into the list 
+    priestess_personas_log_data.append(formatted_data)
+
+for empress_persona in empress_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = empress_persona.format_persona_log_entry()
+    # Append the data into the list 
+    empress_personas_log_data.append(formatted_data)
+
+for emperor_persona in emperor_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = emperor_persona.format_persona_log_entry()
+    # Append the data into the list 
+    emperor_personas_log_data.append(formatted_data)
+
+for hierophant_persona in hierophant_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = hierophant_persona.format_persona_log_entry()
+    # Append the data into the list 
+    hierophant_personas_log_data.append(formatted_data)
+
+for lovers_persona in lovers_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = lovers_persona.format_persona_log_entry()
+    # Append the data into the list 
+    lovers_personas_log_data.append(formatted_data)
+    
+for chariot_persona in chariot_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = chariot_persona.format_persona_log_entry()
+    # Append the data into the list 
+    chariot_personas_log_data.append(formatted_data)
+
+for justice_persona in justice_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = justice_persona.format_persona_log_entry()
+    # Append the data into the list 
+    justice_personas_log_data.append(formatted_data)
+
+for hermit_persona in hermit_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = hermit_persona.format_persona_log_entry()
+    # Append the data into the list 
+    hermit_personas_log_data.append(formatted_data)
+
+for fortune_persona in fortune_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = fortune_persona.format_persona_log_entry()
+    # Append the data into the list 
+    fortune_personas_log_data.append(formatted_data)
+
+for strength_persona in strength_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = strength_persona.format_persona_log_entry()
+    # Append the data into the list 
+    strength_personas_log_data.append(formatted_data)
+
+for hanged_man_persona in hanged_man_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = hanged_man_persona.format_persona_log_entry()
+    # Append the data into the list 
+    hanged_man_personas_log_data.append(formatted_data)
+
+for death_persona in death_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = death_persona.format_persona_log_entry()
+    # Append the data into the list 
+    death_personas_log_data.append(formatted_data)
+
+for temperance_persona in temperance_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = temperance_persona.format_persona_log_entry()
+    # Append the data into the list 
+    temperance_personas_log_data.append(formatted_data)
+
+for devil_persona in devil_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = devil_persona.format_persona_log_entry()
+    # Append the data into the list 
+    devil_personas_log_data.append(formatted_data)
+
+for tower_persona in tower_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = tower_persona.format_persona_log_entry()
+    # Append the data into the list 
+    tower_personas_log_data.append(formatted_data)
+
+for star_persona in star_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = star_persona.format_persona_log_entry()
+    # Append the data into the list 
+    star_personas_log_data.append(formatted_data)
+
+for moon_persona in moon_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = moon_persona.format_persona_log_entry()
+    # Append the data into the list 
+    moon_personas_log_data.append(formatted_data)
+
+for sun_persona in sun_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = sun_persona.format_persona_log_entry()
+    # Append the data into the list 
+    sun_personas_log_data.append(formatted_data)
+
+for judgement_persona in judgement_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = judgement_persona.format_persona_log_entry()
+    # Append the data into the list 
+    sun_personas_log_data.append(formatted_data)
+
+for faith_persona in faith_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = faith_persona.format_persona_log_entry()
+    # Append the data into the list 
+    faith_personas_log_data.append(formatted_data)
+
+for councillor_persona in councillor_personas:
+    # Call the function that formats the data and put the result in a variable
+    formatted_data = councillor_persona.format_persona_log_entry()
+    # Append the data into the list 
+    faith_personas_log_data.append(formatted_data)
