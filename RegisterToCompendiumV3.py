@@ -7,9 +7,9 @@
 
 
 # It should go:
-# Please enter an Persona arcana to register Personas for 
-# Then it should use a for loop to display a list of Personas of that arcana
-# Then it should ask which persona to register data for 
+# Please enter an Persona arcana to register Personas for  | clear
+# Then it should use a for loop to display a list of Personas of that arcana | clear
+# Then it should ask which persona to register data for | clear
 # when you choose, it will then ask for the details of that Persona
 # once you get the user input, store that data into variables, format it into string format
 # And then write it 
@@ -23,204 +23,250 @@ class Persona:
         "Izanagi","Izanagi Picaro","Orpheus","Orpheus Picaro","Legion","Ose",
         "Bugs","Crystal Skull", "Black Frost","Raoul","Vishnu","Satanael")
     
-    def display_fool_personas():
+    def display_fool_personas(ending_range=0):
         print("\nList of Fool Personas:")
         for persona_index, persona in enumerate(Persona.fool_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
     
     magician_personas_list = ("Jack-o'-Lantern","Cait Sith","Jack Frost","Nekomata","Sandman",
         "Choronzon","Queen Mab","Rangda","Forneus","Surt","Futsunushi")
     
-    def display_magician_personas():
+    def display_magician_personas(ending_range=0):
         print("\nList of Magician Personas:")
         for persona_index, persona in enumerate(Persona.magician_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
     
     priestess_personas_list = ("Silky","Apsaras","Koh-i-Noor","Isis","Kikuri-Hime",
         "Sarasvati","Skadi","Scathach","Cybele")
     
-    def display_priestess_personas():
+    def display_priestess_personas(ending_range=0):
         print("\nList of Priestess Personas:")
         for persona_index, persona in enumerate(Persona.priestess_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
     
     empress_personas_list = ("Queen's Necklace","Yaksini","Lamia","Hariti","Dakini",
         "Titania","Kali","Alilat","Mother Harlot")
     
-    def display_empress_personas():
+    def display_empress_personas(ending_range=0):
         print("\nList of Empress Personas:")
         for persona_index, persona in enumerate(Persona.empress_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
     
     emperor_personas_list = ("Regent","Eligor","Setanta","Thoth",
         "Barong","King Frost","Oberon","Baal","Odin")
     
-    def display_emperor_personas():
+    def display_emperor_personas(ending_range=0):
         print("\nList of Emperor Personas:")
         for persona_index, personas in enumerate(Persona.emperor_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {personas}")
         print("------------------------------------------------------------------------")
+        return ending_range
     
     hierophant_personas_list = ("Berith","Orobas","Anzu","Daisoujou","Mishaguji","Bishamonten","Kohryu")
-    def display_hierophant_personas():
+    def display_hierophant_personas(ending_range=0):
         print("\nList of Hierophant Personas:")
         for persona_index, persona in enumerate(Persona.hierophant_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     lovers_personas_list = ("Pixie","Saki Mitama","Ame-no-Uzume","Leanan Sidhe","Kushinada","Narcissus",
             "Parvati","Raphael","Ishtar")
     
-    def display_lovers_personas():
+    def display_lovers_personas(ending_range=0):
         print("\nList of Lovers Personas:")
         for persona_index, persona in enumerate(Persona.lovers_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     chariot_personas_list = ("Agathion","Slime","Shiki-Ouji","Kin-Ki","Ara Mitama","White Rider","Athena",
             "Athena Picaro","Cerberus","Thor","Chi You")
     
-    def display_chariot_personas():
+    def display_chariot_personas(ending_range=0):
         print("\nList of Chariot Personas:")
         for persona_index, persona in enumerate(Persona.chariot_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     justice_personas_list = ("Angel","Archangel","Principality","Power","Melchizedek","Throne",
             "Uriel","Metatron")
     
-    def display_justice_personas():
+    def display_justice_personas(ending_range=0):
         print("\nList of Justice Personas:")
         for persona_index, persona in enumerate(Persona.justice_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     hermit_personas_list = ("Bicorn","Koropokkuru","Ippon-Datara","Sudama","Naga","Kurama Tengu","Arahabaki",
             "Kumbhanda","Koumokuten","Loa","Fafnir","Ongyo-Ki")
     
-    def display_hermit_personas():
+    def display_hermit_personas(ending_range=0):
         print("\nList of Hermit Personas:")
         for persona_index, persona in enumerate(Persona.hermit_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     fortune_personas_list = ("Stone of Scone","Clotho","Ariadne","Lachesis","Atropos","Ariadne Picaro","Fortuna","Norn",
             "Asterius","Asterius Picaro","Lakshmi")
     
-    def display_fortune_personas():
+    def display_fortune_personas(ending_range=0):
         print("\nList of Fortune Personas:")
         for persona_index, persona in enumerate(Persona.fortune_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     strength_personas_list = ("Kelpie","Shiisaa","Oni","Rakshasa","Orlov","Zouchouten","Valkyrie","Hanuman","Chimera","Zaou-Gongen")
 
-    def display_strength_personas():
+    def display_strength_personas(ending_range=0):
         print("\nList of Strength Personas:")
         for persona_index, persona in enumerate(Persona.strength_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     hanged_man_personas_list = ("Hua Po","Inugami","Orthrus","Take-Minakata","Emperor's Amulet","Hecatoncheires","Jatayu",
             "Moloch","Macabre","Attis")
     
-    def display_hanged_man_personas():
+    def display_hanged_man_personas(ending_range=0):
         print("\nList of Hanged Man Personas:")
         for persona_index, persona in enumerate(Persona.hanged_man_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     death_personas_list = ("Mandrake","Mokoi","Matador","Nue","Pisaca","Hell Biker","Hope Diamond","Pale Rider","Chernobog",
             "Thanatos","Thanatos Picaro","Mot","Alice")
     
-    def display_death_personas():
+    def display_death_personas(ending_range=0):
         print("\nList of Death Personas:")
         for persona_index, persona in enumerate(Persona.death_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     temperance_personas_list = ("Genbu","Koppa Tengu","Makami","Jikokuten","Mithra","Byakko","Raja Naga","Gabriel",
             "Ardha")
     
-    def display_temperance_personas():
+    def display_temperance_personas(ending_range=0):
         print("\nList of Temperance Personas:") 
         for persona_index, persona in enumerate(Persona.temperance_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     devil_personas_list = ("Incubus","Flauros","Andras","Lilim","Pazuzu","Baphomet","Nebiros","Belial","Beelzebub")
 
-    def display_devil_personas():
+    def display_devil_personas(ending_range=0):
         print("\nList of Devil Personas: ")
         for persona_index, persona in enumerate(Persona.devil_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     tower_personas_list = ("Belphegor","Red Rider","Magatsu-Izanagi","Magatsu-Izanagi Picaro","Seth","Black Rider",
         "Mara","Yoshitsune","Mada")
 
-    def display_tower_personas():
+    def display_tower_personas(ending_range=0):
             print("\nList of Tower Personas:")
             for persona_index, persona in enumerate(Persona.tower_personas_list, start=1):
+                ending_range += 1
                 print(f"{persona_index}. {persona}")
             print("------------------------------------------------------------------------")
+            return ending_range
 
 
     star_personas_list = ("Kodama","Fuu-Ki","Neko Shogun","Kaiwan","Garuda","Vasuki","Sraosha","Hastur","Lucifer")
 
-    def display_star_personas():
+    def display_star_personas(ending_range=0):
         print("\nList of Star Personas:")
         for persona_index, persona in enumerate(Persona.star_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     moon_personas_list = ("Succubus","Onmoraki","Kaguya","Black Ooze","Sui-Ki","Kaguya Picaro","Mothman",
             "Girimehkala","Tsukiyomi","Tsukiyomi Picaro","Lilith","Byakhee","Sandalphon")
 
-    def display_moon_personas():
+    def display_moon_personas(ending_range=0):
         print("\nList of Moon Personas:")
         for persona_index, persona in enumerate(Persona.moon_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {persona}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     sun_personas_list = ("Suzaku","Thunderbird","Mithras","Yurlungur","Horus","Ganesha","Quetzalcoatl","Asura")
 
-    def display_sun_personas():
+    def display_sun_personas(ending_range=0):
         print("\nList of Sun Personas:")
         for persona_index, personas in enumerate(Persona.sun_personas_list, start=1):
+            ending_range += 1
             print(f"{persona_index}. {personas}")
         print("------------------------------------------------------------------------")
+        return ending_range
 
     judgement_personas_list = ("Anubis","Trumpeter","Yamata-no-Orochi","Abaddon","Messiah",
             "Shiva","Michael","Messiah Picaro","Satan")
 
-    def display_judgement_personas():
+    def display_judgement_personas(ending_range=0):
             print("\nList of Judgement Personas:")
             for persona_index, persona in enumerate(Persona.judgement_personas_list, start=1):
+                ending_range += 1
                 print(f"{persona_index}. {persona}")
             print("------------------------------------------------------------------------")
+            return ending_range
 
     faith_personas_list = ("Phoenix","Tam Lin","Unicorn","Okuninushi","Orichalcum","Atavaka","Cu Chulainn",
             "Siegfried","Maria")
 
-    def display_faith_personas():
+    def display_faith_personas(ending_range=0):
             print("\nList of Faith Personas:")
             for persona_index, persona in enumerate(Persona.faith_personas_list, start=1):
+                ending_range += 1
                 print(f"{persona_index}. {persona}")
             print("------------------------------------------------------------------------")
+            return ending_range
 
     councillor_personas_list = ("Kushi Mitama","Nigi Mitama","Decarabia","Ananta","Yatagarasu","Seiryu",
                 "Dionysus","Vohu Manah")
 
-    def display_councillor_personas():
+    def display_councillor_personas(ending_range=0):
             print("\nList of Councillor Personas:")
             for persona_index, persona in enumerate(Persona.councillor_personas_list, start=1):
+                ending_range += 1
                 print(f"{persona_index}. {persona}")
             print("------------------------------------------------------------------------")
+            return ending_range
     
 def get_persona_arcana():
     print("Persona Arcanas:")
@@ -232,102 +278,231 @@ def get_persona_arcana():
 
 selected_personas_arcana = ""
 
-
 arcana_choice = get_persona_arcana()
 #arcana_index = get_persona_arcana[1]
 
 def get_persona_choice():
     persona_choice = int(input(f"Please enter a Persona (1-x): "))
 
+# I need to get the final index after the loop has looped through all of them
+
+# Fool Personas Options
 if arcana_choice == 1:
-    selected_persona_arcana = f"{persona.arcanas[]}"
-    Persona.display_fool_personas()
-    x = int(input("Enter a Persona to register (1-y)":
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[0]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_fool_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
+    pass
+
+# Magician Personas Options
 elif arcana_choice == 2:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[1]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_magician_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_magician_personas()
+
+# Personas Options    
 elif arcana_choice == 3:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[2]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_priestess_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_priestess_personas()
+
+# Personas Options    
 elif arcana_choice == 4:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[3]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_empress_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_empress_personas()
+
+# Personas Options    
 elif arcana_choice == 5:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[4]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_emperor_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_emperor_personas()
+
+# Personas Options    
 elif arcana_choice == 6:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[5]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_hierophant_personas()
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_hierophant_personas()
+
+# Personas Options    
 elif arcana_choice == 7:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[6]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_lovers_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_lovers_personas()
+
+# Personas Options    
 elif arcana_choice == 8:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[7]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_chariot_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_chariot_personas()
+
+# Personas Options    
 elif arcana_choice == 9:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[8]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_justice_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Personas.display_justice_personas()
+
+# Personas Options    
 elif arcana_choice == 10:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[9]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_hermit_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_hermit_personas()
+
+# Personas Options    
 elif arcana_choice == 11:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[10]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_fortune_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_fortune_personas()
+
+# Personas Options    
 elif arcana_choice == 12:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[11]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_strength_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_strength_personas()
+
+# Personas Options    
 elif arcana_choice == 13:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[12]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_hanged_man_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_hanged_man_personas()
+
+# Personas Options    
 elif arcana_choice == 14:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[13]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_death_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
+    
 
-    Persona.display_death_personas()
+# Personas Options    
 elif arcana_choice == 15:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[14]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_temperance_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_temperance_personas()
+# Personas Options    
 elif arcana_choice == 16:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[15]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_devil_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_devil_personas()
+# Personas Options    
 elif arcana_choice == 17:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[16]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_tower_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_tower_personas()
+# Personas Options    
 elif arcana_choice == 18:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[17]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_star_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_star_personas()
+# Personas Options    
 elif arcana_choice == 19:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[18]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_moon_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_moon_personas()
+# Personas Options    
 elif arcana_choice == 20:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[19]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_sun_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_sun_personas()
+# Personas Options    
 elif arcana_choice == 21:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[20]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_judgement_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_judgement_personas()
+# Personas Options    
 elif arcana_choice == 22:
-        selected_persona_arcana = f"{persona.arcanas[]}"
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[21]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_faith_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-    Persona.display_faith_personas()
+# Personas Options    
 elif arcana_choice == 23:
-      selected_persona_arcana = f"{persona.arcanas[]}"
-    Persona.display_councillor_personas()
+    # Sets the selected Arcana to the X Arcana
+    selected_persona_arcana = f"{Persona.persona_arcanas[22]}"
+    # Gets the ending index for the final Persona for output formatting
+    ending_range = Persona.display_councillor_personas()
+    # Gets the user's Persona choice for registration operations 
+    persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
     
