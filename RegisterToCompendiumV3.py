@@ -14,8 +14,61 @@
 # once you get the user input, store that data into variables, format it into string format
 # And then write it 
 
+class Compendium:
+    def __init__(self, name, arcana, level,
+                     st, ma, en, ag, lu,
+                     skill_one, skill_two, 
+                     skill_three, skill_four,
+                     skill_five, skill_six,
+                     skill_seven, skill_eight):
+            # Basic info attribtues
+            self.name = name
+            self.arcana = arcana
+            self.level = level
+    
+            # Combat stat attributes
+            self.st =  st
+            self.ma = ma
+            self.en = en
+            self.ag = ag
+            self.lu = lu
+    
+            # Skill attributes
+            self.skill_one = skill_one
+            self.skill_two = skill_two
+            self.skill_three = skill_three
+            self.skill_four = skill_four
+            self.skill_five = skill_five
+            self.skill_six = skill_six
+            self.skill_seven = skill_seven
+            self.skill_eight = skill_eight
+    
 
-class Persona:
+            def format_persona_log_entry(self):
+                return f"""\n\nPersona Registered: 
+        Name: {self.name}
+        Arcana: {self.arcana}
+        Level: {self.level}\n
+        Stats: \n------------------------
+        St: {self.st}
+        Ma: {self.ma}
+        En: {self.en}
+        Ag: {self.ag}
+        Lu: {self.lu}
+
+        Skills: 
+        1. {self.skill_one}
+        2. {self.skill_two}
+        3. {self.skill_three}
+        4. {self.skill_four}
+        5. {self.skill_five}
+        6. {self.skill_six}
+        7. {self.skill_seven}
+        8. {self.skill_eight}\n"""
+
+
+
+class Persona(Compendium):
     persona_arcanas = ("Fool","Magician","Priestess","Empress","Emperor","Hierophant","Lovers","Chariot","Justice","Hermit",
                    "Fortune","Strength","Hanged Man", "Death","Temperance","Devil","Tower","Star","Moon","Sun","Judgement","Faith","Councillor")
 
@@ -267,7 +320,121 @@ class Persona:
                 print(f"{persona_index}. {persona}")
             print("------------------------------------------------------------------------")
             return ending_range
-    
+
+class FoolPersonas(Persona):
+    pass
+
+class MagicianPersonas(Persona):
+    pass
+
+class PriestessPersonas(Persona):
+    pass
+
+class EmpressPersonas(Persona):
+    pass
+
+class EmperorPersonas(Persona):
+    pass
+
+class HierophantPersonas(Persona):
+    pass
+
+class LoversPersonas(Persona):
+    pass
+
+class ChariotPersonas(Persona):
+    pass
+
+class JusticePersonas(Persona):
+    pass
+
+class HermitPersonas(Persona):
+    pass
+
+class FortunePersonas(Persona):
+    pass
+
+class StrengthPersonas(Persona):
+    pass
+
+class HangedManPersonas(Persona):
+    pass
+
+class DeathPersonas(Persona):
+    pass
+
+class TemperancePersonas(Persona):
+    pass
+
+class DevilPersonas(Persona):
+    pass
+
+class TowerPersonas(Persona):
+    pass
+
+class StarPersonas(Persona):
+    pass
+
+class MoonPersonas(Persona):
+    pass
+
+class SunPersonas(Persona):
+    pass
+
+class JudgementPersonas(Persona):
+    pass
+
+class FaithPersonas(Persona):
+    pass
+
+class CouncillorPersonas(Persona):
+    pass
+
+#----------------------------------------------------------
+
+# Objects
+# Fool Personas:
+# ------------------------------------------------------------------------------------
+
+# Magician Personas:
+# ------------------------------------------------------------------------------------
+
+# Priestess Personas:
+# ------------------------------------------------------------------------------------
+
+# Empress Personas:
+# ------------------------------------------------------------------------------------
+
+# Emperor Personas:
+# ------------------------------------------------------------------------------------
+
+# Hierophant Personas:
+# ------------------------------------------------------------------------------------
+
+# Chariot Personas:
+# ------------------------------------------------------------------------------------
+
+# Justice Personas:
+# ------------------------------------------------------------------------------------
+
+# Hermit Personas:
+# ------------------------------------------------------------------------------------
+
+# Fortune Personas:
+# ------------------------------------------------------------------------------------
+
+# Strength Personas:
+# ------------------------------------------------------------------------------------
+
+# Hanged Man Personas:
+# ------------------------------------------------------------------------------------
+
+
+
+# ---------------------------------------------------------------------------
+
+
+# Operations
 def get_persona_arcana():
     print("Persona Arcanas:")
     print("------------------------------------------------")
@@ -506,3 +673,28 @@ elif arcana_choice == 23:
     # Gets the user's Persona choice for registration operations 
     persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
     
+
+# Containers for formatted log data for all Persona arcanas 
+fool_personas_log_data = []
+magician_personas_log_data = []
+priestess_personas_log_data = []
+empress_personas_log_data = []
+emperor_personas_log_data = []
+hierophant_personas_log_data = []
+lovers_personas_log_data = []
+chariot_personas_log_data = []
+justice_personas_log_data = []
+hermit_personas_log_data = []
+fortune_personas_log_data = []
+strength_personas_log_data = []
+hanged_man_personas_log_data = []
+death_personas_log_data = []
+temperance_personas_log_data = []
+devil_personas_log_data = []
+tower_personas_log_data = []
+star_personas_log_data = []
+moon_personas_log_data = []
+sun_personas_log_data = []
+judgement_personas_log_data = []
+faith_personas_log_data = []
+councillor_personas_log_data = []
