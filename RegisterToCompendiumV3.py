@@ -395,128 +395,229 @@ class CouncillorPersonas(Persona):
 # Objects
 # Fool Personas:
 # ------------------------------------------------------------------------------------
-arsene = FoolPersonas("Arsene", f"{Persona.persona_arcanas[0]}",)
-obariyon = FoolPersonas("Obariyon", f"{Persona.persona_arcanas[0]}",
-orpheus_f = FoolPersonas("Orpheus F", f"{Persona.persona_arcanas[0]}",
-orpheus_f_picaro = FoolPersonas("Orpheus F Picaro", f"{Persona.persona_arcanas[0]}",
-high_pixie = FoolPersonas("High Pixie", f"{Persona.persona_arcanas[0]}",
-izanagi = FoolPersonas("Izanagi", f"{Persona.persona_arcanas[0]}",
-izanagi_picaro = FoolPersonas("Izanagi Picaro", f"{Persona.persona_arcanas[0]}",
-orpheus = FoolPersonas("Orpheus", f"{Persona.persona_arcanas[0]}",
-orpheus_picaro = FoolPersonas("Orpheus Picaro", f"{Persona.persona_arcanas[0]}",
+arsene = FoolPersonas("Arsene", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+obariyon = FoolPersonas("Obariyon", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+orpheus_f = FoolPersonas("Orpheus F", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+orpheus_f_picaro = FoolPersonas("Orpheus F Picaro", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+high_pixie = FoolPersonas("High Pixie", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+izanagi = FoolPersonas("Izanagi", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+izanagi_picaro = FoolPersonas("Izanagi Picaro", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+                              
+orpheus = FoolPersonas("Orpheus", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+orpheus_picaro = FoolPersonas("Orpheus Picaro", f"{Persona.persona_arcanas[0]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
 
 
-fool_personas = ()
+fool_personas = (arsene,)
 
 # Magician Personas:
 # ------------------------------------------------------------------------------------
 jack_o_lantern = MagicianPersonas(
-cait_sith = 
-jack_frost = 
-nekomata = 
-sandman = 
-choronzon = 
+cait_sith = ""
+jack_frost = ""
+nekomata = ""
+sandman = ""
+choronzon = ""
 magician_personas = ()
 
 
 # Priestess Personas:
 # ------------------------------------------------------------------------------------
-silky = 
-apsaras = 
-kohi_i_noor = 
-isis = 
-kikuri_hime =
-sarasvati = 
+silky = ""
+apsaras = ""
+kohi_i_noor = ""
+isis = ""
+kikuri_hime = ""
+sarasvati = ""
 
 
 priestess_personas = ()
 
 # Empress Personas:
 # ------------------------------------------------------------------------------------
-queens_necklace = 
-yaksini = 
-lamia = 
-hariti = 
+queens_necklace = ""
+yaksini = ""
+lamia = ""
+hariti = ""
 
 empress_personas = ()
 
 # Emperor Personas:
 # ------------------------------------------------------------------------------------
-eligor = 
-regent = 
-setanta = 
-thoth = 
-barong = 
-king_frost = 
+eligor = ""
+regent = ""
+setanta = ""
+thoth = ""
+barong = ""
+king_frost = ""
 
 emperor_personas = ()
 
 # Hierophant Personas:
 # ------------------------------------------------------------------------------------
-berith = 
-orobas = 
+berith = ""
+orobas = ""
 
 hierophant_personas = ()
 
 # Lovers Personas:
 # ------------------------------------------------------------------------------------
-pixie = 
-saki_mitama = 
-ame_no_uzume = 
-leanan_sidhe =
-kushinada = 
-narcissus = 
-parvati = 
+pixie = ""
+saki_mitama = ""
+ame_no_uzume = ""
+leanan_sidhe =""
+kushinada = ""
+narcissus = ""
+parvati = ""
 
 lovers_personas = ()
 
 
 # Chariot Personas:
 # ------------------------------------------------------------------------------------
-agation = 
-slime = 
-shiki_ouji = 
-kin_ki = 
-ara_mitama = 
-white_rider = 
-athena = 
+agation = ""
+slime = ""
+shiki_ouji = ""
+kin_ki = ""
+ara_mitama = ""
+white_rider = ""
+athena = ""
 
 chariot_personas = ()
 
 # Justice Personas:
 # ------------------------------------------------------------------------------------
-angel = 
-archangel = 
-principality = 
-power = 
+angel = ""
+archangel = ""
+principality = ""
+power = ""
 
 justice_personas = ()
 
 # Hermit Personas:
 # ------------------------------------------------------------------------------------
+bicorn = ""
+#koropokkuru = HermitPersonas(
+#                    "Koropokkuru",
+
+#ippon_datara = HermitPersonas(
+#                    "Ippon-Datara",
+
+
+#sudama = HermitPersonas(
+#                    "Sudama"
+
+#naga = HermitPersonas(
+#                    "Naga",
+
 hermit_personas = ()
 
 # Fortune Personas:
 # ------------------------------------------------------------------------------------
+#stone_of_scone = FortunePersonas(
+#                "Stone of Scone",
+#clotho = FortunePersonas(
+#                    "Clotho",
+#ariadne  = FortunePersonas(
+#"Ariadne",
+#lachesis = FortunePersonas(
+#                    "Lachesis",
+#atropos = FortunePersonas(
+#"Atropos",
+
 fortune_personas = ()
 
 # Strength Personas:
 # ------------------------------------------------------------------------------------
+#kelpie = StrengthPersonas(
+#                "Kelpie",
+#shiisa = StrengthPersonas(
+#                "Shiisaa",
+#oni = StrengthPersonas(
+#    "Oni",
+#rakshasa = StrengthPersonas(
+#                    "Rakshasa",
+#orlov = StrengthPersonas(
+#                    "Orlov",
+#zouchouten = StrengthPersonas(
+#                    "Zouchouten",
+
 strength_personas = ()
 
 # Hanged Man Personas:
 # ------------------------------------------------------------------------------------
+#hua_po = HangedManPersonas(
+#                    "Hua Po"
+#inugami = HangedManPersonas(
+#                    "Inugami",
+#orthrus = HangedManPersonas(
+#                    "Orthrus",
+#take_minakata = HangedManPersonas(
+#                    "Take-Minakata",
+#emperors_amulet = HangedManPersonas(
+#                    "Emperor's Amulet",
+
 hanged_man_personas = ()
 # Death Personas:
 # ------------------------------------------------------------------------------------
+#mandrake = DeathPersonas(
+#                "Mandrake",
+#mokoi = DeathPersonas(
+#                "Mokoi",
+#matador = DeathPersonas(
+#                    "Matador",
+#nue = DeathPersonas(
+#                    "Nue",
+#pisaca = DeathPersonas(
+#                    "Pisaca",
+#hell_biker = DeathPersonas(
+#                    "Hell Biker",
+#hope_diamond = DeathPersonas(    
+#                    "Hope Diamond",
 
 death_personas = ()
 # Temperance Personas:
 # ------------------------------------------------------------------------------------
+#genbu = TemperancePersonas( 
+#"Genbu",
 
 temeperance_personas = ()
 # Devil Personas:
 # ------------------------------------------------------------------------------------
+
 
 devil_personas = ()
 # Tower Personas:
