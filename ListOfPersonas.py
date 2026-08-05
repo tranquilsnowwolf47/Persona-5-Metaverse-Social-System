@@ -405,7 +405,7 @@ while True:
         
     reprompt = input("Would you like to try again? (Enter y for yes or anything else to exit): ").lower()
     if reprompt != "y":
-        print("\nYou ended the program.")
+        print("You ended the program.")
         break
     else:
         pass
