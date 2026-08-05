@@ -395,22 +395,22 @@ class CouncillorPersonas(Persona):
 # Objects
 # Fool Personas:
 # ------------------------------------------------------------------------------------
-arsene = FoolPersonas("Arsene", f"{Persona.persona_arcanas[0]},")
-obariyon = 
-orpheus_f = 
-orpheus_f_picaro = 
-high_pixie = 
-izanagi = 
-izanagi_picaro =
-orpheus =
-orpheus_picaro =
+arsene = FoolPersonas("Arsene", f"{Persona.persona_arcanas[0]}",)
+obariyon = FoolPersonas("Obariyon", f"{Persona.persona_arcanas[0]}",
+orpheus_f = FoolPersonas("Orpheus F", f"{Persona.persona_arcanas[0]}",
+orpheus_f_picaro = FoolPersonas("Orpheus F Picaro", f"{Persona.persona_arcanas[0]}",
+high_pixie = FoolPersonas("High Pixie", f"{Persona.persona_arcanas[0]}",
+izanagi = FoolPersonas("Izanagi", f"{Persona.persona_arcanas[0]}",
+izanagi_picaro = FoolPersonas("Izanagi Picaro", f"{Persona.persona_arcanas[0]}",
+orpheus = FoolPersonas("Orpheus", f"{Persona.persona_arcanas[0]}",
+orpheus_picaro = FoolPersonas("Orpheus Picaro", f"{Persona.persona_arcanas[0]}",
 
 
 fool_personas = ()
 
 # Magician Personas:
 # ------------------------------------------------------------------------------------
-jack_o_lantern = 
+jack_o_lantern = MagicianPersonas(
 cait_sith = 
 jack_frost = 
 nekomata = 
