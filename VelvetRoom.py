@@ -78,7 +78,8 @@ while True:
         with open("Persona_compendium_logbookV1.txt","r") as compendium:
                 print(compendium.read())
 
-    reprompt = input("Igor: \"Would you like to try again? (Enter y for yes or anything else to quit):\"").lower()
+    print()
+    reprompt = input("Igor: \"Would you like to try again? (Enter y for yes or anything else to quit)\": ").lower()
     if reprompt != "y":
         print("Take care Trickster...")
         break
