@@ -75,8 +75,9 @@ while True:
     #-------------------------------------------------------------------------------
     #
     elif menu_choice == 8:
-        with open("Persona_compendium_logbookV1.txt","r") as compendium:
-                print(compendium.read())
+        print("This function is not available yet! Coming soon")
+        #with open("Persona_compendium_logbookV1.txt","r") as compendium:
+                #print(compendium.read())
 
     print()
     reprompt = input("Igor: \"Would you like to try again? (Enter y for yes or anything else to quit)\": ").lower()
