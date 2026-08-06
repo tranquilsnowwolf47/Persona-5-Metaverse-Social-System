@@ -440,108 +440,276 @@ orpheus_picaro = FoolPersonas("Orpheus Picaro", f"{Persona.persona_arcanas[0]}",
                     "","","","",
                     "","","","")
 
-
 fool_personas = (arsene,)
 
 # Magician Personas:
 # ------------------------------------------------------------------------------------
-jack_o_lantern = MagicianPersonas(
-cait_sith = ""
-jack_frost = ""
-nekomata = ""
-sandman = ""
-choronzon = ""
+jack_o_lantern = MagicianPersonas("Jack-o'-Lantern", f"{Persona.persona_arcanas[1]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+cait_sith = MagicianPersonas("Cait Sith", f"{Persona.persona_arcanas[1]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+jack_frost = MagicianPersonas("Jack Frost", f"{Persona.persona_arcanas[1]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+nekomata = MagicianPersonas("Nekomata", f"{Persona.persona_arcanas[1]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+sandman = MagicianPersonas("Sandman", f"{Persona.persona_arcanas[1]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
+choronzon = MagicianPersonas("Chronzon", f"{Persona.persona_arcanas[1]}",1,
+                    1,1,1,1,1,
+                    "","","","",
+                    "","","","")
+
 magician_personas = ()
 
 
 # Priestess Personas:
 # ------------------------------------------------------------------------------------
-silky = ""
-apsaras = ""
-kohi_i_noor = ""
-isis = ""
-kikuri_hime = ""
-sarasvati = ""
+silky = PriestessPersonas("", f"{Persona.persona_arcanas[2]}",1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+apsaras = PriestessPersonas("", f"{Persona.persona_arcanas[2]}",1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+kohi_i_noor = PriestessPersonas("", f"{Persona.persona_arcanas[2]}",1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+isis = PriestessPersonas("", f"{Persona.persona_arcanas[2]}",1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+kikuri_hime = PriestessPersonas("", f"{Persona.persona_arcanas[2]}",1,
+       ,                 1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+sarasvati = PriestessPersonas("", f"{Persona.persona_arcanas[2]}",1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 
 priestess_personas = ()
 
 # Empress Personas:
 # ------------------------------------------------------------------------------------
-queens_necklace = ""
-yaksini = ""
-lamia = ""
-hariti = ""
+queens_necklace = EmpressPersonas("", f"{Persona.persona_arcanas[3]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+yaksini = EmpressPersonas("", f"{Persona.persona_arcanas[3]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+lamia = EmpressPersonas("", f"{Persona.persona_arcanas[3]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+hariti = EmpressPersonas("", f"{Persona.persona_arcanas[3]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 empress_personas = ()
 
 # Emperor Personas:
 # ------------------------------------------------------------------------------------
-eligor = ""
-regent = ""
-setanta = ""
-thoth = ""
-barong = ""
-king_frost = ""
+eligor = EmperorPersonas("", f"{Persona.persona_arcanas[4]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+regent = EmperorPersonas("", f"{Persona.persona_arcanas[4]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+setanta = EmperorPersonas("", f"{Persona.persona_arcanas[4]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+thoth = EmperorPersonas("", f"{Persona.persona_arcanas[4]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+barong = EmperorPersonas("", f"{Persona.persona_arcanas[4]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+king_frost = EmperorPersonas("", f"{Persona.persona_arcanas[4]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 emperor_personas = ()
 
 # Hierophant Personas:
 # ------------------------------------------------------------------------------------
-berith = ""
-orobas = ""
+berith = HierophantPersonas("", f"{Persona.persona_arcanas[5]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+orobas = HierophantPersonas("", f"{Persona.persona_arcanas[5]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 hierophant_personas = ()
 
 # Lovers Personas:
 # ------------------------------------------------------------------------------------
-pixie = ""
-saki_mitama = ""
-ame_no_uzume = ""
-leanan_sidhe =""
-kushinada = ""
-narcissus = ""
-parvati = ""
+pixie = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+saki_mitama = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+ame_no_uzume = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+leanan_sidhe = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+kushinada = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+narcissus = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+parvati = LoversPersonas("", f"{Persona.persona_arcanas[6]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 lovers_personas = ()
 
 
 # Chariot Personas:
 # ------------------------------------------------------------------------------------
-agation = ""
-slime = ""
-shiki_ouji = ""
-kin_ki = ""
-ara_mitama = ""
-white_rider = ""
-athena = ""
+agation = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+slime = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+shiki_ouji = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+kin_ki = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+ara_mitama = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+white_rider = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+athena = ChariotPersonas("", f"{Persona.persona_arcanas[7]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 chariot_personas = ()
 
 # Justice Personas:
 # ------------------------------------------------------------------------------------
-angel = ""
-archangel = ""
-principality = ""
-power = ""
+angel = JusticePersonas("", f"{Persona.persona_arcanas[8]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+archangel = JusticePersonas("", f"{Persona.persona_arcanas[8]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+principality = JusticePersonas("", f"{Persona.persona_arcanas[8]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+
+power = JusticePersonas("", f"{Persona.persona_arcanas[8]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 justice_personas = ()
 
 # Hermit Personas:
 # ------------------------------------------------------------------------------------
-bicorn = ""
-#koropokkuru = HermitPersonas(
-#                    "Koropokkuru",
+bicorn = HermitPersonas("", f"{Persona.persona_arcanas[9]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
-#ippon_datara = HermitPersonas(
-#                    "Ippon-Datara",
+koropokkuru = HermitPersonas("Koropokkuru", f"{Persona.persona_arcanas[9]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
+                    
+ippon_datara = HermitPersonas("Ippon-Datara", f"{Persona.persona_arcanas[9]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
+sudama = HermitPersonas("Sudama", f"{Persona.persona_arcanas[9]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
-#sudama = HermitPersonas(
-#                    "Sudama"
-
-#naga = HermitPersonas(
-#                    "Naga",
+naga = HermitPersonas("Naga", f"{Persona.persona_arcanas[9]}", 1,
+                        1,1,1,1,1,
+                        "","","","",
+                        "","","","")
 
 hermit_personas = ()
 
