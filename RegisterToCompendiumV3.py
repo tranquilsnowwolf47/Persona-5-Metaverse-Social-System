@@ -42,7 +42,75 @@ class Compendium:
             self.skill6 = skill6
             self.skill7 = skill7
             self.skill8 = skill8
-    
+
+
+    # Gets input from the user on the Persona they want to register
+    def get_persona_info(self):
+        # User inputs
+        try:
+            level = int(input("Enter the level: "))
+        except ValueError:
+            print("Integer values only are accepted.")
+        try:
+            st = int(input(f"Enter {self.name}'s St stat: "))
+        except ValueError:
+            print("Integer values only are accepted.")
+        try:
+            ma = int(input(f"Enter {self.name}'s Ma stat: "))
+        except ValueError:
+            print("Integer values only are accepted.")
+        try:
+            en = int(input(f"Enter {self.name}'s En stat: "))
+        except ValueError:
+            print("Integer values only are accepted.")
+        try:
+            ag = int(input(f"Enter {name}'s Ag stat: "))
+        except ValueError:
+            print("Integer values only are accepted.")
+        try:
+            lu = int(input(f"Enter {name}'s Lu stat: "))
+        except ValueError:
+            print("Integer values only are accepted.")
+        
+        print(f"\nPlease enter {name} skills in the following format: ")
+        print("(Skill Name) (Damage Grade Element) | Ex: Data Hex (Heavy Curse)")
+        
+        try:
+            skill1 = input("\nEnter skill 1: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill2 = input("Enter skill 2: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill3 = input("Enter skill 3: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill4 = input("Enter skill 4: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill5 = input("Enter skill 5: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill6 = input("Enter skill 6: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill7 = input("Enter skill 7: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        try:
+            skill8 = input("Enter skill 8: ")
+        except ValueError:
+            print("Please enter a valid string.")
+        
+        return name, arcana, level, st, ma, en, ag, lu, skill1, skill2, skill3, skill4, skill5, skill6, skill7,skill8
+
+
 
     def format_persona_log_entry(self):
         return f"""\n\nPersona Registered: \n------------------------
@@ -1029,13 +1097,14 @@ def get_persona_arcana():
     arcana_choice = int(input("\nPlease enter the Arcana of the Persona you'd like to register (1-23): "))
     return arcana_choice
 
+
+
 selected_personas_arcana = ""
 
-arcana_choice = get_persona_arcana()
-#arcana_index = get_persona_arcana[1]
 
-def get_persona_choice():
-    persona_choice = int(input(f"Please enter a Persona (1-x): "))
+# Call function
+arcana_choice = get_persona_arcana()
+
 
 # I need to get the final index after the loop has looped through all of them
 
@@ -1047,7 +1116,9 @@ if arcana_choice == 1:
     ending_range = Persona.display_fool_personas()
     # Gets the user's Persona choice for registration operations 
     persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
-    pass
+    if persona_choice == 1:
+        arsene.get_persona_info()
+    
 
 # Magician Personas Options
 elif arcana_choice == 2:
@@ -1423,3 +1494,4 @@ for councillor_persona in councillor_personas:
     formatted_data = councillor_persona.format_persona_log_entry()
     # Append the data into the list 
     faith_personas_log_data.append(formatted_data)
+    
