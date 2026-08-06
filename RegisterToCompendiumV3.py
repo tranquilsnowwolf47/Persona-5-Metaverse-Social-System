@@ -46,9 +46,13 @@ class Compendium:
 
     # Gets input from the user on the Persona they want to register
     def get_persona_info(self):
-        # User inputs
+        print("Persona to Register:")
+        print("--------------------------------")
+        print(f"{self.name} ({self.arcana})")
+        print("--------------------------------\n\n")
+    
         try:
-            level = int(input("Enter the level: "))
+            level = int(input(f"Enter {self.name}'s level: "))
         except ValueError:
             print("Integer values only are accepted.")
         try:
@@ -64,15 +68,15 @@ class Compendium:
         except ValueError:
             print("Integer values only are accepted.")
         try:
-            ag = int(input(f"Enter {name}'s Ag stat: "))
+            ag = int(input(f"Enter {self.name}'s Ag stat: "))
         except ValueError:
             print("Integer values only are accepted.")
         try:
-            lu = int(input(f"Enter {name}'s Lu stat: "))
+            lu = int(input(f"Enter {self.name}'s Lu stat: "))
         except ValueError:
             print("Integer values only are accepted.")
         
-        print(f"\nPlease enter {name} skills in the following format: ")
+        print(f"\nPlease enter {self.name} skills in the following format: ")
         print("(Skill Name) (Damage Grade Element) | Ex: Data Hex (Heavy Curse)")
         
         try:
@@ -108,7 +112,7 @@ class Compendium:
         except ValueError:
             print("Please enter a valid string.")
         
-        return name, arcana, level, st, ma, en, ag, lu, skill1, skill2, skill3, skill4, skill5, skill6, skill7,skill8
+        return level, st, ma, en, ag, lu, skill1, skill2, skill3, skill4, skill5, skill6, skill7, skill8
 
 
 
@@ -1117,8 +1121,41 @@ if arcana_choice == 1:
     # Gets the user's Persona choice for registration operations 
     persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
     if persona_choice == 1:
-        arsene.get_persona_info()
-    
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = arsene.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        arsene.level = level_input
+        arsene.st = st_input
+        arsene.ma = ma_input
+        arsene.en = en_input
+        arsene.ag = ag_input
+        arsene.lu = lu_input
+        arsene.skill1 = skill1_input
+        arsene.skill2 = skill2_input
+        arsene.skill3 = skill3_input
+        arsene.skill4 = skill4_input
+        arsene.skill5 = skill5_input
+        arsene.skill6 = skill6_input
+        arsene.skill7 = skill7_input
+        arsene.skill8 = skill8_input
+
 
 # Magician Personas Options
 elif arcana_choice == 2:
