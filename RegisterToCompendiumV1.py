@@ -53,6 +53,7 @@ class Compendium:
         self.skill_seven = skill_seven
         self.skill_eight = skill_eight
 
+
     def format_persona_log_entry(self):
         return f"""\n\nPersona Registered: 
 Name: {self.name}
@@ -74,6 +75,11 @@ Skills:
 6. {self.skill_six}
 7. {self.skill_seven}
 8. {self.skill_eight}\n"""
+
+    # For debugging
+    def display_persona_compendium_entry():
+        pass
+        
 
 # Class Template for Personas (For creating Persona objects)
 class Persona(Compendium):
@@ -195,6 +201,7 @@ orpheus_f_picaro = FoolPersonas(
                     "Tailwind Cascade (Hvy Wind)","Black List (Curse Instant Kill)","Starter Shot (Light Gun)",
                     "Mini-Gun (Light Gun)","Surface Graze (Light Gun)","Acknowledgement Shot (Light Gun)",
                     "Everflow (Hvy Wind)","Career Current (Med Wind)")
+
 # 5. High Pixie
 # Register update: 2/7/26
 high_pixie = FoolPersonas(
@@ -202,6 +209,7 @@ high_pixie = FoolPersonas(
                     7,4,6,7,9,
                     "Affinity Beacon (Debilitate)","Acknowledgement Shot (Light Gun)","Opening Gambit (Med Phys)","Starter Shot (Light Gun)",
                     "Cold Cut (Light Phys)","Inferno Grip (Med Fire)","Calling Fang (Phys)","Slowed Speech (Ag buff)")
+
 # 6. Izanagi
 # Register update: 3/10/26
 # Register update: 3/26/26
@@ -210,6 +218,7 @@ izanagi = FoolPersonas(
                     8,8,6,8,9,
                     "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                     "Shocking Humor (Light Elec)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
+
 # 7. Izanagi Picaro
 # Register update: 4/3/26
 # Register update: 4/30/26
@@ -218,6 +227,7 @@ izanagi_picaro = FoolPersonas(
                     9,7,6,9,9,
                     "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                     "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
+
 # 8. Orpheus
 # Register update: 5/5/26
 # Register update: 5/28/26
@@ -227,14 +237,19 @@ orpheus = FoolPersonas(
                     10,8,7,10,10,
                     "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
                     "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
-
 # 9. Orpheus Picaro
-# Register update: 7/
+# Register update: 7/21/26
+# Register update: 8/10/26
+orpehus_picaro = FoolPersonas(
+                    "Orpheus Picaro", "Fool", 31,
+                    8,6,6,8,7,
+                    "Mind Glide (Med Wind)", "Career Current (Med Wind)", "Commentary Jab (Med Gun)", "Black List (Curse Instant Kill)",
+                    "Data Hex (Hvy Curse)", "Quick Invite (Med Gun)", "Purpose Focus (Concentrate)", "Everflow (Hvy Wind)")
+
 
 # All Fool Personas registered 
 fool_personas = (arsene, obariyon, orpheus_f, orpheus_f_picaro, high_pixie, izanagi, 
-                 izanagi_picaro, orpheus)
-
+                 izanagi_picaro, orpheus, orpehus_picaro)
 
 # Magician Personas:
 # ------------------------------------------------------------------------------------
@@ -245,24 +260,28 @@ jack_o_lantern = MagicianPersonas(
                 4,10,5,3,2,
                 "Winds of Knowledge (Med Wind)","Career Current (Med Wind)","Deep Dive (Med Wind)","Mind Glide (Med Wind)","Subject Shift (Light Gun)",
                 "Mini-Talk (Light Gun)","Echo Shot (Light Gun)","Velvet Note (Med Fire)")
+
 # 2. Cait Sith 
 # Register update: (Idk lol)
 cait_sith = MagicianPersonas( 
                 "Cait Sith", "Magician", 21,
                 3,9,5,6,1,
                 "","","","","","","","")
+
 # 3. Jack Frost
 # Register Update: 12/17/25
 jack_frost = MagicianPersonas(
                     "Jack Frost", "Magician", 22,
                     5,10,5,5,1,
                     "","","","","","","","")
+
 # 4. Nekomata
 # Register Update: 2/7/26
 nekomata = MagicianPersonas(
                 "Nekomata", "Magician", 20,
                 5,9,4,5,1,
                 "","","","","","","","")
+
 # 5. Sandman
 # Register update: 3/27/26
 # Register update: 5/6/26
@@ -274,15 +293,27 @@ sandman = MagicianPersonas(
 # 6. Choronzon
 # Register update: 6/8/26
 # Register update: 7/20/26
+# Register update: 7/21/26
 choronzon = MagicianPersonas(
                     "Choronzon", "Magician", 33,
-                    1,1,1,1,1,
+                    7,15,6,8,1,
                     "Winds of Knowledge (Med Wind)","Depth Anchor (Med Wind)","Mind Glide (Med Wind)","Weekend Needle (Med Gun)",
                     "Acknowledgement Shot (Light Gun)","Inferno Grip (Med Fire)","Confidence Drive (Atk Buff)","Human Nature Savant (Auto Ag Buff)"
 )
 
+# 7. Queen Mab
+# Register update: 7/29/26
+# Register update: 8/10/26
+queen_mab = MagicianPersonas(
+                    "Queen Mab", "Magician", 35,
+                    7,15,7,9,1,
+                    "Winds of Knowledge (Med Wind)","Depth Anchor (Med Wind)","Mind Glide (Med Wind)","Weekend Needle (Med Gun)",
+                    "Acknowledgement Shot (Light Gun)","Inferno Grip (Med Fire)","Confidence Drive (Atk Buff)","Human Nature Savant (Auto Ag Buff)"
+)
+
+
 # All Magician Personas registered 
-magician_personas = (jack_o_lantern, cait_sith, jack_frost, nekomata, sandman, choronzon)
+magician_personas = (jack_o_lantern, cait_sith, jack_frost, nekomata, sandman, choronzon, queen_mab)
 
 
 # Priestess Personas:
@@ -365,13 +396,21 @@ lamia = EmpressPersonas(
 
 # 4. Hariti
 # Register update: 6/8/26
+# Register update: 7/29/26
 hariti = EmpressPersonas(
-                    "Hariti", "Empress", 21,
-                    1,1,1,1,1,
+                    "Hariti", "Empress", 26,
+                    11,11,3,4,1,
                     "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
                     "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)"
-
 )
+
+# Register update: 8/10/26
+dakini = EmpressPersonas(
+                    "Dakini", 
+                    "Hariti", "Empress", 25,
+                    10,10,4,4,1,
+                    "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
+                    "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)")
 
 empress_personas = (queens_necklace, yaksini, lamia, hariti)
 
@@ -383,6 +422,7 @@ eligor = EmperorPersonas(
                 "Eligor", "Emperor",24,
                 10,5,7,3,5,
                 "Assertive Slice (Phys)","Request Denial (Curse)","Name Repeat (Psy)","Extraction Shot (Gun)","","","","")
+
 # 2. Regent
 # Register update: 8/31/25
 # Register update: 9/15/25
@@ -392,6 +432,7 @@ regent = EmperorPersonas(
                 13,6,10,2,1,
                 "Assertive Slice (Med Phys)","Stonewall (Med Phys)","Decision Strike (Med Phys)","Cold Cut (Med Phys)",
                 "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)","3 Second Rule (Charge)","Rhythm Break (Ag Debuff)")
+
 # 3. Setanta
 # Register update: 11/17/25
 # Register update: 12/17/25 
@@ -400,6 +441,7 @@ setanta = EmperorPersonas(
                         14,8,10,2,1,
                         "Assertive Slice (Med Phys)", "Stonewall (Med Phys)", "Decision Strike (Med Phys)", "Calling Fang (Med Phys)", 
                         "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)", "3 Second Rule (Charge)","")
+
 # 4. Thoth
 # Register update: 1/12/26
 # Register udpate: 2/7/26
@@ -408,6 +450,7 @@ thoth = EmperorPersonas(
                     16,9,8,6,1,
                     "Assertive Slice (Med Phys)","Decision Strike (Med Phys)","Social Dominance (Med Phys)","Iron Gaze (Med Phys)",
                     "Inferno Grip (Med Fire)","Gentleman's Flattery (Light Fire)","Deadpan Discharge (Light Elec)","3-Second Rule (Charge)")
+
 # 5. Barong
 # Register update: 3/3/26
 # Register update: 3/10/26
@@ -424,9 +467,10 @@ barong = EmperorPersonas(
 # Register update: 5/28/26
 # Register update: 6/13/26
 # Register update: 7/16/26
+# Register update: 8/10/26
 king_frost = EmperorPersonas(
                     "King Frost", "Emperor", 52,
-                    22,18,7,7,2,
+                    22,18,7,9,2,
                     "Assertive Slice (Med Phys)", "Social Dominance (Med Phys)", "Decision Strike (Med Phys)", "Advance Slash (Hvy Phys)",
                     "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
@@ -466,6 +510,7 @@ pixie = LoversPersonas(
                 1,7,4,5,5,
                 "Self Respect Affirmation","Prioritized Presence (Med Psy)","Nonchalance (Med Psy)","Interest Level Read (Light Psy)",
                 "","","","")
+
 # 2. Saki Mitama
 # Register update: 10/4/25
 saki_mitama = LoversPersonas(
@@ -473,6 +518,7 @@ saki_mitama = LoversPersonas(
                 7,8,3,6,6,
                 "Focused Breathing (Lvl 1 Healing)", "Cat Nap (Lvl 2 Healing)","","",
                 "","","","")
+
 # 3. Ame-no-Uzume
 # Register update: 11/17/25
 # Register update: 12/17/25
@@ -481,6 +527,7 @@ ame_no_uzume = LoversPersonas(
                     5,11,3,5,5,
                     "Focused Breathing (Lvl 1 Healing)","Cat Nap (Lvl 2 Healing)","","",
                     "","","","")
+
 # 4. Leanan Sidhe 
 # Register update: 2/8/26
 leanan_sidhe = LoversPersonas(
@@ -488,6 +535,7 @@ leanan_sidhe = LoversPersonas(
                     5,8,1,5,4,
                     "", "", "","",
                     "", "", "","")
+
 # 5. Kushinada
 # Register update: 3/11/26
 # Register update: 3/27/26
@@ -496,6 +544,7 @@ kushinada = LoversPersonas(
                     6,11,1,6,4,
                     "Sync Surge (Med Nuke)", "Tailwind Cascade (Hvy Wind)", "Purpose Focus (Concentrate)","Confidence Drive (Atk buff)",
                     "Twin Breath (Lvl 1 Healing)", "Focused Breathing (Lvl 1 Healing)", "Hazard Audit (Fear Recovery)","Temper Drop (Rage Recovery)")
+
 # 6. Narcissus
 # Register update: 4/3/26
 # Register update: 5/1/26
@@ -567,7 +616,17 @@ white_rider = ChariotPersonas(
                     "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)")
 
 
-chariot_personas = (agathion, slime, shiki_ouji, kin_ki, ara_mitama, white_rider)
+# 7. Athena
+# Register update: 7/21/26
+# Register update: 8/10/26
+athena = ChariotPersonas(
+                    "Athena", "Chariot", 28,
+                    11,5,8,5,3,
+                    "Crowd Echo (Med Nuke)", "Spotlight Surge (Hvy Nuke)", "Flash Bounce (Med Nuke)","Cold Cut (Light Phys)",
+                    "Calling Fang (Light Phys)", "Shocking Humor (Light Elec)", "3-Second Rule (Charge)","Confidence Drive (Atk buff)"
+)
+ 
+chariot_personas = (agathion, slime, shiki_ouji, kin_ki, ara_mitama, white_rider, athena)
 
 # Justice Personas:
 # ------------------------------------------------------------------------------------
@@ -652,6 +711,15 @@ naga = HermitPersonas(
                     "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
 )
 
+# Kurama Tengu
+# Register update: 8/10/26
+kurama_tengu = HermitPersonas(
+                    "Kurama Tengu", "Hermit", 1,
+                    1,1,1,1,1,
+                    "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
+                    "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
+)
+
 hermit_personas = (bicorn, koropokkuru, ippon_datara, sudama, naga)
 
 # Fortune Personas:
@@ -707,6 +775,7 @@ kelpie = StrengthPersonas(
                 6,3,7,1,2,
                 "","","","",
                 "","","","")
+
 # 2. Shiisaa
 # Register update: 10/4/25
 shiisa = StrengthPersonas(
@@ -714,6 +783,7 @@ shiisa = StrengthPersonas(
                 5,4,11,3,2,
                 "","","","",
                 "","","","")
+
 # 3. Oni
 # Register update: 11/17/25
 oni = StrengthPersonas(
