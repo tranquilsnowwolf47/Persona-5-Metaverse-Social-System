@@ -657,9 +657,10 @@ principality = JusticePersonas(
 
 # 4. Power 
 # Register update: 6/12/26
+# Register update: 8/10/26
 power = JusticePersonas(
-                    "Power", "Justice", 16,
-                    1,1,1,1,1,
+                    "Power", "Justice", 20,
+                    7,5,1,7,4,
                     "Interest Probe (Med Gun)", "Social Probe (Med Gun)", "Temperament Read (Light Psy)","Atmosphere Read (Med Psy)",
                     "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
 )
@@ -714,8 +715,8 @@ naga = HermitPersonas(
 # Kurama Tengu
 # Register update: 8/10/26
 kurama_tengu = HermitPersonas(
-                    "Kurama Tengu", "Hermit", 1,
-                    1,1,1,1,1,
+                    "Kurama Tengu", "Hermit", 15,
+                    3,7,4,4,1,
                     "Prioritized Presence (Hvy Psy)", "Tranquil Edge (Med Psy)", "Regenerate I (HP Regen)","Invigorate I (SP Regen)",
                     "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
 )
