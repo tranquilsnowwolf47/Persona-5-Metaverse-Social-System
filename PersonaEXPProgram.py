@@ -177,9 +177,11 @@ class Persona:
 
 
 # Reserve Personas 
+suiki = Persona(
+atavaka = Persona(
 
 # Performs operations for all personas in the tuple
-personas = (kurama_tengu, power)
+personas = (suiki, atavaka)
 
 
 #personas = (black_ooze, white_rider, sarasvati,
