@@ -659,8 +659,8 @@ principality = JusticePersonas(
 # Register update: 6/12/26
 # Register update: 8/10/26
 power = JusticePersonas(
-                    "Power", "Justice", 20,
-                    7,5,1,7,4,
+                    "Power", "Justice", 24
+                    9,5,1,9,4
                     "Interest Probe (Med Gun)", "Social Probe (Med Gun)", "Temperament Read (Light Psy)","Atmosphere Read (Med Psy)",
                     "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
 )
