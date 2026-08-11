@@ -177,14 +177,12 @@ class Persona:
 
 
 # Reserve Personas 
-suiki = Persona(
-atavaka = Persona(
-
+valkyrie = Persona("Valkyrie", "Strength", 25, 1,1,1,1,1,24)
 # Performs operations for all personas in the tuple
-personas = (suiki, atavaka)
+personas = (valkyrie,)
 
 
-#personas = (black_ooze, white_rider, sarasvati,
+#personas = (
              #atropos, parvati, zouchouten, naga, trumpeter, koppa_tengu, orobas, 
              #choronzon, hariti, flauros, red_rider, hope_diamond, horus, emperors_amulet, 
              #power, kushi_mitama)
