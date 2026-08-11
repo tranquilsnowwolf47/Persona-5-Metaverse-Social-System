@@ -820,6 +820,15 @@ zouchouten = StrengthPersonas(
                     "", "", "",""
 )
 
+# 7. Valkyrie 
+# Register update: 8/11/26
+valkyrie = StrengthPersonas(
+                    "Valkyrie", "Strength", 25,
+                    6,1,11,8,3,
+                    "", "", "","",
+                    "", "", "",""
+)
+
 strength_personas = (kelpie, shiisa, oni, rakshasa, orlov, zouchouten)
 
 # Hanged Man Personas:
@@ -920,9 +929,10 @@ hell_biker = DeathPersonas(
 
 # 7. Hope Diamond
 # Register update: 6/11/26
+# Regiter update: 8/11/26
 hope_diamond = DeathPersonas(    
-                    "Hope Diamond", "Death", 14,
-                    1,1,1,1,1,
+                    "Hope Diamond", "Death", 20,
+                    1,8,5,7,3,
                     "Slowed Speech (Ag buff)", "Self-Security (Def buff)", "Intent Rift (Hvy Psy)","Effort Reaper (Curse Instant Kill)",
                     "Timeout Clause (Curse Instant Kill)", "Self-Control (Auto Def buff)", "Drain Ice","Dodge Reverse Ice")
 
@@ -947,6 +957,14 @@ genbu = TemperancePersonas(
 koppa_tengu = TemperancePersonas(
                     "Koppa Tengu", "Temperance", 25,
                     3,7,7,11,1,
+                    "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
+                    "","","","")
+
+# 3. Makami
+# Register update: 8/11/26
+makami = TemperancePersonas(
+                    "Makami", "Temperance", 15,
+                    1,5,5,7,1,
                     "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
                     "","","","")
 
@@ -988,9 +1006,10 @@ belphegor = TowerPersonas(
 
 # 2. Red Rider
 # Register update: 6/11/26
+# Register update: 8/11/26
 red_rider = TowerPersonas(
-                    "Red Rider", "Tower", 13,
-                    1,1,1,1,1,
+                    "Red Rider", "Tower", 15,
+                    1,6,4,5,3
                     "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
                     "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)")
 
@@ -1048,6 +1067,14 @@ kaguya = MoonPersonas(
 black_ooze = MoonPersonas(
                         "Black Ooze", "Moon", 29,
                         3,9,6,13,2,
+                        "Foresight (Med Psy)", "Atmosphere Read (Med Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
+                        "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
+
+# 5. Sui-Ki
+# Register update: 8/11/26
+suiki  = MoonPersonas(
+                        "Sui-Ki", "Moon", 22,
+                        2,7,6,10,1,
                         "Foresight (Med Psy)", "Atmosphere Read (Med Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                         "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
 
@@ -1160,6 +1187,14 @@ okuninushi = FaithPersonas(
 orichalcum = FaithPersonas(
                 "Orichalcum", "Faith", 39,
                 7,4,10,12,10,
+                "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
+                "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
+
+# 6. Atavaka
+# Register update: 8/11/26
+atavaka = FaithPersonas(
+                "Atavaka", "Faith", 25,
+                3,4,5,9,8,
                 "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                 "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
 
