@@ -168,13 +168,14 @@ class CouncillorPersonas(Persona):
 # Fool Personas:
 # ------------------------------------------------------------------------------------
 # 1. Arsene
-# Register update: (Forgot lol)
+# Register update: (Forgot lol)(sometime in the summer of '25)
+# Register update: 8/12/26
 arsene = FoolPersonas(
                 "Arsene","Fool",28,
                 7,8,7,7,4,
-                "Slowed Speech (Ag Buff)","3 Second Rule (Charge)","Ether Break (Atk debuff)",
-                "Minimum Echo (Med Curse)","Data Hex (Med Curse)","Decision Strike (Med Phys)",
-                "Assertive Slice (Med Phys)","Shadow Read (Hvy Psy)")
+                "Silver Exit (Heavy Gun)","Courtesy Shot (Light Gun)","Name Echo (Light Psy)",
+                "Mocking Mirror (Light Curse)","Drain Curse (Affinity Passive)","Twin Breath (Light HP Recovery)",
+                "Tactic Diffuser (Ag Debuff)","Priority Rift (Heavy Psy)")
 # 2. Obariyon
 # Register update: (Forgot lol)
 obariyon = FoolPersonas(
@@ -406,13 +407,12 @@ hariti = EmpressPersonas(
 
 # Register update: 8/10/26
 dakini = EmpressPersonas(
-                    "Dakini", 
-                    "Hariti", "Empress", 25,
+                    "Dakini", "Empress", 25,
                     10,10,4,4,1,
                     "Warm Smile (Light Bless)","Gracious Thanks (Light Bless)","Hope Pulse (Med Bless)","Light of Insight (Med Bless)",
                     "Reassuring Chill (Light Ice)","Acknowledgement Frost (Light Ice)","Assertive Slice (Med Phys)","Slowed Speech (Ag Buff)")
 
-empress_personas = (queens_necklace, yaksini, lamia, hariti)
+empress_personas = (queens_necklace, yaksini, lamia, hariti, dakini)
 
 # Emperor Personas:
 # ------------------------------------------------------------------------------------
@@ -499,7 +499,7 @@ orobas = HierophantPersonas(
                     "Social Competence (Auto Atk buff)","Wind Boost","Dodge Reverse Curse","Purpose Anchor (Despair Recovery)"
 )
 
-hierophant_personas = (berith,orobas)
+hierophant_personas = (berith, orobas)
 
 # Lovers Personas:
 # ------------------------------------------------------------------------------------
@@ -659,8 +659,8 @@ principality = JusticePersonas(
 # Register update: 6/12/26
 # Register update: 8/10/26
 power = JusticePersonas(
-                    "Power", "Justice", 24
-                    9,5,1,9,4
+                    "Power", "Justice", 24,
+                    9,5,1,9,4,
                     "Interest Probe (Med Gun)", "Social Probe (Med Gun)", "Temperament Read (Light Psy)","Atmosphere Read (Med Psy)",
                     "Psy Boost", "Gun Boost", "Contagion Wave (AOE Def Debuff)","Human Nature Savant (Auto Ag Buff)"
 )
@@ -721,7 +721,7 @@ kurama_tengu = HermitPersonas(
                     "Temper Drop (Rage recovery)", "Self-Control (Auto Def buff)", "Frequency Barrier (AOE atk buff)","Twin Breath (Lvl 1 Healing)"
 )
 
-hermit_personas = (bicorn, koropokkuru, ippon_datara, sudama, naga)
+hermit_personas = (bicorn, koropokkuru, ippon_datara, sudama, naga, kurama_tengu)
 
 # Fortune Personas:
 # ------------------------------------------------------------------------------------
@@ -829,7 +829,7 @@ valkyrie = StrengthPersonas(
                     "", "", "",""
 )
 
-strength_personas = (kelpie, shiisa, oni, rakshasa, orlov, zouchouten)
+strength_personas = (kelpie, shiisa, oni, rakshasa, orlov, zouchouten, valkyrie)
 
 # Hanged Man Personas:
 # ------------------------------------------------------------------------------------
@@ -968,7 +968,7 @@ makami = TemperancePersonas(
                     "Slowed Speech (Ag buff)","Self-Control (Auto def buff)","Regen I (HP Regen)","Invigorate I (SP Regen)",
                     "","","","")
 
-temperance_personas = (genbu, koppa_tengu)
+temperance_personas = (genbu, koppa_tengu, makami)
 
 # Devil Personas:
 # ------------------------------------------------------------------------------------
@@ -1009,7 +1009,7 @@ belphegor = TowerPersonas(
 # Register update: 8/11/26
 red_rider = TowerPersonas(
                     "Red Rider", "Tower", 15,
-                    1,6,4,5,3
+                    1,6,4,5,3,
                     "Black List (Curse Instant Kill)","Effort Reaper (Curse Instant Kill)","Advance Slash (Hvy Phys)","Dodge Ice","Curse Boost",
                     "Human Nature Savant (Auto Ag buff)","Hazard Audit (Confuse Recovery)","Tactic Diffuser (Ag debuff)")
 
@@ -1078,7 +1078,7 @@ suiki  = MoonPersonas(
                         "Foresight (Med Psy)", "Atmosphere Read (Med Psy)", "Hollow Stance (Med Curse)", "Effort Reaper (Curse High instant kill)",
                         "Drain Ice","Dodge Reverse Bless","Dodge Reverse Wind", "Frame Reset (Confusion Recovery)")
 
-moon_personas = (succubus, onmoraki, kaguya, black_ooze)
+moon_personas = (succubus, onmoraki, kaguya, black_ooze, suiki)
 
 # Sun Personas:
 # ------------------------------------------------------------------------------------
@@ -1198,7 +1198,7 @@ atavaka = FaithPersonas(
                 "Heartfelt Thanks (Med Bless)","Gracious Thanks (Light Bless)","Warm Smile (Light Bless)","Confidence Drive (Atk buff)",
                 "Self-Security (Def buff)","Drain Bless","Looksmax (Auto Heat Riser)","Hazard Audit (Fear Recovery)")
 
-faith_personas = (phoenix, tam_lin, unicorn, okuninushi, orichalcum)
+faith_personas = (phoenix, tam_lin, unicorn, okuninushi, orichalcum, atavaka)
 
 # Councillor Personas:
 # ------------------------------------------------------------------------------------
@@ -1383,6 +1383,8 @@ for councillor_persona in councillor_personas:
 
 # Writes the formatted info to the file 
 with open("Persona_compendium_logbookV1.txt","w") as compendium_log:
+    compendium_log.write("2025-2026 School Year Persona Compendium:")
+    compendium_log.write("\n--------------------------------------------------------")
     # Write Fool Personas to the compendium
     for fool_persona_log in fool_personas_log_data:
         compendium_log.write(fool_persona_log)
