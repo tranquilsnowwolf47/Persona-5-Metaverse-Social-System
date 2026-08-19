@@ -1,4 +1,5 @@
-
+2025-2026 School Year Persona Compendium:
+--------------------------------------------------------
 
 Persona Registered: 
 Name: Arsene
@@ -14,14 +15,14 @@ Ag: 7
 Lu: 4
 
 Skills: 
-1. Slowed Speech (Ag Buff)
-2. 3 Second Rule (Charge)
-3. Ether Break (Atk debuff)
-4. Minimum Echo (Med Curse)
-5. Data Hex (Med Curse)
-6. Decision Strike (Med Phys)
-7. Assertive Slice (Med Phys)
-8. Shadow Read (Hvy Psy)
+1. Silver Exit (Heavy Gun)
+2. Courtesy Shot (Light Gun)
+3. Name Echo (Light Psy)
+4. Mocking Mirror (Light Curse)
+5. Drain Curse (Affinity Passive)
+6. Twin Breath (Light HP Recovery)
+7. Tactic Diffuser (Ag Debuff)
+8. Priority Rift (Heavy Psy)
 
 
 Persona Registered: 
@@ -193,6 +194,30 @@ Skills:
 
 
 Persona Registered: 
+Name: Orpheus Picaro
+Arcana: Fool
+Level: 31
+
+Stats: 
+------------------------
+St: 8
+Ma: 6
+En: 6
+Ag: 8
+Lu: 7
+
+Skills: 
+1. Mind Glide (Med Wind)
+2. Career Current (Med Wind)
+3. Commentary Jab (Med Gun)
+4. Black List (Curse Instant Kill)
+5. Data Hex (Hvy Curse)
+6. Quick Invite (Med Gun)
+7. Purpose Focus (Concentrate)
+8. Everflow (Hvy Wind)
+
+
+Persona Registered: 
 Name: Jack-o'-Lantern
 Arcana: Magician
 Level: 20
@@ -319,10 +344,34 @@ Level: 33
 
 Stats: 
 ------------------------
-St: 1
-Ma: 1
-En: 1
-Ag: 1
+St: 7
+Ma: 15
+En: 6
+Ag: 8
+Lu: 1
+
+Skills: 
+1. Winds of Knowledge (Med Wind)
+2. Depth Anchor (Med Wind)
+3. Mind Glide (Med Wind)
+4. Weekend Needle (Med Gun)
+5. Acknowledgement Shot (Light Gun)
+6. Inferno Grip (Med Fire)
+7. Confidence Drive (Atk Buff)
+8. Human Nature Savant (Auto Ag Buff)
+
+
+Persona Registered: 
+Name: Queen Mab
+Arcana: Magician
+Level: 35
+
+Stats: 
+------------------------
+St: 7
+Ma: 15
+En: 7
+Ag: 9
 Lu: 1
 
 Skills: 
@@ -555,14 +604,14 @@ Skills:
 Persona Registered: 
 Name: Hariti
 Arcana: Empress
-Level: 21
+Level: 26
 
 Stats: 
 ------------------------
-St: 1
-Ma: 1
-En: 1
-Ag: 1
+St: 11
+Ma: 11
+En: 3
+Ag: 4
 Lu: 1
 
 Skills: 
@@ -577,27 +626,27 @@ Skills:
 
 
 Persona Registered: 
-Name: Eligor
-Arcana: Emperor
-Level: 24
+Name: Dakini
+Arcana: Empress
+Level: 25
 
 Stats: 
 ------------------------
 St: 10
-Ma: 5
-En: 7
-Ag: 3
-Lu: 5
+Ma: 10
+En: 4
+Ag: 4
+Lu: 1
 
 Skills: 
-1. Assertive Slice (Phys)
-2. Request Denial (Curse)
-3. Name Repeat (Psy)
-4. Extraction Shot (Gun)
-5. 
-6. 
-7. 
-8. 
+1. Warm Smile (Light Bless)
+2. Gracious Thanks (Light Bless)
+3. Hope Pulse (Med Bless)
+4. Light of Insight (Med Bless)
+5. Reassuring Chill (Light Ice)
+6. Acknowledgement Frost (Light Ice)
+7. Assertive Slice (Med Phys)
+8. Slowed Speech (Ag Buff)
 
 
 Persona Registered: 
@@ -622,6 +671,30 @@ Skills:
 6. Verbal Parry (Med Elec)
 7. 3 Second Rule (Charge)
 8. Rhythm Break (Ag Debuff)
+
+
+Persona Registered: 
+Name: Eligor
+Arcana: Emperor
+Level: 24
+
+Stats: 
+------------------------
+St: 10
+Ma: 5
+En: 7
+Ag: 3
+Lu: 5
+
+Skills: 
+1. Assertive Slice (Phys)
+2. Request Denial (Curse)
+3. Name Repeat (Psy)
+4. Extraction Shot (Gun)
+5. 
+6. 
+7. 
+8. 
 
 
 Persona Registered: 
@@ -706,7 +779,7 @@ Stats:
 St: 22
 Ma: 18
 En: 7
-Ag: 7
+Ag: 9
 Lu: 2
 
 Skills: 
@@ -1081,6 +1154,30 @@ Skills:
 
 
 Persona Registered: 
+Name: Athena
+Arcana: Chariot
+Level: 28
+
+Stats: 
+------------------------
+St: 11
+Ma: 5
+En: 8
+Ag: 5
+Lu: 3
+
+Skills: 
+1. Crowd Echo (Med Nuke)
+2. Spotlight Surge (Hvy Nuke)
+3. Flash Bounce (Med Nuke)
+4. Cold Cut (Light Phys)
+5. Calling Fang (Light Phys)
+6. Shocking Humor (Light Elec)
+7. 3-Second Rule (Charge)
+8. Confidence Drive (Atk buff)
+
+
+Persona Registered: 
 Name: Angel
 Arcana: Justice
 Level: 27
@@ -1155,15 +1252,15 @@ Skills:
 Persona Registered: 
 Name: Power
 Arcana: Justice
-Level: 16
+Level: 24
 
 Stats: 
 ------------------------
-St: 1
-Ma: 1
+St: 9
+Ma: 5
 En: 1
-Ag: 1
-Lu: 1
+Ag: 9
+Lu: 4
 
 Skills: 
 1. Interest Probe (Med Gun)
@@ -1283,6 +1380,30 @@ St: 4
 Ma: 11
 En: 6
 Ag: 8
+Lu: 1
+
+Skills: 
+1. Prioritized Presence (Hvy Psy)
+2. Tranquil Edge (Med Psy)
+3. Regenerate I (HP Regen)
+4. Invigorate I (SP Regen)
+5. Temper Drop (Rage recovery)
+6. Self-Control (Auto Def buff)
+7. Frequency Barrier (AOE atk buff)
+8. Twin Breath (Lvl 1 Healing)
+
+
+Persona Registered: 
+Name: Kurama Tengu
+Arcana: Hermit
+Level: 15
+
+Stats: 
+------------------------
+St: 3
+Ma: 7
+En: 4
+Ag: 4
 Lu: 1
 
 Skills: 
@@ -1546,6 +1667,30 @@ Stats:
 St: 7
 Ma: 3
 En: 16
+Ag: 8
+Lu: 3
+
+Skills: 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered: 
+Name: Valkyrie
+Arcana: Strength
+Level: 25
+
+Stats: 
+------------------------
+St: 6
+Ma: 1
+En: 11
 Ag: 8
 Lu: 3
 
@@ -1827,15 +1972,15 @@ Skills:
 Persona Registered: 
 Name: Hope Diamond
 Arcana: Death
-Level: 14
+Level: 20
 
 Stats: 
 ------------------------
 St: 1
-Ma: 1
-En: 1
-Ag: 1
-Lu: 1
+Ma: 8
+En: 5
+Ag: 7
+Lu: 3
 
 Skills: 
 1. Slowed Speech (Ag buff)
@@ -1883,6 +2028,30 @@ St: 3
 Ma: 7
 En: 7
 Ag: 11
+Lu: 1
+
+Skills: 
+1. Slowed Speech (Ag buff)
+2. Self-Control (Auto def buff)
+3. Regen I (HP Regen)
+4. Invigorate I (SP Regen)
+5. 
+6. 
+7. 
+8. 
+
+
+Persona Registered: 
+Name: Makami
+Arcana: Temperance
+Level: 15
+
+Stats: 
+------------------------
+St: 1
+Ma: 5
+En: 5
+Ag: 7
 Lu: 1
 
 Skills: 
@@ -1971,15 +2140,15 @@ Skills:
 Persona Registered: 
 Name: Red Rider
 Arcana: Tower
-Level: 13
+Level: 15
 
 Stats: 
 ------------------------
 St: 1
-Ma: 1
-En: 1
-Ag: 1
-Lu: 1
+Ma: 6
+En: 4
+Ag: 5
+Lu: 3
 
 Skills: 
 1. Black List (Curse Instant Kill)
@@ -2124,6 +2293,30 @@ Ma: 9
 En: 6
 Ag: 13
 Lu: 2
+
+Skills: 
+1. Foresight (Med Psy)
+2. Atmosphere Read (Med Psy)
+3. Hollow Stance (Med Curse)
+4. Effort Reaper (Curse High instant kill)
+5. Drain Ice
+6. Dodge Reverse Bless
+7. Dodge Reverse Wind
+8. Frame Reset (Confusion Recovery)
+
+
+Persona Registered: 
+Name: Sui-Ki
+Arcana: Moon
+Level: 22
+
+Stats: 
+------------------------
+St: 2
+Ma: 7
+En: 6
+Ag: 10
+Lu: 1
 
 Skills: 
 1. Foresight (Med Psy)
@@ -2412,6 +2605,30 @@ Ma: 4
 En: 10
 Ag: 12
 Lu: 10
+
+Skills: 
+1. Heartfelt Thanks (Med Bless)
+2. Gracious Thanks (Light Bless)
+3. Warm Smile (Light Bless)
+4. Confidence Drive (Atk buff)
+5. Self-Security (Def buff)
+6. Drain Bless
+7. Looksmax (Auto Heat Riser)
+8. Hazard Audit (Fear Recovery)
+
+
+Persona Registered: 
+Name: Atavaka
+Arcana: Faith
+Level: 25
+
+Stats: 
+------------------------
+St: 3
+Ma: 4
+En: 5
+Ag: 9
+Lu: 8
 
 Skills: 
 1. Heartfelt Thanks (Med Bless)
