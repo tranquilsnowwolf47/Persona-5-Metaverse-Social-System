@@ -416,14 +416,7 @@ empress_personas = (queens_necklace, yaksini, lamia, hariti, dakini)
 
 # Emperor Personas:
 # ------------------------------------------------------------------------------------
-# 1. Eligor
-# Register update: (Idk lol)
-eligor = EmperorPersonas(
-                "Eligor", "Emperor",24,
-                10,5,7,3,5,
-                "Assertive Slice (Phys)","Request Denial (Curse)","Name Repeat (Psy)","Extraction Shot (Gun)","","","","")
-
-# 2. Regent
+# 1. Regent
 # Register update: 8/31/25
 # Register update: 9/15/25
 # Register update: 10/4/25
@@ -432,6 +425,13 @@ regent = EmperorPersonas(
                 13,6,10,2,1,
                 "Assertive Slice (Med Phys)","Stonewall (Med Phys)","Decision Strike (Med Phys)","Cold Cut (Med Phys)",
                 "Magnetic Aura (Med Fire)","Verbal Parry (Med Elec)","3 Second Rule (Charge)","Rhythm Break (Ag Debuff)")
+
+# 2. Eligor
+# Register update: (Idk lol)
+eligor = EmperorPersonas(
+                "Eligor", "Emperor",24,
+                10,5,7,3,5,
+                "Assertive Slice (Phys)","Request Denial (Curse)","Name Repeat (Psy)","Extraction Shot (Gun)","","","","")
 
 # 3. Setanta
 # Register update: 11/17/25
@@ -475,7 +475,7 @@ king_frost = EmperorPersonas(
                     "Value Touch (Hvy Fire)", "Ember Gaze (Med Fire)", "Shocking Humor (Light Elec)", "3 Second Rule (Charge)"
            )
 
-emperor_personas = (eligor, regent, setanta, thoth, barong, king_frost)
+emperor_personas = (regent, eligor, setanta, thoth, barong, king_frost)
 
 # Hierophant Personas:
 # ------------------------------------------------------------------------------------
