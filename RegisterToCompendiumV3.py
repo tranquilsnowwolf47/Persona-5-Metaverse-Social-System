@@ -2854,302 +2854,302 @@ elif arcana_choice == 3:
         silky.skill7 = skill7_input
         silky.skill8 = skill8_input
 
-        # Registration option for Apsaras
-        elif persona_choice == 2:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = apsaras.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                apsaras.level = level_input
-                apsaras.st = st_input
-                apsaras.ma = ma_input
-                apsaras.en = en_input
-                apsaras.ag = ag_input
-                apsaras.lu = lu_input
-                apsaras.skill1 = skill1_input
-                apsaras.skill2 = skill2_input
-                apsaras.skill3 = skill3_input
-                apsaras.skill4 = skill4_input
-                apsaras.skill5 = skill5_input
-                apsaras.skill6 = skill6_input
-                apsaras.skill7 = skill7_input
-                apsaras.skill8 = skill8_input
-
-        # Registration option for Kohi-i-Noor
-        elif persona_choice == 3:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = kohi_i_noor.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                kohi_i_noor.level = level_input
-                kohi_i_noor.st = st_input
-                kohi_i_noor.ma = ma_input
-                kohi_i_noor.en = en_input
-                kohi_i_noor.ag = ag_input
-                kohi_i_noor.lu = lu_input
-                kohi_i_noor.skill1 = skill1_input
-                kohi_i_noor.skill2 = skill2_input
-                kohi_i_noor.skill3 = skill3_input
-                kohi_i_noor.skill4 = skill4_input
-                kohi_i_noor.skill5 = skill5_input
-                kohi_i_noor.skill6 = skill6_input
-                kohi_i_noor.skill7 = skill7_input
-                kohi_i_noor.skill8 = skill8_input
-
+    # Registration option for Apsaras
+    elif persona_choice == 2:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = apsaras.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
         
-        # Registration option for Isis 
-        elif persona_choice == 4:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = isis.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                isis.level = level_input
-                isis.st = st_input
-                isis.ma = ma_input
-                isis.en = en_input
-                isis.ag = ag_input
-                isis.lu = lu_input
-                isis.skill1 = skill1_input
-                isis.skill2 = skill2_input
-                isis.skill3 = skill3_input
-                isis.skill4 = skill4_input
-                isis.skill5 = skill5_input
-                isis.skill6 = skill6_input
-                isis.skill7 = skill7_input
-                isis.skill8 = skill8_input
+        # Now set the default values to the values of the user input
+        apsaras.level = level_input
+        apsaras.st = st_input
+        apsaras.ma = ma_input
+        apsaras.en = en_input
+        apsaras.ag = ag_input
+        apsaras.lu = lu_input
+        apsaras.skill1 = skill1_input
+        apsaras.skill2 = skill2_input
+        apsaras.skill3 = skill3_input
+        apsaras.skill4 = skill4_input
+        apsaras.skill5 = skill5_input
+        apsaras.skill6 = skill6_input
+        apsaras.skill7 = skill7_input
+        apsaras.skill8 = skill8_input
 
-        # Registration option for Kikuri-Hime
-        elif persona_choice == 5:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = kikuri_hime.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                kikuri_hime.level = level_input
-                kikuri_hime.st = st_input
-                kikuri_hime.ma = ma_input
-                kikuri_hime.en = en_input
-                kikuri_hime.ag = ag_input
-                kikuri_hime.lu = lu_input
-                kikuri_hime.skill1 = skill1_input
-                kikuri_hime.skill2 = skill2_input
-                kikuri_hime.skill3 = skill3_input
-                kikuri_hime.skill4 = skill4_input
-                kikuri_hime.skill5 = skill5_input
-                kikuri_hime.skill6 = skill6_input
-                kikuri_hime.skill7 = skill7_input
-                kikuri_hime.skill8 = skill8_input
+    # Registration option for Kohi-i-Noor
+    elif persona_choice == 3:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = kohi_i_noor.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        kohi_i_noor.level = level_input
+        kohi_i_noor.st = st_input
+        kohi_i_noor.ma = ma_input
+        kohi_i_noor.en = en_input
+        kohi_i_noor.ag = ag_input
+        kohi_i_noor.lu = lu_input
+        kohi_i_noor.skill1 = skill1_input
+        kohi_i_noor.skill2 = skill2_input
+        kohi_i_noor.skill3 = skill3_input
+        kohi_i_noor.skill4 = skill4_input
+        kohi_i_noor.skill5 = skill5_input
+        kohi_i_noor.skill6 = skill6_input
+        kohi_i_noor.skill7 = skill7_input
+        kohi_i_noor.skill8 = skill8_input
 
-        # Registration option for Sarasvati
-        elif persona_choice == 6:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = sarasvati.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                sarasvati.level = level_input
-                sarasvati.st = st_input
-                sarasvati.ma = ma_input
-                sarasvati.en = en_input
-                sarasvati.ag = ag_input
-                sarasvati.lu = lu_input
-                sarasvati.skill1 = skill1_input
-                sarasvati.skill2 = skill2_input
-                sarasvati.skill3 = skill3_input
-                sarasvati.skill4 = skill4_input
-                sarasvati.skill5 = skill5_input
-                sarasvati.skill6 = skill6_input
-                sarasvati.skill7 = skill7_input
-                sarasvati.skill8 = skill8_input
 
-        # Registration option for Skadi
-        elif persona_choice == 7:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = skadi.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                skadi.level = level_input
-                skadi.st = st_input
-                skadi.ma = ma_input
-                skadi.en = en_input
-                skadi.ag = ag_input
-                skadi.lu = lu_input
-                skadi.skill1 = skill1_input
-                skadi.skill2 = skill2_input
-                skadi.skill3 = skill3_input
-                skadi.skill4 = skill4_input
-                skadi.skill5 = skill5_input
-                skadi.skill6 = skill6_input
-                skadi.skill7 = skill7_input
-                skadi.skill8 = skill8_input
+    # Registration option for Isis 
+    elif persona_choice == 4:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = isis.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        isis.level = level_input
+        isis.st = st_input
+        isis.ma = ma_input
+        isis.en = en_input
+        isis.ag = ag_input
+        isis.lu = lu_input
+        isis.skill1 = skill1_input
+        isis.skill2 = skill2_input
+        isis.skill3 = skill3_input
+        isis.skill4 = skill4_input
+        isis.skill5 = skill5_input
+        isis.skill6 = skill6_input
+        isis.skill7 = skill7_input
+        isis.skill8 = skill8_input
 
-        # Registration option for Scathach
-        elif persona_choice == 8:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = scathach.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                scathach.level = level_input
-                scathach.st = st_input
-                scathach.ma = ma_input
-                scathach.en = en_input
-                scathach.ag = ag_input
-                scathach.lu = lu_input
-                scathach.skill1 = skill1_input
-                scathach.skill2 = skill2_input
-                scathach.skill3 = skill3_input
-                scathach.skill4 = skill4_input
-                scathach.skill5 = skill5_input
-                scathach.skill6 = skill6_input
-                scathach.skill7 = skill7_input
-                scathach.skill8 = skill8_input
+    # Registration option for Kikuri-Hime
+    elif persona_choice == 5:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = kikuri_hime.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        kikuri_hime.level = level_input
+        kikuri_hime.st = st_input
+        kikuri_hime.ma = ma_input
+        kikuri_hime.en = en_input
+        kikuri_hime.ag = ag_input
+        kikuri_hime.lu = lu_input
+        kikuri_hime.skill1 = skill1_input
+        kikuri_hime.skill2 = skill2_input
+        kikuri_hime.skill3 = skill3_input
+        kikuri_hime.skill4 = skill4_input
+        kikuri_hime.skill5 = skill5_input
+        kikuri_hime.skill6 = skill6_input
+        kikuri_hime.skill7 = skill7_input
+        kikuri_hime.skill8 = skill8_input
 
-        # Registration option for Cybele
-        elif persona_choice == 9:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = cybele.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                cybele.level = level_input
-                cybele.st = st_input
-                cybele.ma = ma_input
-                cybele.en = en_input
-                cybele.ag = ag_input
-                cybele.lu = lu_input
-                cybele.skill1 = skill1_input
-                cybele.skill2 = skill2_input
-                cybele.skill3 = skill3_input
-                cybele.skill4 = skill4_input
-                cybele.skill5 = skill5_input
-                cybele.skill6 = skill6_input
-                cybele.skill7 = skill7_input
-                cybeleskill8 = skill8_input
+    # Registration option for Sarasvati
+    elif persona_choice == 6:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = sarasvati.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        sarasvati.level = level_input
+        sarasvati.st = st_input
+        sarasvati.ma = ma_input
+        sarasvati.en = en_input
+        sarasvati.ag = ag_input
+        sarasvati.lu = lu_input
+        sarasvati.skill1 = skill1_input
+        sarasvati.skill2 = skill2_input
+        sarasvati.skill3 = skill3_input
+        sarasvati.skill4 = skill4_input
+        sarasvati.skill5 = skill5_input
+        sarasvati.skill6 = skill6_input
+        sarasvati.skill7 = skill7_input
+        sarasvati.skill8 = skill8_input
+
+    # Registration option for Skadi
+    elif persona_choice == 7:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = skadi.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        skadi.level = level_input
+        skadi.st = st_input
+        skadi.ma = ma_input
+        skadi.en = en_input
+        skadi.ag = ag_input
+        skadi.lu = lu_input
+        skadi.skill1 = skill1_input
+        skadi.skill2 = skill2_input
+        skadi.skill3 = skill3_input
+        skadi.skill4 = skill4_input
+        skadi.skill5 = skill5_input
+        skadi.skill6 = skill6_input
+        skadi.skill7 = skill7_input
+        skadi.skill8 = skill8_input
+
+# Registration option for Scathach
+    elif persona_choice == 8:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = scathach.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        scathach.level = level_input
+        scathach.st = st_input
+        scathach.ma = ma_input
+        scathach.en = en_input
+        scathach.ag = ag_input
+        scathach.lu = lu_input
+        scathach.skill1 = skill1_input
+        scathach.skill2 = skill2_input
+        scathach.skill3 = skill3_input
+        scathach.skill4 = skill4_input
+        scathach.skill5 = skill5_input
+        scathach.skill6 = skill6_input
+        scathach.skill7 = skill7_input
+        scathach.skill8 = skill8_input
+
+# Registration option for Cybele
+    elif persona_choice == 9:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = cybele.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        cybele.level = level_input
+        cybele.st = st_input
+        cybele.ma = ma_input
+        cybele.en = en_input
+        cybele.ag = ag_input
+        cybele.lu = lu_input
+        cybele.skill1 = skill1_input
+        cybele.skill2 = skill2_input
+        cybele.skill3 = skill3_input
+        cybele.skill4 = skill4_input
+        cybele.skill5 = skill5_input
+        cybele.skill6 = skill6_input
+        cybele.skill7 = skill7_input
+        cybeleskill8 = skill8_input
 
 
 # Personas Options    
@@ -3161,343 +3161,343 @@ elif arcana_choice == 4:
     # Gets the user's Persona choice for registration operations 
     persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
 
-        # Registration option for Queen's Necklace 
-        if persona_choice == 1:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = queens_necklace.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                queens_necklace.level = level_input
-                queens_necklace.st = st_input
-                queens_necklace.ma = ma_input
-                queens_necklace.en = en_input
-                queens_necklace.ag = ag_input
-                queens_necklace.lu = lu_input
-                queens_necklace.skill1 = skill1_input
-                queens_necklace.skill2 = skill2_input
-                queens_necklace.skill3 = skill3_input
-                queens_necklace.skill4 = skill4_input
-                queens_necklace.skill5 = skill5_input
-                queens_necklace.skill6 = skill6_input
-                queens_necklace.skill7 = skill7_input
-                queens_necklace.skill8 = skill8_input
+# Registration option for Queen's Necklace 
+    if persona_choice == 1:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = queens_necklace.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        queens_necklace.level = level_input
+        queens_necklace.st = st_input
+        queens_necklace.ma = ma_input
+        queens_necklace.en = en_input
+        queens_necklace.ag = ag_input
+        queens_necklace.lu = lu_input
+        queens_necklace.skill1 = skill1_input
+        queens_necklace.skill2 = skill2_input
+        queens_necklace.skill3 = skill3_input
+        queens_necklace.skill4 = skill4_input
+        queens_necklace.skill5 = skill5_input
+        queens_necklace.skill6 = skill6_input
+        queens_necklace.skill7 = skill7_input
+        queens_necklace.skill8 = skill8_input
 
-        # Registration option for Yaksnini
-        elif persona_choice == 2:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = yaksini.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                yaksini.level = level_input
-                yaksini.st = st_input
-                yaksini.ma = ma_input
-                yaksini.en = en_input
-                yaksini.ag = ag_input
-                yaksini.lu = lu_input
-                yaksini.skill1 = skill1_input
-                yaksini.skill2 = skill2_input
-                yaksini.skill3 = skill3_input
-                yaksini.skill4 = skill4_input
-                yaksini.skill5 = skill5_input
-                yaksini.skill6 = skill6_input
-                yaksini.skill7 = skill7_input
-                yaksini.skill8 = skill8_input
+# Registration option for Yaksnini
+    elif persona_choice == 2:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = yaksini.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        yaksini.level = level_input
+        yaksini.st = st_input
+        yaksini.ma = ma_input
+        yaksini.en = en_input
+        yaksini.ag = ag_input
+        yaksini.lu = lu_input
+        yaksini.skill1 = skill1_input
+        yaksini.skill2 = skill2_input
+        yaksini.skill3 = skill3_input
+        yaksini.skill4 = skill4_input
+        yaksini.skill5 = skill5_input
+        yaksini.skill6 = skill6_input
+        yaksini.skill7 = skill7_input
+        yaksini.skill8 = skill8_input
 
-        # Registration option for Lamia 
-        elif persona_choice == 3:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = lamia.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                lamia.level = level_input
-                lamia.st = st_input
-                lamia.ma = ma_input
-                lamia.en = en_input
-                lamia.ag = ag_input
-                lamia.lu = lu_input
-                lamia.skill1 = skill1_input
-                lamia.skill2 = skill2_input
-                lamia.skill3 = skill3_input
-                lamia.skill4 = skill4_input
-                lamia.skill5 = skill5_input
-                lamia.skill6 = skill6_input
-                lamia.skill7 = skill7_input
-                lamia.skill8 = skill8_input
+# Registration option for Lamia 
+    elif persona_choice == 3:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = lamia.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        lamia.level = level_input
+        lamia.st = st_input
+        lamia.ma = ma_input
+        lamia.en = en_input
+        lamia.ag = ag_input
+        lamia.lu = lu_input
+        lamia.skill1 = skill1_input
+        lamia.skill2 = skill2_input
+        lamia.skill3 = skill3_input
+        lamia.skill4 = skill4_input
+        lamia.skill5 = skill5_input
+        lamia.skill6 = skill6_input
+        lamia.skill7 = skill7_input
+        lamia.skill8 = skill8_input
 
-        # Registration option for Hariti
-        elif persona_choice == 4:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = hariti.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                hariti.level = level_input
-                hariti.st = st_input
-                hariti.ma = ma_input
-                hariti.en = en_input
-                hariti.ag = ag_input
-                hariti.lu = lu_input
-                hariti.skill1 = skill1_input
-                hariti.skill2 = skill2_input
-                hariti.skill3 = skill3_input
-                hariti.skill4 = skill4_input
-                hariti.skill5 = skill5_input
-                hariti.skill6 = skill6_input
-                hariti.skill7 = skill7_input
-                hariti.skill8 = skill8_input
+# Registration option for Hariti
+    elif persona_choice == 4:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = hariti.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        hariti.level = level_input
+        hariti.st = st_input
+        hariti.ma = ma_input
+        hariti.en = en_input
+        hariti.ag = ag_input
+        hariti.lu = lu_input
+        hariti.skill1 = skill1_input
+        hariti.skill2 = skill2_input
+        hariti.skill3 = skill3_input
+        hariti.skill4 = skill4_input
+        hariti.skill5 = skill5_input
+        hariti.skill6 = skill6_input
+        hariti.skill7 = skill7_input
+        hariti.skill8 = skill8_input
 
-        # Registration option for Dakini
-        elif persona_choice == 5:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = dakini.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                dakini.level = level_input
-                dakini.st = st_input
-                dakini.ma = ma_input
-                dakini.en = en_input
-                dakini.ag = ag_input
-                dakini.lu = lu_input
-                dakini.skill1 = skill1_input
-                dakini.skill2 = skill2_input
-                dakini.skill3 = skill3_input
-                dakini.skill4 = skill4_input
-                dakini.skill5 = skill5_input
-                dakini.skill6 = skill6_input
-                dakini.skill7 = skill7_input
-                dakini.skill8 = skill8_input
+# Registration option for Dakini
+    elif persona_choice == 5:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = dakini.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        dakini.level = level_input
+        dakini.st = st_input
+        dakini.ma = ma_input
+        dakini.en = en_input
+        dakini.ag = ag_input
+        dakini.lu = lu_input
+        dakini.skill1 = skill1_input
+        dakini.skill2 = skill2_input
+        dakini.skill3 = skill3_input
+        dakini.skill4 = skill4_input
+        dakini.skill5 = skill5_input
+        dakini.skill6 = skill6_input
+        dakini.skill7 = skill7_input
+        dakini.skill8 = skill8_input
 
-        # Registration option for Titania
-        elif persona_choice == 6:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = titania.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                titania.level = level_input
-                titania.st = st_input
-                titania.ma = ma_input
-                titania.en = en_input
-                titania.ag = ag_input
-                titania.lu = lu_input
-                titania.skill1 = skill1_input
-                titania.skill2 = skill2_input
-                titania.skill3 = skill3_input
-                titania.skill4 = skill4_input
-                titania.skill5 = skill5_input
-                titania.skill6 = skill6_input
-                titania.skill7 = skill7_input
-                titania.skill8 = skill8_input
+# Registration option for Titania
+    elif persona_choice == 6:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = titania.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        titania.level = level_input
+        titania.st = st_input
+        titania.ma = ma_input
+        titania.en = en_input
+        titania.ag = ag_input
+        titania.lu = lu_input
+        titania.skill1 = skill1_input
+        titania.skill2 = skill2_input
+        titania.skill3 = skill3_input
+        titania.skill4 = skill4_input
+        titania.skill5 = skill5_input
+        titania.skill6 = skill6_input
+        titania.skill7 = skill7_input
+        titania.skill8 = skill8_input
 
-        # Registration option for Kali
-        elif persona_choice == 7:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = kali.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                kali.level = level_input
-                kali.st = st_input
-                kali.ma = ma_input
-                kali.en = en_input
-                kali.ag = ag_input
-                kali.lu = lu_input
-                kali.skill1 = skill1_input
-                kali.skill2 = skill2_input
-                kali.skill3 = skill3_input
-                kali.skill4 = skill4_input
-                kali.skill5 = skill5_input
-                kali.skill6 = skill6_input
-                kali.skill7 = skill7_input
-                kali.skill8 = skill8_input
+# Registration option for Kali
+    elif persona_choice == 7:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = kali.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        kali.level = level_input
+        kali.st = st_input
+        kali.ma = ma_input
+        kali.en = en_input
+        kali.ag = ag_input
+        kali.lu = lu_input
+        kali.skill1 = skill1_input
+        kali.skill2 = skill2_input
+        kali.skill3 = skill3_input
+        kali.skill4 = skill4_input
+        kali.skill5 = skill5_input
+        kali.skill6 = skill6_input
+        kali.skill7 = skill7_input
+        kali.skill8 = skill8_input
 
-        # Registration option for Alilat
-        elif persona_choice == 8:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = alilat.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                alilat.level = level_input
-                alilat.st = st_input
-                alilat.ma = ma_input
-                alilat.en = en_input
-                alilat.ag = ag_input
-                alilat.lu = lu_input
-                alilat.skill1 = skill1_input
-                alilat.skill2 = skill2_input
-                alilat.skill3 = skill3_input
-                alilat.skill4 = skill4_input
-                alilat.skill5 = skill5_input
-                alilat.skill6 = skill6_input
-                alilat.skill7 = skill7_input
-                alilat.skill8 = skill8_input
+# Registration option for Alilat
+    elif persona_choice == 8:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = alilat.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        alilat.level = level_input
+        alilat.st = st_input
+        alilat.ma = ma_input
+        alilat.en = en_input
+        alilat.ag = ag_input
+        alilat.lu = lu_input
+        alilat.skill1 = skill1_input
+        alilat.skill2 = skill2_input
+        alilat.skill3 = skill3_input
+        alilat.skill4 = skill4_input
+        alilat.skill5 = skill5_input
+        alilat.skill6 = skill6_input
+        alilat.skill7 = skill7_input
+        alilat.skill8 = skill8_input
 
-        # Registration option for Mother Harlot
-        elif persona_choice == 9:
-                print()
-                # Call the function to get the stats from the user 
-                stats_to_register = mother_harlot.get_persona_info()
-                # Unpack them into values
-                level_input = stats_to_register[0]
-                st_input = stats_to_register[1]
-                ma_input = stats_to_register[2]
-                en_input = stats_to_register[3]
-                ag_input = stats_to_register[4]
-                lu_input = stats_to_register[5]
-                skill1_input = stats_to_register[6]
-                skill2_input = stats_to_register[7]
-                skill3_input = stats_to_register[8]
-                skill4_input = stats_to_register[9]
-                skill5_input = stats_to_register[10]
-                skill6_input = stats_to_register[11]
-                skill7_input = stats_to_register[12]
-                skill8_input = stats_to_register[13]
-                
-                # Now set the default values to the values of the user input
-                mother_harlot.level = level_input
-                mother_harlot.st = st_input
-                mother_harlot.ma = ma_input
-                mother_harlot.en = en_input
-                mother_harlot.ag = ag_input
-                mother_harlot.lu = lu_input
-                mother_harlot.skill1 = skill1_input
-                mother_harlot.skill2 = skill2_input
-                mother_harlot.skill3 = skill3_input
-                mother_harlot.skill4 = skill4_input
-                mother_harlot.skill5 = skill5_input
-                mother_harlot.skill6 = skill6_input
-                mother_harlot.skill7 = skill7_input
-                mother_harlot.skill8 = skill8_input
+# Registration option for Mother Harlot
+    elif persona_choice == 9:
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = mother_harlot.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        mother_harlot.level = level_input
+        mother_harlot.st = st_input
+        mother_harlot.ma = ma_input
+        mother_harlot.en = en_input
+        mother_harlot.ag = ag_input
+        mother_harlot.lu = lu_input
+        mother_harlot.skill1 = skill1_input
+        mother_harlot.skill2 = skill2_input
+        mother_harlot.skill3 = skill3_input
+        mother_harlot.skill4 = skill4_input
+        mother_harlot.skill5 = skill5_input
+        mother_harlot.skill6 = skill6_input
+        mother_harlot.skill7 = skill7_input
+        mother_harlot.skill8 = skill8_input
 
 
 # Personas Options    
 elif arcana_choice == 5:
-    # Sets the selected Arcana to the X Arcana
+    # Sets the selected Arcana to the Emperor Arcana
     selected_persona_arcana = f"{Persona.persona_arcanas[4]}"
     # Gets the ending index for the final Persona for output formatting
     ending_range = Persona.display_emperor_personas()
@@ -6586,7 +6586,7 @@ elif persona_choice == 4:
 elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
-        stats_to_register = .get_persona_info()
+        stats_to_register = emperors_amulet.get_persona_info()
         # Unpack them into values
         level_input = stats_to_register[0]
         st_input = stats_to_register[1]
@@ -9473,7 +9473,7 @@ elif arcana_choice == 21:
             anubis.skill8 = skill8_input
 
 # Registration option for Trumpeter
-elif persona_choice == :
+elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = trumpeter.get_persona_info()
@@ -10002,7 +10002,7 @@ elif persona_choice == 6:
 elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
-        stats_to_register = .get_persona_info()
+        stats_to_register = cu_chulainn.get_persona_info()
         # Unpack them into values
         level_input = stats_to_register[0]
         st_input = stats_to_register[1]
