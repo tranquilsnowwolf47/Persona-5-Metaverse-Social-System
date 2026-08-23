@@ -1,4 +1,4 @@
-# Filename: RegisterToCompendiumV3.py
+# Filename: RegisterToCompendium.py
 # Date: 7/7/26
 # Author: Aoi | shadowsnowwolf
 
