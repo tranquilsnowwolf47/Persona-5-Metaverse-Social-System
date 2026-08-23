@@ -1553,7 +1553,7 @@ thunderbird = SunPersonas("Thunderbird", f"{Persona.persona_arcanas[19]}", 1,
                                 "","","","",
                                 "","","","")
 
-mitrhas = SunPersonas("Mithras", f"{Persona.persona_arcanas[19]}", 1,
+mithras = SunPersonas("Mithras", f"{Persona.persona_arcanas[19]}", 1,
                                 1,1,1,1,1,
                                 "","","","",
                                 "","","","")
@@ -1583,7 +1583,7 @@ asura = SunPersonas("Asura", f"{Persona.persona_arcanas[19]}", 1,
                                 "","","","",
                                 "","","","")
 
-sun_personas = (suzaku, thunderbird, mitrhas, yurlungur, horus, ganesha,
+sun_personas = (suzaku, thunderbird, mithras, yurlungur, horus, ganesha,
                 quetzalcoatl, asura)
 
 # Judgement Personas:
@@ -2661,7 +2661,7 @@ elif arcana_choice == 2:
         queen_mab.skill8 = skill8_input
 
 # Registration option for Rangda
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = rangda.get_persona_info()
@@ -2698,7 +2698,7 @@ elif persona_choice == 8:
         rangda.skill8 = skill8_input
 
 # Registration option for Forneus
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = forneus.get_persona_info()
@@ -2735,7 +2735,7 @@ elif persona_choice == 9:
         forneus.skill8 = skill8_input
 
 # Registration option for Surt
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = surt.get_persona_info()
@@ -2772,7 +2772,7 @@ elif persona_choice == 10:
         surt.skill8 = skill8_input
 
 # Registration option for Futsunushi
-elif persona_choice == 11:
+    elif persona_choice == 11:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = futsunushi.get_persona_info()
@@ -3506,43 +3506,43 @@ elif arcana_choice == 5:
     
     # Registration option for Regent
     if persona_choice == 1:
-            print()
-            # Call the function to get the stats from the user 
-            stats_to_register = regent.get_persona_info()
-            # Unpack them into values
-            level_input = stats_to_register[0]
-            st_input = stats_to_register[1]
-            ma_input = stats_to_register[2]
-            en_input = stats_to_register[3]
-            ag_input = stats_to_register[4]
-            lu_input = stats_to_register[5]
-            skill1_input = stats_to_register[6]
-            skill2_input = stats_to_register[7]
-            skill3_input = stats_to_register[8]
-            skill4_input = stats_to_register[9]
-            skill5_input = stats_to_register[10]
-            skill6_input = stats_to_register[11]
-            skill7_input = stats_to_register[12]
-            skill8_input = stats_to_register[13]
-            
-            # Now set the default values to the values of the user input
-            regent.level = level_input
-            regent.st = st_input
-            regent.ma = ma_input
-            regent.en = en_input
-            regent.ag = ag_input
-            regent.lu = lu_input
-            regent.skill1 = skill1_input
-            regent.skill2 = skill2_input
-            regent.skill3 = skill3_input
-            regent.skill4 = skill4_input
-            regent.skill5 = skill5_input
-            regent.skill6 = skill6_input
-            regent.skill7 = skill7_input
-            regent.skill8 = skill8_input
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = regent.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        regent.level = level_input
+        regent.st = st_input
+        regent.ma = ma_input
+        regent.en = en_input
+        regent.ag = ag_input
+        regent.lu = lu_input
+        regent.skill1 = skill1_input
+        regent.skill2 = skill2_input
+        regent.skill3 = skill3_input
+        regent.skill4 = skill4_input
+        regent.skill5 = skill5_input
+        regent.skill6 = skill6_input
+        regent.skill7 = skill7_input
+        regent.skill8 = skill8_input
 
 # Registration option for Eligor
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = eligor.get_persona_info()
@@ -3579,7 +3579,7 @@ elif persona_choice == 2:
         eligor.skill8 = skill8_input
 
 # Registration option for Setanta
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = setanta.get_persona_info()
@@ -3616,7 +3616,7 @@ elif persona_choice == 3:
         setanta.skill8 = skill8_input
 
 # Registration option for Thoth
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = thoth.get_persona_info()
@@ -3653,7 +3653,7 @@ elif persona_choice == 4:
         thoth.skill8 = skill8_input
 
 # Registration option for Barong
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = barong.get_persona_info()
@@ -3690,7 +3690,7 @@ elif persona_choice == 5:
         barong.skill8 = skill8_input
 
 # Registration option for King Frost 
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = king_frost.get_persona_info()
@@ -3727,7 +3727,7 @@ elif persona_choice == 6:
         king_frost.skill8 = skill8_input
 
 # Registration option for Oberon
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = oberon.get_persona_info()
@@ -3764,7 +3764,7 @@ elif persona_choice == 7:
         oberon.skill8 = skill8_input
 
 # Registration option for Baal
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = baal.get_persona_info()
@@ -3801,7 +3801,7 @@ elif persona_choice == 8:
         baal.skill8 = skill8_input
 
 # Registration option for Odin
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = odin.get_persona_info()
@@ -3885,7 +3885,7 @@ elif arcana_choice == 6:
             berith.skill8 = skill8_input
 
 # Registration option for Orobas
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = orobas.get_persona_info()
@@ -3922,7 +3922,7 @@ elif persona_choice == 2:
         orobas.skill8 = skill8_input
 
 # Registration option for Anzu
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = anzu.get_persona_info()
@@ -3959,7 +3959,7 @@ elif persona_choice == 3:
         anzu.skill8 = skill8_input
 
 # Registration option for Daisoujou
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = daisoujou.get_persona_info()
@@ -3996,7 +3996,7 @@ elif persona_choice == 4:
         daisoujou.skill8 = skill8_input
 
 # Registration option for Mishaguji
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mishaguji.get_persona_info()
@@ -4033,7 +4033,7 @@ elif persona_choice == 5:
         mishaguji.skill8 = skill8_input
 
 # Registration option for Bishamonten
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = bishamonten.get_persona_info()
@@ -4070,7 +4070,7 @@ elif persona_choice == 6:
         bishamonten.skill8 = skill8_input
 
 # Registration option for Kohryu
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kohryu.get_persona_info()
@@ -4118,43 +4118,43 @@ elif arcana_choice == 7:
 
     # Registration option for Pixie
     if persona_choice == 1:
-            print()
-            # Call the function to get the stats from the user 
-            stats_to_register = pixie.get_persona_info()
-            # Unpack them into values
-            level_input = stats_to_register[0]
-            st_input = stats_to_register[1]
-            ma_input = stats_to_register[2]
-            en_input = stats_to_register[3]
-            ag_input = stats_to_register[4]
-            lu_input = stats_to_register[5]
-            skill1_input = stats_to_register[6]
-            skill2_input = stats_to_register[7]
-            skill3_input = stats_to_register[8]
-            skill4_input = stats_to_register[9]
-            skill5_input = stats_to_register[10]
-            skill6_input = stats_to_register[11]
-            skill7_input = stats_to_register[12]
-            skill8_input = stats_to_register[13]
-            
-            # Now set the default values to the values of the user input
-            pixie.level = level_input
-            pixie.st = st_input
-            pixie.ma = ma_input
-            pixie.en = en_input
-            pixie.ag = ag_input
-            pixie.lu = lu_input
-            pixie.skill1 = skill1_input
-            pixie.skill2 = skill2_input
-            pixie.skill3 = skill3_input
-            pixie.skill4 = skill4_input
-            pixie.skill5 = skill5_input
-            pixie.skill6 = skill6_input
-            pixie.skill7 = skill7_input
-            pixie.skill8 = skill8_input
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = pixie.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        pixie.level = level_input
+        pixie.st = st_input
+        pixie.ma = ma_input
+        pixie.en = en_input
+        pixie.ag = ag_input
+        pixie.lu = lu_input
+        pixie.skill1 = skill1_input
+        pixie.skill2 = skill2_input
+        pixie.skill3 = skill3_input
+        pixie.skill4 = skill4_input
+        pixie.skill5 = skill5_input
+        pixie.skill6 = skill6_input
+        pixie.skill7 = skill7_input
+        pixie.skill8 = skill8_input
 
-# Registration option for
-elif persona_choice == 2:
+# Registration option for Saki Mitama
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = saki_mitama.get_persona_info()
@@ -4191,7 +4191,7 @@ elif persona_choice == 2:
         saki_mitama.skill8 = skill8_input
 
 # Registration option for Ame-no-Uzume
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ame_no_uzume.get_persona_info()
@@ -4228,7 +4228,7 @@ elif persona_choice == 3:
         ame_no_uzume.skill8 = skill8_input
 
 # Registration option for Leanan Sidhe
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = leanan_sidhe.get_persona_info()
@@ -4264,8 +4264,8 @@ elif persona_choice == 4:
         leanan_sidhe.skill7 = skill7_input
         leanan_sidhe.skill8 = skill8_input
 
-# Registration option for
-elif persona_choice == 5:
+# Registration option for Kushinada
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kushinada.get_persona_info()
@@ -4302,7 +4302,7 @@ elif persona_choice == 5:
         kushinada.skill8 = skill8_input
 
 # Registration option for Narcissus
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = narcissus.get_persona_info()
@@ -4339,7 +4339,7 @@ elif persona_choice == 6:
         narcissus.skill8 = skill8_input
 
 # Registration option for Parvati
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = parvati.get_persona_info()
@@ -4376,7 +4376,7 @@ elif persona_choice == 7:
         parvati.skill8 = skill8_input
 
 # Registration option for Ralphael
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ralphael.get_persona_info()
@@ -4413,7 +4413,7 @@ elif persona_choice == 8:
         ralphael.skill8 = skill8_input
 
 # Registration option for Ishtar
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ishtar.get_persona_info()
@@ -4461,43 +4461,43 @@ elif arcana_choice == 8:
     
 # Registration option for Agathion
     if persona_choice == 1:
-            print()
-            # Call the function to get the stats from the user 
-            stats_to_register = agathion.get_persona_info()
-            # Unpack them into values
-            level_input = stats_to_register[0]
-            st_input = stats_to_register[1]
-            ma_input = stats_to_register[2]
-            en_input = stats_to_register[3]
-            ag_input = stats_to_register[4]
-            lu_input = stats_to_register[5]
-            skill1_input = stats_to_register[6]
-            skill2_input = stats_to_register[7]
-            skill3_input = stats_to_register[8]
-            skill4_input = stats_to_register[9]
-            skill5_input = stats_to_register[10]
-            skill6_input = stats_to_register[11]
-            skill7_input = stats_to_register[12]
-            skill8_input = stats_to_register[13]
-            
-            # Now set the default values to the values of the user input
-            agathion.level = level_input
-            agathion.st = st_input
-            agathion.ma = ma_input
-            agathion.en = en_input
-            agathion.ag = ag_input
-            agathion.lu = lu_input
-            agathion.skill1 = skill1_input
-            agathion.skill2 = skill2_input
-            agathion.skill3 = skill3_input
-            agathion.skill4 = skill4_input
-            agathion.skill5 = skill5_input
-            agathion.skill6 = skill6_input
-            agathion.skill7 = skill7_input
-            agathion.skill8 = skill8_input
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = agathion.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        agathion.level = level_input
+        agathion.st = st_input
+        agathion.ma = ma_input
+        agathion.en = en_input
+        agathion.ag = ag_input
+        agathion.lu = lu_input
+        agathion.skill1 = skill1_input
+        agathion.skill2 = skill2_input
+        agathion.skill3 = skill3_input
+        agathion.skill4 = skill4_input
+        agathion.skill5 = skill5_input
+        agathion.skill6 = skill6_input
+        agathion.skill7 = skill7_input
+        agathion.skill8 = skill8_input
 
 # Registration option for Slime
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = slime.get_persona_info()
@@ -4534,7 +4534,7 @@ elif persona_choice == 2:
         slime.skill8 = skill8_input
 
 # Registration option for Shiki-Ouji
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = shiki_ouji.get_persona_info()
@@ -4571,7 +4571,7 @@ elif persona_choice == 3:
         shiki_ouji.skill8 = skill8_input
 
 # Registration option for Kin_ki
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kin_ki.get_persona_info()
@@ -4608,7 +4608,7 @@ elif persona_choice == 4:
         kin_ki.skill8 = skill8_input
 
 # Registration option for Ara Mitama
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ara_mitama.get_persona_info()
@@ -4632,7 +4632,7 @@ elif persona_choice == 5:
         ara_mitama.level = level_input
         ara_mitama.st = st_input
         ara_mitama.ma = ma_input
-        ara_mitama3.en = en_input
+        ara_mitama.en = en_input
         ara_mitama.ag = ag_input
         ara_mitama.lu = lu_input
         ara_mitama.skill1 = skill1_input
@@ -4645,7 +4645,7 @@ elif persona_choice == 5:
         ara_mitama.skill8 = skill8_input
 
 # Registration option for White Rider
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = white_rider.get_persona_info()
@@ -4682,7 +4682,7 @@ elif persona_choice == 6:
         white_rider.skill8 = skill8_input
 
 # Registration option for Athena
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = athena.get_persona_info()
@@ -4719,7 +4719,7 @@ elif persona_choice == 7:
         athena.skill8 = skill8_input
 
 # Registration option for Athena Picaro
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = athena_picaro.get_persona_info()
@@ -4756,7 +4756,7 @@ elif persona_choice == 8:
         athena_picaro.skill8 = skill8_input
 
 # Registration option for Cerberus
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = cerberus.get_persona_info()
@@ -4793,7 +4793,7 @@ elif persona_choice == 9:
         cerberus.skill8 = skill8_input
 
 # Registration option for Thor
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = thor.get_persona_info()
@@ -4830,7 +4830,7 @@ elif persona_choice == 10:
         thor.skill8 = skill8_input
 
 # Registration option for Chi You
-elif persona_choice == 11:
+    elif persona_choice == 11:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = chi_you.get_persona_info()
@@ -4914,7 +4914,7 @@ elif arcana_choice == 9:
             angel.skill8 = skill8_input
 
 # Registration option for Archangel
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = archangel.get_persona_info()
@@ -4951,7 +4951,7 @@ elif persona_choice == 2:
         archangel.skill8 = skill8_input
 
 # Registration option for Principality
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = principality.get_persona_info()
@@ -4988,7 +4988,7 @@ elif persona_choice == 3:
         principality.skill8 = skill8_input
 
 # Registration option for Power
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = power.get_persona_info()
@@ -5025,7 +5025,7 @@ elif persona_choice == 3:
         power.skill8 = skill8_input
 
 # Registration option for Melchizedek
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = melchizedek.get_persona_info()
@@ -5062,7 +5062,7 @@ elif persona_choice == 4:
         melchizedek.skill8 = skill8_input
 
 # Registration option for Throne
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = throne.get_persona_info()
@@ -5099,7 +5099,7 @@ elif persona_choice == 5:
         throne.skill8 = skill8_input
 
 # Registration option for Uriel
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = uriel.get_persona_info()
@@ -5136,7 +5136,7 @@ elif persona_choice == 6:
         uriel.skill8 = skill8_input
 
 # Registration option for Metatron
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = metatron.get_persona_info()
@@ -5221,7 +5221,7 @@ elif arcana_choice == 10:
             bicorn.skill8 = skill8_input
 
 # Registration option for Koropokkuru
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = koropokkuru.get_persona_info()
@@ -5258,7 +5258,7 @@ elif persona_choice == 2:
         koropokkuru.skill8 = skill8_input
 
 # Registration option for Ippon Datara
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ippon_datara.get_persona_info()
@@ -5295,7 +5295,7 @@ elif persona_choice == 3:
         ippon_datara.skill8 = skill8_input
 
 # Registration option for Sudama
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = sudama.get_persona_info()
@@ -5332,7 +5332,7 @@ elif persona_choice == 4:
         sudama.skill8 = skill8_input
 
 # Registration option for Naga
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = naga.get_persona_info()
@@ -5369,7 +5369,7 @@ elif persona_choice == 5:
         naga.skill8 = skill8_input
 
 # Registration option for Kurama Tengu
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kurama_tengu.get_persona_info()
@@ -5406,7 +5406,7 @@ elif persona_choice == 6:
         kurama_tengu.skill8 = skill8_input
 
 # Registration option for Arahabaki
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = arahabaki.get_persona_info()
@@ -5443,7 +5443,7 @@ elif persona_choice == 7:
         arahabaki.skill8 = skill8_input
 
 # Registration option for Kumbhanda
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kumbhanda.get_persona_info()
@@ -5480,7 +5480,7 @@ elif persona_choice == 8:
         kumbhanda.skill8 = skill8_input
 
 # Registration option for Koumokuten
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = koumokuten.get_persona_info()
@@ -5517,7 +5517,7 @@ elif persona_choice == 9:
         koumokuten.skill8 = skill8_input
 
 # Registration option for Loa 
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = loa.get_persona_info()
@@ -5554,7 +5554,7 @@ elif persona_choice == 10:
         loa.skill8 = skill8_input
 
 # Registration option for Fafnir
-elif persona_choice == 11:
+    elif persona_choice == 11:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = fafnir.get_persona_info()
@@ -5591,7 +5591,7 @@ elif persona_choice == 11:
         fafnir.skill8 = skill8_input
 
 # Registration option for Ongyo-Ki
-elif persona_choice == 12:
+    elif persona_choice == 12:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ongyo_ki.get_persona_info()
@@ -5675,7 +5675,7 @@ elif arcana_choice == 11:
             stone_of_scone.skill8 = skill8_input
 
 # Registration option for Clotho
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = clotho.get_persona_info()
@@ -5712,7 +5712,7 @@ elif persona_choice == 2:
         clotho.skill8 = skill8_input
 
 # Registration option for Ariadne
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ariadne.get_persona_info()
@@ -5749,7 +5749,7 @@ elif persona_choice == 3:
         ariadne.skill8 = skill8_input
 
 # Registration option for Lachesis
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = lachesis.get_persona_info()
@@ -5786,7 +5786,7 @@ elif persona_choice == 4:
         lachesis.skill8 = skill8_input
 
 # Registration option for Atropos
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = atropos.get_persona_info()
@@ -5823,7 +5823,7 @@ elif persona_choice == 5:
         atropos.skill8 = skill8_input
 
 # Registration option for Ariadne Picaro
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ariadne_picaro.get_persona_info()
@@ -5860,7 +5860,7 @@ elif persona_choice == 6:
         ariadne_picaro.skill8 = skill8_input
 
 # Registration option for Fortuna
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = fortuna.get_persona_info()
@@ -5897,7 +5897,7 @@ elif persona_choice == 7:
         fortuna.skill8 = skill8_input
 
 # Registration option for Norn
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = norn.get_persona_info()
@@ -5934,7 +5934,7 @@ elif persona_choice == 8:
         norn.skill8 = skill8_input
 
 # Registration option for Asterius
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = asterius.get_persona_info()
@@ -5971,7 +5971,7 @@ elif persona_choice == 9:
         asterius.skill8 = skill8_input
 
 # Registration option for Asterius Picaro
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = asterius_picaro.get_persona_info()
@@ -6008,7 +6008,7 @@ elif persona_choice == 10:
         asterius_picaro.skill8 = skill8_input
 
 # Registration option for Lakshmi
-elif persona_choice == 11:
+    elif persona_choice == 11:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = lakshmi.get_persona_info()
@@ -6092,7 +6092,7 @@ elif arcana_choice == 12:
             kelpie.skill8 = skill8_input
 
 # Registration option for Shiisa
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = shiisa.get_persona_info()
@@ -6129,7 +6129,7 @@ elif persona_choice == 2:
         shiisa.skill8 = skill8_input
 
 # Registration option for Oni
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = oni.get_persona_info()
@@ -6166,7 +6166,7 @@ elif persona_choice == 3:
         oni.skill8 = skill8_input
 
 # Registration option for Rakshasa
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = rakshasa.get_persona_info()
@@ -6203,7 +6203,7 @@ elif persona_choice == 4:
         rakshasa.skill8 = skill8_input
 
 # Registration option for Orlov
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = orlov.get_persona_info()
@@ -6240,7 +6240,7 @@ elif persona_choice == 5:
         orlov.skill8 = skill8_input
 
 # Registration option for Zouchouten
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = zouchouten.get_persona_info()
@@ -6277,7 +6277,7 @@ elif persona_choice == 6:
         zouchouten.skill8 = skill8_input
 
 # Registration option for Valkyrie
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = valkyrie.get_persona_info()
@@ -6314,7 +6314,7 @@ elif persona_choice == 7:
         valkyrie.skill8 = skill8_input
 
 # Registration option for Hanuman
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = hanuman.get_persona_info()
@@ -6351,7 +6351,7 @@ elif persona_choice == 8:
         hanuman.skill8 = skill8_input
 
 # Registration option for Chimera
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = chimera.get_persona_info()
@@ -6388,7 +6388,7 @@ elif persona_choice == 9:
         chimera.skill8 = skill8_input
 
 # Registration option for Zaou-Gongen
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = zaou_gongen.get_persona_info()
@@ -6472,7 +6472,7 @@ elif arcana_choice == 13:
             hua_po.skill8 = skill8_input
 
 # Registration option for Inugami
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = inugami.get_persona_info()
@@ -6509,7 +6509,7 @@ elif persona_choice == 2:
         inugami.skill8 = skill8_input
 
 # Registration option for Orthrus
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = orthrus.get_persona_info()
@@ -6546,7 +6546,7 @@ elif persona_choice == 3:
         orthrus.skill8 = skill8_input
 
 # Registration option for Take-Minakata
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = take_minakata.get_persona_info()
@@ -6583,7 +6583,7 @@ elif persona_choice == 4:
         take_minakata.skill8 = skill8_input
 
 # Registration option for Emperor's Amulet
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = emperors_amulet.get_persona_info()
@@ -6620,7 +6620,7 @@ elif persona_choice == 5:
         emperors_amulet.skill8 = skill8_input
 
 # Registration option for Hecatoncheires
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = hecatoncheires.get_persona_info()
@@ -6657,7 +6657,7 @@ elif persona_choice == 6:
         hecatoncheires.skill8 = skill8_input
 
 # Registration option for Jatayu
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = jatayu.get_persona_info()
@@ -6694,7 +6694,7 @@ elif persona_choice == 7:
         jatayu.skill8 = skill8_input
 
 # Registration option for Moloch
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = moloch.get_persona_info()
@@ -6731,7 +6731,7 @@ elif persona_choice == 8:
         moloch.skill8 = skill8_input
 
 # Registration option for Macabre
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = macabre.get_persona_info()
@@ -6768,7 +6768,7 @@ elif persona_choice == 9:
         macabre.skill8 = skill8_input
 
 # Registration option for Attis
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = attis.get_persona_info()
@@ -6852,7 +6852,7 @@ elif arcana_choice == 14:
             mandrake.skill8 = skill8_input
 
 # Registration option for Mokoi
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mokoi.get_persona_info()
@@ -6889,7 +6889,7 @@ elif persona_choice == 2:
         mokoi.skill8 = skill8_input
 
 # Registration option for Matador
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = matador.get_persona_info()
@@ -6926,7 +6926,7 @@ elif persona_choice == 3:
         matador.skill8 = skill8_input
 
 # Registration option for Nue
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = nue.get_persona_info()
@@ -6963,7 +6963,7 @@ elif persona_choice == 4:
         nue.skill8 = skill8_input
 
 # Registration option for Pisaca
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = pisaca.get_persona_info()
@@ -7000,7 +7000,7 @@ elif persona_choice == 5:
         pisaca.skill8 = skill8_input
 
 # Registration option for Hell Biker
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = hell_biker.get_persona_info()
@@ -7037,7 +7037,7 @@ elif persona_choice == 6:
         hell_biker.skill8 = skill8_input
 
 # Registration option for Hope Diamond 
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = hope_diamond .get_persona_info()
@@ -7074,7 +7074,7 @@ elif persona_choice == 7:
         hope_diamond .skill8 = skill8_input
 
 # Registration option for Pale Rider
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = pale_rider.get_persona_info()
@@ -7111,7 +7111,7 @@ elif persona_choice == 8:
         pale_rider.skill8 = skill8_input
 
 # Registration option for Chernobog
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = chernobog.get_persona_info()
@@ -7148,7 +7148,7 @@ elif persona_choice == 9:
         chernobog.skill8 = skill8_input
 
 # Registration option for Thanatos 
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = thanatos.get_persona_info()
@@ -7185,7 +7185,7 @@ elif persona_choice == 10:
         thanatos.skill8 = skill8_input
 
 # Registration option for Thanatos Picaro
-elif persona_choice == 11:
+    elif persona_choice == 11:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = thanatos_picaro.get_persona_info()
@@ -7222,7 +7222,7 @@ elif persona_choice == 11:
         thanatos_picaro.skill8 = skill8_input
 
 # Registration option for Mot 
-elif persona_choice == 12:
+    elif persona_choice == 12:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mot.get_persona_info()
@@ -7259,7 +7259,7 @@ elif persona_choice == 12:
         mot.skill8 = skill8_input
 
 # Registration option for Alice
-elif persona_choice == 13:
+    elif persona_choice == 13:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = alice.get_persona_info()
@@ -7343,7 +7343,7 @@ elif arcana_choice == 15:
             genbu.skill8 = skill8_input
 
 # Registration option for Koppa Tengu
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = koppa_tengu.get_persona_info()
@@ -7380,7 +7380,7 @@ elif persona_choice == 2:
         koppa_tengu.skill8 = skill8_input
 
 # Registration option for Makami
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = makami.get_persona_info()
@@ -7417,7 +7417,7 @@ elif persona_choice == 3:
         makami.skill8 = skill8_input
 
 # Registration option for Jikokuten
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = jikokuten.get_persona_info()
@@ -7454,7 +7454,7 @@ elif persona_choice == 4:
         jikokuten.skill8 = skill8_input
 
 # Registration option for Mithra
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mithra.get_persona_info()
@@ -7491,7 +7491,7 @@ elif persona_choice == 5:
         mithra.skill8 = skill8_input
 
 # Registration option for Byakko
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = byakko.get_persona_info()
@@ -7528,7 +7528,7 @@ elif persona_choice == 6:
         byakko.skill8 = skill8_input
 
 # Registration option for Raja Naga
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = raja_naga.get_persona_info()
@@ -7565,7 +7565,7 @@ elif persona_choice == 7:
         raja_naga.skill8 = skill8_input
 
 # Registration option for Gabriel
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = gabriel.get_persona_info()
@@ -7602,7 +7602,7 @@ elif persona_choice == 8:
         gabriel.skill8 = skill8_input
 
 # Registration option for Ardha
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ardha.get_persona_info()
@@ -7686,7 +7686,7 @@ elif arcana_choice == 16:
             incubus.skill8 = skill8_input
 
 # Registration option for Flauros
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = flauros.get_persona_info()
@@ -7723,7 +7723,7 @@ elif persona_choice == 2:
         flauros.skill8 = skill8_input
 
 # Registration option for Andras
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = andras.get_persona_info()
@@ -7760,7 +7760,7 @@ elif persona_choice == 3:
         andras.skill8 = skill8_input
 
 # Registration option for Lilim
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = lilim.get_persona_info()
@@ -7797,7 +7797,7 @@ elif persona_choice == 4:
         lilim.skill8 = skill8_input
 
 # Registration option for Pazuzu
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = pazuzu.get_persona_info()
@@ -7834,7 +7834,7 @@ elif persona_choice == 5:
         pazuzu.skill8 = skill8_input
 
 # Registration option for Baphomet
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = baphomet.get_persona_info()
@@ -7871,7 +7871,7 @@ elif persona_choice == 6:
         baphomet.skill8 = skill8_input
 
 # Registration option for Nebiros
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = nebiros.get_persona_info()
@@ -7908,7 +7908,7 @@ elif persona_choice == 7:
         nebiros.skill8 = skill8_input
 
 # Registration option for Belial
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = belial.get_persona_info()
@@ -7945,7 +7945,7 @@ elif persona_choice == 8:
         belial.skill8 = skill8_input
 
 # Registration option for Beelzebub
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = beelzebub.get_persona_info()
@@ -8029,7 +8029,7 @@ elif arcana_choice == 17:
             belphegor.skill8 = skill8_input
 
 # Registration option for Red Rider 
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = red_rider.get_persona_info()
@@ -8066,7 +8066,7 @@ elif persona_choice == 2:
         red_rider.skill8 = skill8_input
 
 # Registration option for Magatsu-Izanagi
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = magatsu_izanagi.get_persona_info()
@@ -8103,7 +8103,7 @@ elif persona_choice == 3:
         magatsu_izanagi.skill8 = skill8_input
 
 # Registration option for Seth
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = seth.get_persona_info()
@@ -8140,7 +8140,7 @@ elif persona_choice == 4:
         seth.skill8 = skill8_input
 
 # Registration option for Black Rider
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = black_rider.get_persona_info()
@@ -8177,7 +8177,7 @@ elif persona_choice == 6:
         black_rider.skill8 = skill8_input
 
 # Registration option for Mara
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mara.get_persona_info()
@@ -8214,7 +8214,7 @@ elif persona_choice == 7:
         mara.skill8 = skill8_input
 
 # Registration option for Yoshitsune
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = yoshitsune.get_persona_info()
@@ -8251,7 +8251,7 @@ elif persona_choice == 8:
         yoshitsune.skill8 = skill8_input
 
 # Registration option for Mada
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mada.get_persona_info()
@@ -8335,7 +8335,7 @@ elif arcana_choice == 18:
             kodama.skill8 = skill8_input
 
 # Registration option for Fuu-Ki
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = fuuki.get_persona_info()
@@ -8372,7 +8372,7 @@ elif persona_choice == 2:
         fuuki.skill8 = skill8_input
 
 # Registration option for Neko Shogun
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = neko_shogun.get_persona_info()
@@ -8409,7 +8409,7 @@ elif persona_choice == 3:
         neko_shogun.skill8 = skill8_input
 
 # Registration option for Kaiwan
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kaiwan.get_persona_info()
@@ -8446,7 +8446,7 @@ elif persona_choice == 4:
         kaiwan.skill8 = skill8_input
 
 # Registration option for Gardua
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = gardua.get_persona_info()
@@ -8483,7 +8483,7 @@ elif persona_choice == 5:
         gardua.skill8 = skill8_input
 
 # Registration option for Vasuki
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = vasuki.get_persona_info()
@@ -8520,7 +8520,7 @@ elif persona_choice == 6:
         vasuki.skill8 = skill8_input
 
 # Registration option for Sraosha
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = sraosha.get_persona_info()
@@ -8557,7 +8557,7 @@ elif persona_choice == 7:
         sraosha.skill8 = skill8_input
 
 # Registration option for Hastur
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = hastur.get_persona_info()
@@ -8594,7 +8594,7 @@ elif persona_choice == 8:
         hastur.skill8 = skill8_input
 
 # Registration option for Lucifer
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = lucifer.get_persona_info()
@@ -8677,7 +8677,7 @@ elif arcana_choice == 19:
             succbus.skill8 = skill8_input
 
 # Registration option for Onmoraki
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = onmoraki.get_persona_info()
@@ -8714,7 +8714,7 @@ elif persona_choice == 2:
         onmoraki.skill8 = skill8_input
 
 # Registration option for Kaguya
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kaguya.get_persona_info()
@@ -8751,7 +8751,7 @@ elif persona_choice == 3:
         kaguya.skill8 = skill8_input
 
 # Registration option for Black Ooze
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = black_ooze.get_persona_info()
@@ -8788,7 +8788,7 @@ elif persona_choice == 4:
         black_ooze.skill8 = skill8_input
 
 # Registration option for Sui-Ki
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = sui_ki.get_persona_info()
@@ -8825,7 +8825,7 @@ elif persona_choice == 5:
         sui_ki.skill8 = skill8_input
 
 # Registration option for Kaguya Picaro
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = kaguya_picaro.get_persona_info()
@@ -8862,7 +8862,7 @@ elif persona_choice == 6:
         kaguya_picaro.skill8 = skill8_input
 
 # Registration option for Mothman
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mothman.get_persona_info()
@@ -8899,7 +8899,7 @@ elif persona_choice == 7:
         mothman.skill8 = skill8_input
 
 # Registration option for Girimehkala 
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = girimehkala.get_persona_info()
@@ -8936,7 +8936,7 @@ elif persona_choice == 8:
         girimehkala.skill8 = skill8_input
 
 # Registration option for Tsukiyomi 
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = tsukiyomi.get_persona_info()
@@ -8973,7 +8973,7 @@ elif persona_choice == 9:
         tsukiyomi.skill8 = skill8_input
 
 # Registration option for Tsukiyomi Picaro
-elif persona_choice == 10:
+    elif persona_choice == 10:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = tsukiyomi_picaro.get_persona_info()
@@ -9010,7 +9010,7 @@ elif persona_choice == 10:
         tsukiyomi_picaro.skill8 = skill8_input
 
 # Registration option for Lilith
-elif persona_choice == 11:
+    elif persona_choice == 11:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = lilith.get_persona_info()
@@ -9047,7 +9047,7 @@ elif persona_choice == 11:
         lilith.skill8 = skill8_input
 
 # Registration option for Byakhee
-elif persona_choice == 12:
+    elif persona_choice == 12:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = byakhee.get_persona_info()
@@ -9084,7 +9084,7 @@ elif persona_choice == 12:
         byakhee.skill8 = skill8_input
 
 # Registration option for Sandalphon
-elif persona_choice == 13:
+    elif persona_choice == 13:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = sandalphon.get_persona_info()
@@ -9167,7 +9167,7 @@ elif arcana_choice == 20:
             suzaku.skill8 = skill8_input
 
 # Registration option for Thunderbird
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = thunderbird.get_persona_info()
@@ -9204,7 +9204,7 @@ elif persona_choice == 2:
         thunderbird.skill8 = skill8_input
 
 # Registration option for Mithras
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = mithras.get_persona_info()
@@ -9241,7 +9241,7 @@ elif persona_choice == 3:
         mithras.skill8 = skill8_input
 
 # Registration option for Yurlungur
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = yurlungur.get_persona_info()
@@ -9278,7 +9278,7 @@ elif persona_choice == 4:
         yurlungur.skill8 = skill8_input
 
 # Registration option for Horus
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = horus.get_persona_info()
@@ -9315,7 +9315,7 @@ elif persona_choice == 5:
         horus.skill8 = skill8_input
 
 # Registration option for Ganesha
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ganesha.get_persona_info()
@@ -9352,7 +9352,7 @@ elif persona_choice == 6:
         ganesha.skill8 = skill8_input
 
 # Registration option for Quetzalcoatl
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = quetzalcoatl.get_persona_info()
@@ -9389,7 +9389,7 @@ elif persona_choice == 7:
         quetzalcoatl.skill8 = skill8_input
 
 # Registration option for Asura
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = asura.get_persona_info()
@@ -9473,7 +9473,7 @@ elif arcana_choice == 21:
             anubis.skill8 = skill8_input
 
 # Registration option for Trumpeter
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = trumpeter.get_persona_info()
@@ -9510,7 +9510,7 @@ elif persona_choice == 2:
         trumpeter.skill8 = skill8_input
 
 # Registration option for Yamata-no-Orochi
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = yamata_no_orochi.get_persona_info()
@@ -9547,7 +9547,7 @@ elif persona_choice == 3:
         yamata_no_orochi.skill8 = skill8_input
 
 # Registration option for Abaddon
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = abaddon.get_persona_info()
@@ -9583,7 +9583,7 @@ elif persona_choice == 4:
         abaddon.skill8 = skill8_input
 
 # Registration option for Messiah
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = messiah.get_persona_info()
@@ -9620,7 +9620,7 @@ elif persona_choice == 5:
         messiah.skill8 = skill8_input
 
 # Registration option for Shiva
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = shiva.get_persona_info()
@@ -9657,7 +9657,7 @@ elif persona_choice == 6:
         shiva.skill8 = skill8_input
 
 # Registration option for Michael
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = michael.get_persona_info()
@@ -9694,7 +9694,7 @@ elif persona_choice == 7:
         michael.skill8 = skill8_input
 
 # Registration option for Messiah Picaro
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = messiah_picaro.get_persona_info()
@@ -9731,7 +9731,7 @@ elif persona_choice == 8:
         messiah_picaro.skill8 = skill8_input
 
 # Registration option for Satan
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = satan.get_persona_info()
@@ -9814,7 +9814,7 @@ elif arcana_choice == 22:
             phoenix.skill8 = skill8_input
 
 # Registration option for Tam Lin
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = tam_lin.get_persona_info()
@@ -9851,7 +9851,7 @@ elif persona_choice == 2:
         tam_lin.skill8 = skill8_input
 
 # Registration option for Unicorn
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = unicorn.get_persona_info()
@@ -9888,7 +9888,7 @@ elif persona_choice == 3:
         unicorn.skill8 = skill8_input
 
 # Registration option for Okuninushi
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = okuninushi.get_persona_info()
@@ -9925,7 +9925,7 @@ elif persona_choice == 4:
         okuninushi.skill8 = skill8_input
 
 # Registration option for Orichalcum
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = orichalcum.get_persona_info()
@@ -9962,7 +9962,7 @@ elif persona_choice == 5:
         orichalcum.skill8 = skill8_input
 
 # Registration option for Atavaka
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = atavaka.get_persona_info()
@@ -9999,7 +9999,7 @@ elif persona_choice == 6:
         atavaka.skill8 = skill8_input
 
 # Registration option for Cu Chulainn
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = cu_chulainn.get_persona_info()
@@ -10036,7 +10036,7 @@ elif persona_choice == 7:
         cu_chulainn.skill8 = skill8_input
 
 # Registration option for Siegfried
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = siegfried.get_persona_info()
@@ -10073,7 +10073,7 @@ elif persona_choice == 8:
         siegfried.skill8 = skill8_input
 
 # Registration option for Maria
-elif persona_choice == 9:
+    elif persona_choice == 9:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = maria.get_persona_info()
@@ -10156,7 +10156,7 @@ elif arcana_choice == 23:
             kushi_mitama.skill8 = skill8_input
 
 # Registration option for Nigi Mitama
-elif persona_choice == 2:
+    elif persona_choice == 2:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = nigi_mitama.get_persona_info()
@@ -10193,7 +10193,7 @@ elif persona_choice == 2:
         nigi_mitama.skill8 = skill8_input
 
 # Registration option for Decarabia
-elif persona_choice == 3:
+    elif persona_choice == 3:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = decarabia.get_persona_info()
@@ -10230,7 +10230,7 @@ elif persona_choice == 3:
         decarabia.skill8 = skill8_input
 
 # Registration option for Ananta
-elif persona_choice == 4:
+    elif persona_choice == 4:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = ananta.get_persona_info()
@@ -10267,7 +10267,7 @@ elif persona_choice == 4:
         ananta.skill8 = skill8_input
 
 # Registration option for Yatagarasu
-elif persona_choice == 5:
+    elif persona_choice == 5:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = yatagarasu.get_persona_info()
@@ -10304,7 +10304,7 @@ elif persona_choice == 5:
         yatagarasu.skill8 = skill8_input
 
 # Registration option for Seiryu
-elif persona_choice == 6:
+    elif persona_choice == 6:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = seiryu.get_persona_info()
@@ -10341,7 +10341,7 @@ elif persona_choice == 6:
         seiryu.skill8 = skill8_input
 
 # Registration option for Dionysus
-elif persona_choice == 7:
+    elif persona_choice == 7:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = dionysus.get_persona_info()
@@ -10378,7 +10378,7 @@ elif persona_choice == 7:
         dionysus.skill8 = skill8_input
 
 # Registration option for Vohu Manah
-elif persona_choice == 8:
+    elif persona_choice == 8:
         print()
         # Call the function to get the stats from the user 
         stats_to_register = vohu_manah.get_persona_info()
