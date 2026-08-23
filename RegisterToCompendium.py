@@ -91,7 +91,7 @@ class Compendium:
         except ValueError:
             print("Please enter a valid string.")
         try:
-            skill3 = input("Enter skill 3: W")
+            skill3 = input("Enter skill 3: ")
         except ValueError:
             print("Please enter a valid string.")
         try:
@@ -10584,7 +10584,7 @@ for councillor_persona in councillor_personas:
 
 
 # Writes the formatted info to the file 
-with open("Persona_compendium_logbookV3.txt","w") as compendium_log:
+with open("Persona_compendium_logbook.txt","w") as compendium_log:
     # Write Fool Personas to the compendium
     for fool_persona_log in fool_personas_log_data:
         compendium_log.write(fool_persona_log)
