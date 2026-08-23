@@ -1,4 +1,4 @@
-# Filename: RegisterToComepndiumV1.py
+# Filename: RegisterToComepndiumPrototype.py
 # Date: 5/5/26
 # Author: Aoi | shadowsnowwolf
 
