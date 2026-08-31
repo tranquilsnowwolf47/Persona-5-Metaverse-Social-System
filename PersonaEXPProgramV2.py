@@ -111,11 +111,19 @@ class Persona:
         ag_input = input(f"Enter {name_input}'s Ag: ")
         lu_input = input(f"Enter {name_input}'s Lu: ")
 
-        return name_input, level_input, st_input, ma_input, en_input, ag_input, lu_input
+        return name_input, aracan_input, level_input, st_input, ma_input, en_input, ag_input, lu_input
 
     # Set the user data to the arugment values 
     def set_persona_info(self):
         user_persona_info = self.get_persona_info()
+        name_input = user_persona_info[0]
+        arcana_input = user_persona_info[1]
+        level_input = user_persona_info[2]
+        st_input = user_persona_info[3]
+        ma_input = user_persona_info[4]
+        en_input = user_persona_info[5]
+        ag_input = user_persona_info[6]
+        lu_input = user_persona_info[7]
 
         self.name = 
         
