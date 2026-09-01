@@ -12,6 +12,7 @@
 # Not mandatory, just a thought from Past Aaron
 
 # Report: Persona Skill list, bug on Debuff option both options. Doesn't display the proper index number 
+# Register to Compendium option needs a date option for tracking purposes 
 
 # List of option choices in the menu
 main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", "Randomize Persona Skills", "Register Persona to Compendium (Wild Card)", "View Persona Compendium (Wild Card)")
@@ -56,6 +57,7 @@ while True:
     #-------------------------------------------------------------------------------
     #
     elif menu_choice == 4:
+        print()
         import PersonaEXPProgram
         
         
