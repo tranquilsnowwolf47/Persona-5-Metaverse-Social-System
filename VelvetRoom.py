@@ -7,10 +7,13 @@
 # Has a bug when it comes to the loop for using all the programs
 # Fix that with debugging pls Future Aaron
 
+# Idea:
+# Add a Wild Card menu specifically for Wild Card operations exclusively
+# Not mandatory, just a thought from Past Aaron
 
 
 # List of option choices in the menu
-main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", "Randomize Persona Skills", "Register Persona to Compendium (Wild Card)", "View Persona Compendium")
+main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", "Randomize Persona Skills", "Register Persona to Compendium (Wild Card)", "View Persona Compendium (Wild Card)")
 
 while True:
     print("Igor: *chuckle* \"Welcome to the Velvet Room.\"\n")
