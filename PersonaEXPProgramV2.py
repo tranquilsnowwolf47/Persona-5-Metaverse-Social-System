@@ -111,7 +111,7 @@ class Persona:
         ag_input = input(f"Enter {name_input}'s Ag: ")
         lu_input = input(f"Enter {name_input}'s Lu: ")
 
-        return name_input, aracan_input, level_input, st_input, ma_input, en_input, ag_input, lu_input
+        return name_input, arcana_input, level_input, st_input, ma_input, en_input, ag_input, lu_input
 
     # Set the user data to the arugment values 
     def set_persona_info(self):
@@ -201,7 +201,7 @@ class Persona:
 # Blank template for a Persona which will be modified by user input
 user_persona = Persona("", "", 1, 1,1,1,1,1,1)
 
-set_persona_info()
+user_persona.set_persona_info()
 
 
 while True:
