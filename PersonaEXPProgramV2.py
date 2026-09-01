@@ -126,11 +126,14 @@ class Persona:
         lu_input = user_persona_info[7]
 
         # Set the default Persona arguments to the user input
-        self.name = 
-        self.arcana = 
-        self.level =
-        self.st =
-        self.ma =
+        self.name = name_input
+        self.arcana = arcana_input
+        self.level = level_input
+        self.st = st_input
+        self.ma = ma_input
+        self.en = en_input
+        self.ag = ag_input
+        self.lu = lu_input
         
 
     # This needs to be a class method
