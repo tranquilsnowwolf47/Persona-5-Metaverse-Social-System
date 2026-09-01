@@ -201,8 +201,7 @@ class Persona:
 # Blank template for a Persona which will be modified by user input
 user_persona = Persona("", "", 1, 1,1,1,1,1,1)
 
-
-
+set_persona_info()
 
 
 while True:
