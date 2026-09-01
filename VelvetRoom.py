@@ -4,16 +4,13 @@
 # Description:
 # A program that utlizes modules to perform all major Persona operations within one program for easy access
 
-
-# Register to compendium
-# Skill randomizer
-# EXP Program
-# Optimal build Program
+# Has a bug when it comes to the loop for using all the programs
+# Fix that with debugging pls Future Aaron
 
 
 
 # List of option choices in the menu
-main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", "Randomize Persona Skills", "Register Persona to Compendium", "View Persona Compendium")
+main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", "Randomize Persona Skills", "Register Persona to Compendium (Wild Card)", "View Persona Compendium")
 
 while True:
     print("Igor: *chuckle* \"Welcome to the Velvet Room.\"\n")
@@ -26,16 +23,20 @@ while True:
     menu_choice = int(input("\nIgor: \"Please enter a choice (1-8)\": "))
 
     # View List of Personas
+    # Debugged
     #-------------------------------------------------------------------------------
     #
     if menu_choice == 1:
+        print()
         import ListOfPersonas
         
         
     # View Persona Optimal Builds
+    # Needs update: (Put index input requirement rather than string input)
     #-------------------------------------------------------------------------------
     # Assists with Persona building by giving a recommended skill type template
     elif menu_choice == 2:
+        print()
         import PersonaOptimalBuildProgram
         
         
@@ -43,6 +44,7 @@ while True:
     #-------------------------------------------------------------------------------
     # Assists with choosing Personas to rotate for Wild Card fusion
     elif menu_choice == 3:
+        print()
         import PersonaArcanaRandomizer
         
         
@@ -57,24 +59,28 @@ while True:
     #-------------------------------------------------------------------------------
     #
     elif menu_choice == 5:
+        print()
         import PersonaSkillListProgramV1
         
     # Persona Skill Randomizer
     #-------------------------------------------------------------------------------
     #
     elif menu_choice == 6:
+        print()
         import PersonaSkillRandomizer
         
     # Register Persona to Compendium
     #-------------------------------------------------------------------------------
     #
     elif menu_choice == 7:
-        print("This function is not available yet! Coming soon")
+        print()
+        import RegisterToCompendium
 
     # View Persona Compendium
     #-------------------------------------------------------------------------------
     #
     elif menu_choice == 8:
+        print()
         print("This function is not available yet! Coming soon")
         #with open("Persona_compendium_logbookV1.txt","r") as compendium:
                 #print(compendium.read())
