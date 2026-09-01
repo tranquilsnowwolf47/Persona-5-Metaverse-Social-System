@@ -11,6 +11,8 @@
 # allotment points, or put their current allotment points into the 5 battle 
 # stats to strengthen their Personas 
 
+# Add an option to save the Persona data that the user made through writing to a file 
+
 class Persona:
     # Constructor that defines the attributes of the Persona
     def __init__(self, name, arcana, base_level, base_st, base_ma, base_en, base_ag, base_lu, base_allotment_points):
@@ -26,6 +28,7 @@ class Persona:
         
     # Function that displays the current Personas's info including their combat stats
     def display_persona_info(self):
+        print()
         print(f"Name: {self.name}")
         print(f"Arcana: {self.arcana}")
         print(f"Lvl: {self.base_level}")
@@ -60,58 +63,77 @@ class Persona:
         # Allot from points to st
         self.display_current_allotment_points()
         st_allotment = int(input("Please enter the number of St pts to allot to this Persona: "))
-        if st_allotment > 0:
+        if self.base_allotment_points >= st_allotment:
             self.base_allotment_points -= st_allotment # Decrements the current allotment points from the input
             self.base_st += st_allotment # Increments the Lu stat with the input variable
+        else:
+            print()
+            print("You don't have enough points to do that operation!")
 
     # Function that increases Ma points based on the number of allotment point available
     def allot_ma(self):
        # Allot points to ma
        self.display_current_allotment_points()
        ma_allotment = int(input("Please enter the number of Ma pts to allot to this Persona: "))
-       if ma_allotment > 0:
+       if self.base_allotment_points >= ma_allotment:
            self.base_allotment_points -= ma_allotment # Decrements the current allotment points from the input
            self.base_ma += ma_allotment # Increments the Lu stat with the input variable
+       else:
+            print()
+            print("You don't have enough points to do that operation!")
 
     # Function that increases En points based on the number of allotment point available
     def allot_en(self):
        # Allot points to en
        self.display_current_allotment_points()
        en_allotment = int(input("Please enter the number of En pts to allot to this Persona: "))
-       if en_allotment > 0:
+       if self.base_allotment_points >= en_allotment:
            self.base_allotment_points -= en_allotment # Decrements the current allotment points from the input
            self.base_en += en_allotment # Increments the Lu stat with the input variable
+       else:
+            print()
+            print("You don't have enough points to do that operation!")
 
     # Function that increases Ag points based on the number of allotment point available
     def allot_ag(self):
        # Allot points to ag
        self.display_current_allotment_points()
        ag_allotment = int(input("Please enter the number of Ag pts to allot to this Persona: "))
-       if ag_allotment > 0:
+       if self.base_allotment_points >= ag_allotment:
            self.base_allotment_points -= ag_allotment # Decrements the current allotment points from the input
            self.base_ag += ag_allotment # Increments the Lu stat with the input variable
+       else:
+            print()
+            print("You don't have enough points to do that operation!")
 
     # Function that increases Lu points based on the number of allotment point available
     def allot_lu(self):
        # Allot points to lu
        self.display_current_allotment_points()
        lu_allotment = int(input("Please enter the number of Lu pts to allot to this Persona: "))
-       if lu_allotment > 0:
+       if self.base_allotment_points >= lu_allotment:
            self.base_allotment_points -= lu_allotment # Decrements the current allotment points from the input
            self.base_lu += lu_allotment # Increments the Lu stat with the input variable
+       else:
+            print()
+            print("You don't have enough points to do that operation!")
 
     # Get input from the user and then return the data
     def get_persona_info(self):
         name_input = input("Enter the Persona's name: ")
         arcana_input = input(f"Enter {name_input}'s Arcana: ")
-        level_input = input(f"Enter {name_input}'s level: ")
-        st_input = input(f"Enter {name_input}'s St: ")
-        ma_input = input(f"Enter {name_input}'s Ma: ")
-        en_input = input(f"Enter {name_input}'s En: ")
-        ag_input = input(f"Enter {name_input}'s Ag: ")
-        lu_input = input(f"Enter {name_input}'s Lu: ")
+        level_input = int(input(f"Enter {name_input}'s current level: "))
+        st_input = int(input(f"Enter {name_input}'s current St: "))
+        ma_input = int(input(f"Enter {name_input}'s current Ma: "))
+        en_input = int(input(f"Enter {name_input}'s current En: "))
+        ag_input = int(input(f"Enter {name_input}'s current Ag: "))
+        lu_input = int(input(f"Enter {name_input}'s current Lu: "))
+        allotment_points_input = int(input(f"Enter {name_input}'s current allotment points: "))
+        print("--------------------------------------------------------------------")
+        print()
+        print()
 
-        return name_input, arcana_input, level_input, st_input, ma_input, en_input, ag_input, lu_input
+        return name_input, arcana_input, level_input, st_input, ma_input, en_input, ag_input, lu_input, allotment_points_input
 
     # Set the user data to the arugment values 
     def set_persona_info(self):
@@ -124,6 +146,7 @@ class Persona:
         en_input = user_persona_info[5]
         ag_input = user_persona_info[6]
         lu_input = user_persona_info[7]
+        allotment_points_input = user_persona_info[8]
 
         # Set the default Persona arguments to the user input
         self.name = name_input
@@ -134,6 +157,7 @@ class Persona:
         self.base_en = en_input
         self.base_ag = ag_input
         self.base_lu = lu_input
+        self.base_allotment_points = allotment_points_input
         
 
     # This needs to be a class method
@@ -157,9 +181,8 @@ class Persona:
                             "Allocate Ma Points",
                             "Allocate En Points",
                             "Allocate Ag Points",
-                            "Allocate Lu Points",
-                            "Skip")
-            menu_option_indexes = (1,2,3,4,5,6,7,8,9)
+                            "Allocate Lu Points")
+            menu_option_elements = (1,2,3,4,5,6,7,8)
 
             print("Persona Menu Option Choices:")
             print("---------------------------------------------------------------")
@@ -168,42 +191,44 @@ class Persona:
 
             print()
             menu_option_choice = int(input("Please choose an option choice (1-9): "))
-            if menu_option_choice not in menu_option_indexes:
+            if menu_option_choice not in menu_option_elements:
                 valid_menu_choice = False
                 print("You did not enter the correct option choice.")
-            elif menu_option_choice == menu_option_indexes[0]:
+            elif menu_option_choice == menu_option_elements[0]:
                 persona.display_persona_info() # Call the function
                 print()
-            elif menu_option_choice == menu_option_indexes[1]:
+            elif menu_option_choice == menu_option_elements[1]:
                 persona.display_current_allotment_points() # Call the function
-            elif menu_option_choice == menu_option_indexes[2]:
+            elif menu_option_choice == menu_option_elements[2]:
                 persona.level_up() # Call the function
-            elif menu_option_choice == menu_option_indexes[3]:
+            elif menu_option_choice == menu_option_elements[3]:
                 persona.allot_st() # Call the function
-            elif menu_option_choice == menu_option_indexes[4]:
+            elif menu_option_choice == menu_option_elements[4]:
                 persona.allot_ma() # Call the function
-            elif menu_option_choice == menu_option_indexes[5]:
+            elif menu_option_choice == menu_option_elements[5]:
                 persona.allot_en() # Call the function
-            elif menu_option_choice == menu_option_indexes[6]:
+            elif menu_option_choice == menu_option_elements[6]:
                 persona.allot_ag() # Call the function
-            elif menu_option_choice == menu_option_indexes[7]:
+            elif menu_option_choice == menu_option_elements[7]:
                 persona.allot_lu() # Call the function
-            elif menu_option_choice == menu_option_indexes[8]:
-                print("Exited.")
 
             print()
-            loop_choice = input("Would you like to choose another option? (y for yes, anything else for no): ").lower()
+            loop_choice = input("Would you like to choose another option? (y for yes, anything else to exit): ").lower()
             if loop_choice != "y":
-                loop = False
                 print("Exiting the program.")
-
-
-# Blank template for a Persona which will be modified by user input
-user_persona = Persona("", "", 1, 1,1,1,1,1,1)
-
-user_persona.set_persona_info()
-
-
+                break
+                
+# Main operation
 while True:
+    # Blank template for a Persona which will be modified by user input
+    user_persona = Persona("", "", 1, 1,1,1,1,1,1)
+
+    # Main operations 
+    user_persona.set_persona_info()
+    
     print(f"Current Persona: {user_persona.name} ({user_persona.arcana})")
     Persona.display_menu(user_persona)
+
+    try_again = input("Would you like to modify another Persona? (Enter y for yes, anything else for no): ").lower()
+    if try_again != "y":
+        break
