@@ -63,7 +63,7 @@ On hit the target’s attack, defense, and accuracy/evasion is temporarily reduc
 
 
 # AOE Debuff skills 
-frequency_barrier = AOESkills("Frequency Barrier", "AOE Atk Debuff | Matarukaja effect", 24,
+frequency_barrier = AOESkills("Frequency Barrier", "AOE Atk Debuff | Matarunda effect", 24,
 """   - Expand your awareness across the entire social field to perceive the hidden structure, frequency, and agenda driving any group. 
 You pinpoint the core psychology binding them together, revealing the true motives at play whether it's status preservation, cult-like dynamics, toxic conformity, negativity contagion, ego contagion, image control, escapism, “fall-in-line” mentality, etc. —and sever its emotional hold on you the moment you see it. 
 Once you recognize the blueprint, you detach effortlessly-- their approval or disapproval loses meaning and their coordinated energy collapses. 
@@ -72,7 +72,7 @@ By recognizing both positive and negative crowd agendas, you navigate social spa
 You realize that the group's approval or disapproval of you has nothing to do with your worth but entirely about their own distortion of agendas. 
 On hit, all Shadows in the group’s attack is temporarily reduced. Can be stacked and reapplied.""")
 
-contagion_wave = AOESkills("Contagion Wave", "AOE Def Debuff | Marakukaja effect", 24,
+contagion_wave = AOESkills("Contagion Wave", "AOE Def Debuff | Marakunda effect", 24,
 """   - Trigger a social ripple effect via strategic preselection and social proof. 
 By earning visible approval or positive reactions from one or two influential members within a group, you set off a chain reaction of perception—others instinctively follow the lead of those already impressed. 
 This indirect display of social proof reframes you from ‘outsider’ to ‘socially validated’, lowering the group’s collective guard. 
@@ -80,7 +80,7 @@ As your perceived value climbs, the need for others to test or challenge you dim
 Through exploiting tribalism, you’re able to get the approval of the group. 
 On hit, all Shadows in the group’s defense is temporarily reduced. Can be stacked and reapplied.""")
 
-coordination_vector = AOESkills("Coordination Vector", "AOE Ag Debuff | Masukukaja effect", 24,
+coordination_vector = AOESkills("Coordination Vector", "AOE Ag Debuff | Masakunda effect", 24,
 """   - Engage your social instincts to chart the tactical currents of a group, sensing the maneuvers, patterns, and strategies they attempt to execute — coordinated influence, pressure, social nudges, or orchestrated persuasion aimed at steering your choices. 
 Unlike Frequency Barrier, which reduces the emotional weight of their motives, Coordination Vector targets the precision of their actions. 
 By anticipating their moves, you create an internal window of insight that lets you sidestep, counter, or disrupt their coordinated swings. 
