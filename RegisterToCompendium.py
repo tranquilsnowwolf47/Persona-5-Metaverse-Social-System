@@ -1746,9 +1746,9 @@ def get_persona_arcana():
 
 selected_personas_arcana = ""
 
-
 # Call function
 arcana_choice = get_persona_arcana()
+target_persona = None
 
 
 # I need to get the final index after the loop has looped through all of them
@@ -1764,6 +1764,7 @@ if arcana_choice == 1:
     persona_choice = int(input(f"Enter a Persona to register (1-{ending_range}): "))
     # Registration option for Arsene 
     if persona_choice == 1:
+        target_persona = arsene 
         print()
         # Call the function to get the stats from the user 
         stats_to_register = arsene.get_persona_info()
@@ -9437,40 +9438,40 @@ elif arcana_choice == 21:
     
 # Registration option for Anubis
     if persona_choice == 1:
-            print()
-            # Call the function to get the stats from the user 
-            stats_to_register = anubis.get_persona_info()
-            # Unpack them into values
-            level_input = stats_to_register[0]
-            st_input = stats_to_register[1]
-            ma_input = stats_to_register[2]
-            en_input = stats_to_register[3]
-            ag_input = stats_to_register[4]
-            lu_input = stats_to_register[5]
-            skill1_input = stats_to_register[6]
-            skill2_input = stats_to_register[7]
-            skill3_input = stats_to_register[8]
-            skill4_input = stats_to_register[9]
-            skill5_input = stats_to_register[10]
-            skill6_input = stats_to_register[11]
-            skill7_input = stats_to_register[12]
-            skill8_input = stats_to_register[13]
-            
-            # Now set the default values to the values of the user input
-            anubis.level = level_input
-            anubis.st = st_input
-            anubis.ma = ma_input
-            anubis.en = en_input
-            anubis.ag = ag_input
-            anubis.lu = lu_input
-            anubis.skill1 = skill1_input
-            anubis.skill2 = skill2_input
-            anubis.skill3 = skill3_input
-            anubis.skill4 = skill4_input
-            anubis.skill5 = skill5_input
-            anubis.skill6 = skill6_input
-            anubis.skill7 = skill7_input
-            anubis.skill8 = skill8_input
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = anubis.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        anubis.level = level_input
+        anubis.st = st_input
+        anubis.ma = ma_input
+        anubis.en = en_input
+        anubis.ag = ag_input
+        anubis.lu = lu_input
+        anubis.skill1 = skill1_input
+        anubis.skill2 = skill2_input
+        anubis.skill3 = skill3_input
+        anubis.skill4 = skill4_input
+        anubis.skill5 = skill5_input
+        anubis.skill6 = skill6_input
+        anubis.skill7 = skill7_input
+        anubis.skill8 = skill8_input
 
 # Registration option for Trumpeter
     elif persona_choice == 2:
@@ -9778,40 +9779,40 @@ elif arcana_choice == 22:
     
     # Registration option for Phoenix
     if persona_choice == 1:
-            print()
-            # Call the function to get the stats from the user 
-            stats_to_register = phoenix.get_persona_info()
-            # Unpack them into values
-            level_input = stats_to_register[0]
-            st_input = stats_to_register[1]
-            ma_input = stats_to_register[2]
-            en_input = stats_to_register[3]
-            ag_input = stats_to_register[4]
-            lu_input = stats_to_register[5]
-            skill1_input = stats_to_register[6]
-            skill2_input = stats_to_register[7]
-            skill3_input = stats_to_register[8]
-            skill4_input = stats_to_register[9]
-            skill5_input = stats_to_register[10]
-            skill6_input = stats_to_register[11]
-            skill7_input = stats_to_register[12]
-            skill8_input = stats_to_register[13]
-            
-            # Now set the default values to the values of the user input
-            phoenix.level = level_input
-            phoenix.st = st_input
-            phoenix.ma = ma_input
-            phoenix.en = en_input
-            phoenix.ag = ag_input
-            phoenix.lu = lu_input
-            phoenix.skill1 = skill1_input
-            phoenix.skill2 = skill2_input
-            phoenix.skill3 = skill3_input
-            phoenix.skill4 = skill4_input
-            phoenix.skill5 = skill5_input
-            phoenix.skill6 = skill6_input
-            phoenix.skill7 = skill7_input
-            phoenix.skill8 = skill8_input
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = phoenix.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        phoenix.level = level_input
+        phoenix.st = st_input
+        phoenix.ma = ma_input
+        phoenix.en = en_input
+        phoenix.ag = ag_input
+        phoenix.lu = lu_input
+        phoenix.skill1 = skill1_input
+        phoenix.skill2 = skill2_input
+        phoenix.skill3 = skill3_input
+        phoenix.skill4 = skill4_input
+        phoenix.skill5 = skill5_input
+        phoenix.skill6 = skill6_input
+        phoenix.skill7 = skill7_input
+        phoenix.skill8 = skill8_input
 
 # Registration option for Tam Lin
     elif persona_choice == 2:
@@ -10120,40 +10121,40 @@ elif arcana_choice == 23:
     
     # Registration option for Kushi Mitama
     if persona_choice == 1:
-            print()
-            # Call the function to get the stats from the user 
-            stats_to_register = kushi_mitama.get_persona_info()
-            # Unpack them into values
-            level_input = stats_to_register[0]
-            st_input = stats_to_register[1]
-            ma_input = stats_to_register[2]
-            en_input = stats_to_register[3]
-            ag_input = stats_to_register[4]
-            lu_input = stats_to_register[5]
-            skill1_input = stats_to_register[6]
-            skill2_input = stats_to_register[7]
-            skill3_input = stats_to_register[8]
-            skill4_input = stats_to_register[9]
-            skill5_input = stats_to_register[10]
-            skill6_input = stats_to_register[11]
-            skill7_input = stats_to_register[12]
-            skill8_input = stats_to_register[13]
-            
-            # Now set the default values to the values of the user input
-            kushi_mitama.level = level_input
-            kushi_mitama.st = st_input
-            kushi_mitama.ma = ma_input
-            kushi_mitama.en = en_input
-            kushi_mitama.ag = ag_input
-            kushi_mitama.lu = lu_input
-            kushi_mitama.skill1 = skill1_input
-            kushi_mitama.skill2 = skill2_input
-            kushi_mitama.skill3 = skill3_input
-            kushi_mitama.skill4 = skill4_input
-            kushi_mitama.skill5 = skill5_input
-            kushi_mitama.skill6 = skill6_input
-            kushi_mitama.skill7 = skill7_input
-            kushi_mitama.skill8 = skill8_input
+        print()
+        # Call the function to get the stats from the user 
+        stats_to_register = kushi_mitama.get_persona_info()
+        # Unpack them into values
+        level_input = stats_to_register[0]
+        st_input = stats_to_register[1]
+        ma_input = stats_to_register[2]
+        en_input = stats_to_register[3]
+        ag_input = stats_to_register[4]
+        lu_input = stats_to_register[5]
+        skill1_input = stats_to_register[6]
+        skill2_input = stats_to_register[7]
+        skill3_input = stats_to_register[8]
+        skill4_input = stats_to_register[9]
+        skill5_input = stats_to_register[10]
+        skill6_input = stats_to_register[11]
+        skill7_input = stats_to_register[12]
+        skill8_input = stats_to_register[13]
+        
+        # Now set the default values to the values of the user input
+        kushi_mitama.level = level_input
+        kushi_mitama.st = st_input
+        kushi_mitama.ma = ma_input
+        kushi_mitama.en = en_input
+        kushi_mitama.ag = ag_input
+        kushi_mitama.lu = lu_input
+        kushi_mitama.skill1 = skill1_input
+        kushi_mitama.skill2 = skill2_input
+        kushi_mitama.skill3 = skill3_input
+        kushi_mitama.skill4 = skill4_input
+        kushi_mitama.skill5 = skill5_input
+        kushi_mitama.skill6 = skill6_input
+        kushi_mitama.skill7 = skill7_input
+        kushi_mitama.skill8 = skill8_input
 
 # Registration option for Nigi Mitama
     elif persona_choice == 2:
@@ -10415,9 +10416,6 @@ elif arcana_choice == 23:
         vohu_manah.skill8 = skill8_input
 
 
-
-    
-
 # Containers for formatted log data for all Persona arcanas 
 fool_personas_log_data = []
 magician_personas_log_data = []
@@ -10568,7 +10566,7 @@ for judgement_persona in judgement_personas:
     # Call the function that formats the data and put the result in a variable
     formatted_data = judgement_persona.format_persona_log_entry()
     # Append the data into the list 
-    sun_personas_log_data.append(formatted_data)
+    judgement_personas_log_data.append(formatted_data)
 
 for faith_persona in faith_personas:
     # Call the function that formats the data and put the result in a variable
@@ -10580,98 +10578,125 @@ for councillor_persona in councillor_personas:
     # Call the function that formats the data and put the result in a variable
     formatted_data = councillor_persona.format_persona_log_entry()
     # Append the data into the list 
-    faith_personas_log_data.append(formatted_data)
+    councillor_personas_log_data.append(formatted_data)
 
 
 # Writes the formatted info to the file 
-with open("Persona_compendium_logbook.txt","w") as compendium_log:
+with open("Persona_compendium_logbook.txt","a") as compendium_log:
     # Write Fool Personas to the compendium
-    for fool_persona_log in fool_personas_log_data:
-        compendium_log.write(fool_persona_log)
+    if arcana_choice == 1:
+        for fool_persona_log in fool_personas_log_data:
+            compendium_log.write(fool_persona_log)
 
     # Magician Personas to the compendium
-    for magician_persona_log in magician_personas_log_data:
-        compendium_log.write(magician_persona_log)
-        
+    elif arcana_choice == 2:
+        for magician_persona_log in magician_personas_log_data:
+            compendium_log.write(magician_persona_log)
+            
     # Priestess Personas to the compendium
-    for priestess_persona_log in priestess_personas_log_data:
+    elif arcana_choice == 3:
+        for priestess_persona_log in priestess_personas_log_data:
             compendium_log.write(priestess_persona_log)
 
     # Empress Personas to the compendium
-    for empress_persona_log in empress_personas_log_data:
-        compendium_log.write(empress_persona_log)
+    elif arcana_choice == 4:
+        for empress_persona_log in empress_personas_log_data:
+            compendium_log.write(empress_persona_log)
 
     # Emperor Personas
-    for emperor_persona_log in emperor_personas_log_data:
-        compendium_log.write(emperor_persona_log)
+    elif arcana_choice == 5:
+        for emperor_persona_log in emperor_personas_log_data:
+            compendium_log.write(emperor_persona_log)
 
     # Hierophant Personas
-    for hierophant_persona_log in hierophant_personas_log_data:
-        compendium_log.write(hierophant_persona_log)
+    elif arcana_choice == 6:
+        for hierophant_persona_log in hierophant_personas_log_data:
+            compendium_log.write(hierophant_persona_log)
 
     # Lovers Personas
-    for lovers_persona_log in lovers_personas_log_data:
-        compendium_log.write(lovers_persona_log)
+    elif arcana_choice == 7:
+        for lovers_persona_log in lovers_personas_log_data:
+            compendium_log.write(lovers_persona_log)
 
     # Chariot Personas
-    for chariot_persona_log in chariot_personas_log_data:
-        compendium_log.write(chariot_persona_log)
+    elif arcana_choice == 8:
+        for chariot_persona_log in chariot_personas_log_data:
+            compendium_log.write(chariot_persona_log)
 
     # Justice Personas
-    for justice_persona_log in justice_personas_log_data:
-        compendium_log.write(justice_persona_log)
+    elif arcana_choice == 9:
+        for justice_persona_log in justice_personas_log_data:
+            compendium_log.write(justice_persona_log)
 
     # Hermit Personas
-    for hermit_persona_log in hermit_personas_log_data:
-        compendium_log.write(hermit_persona_log)
+    elif arcana_choice == 10:
+        for hermit_persona_log in hermit_personas_log_data:
+            compendium_log.write(hermit_persona_log)
 
     # Fortune Personas
-    for fortune_persona_log in fortune_personas_log_data:
-        compendium_log.write(fortune_persona_log)
+    elif arcana_choice == 11:
+        for fortune_persona_log in fortune_personas_log_data:
+            compendium_log.write(fortune_persona_log)
 
     # Strength Personas
-    for strength_persona_log in strength_personas_log_data:
-        compendium_log.write(strength_persona_log)
+    elif arcana_choice == 12:
+        for strength_persona_log in strength_personas_log_data:
+            compendium_log.write(strength_persona_log)
 
     # Hanged Man Personas
-    for hanged_man_persona_log in hanged_man_personas_log_data:
-        compendium_log.write(hanged_man_persona_log)
+    elif arcana_choice == 13:
+        for hanged_man_persona_log in hanged_man_personas_log_data:
+            compendium_log.write(hanged_man_persona_log)
 
     # Death Personas
-    for death_persona_log in death_personas_log_data:
-        compendium_log.write(death_persona_log)
+    elif arcana_choice == 14:
+        for death_persona_log in death_personas_log_data:
+            compendium_log.write(death_persona_log)
 
     # Temperance Personas
-    for temperance_persona_log in temperance_personas_log_data:
-        compendium_log.write(temperance_persona_log)
+    elif arcana_choice == 15:
+        for temperance_persona_log in temperance_personas_log_data:
+            compendium_log.write(temperance_persona_log)
 
     # Devil Personas
-    for devil_persona_log in devil_personas_log_data:
-        compendium_log.write(devil_persona_log)
+    elif arcana_choice == 16:
+        for devil_persona_log in devil_personas_log_data:
+            compendium_log.write(devil_persona_log)
 
     # Tower Personas
-    for tower_persona_log in tower_personas_log_data:
-        compendium_log.write(tower_persona_log)
+    elif arcana_choice == 17:
+        for tower_persona_log in tower_personas_log_data:
+            compendium_log.write(tower_persona_log)
 
     # Star Personas
-    for star_persona_log in star_personas_log_data:
-        compendium_log.write(star_persona_log)
+    elif arcana_choice == 18:
+        for star_persona_log in star_personas_log_data:
+            compendium_log.write(star_persona_log)
 
     # Moon Personas 
-    for moon_persona_log in moon_personas_log_data:
-        compendium_log.write(moon_persona_log)
+    elif arcana_choice == 19:
+        for moon_persona_log in moon_personas_log_data:
+            compendium_log.write(moon_persona_log)
 
     # Sun Personas
-    for sun_persona_log in sun_personas_log_data:
-        compendium_log.write(sun_persona_log)
+    elif arcana_choice == 20:
+        for sun_persona_log in sun_personas_log_data:
+            compendium_log.write(sun_persona_log)
 
     # Judgement Personas
-    for judgement_persona_log in judgement_personas_log_data:
-        compendium_log.write(judgement_persona_log)
+    elif arcana_choice == 21:
+        for judgement_persona_log in judgement_personas_log_data:
+            compendium_log.write(judgement_persona_log)
 
     # Faith Personas
-    for faith_persona_log in faith_personas_log_data:
-        compendium_log.write(faith_persona_log)
+    elif arcana_choice == 22:
+        for faith_persona_log in faith_personas_log_data:
+            compendium_log.write(faith_persona_log)
+
+    # Councillor Personas
+    elif arcana_choice == 23:
+        for councillor_persona_log in councillor_personas_log_data:
+            compendium_log.write(councillor_persona_log)
     
     # Let the user know that the Personas have been registered
     print("\nCurrent Personas registered to compendium.")
