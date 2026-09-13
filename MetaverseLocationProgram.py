@@ -67,7 +67,7 @@ class MetaverseLocation:
     # Categorize the Metaverse Location types into a tuple 
     metaverse_location_types = ("Palace", "Jail", "Mementos Location")
     
-    infiltration_priority_types = ("Urgent", "High", "Medium", "Low", "Void")
+    infiltration_priority_types = ("Urgent", "High", "Medium", "Low", "Very Low", "Void")
     
     distance_types = ("Out-of-state", "Very Far", "Far", "Medium", "Close", "Very Close")
     
@@ -168,9 +168,9 @@ supercon = Palace("Supercon", Palace.metaverse_location_types[0], "Miami Beach C
 # Cleared
 # Debugged
 megacon = Palace("Megacon | Casino of Envy", Palace.metaverse_location_types[0], "Orange County Convention Center | Orlando FL", Palace.infiltration_priority_types[2], "May 20–23, 2027", "Estimate: $250+ (Ticket + gas + Airbnb)",
-                 Palace.distance_types[1], Palace.rarity_types[1], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[4], Palace.repeatability_types[2], 
+                 Palace.distance_types[1], Palace.rarity_types[1], Palace.social_receptiveness_types[0], Palace.security_level_sensitivity_types[3], Palace.repeatability_types[2], 
                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[3], Palace.reward_types[0], Palace.resource_cost_types[2], 
-                 Palace.treasure_demon_potential_types[0], Palace.growth_alignment_types[0], Palace.awakening_potential_types[1], "4 Days", Palace.party_compatability_types[0])
+                 Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[0], Palace.awakening_potential_types[1], "4 Days", Palace.party_compatability_types[0])
 
 # Cleared 
 # Debugged
@@ -180,10 +180,13 @@ holiday_matsuri = Palace("Holiday Matsuri", Palace.metaverse_location_types[0], 
                          Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[1], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
 
 
-animate_orlando = "N/A"
 
-
-metrocon = "N/A"
+# Cleared 
+# Debugged
+metrocon = Palace("Metrocon", Palace.metaverse_location_types[0], "Tampa Convention Center | Tampa FL", Palace.infiltration_priority_types[1], "July 23-25 2027", "Estimate: $300+ (Ticket + gas + hotel + food)",
+                  Palace.distance_types[1], Palace.rarity_types[1], Palace.social_receptiveness_types[1], Palace.security_level_sensitivity_types[3], Palace.repeatability_types[2], 
+                  Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[3], Palace.reward_types[0], Palace.resource_cost_types[2], 
+                  Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[0], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
 
 anime_festival_orlando = "N/A"
 
@@ -275,17 +278,20 @@ mizucon = MementosFloor("Mizucon", Palace.metaverse_location_types[2], "Miccosuk
                  Palace.exp_yield_types[2], Palace.loot_potential_types[1], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[2], 
                  Palace.treasure_demon_potential_types[3], Palace.growth_alignment_types[1], Palace.awakening_potential_types[3], "2 Days", Palace.party_compatability_types[3])
 
-hero_hype_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
-                        MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
-                        MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
+# Cleared
+# Debugged
+hero_hype_con = MementosFloor("HeroHype Con", MementosFloor.metaverse_location_types[2], "Miami Airport Marriot, Miami FL", MementosFloor.infiltration_priority_types[4], "April 18th 2026", "$50 (Ticket + gas + parking)",
+                        MementosFloor.distance_types[2], MementosFloor.rarity_types[1], MementosFloor.social_receptiveness_types[3], MementosFloor.security_level_sensitivity_types[3], MementosFloor.repeatability_types[2],
+                        MementosFloor.exp_yield_types[4], MementosFloor.loot_potential_types[4], MementosFloor.risk_types[3], MementosFloor.reward_types[4], MementosFloor.resource_cost_types[3], 
+                        MementosFloor.treasure_demon_potential_types[4], MementosFloor.growth_alignment_types[4], MementosFloor.awakening_potential_types[4], "1 Day", MementosFloor.party_compatability_types[4])
 
 # Cleared 
 # Debugged
-ultracon = MementosFloor("Ultracon", Palace.metaverse_location_types[2], "South Florida Fairgrounds, West Palm Beach, FL", Palace.infiltration_priority_types[2], "September 18-20th 2026", "Approximately $89 (ticket + gas)",
-                  Palace.distance_types[5], Palace.rarity_types[1], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[0], 
-                  Palace.exp_yield_types[2], Palace.loot_potential_types[3], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[2], 
-                  Palace.treasure_demon_potential_types[3], Palace.growth_alignment_types[1], Palace.awakening_potential_types[3], "3 Days", Palace.party_compatability_types[2])
+ultracon = MementosFloor("Ultracon", MementosFloor.metaverse_location_types[2], "South Florida Fairgrounds, West Palm Beach, FL", MementosFloor.infiltration_priority_types[2], "September 18-20th 2026", "Approximately $89 (ticket + gas)",
+                  MementosFloor.distance_types[5], MementosFloor.rarity_types[1], MementosFloor.social_receptiveness_types[2], MementosFloor.security_level_sensitivity_types[2], MementosFloor.repeatability_types[0], 
+                  MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[3], MementosFloor.risk_types[2], MementosFloor.reward_types[2], MementosFloor.resource_cost_types[2], 
+                  MementosFloor.treasure_demon_potential_types[3], MementosFloor.growth_alignment_types[1], MementosFloor.awakening_potential_types[3], "3 Days", MementosFloor.party_compatability_types[2])
+
 
 sunrise_comic_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
                         MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
@@ -298,17 +304,26 @@ fau_career_fair = MementosFloor("", MementosFloor.metaverse_location_types[2], "
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
                         MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
+# Cleared
+# Debugged
+animate_orlando = MementosFloor("Animate Orlando", MementosFloor.metaverse_location_types[2], "Orange County Convention Center, Oralndo FL", "August 13-15th 2026", MementosFloor.infiltration_priority_types[5], "Approximately $300+ (ticket + hotel + gas + food)",
+                                MementosFloor.distance_types[1], MementosFloor.rarity_types[1], MementosFloor.social_receptiveness_types[2], MementosFloor.security_level_sensitivity_types[2], MementosFloor.repeatability_types[3],
+                                MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[2], MementosFloor.risk_types[2], MementosFloor.reward_types[3], MementosFloor.resource_cost_types[2], 
+                                MementosFloor.treasure_demon_potential_types[3], MementosFloor.growth_alignment_types[4], MementosFloor.awakening_potential_types[3], "3 Days", MementosFloor.party_compatability_types[4])
+
 
 plasticon = "N/A"
 
-
-baoshi_foodhall = "N/A"
+# Cleared
+# Debugged
+baoshi_foodhall = MementosFloor("Baoshi Foodhall", MementosFloor.metaverse_location_types[2], "Pembroke Pines, FL", "N/A (Subject to update)", MementosFloor.infiltration_priority_types[2], "Approximately free-$10",
+                                MementosFloor.distance_types[3], MementosFloor.rarity_types[2], MementosFloor.social_receptiveness_types[2], MementosFloor.security_level_sensitivity_types[2], MementosFloor.repeatability_types[2],
+                                MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[2], MementosFloor.risk_types[2], MementosFloor.reward_types[2], MementosFloor.resource_cost_types[2],
+                                MementosFloor.treasure_demon_potential_types[3], MementosFloor.growth_alignment_types[2], MementosFloor.awakening_potential_types[3], "Typically 1 Day", MementosFloor.party_compatability_types[2])
 
 waifu_and_wetmode = "N/A"
 
 mandel_fanfest = "N/A"
-
-anime_in_the_park = "N/A"
 
 guild_hall = "N/A"
 
@@ -322,17 +337,18 @@ gym = "N/A"
 mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con, fau_career_fair)
 accepted_mementos_floors = []
 
-
-
-print("Welcome to the Metaverse Location Program!")
-print("This program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events")
+def display_intro_text():
+    print("Welcome to the Metaverse Location Program!")
+    print("This program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events.")
+    print("It assists heavily with battle strategy and determining what locations are best to prioritize infiltration for training or Treasure hunting purposes.")
+    print()
 
 def get_location_type():
     for location_index, location in enumerate(MetaverseLocation.metaverse_location_types, start=1):
         print(f"{location_index}. {location}")
 
     try:
-        location_choice = int(input("Please enter a location type to see Infiltration Logs for: (1-3)"))
+        location_choice = int(input("Please enter a location type to see Infiltration Logs for (1-3): "))
         # Palaces
         if location_choice == 1:
             # Use a for loop to print a list of the Palace names 
@@ -347,3 +363,6 @@ def get_location_type():
             pass
     except:
         print("You did not enter the correct location type.")
+
+#display_intro_text()
+#get_location_type()
