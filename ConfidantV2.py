@@ -1,4 +1,4 @@
-# Filename: Confidant V2.py
+# Filename: ConfidantV2.py
 # Date: 2/12/26
 # Author: Aoi | shadowsnowwolf
 # Update since I got better at OOP and programming in general since the last one
@@ -121,7 +121,7 @@ class PriestessConfidant(ConfidantSystem):
 class EmpressConfidant(ConfidantSystem):
     pass
 class EmperorConfidant(ConfidantSystem):
-        pass
+    pass
 class HierophantConfidant(ConfidantSystem):
     pass
 class LoversConfidant(ConfidantSystem):
@@ -158,3 +158,6 @@ class FaithConfidant(ConfidantSystem):
     pass
 class CouncillorConfidant(ConfidantSystem):
     pass
+
+
+emperor = EmperorConfidant.display_rank_one("Martial Prowess","Improves Martial Arts skills")
