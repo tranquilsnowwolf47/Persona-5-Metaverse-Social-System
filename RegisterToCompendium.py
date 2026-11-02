@@ -10580,123 +10580,120 @@ for councillor_persona in councillor_personas:
     # Append the data into the list 
     councillor_personas_log_data.append(formatted_data)
 
+# Debugging
+print("\nARSENE")
+print("Level:", arsene.level)
+print("ST:", arsene.st)
+print("MA:", arsene.ma)
+print("EN:", arsene.en)
+print("AG:", arsene.ag)
+print("LU:", arsene.lu)
+print("Skills:", arsene.skill1, arsene.skill2, arsene.skill3, arsene.skill4,
+      arsene.skill5, arsene.skill6, arsene.skill7, arsene.skill8)
+
+print("\nOBARIYON")
+print("Level:", obariyon.level)
+print("ST:", obariyon.st)
+print("MA:", obariyon.ma)
+print("EN:", obariyon.en)
+print("AG:", obariyon.ag)
+print("LU:", obariyon.lu)
+print("Skills:", obariyon.skill1, obariyon.skill2, obariyon.skill3, obariyon.skill4,
+      obariyon.skill5, obariyon.skill6, obariyon.skill7, obariyon.skill8)
 
 # Writes the formatted info to the file 
-with open("Persona_compendium_logbook.txt","a") as compendium_log:
+with open("Persona_compendium_logbook.txt","w") as compendium_log:
     # Write Fool Personas to the compendium
-    if arcana_choice == 1:
-        for fool_persona_log in fool_personas_log_data:
-            compendium_log.write(fool_persona_log)
+    for fool_persona_log in fool_personas_log_data:
+        compendium_log.write(fool_persona_log)
 
-    # Magician Personas to the compendium
-    elif arcana_choice == 2:
-        for magician_persona_log in magician_personas_log_data:
-            compendium_log.write(magician_persona_log)
-            
-    # Priestess Personas to the compendium
-    elif arcana_choice == 3:
-        for priestess_persona_log in priestess_personas_log_data:
-            compendium_log.write(priestess_persona_log)
+# Magician Personas to the compendium
+    #for magician_persona_log in magician_personas_log_data:
+        #compendium_log.write(magician_persona_log)
+        
+# Priestess Personas to the compendium
+    #for priestess_persona_log in priestess_personas_log_data:
+        #compendium_log.write(priestess_persona_log)
 
-    # Empress Personas to the compendium
-    elif arcana_choice == 4:
-        for empress_persona_log in empress_personas_log_data:
-            compendium_log.write(empress_persona_log)
+# Empress Personas to the compendium
+    #for empress_persona_log in empress_personas_log_data:
+        #compendium_log.write(empress_persona_log)
 
-    # Emperor Personas
-    elif arcana_choice == 5:
-        for emperor_persona_log in emperor_personas_log_data:
-            compendium_log.write(emperor_persona_log)
+# Emperor Personas
+    #for emperor_persona_log in emperor_personas_log_data:
+        #compendium_log.write(emperor_persona_log)
 
-    # Hierophant Personas
-    elif arcana_choice == 6:
-        for hierophant_persona_log in hierophant_personas_log_data:
-            compendium_log.write(hierophant_persona_log)
+# Hierophant Personas
+    #for hierophant_persona_log in hierophant_personas_log_data:
+        #compendium_log.write(hierophant_persona_log)
 
-    # Lovers Personas
-    elif arcana_choice == 7:
-        for lovers_persona_log in lovers_personas_log_data:
-            compendium_log.write(lovers_persona_log)
+# Lovers Personas
+    #for lovers_persona_log in lovers_personas_log_data:
+        #compendium_log.write(lovers_persona_log)
 
-    # Chariot Personas
-    elif arcana_choice == 8:
-        for chariot_persona_log in chariot_personas_log_data:
-            compendium_log.write(chariot_persona_log)
+# Chariot Personas
+    #for chariot_persona_log in chariot_personas_log_data:
+        #compendium_log.write(chariot_persona_log)
 
-    # Justice Personas
-    elif arcana_choice == 9:
-        for justice_persona_log in justice_personas_log_data:
-            compendium_log.write(justice_persona_log)
+# Justice Personas
+    #for justice_persona_log in justice_personas_log_data:
+        #compendium_log.write(justice_persona_log)
 
-    # Hermit Personas
-    elif arcana_choice == 10:
-        for hermit_persona_log in hermit_personas_log_data:
-            compendium_log.write(hermit_persona_log)
+# Hermit Personas
+    #for hermit_persona_log in hermit_personas_log_data:
+        #compendium_log.write(hermit_persona_log)
 
-    # Fortune Personas
-    elif arcana_choice == 11:
-        for fortune_persona_log in fortune_personas_log_data:
-            compendium_log.write(fortune_persona_log)
+# Fortune Personas
+    #for fortune_persona_log in fortune_personas_log_data:
+        #compendium_log.write(fortune_persona_log)
 
-    # Strength Personas
-    elif arcana_choice == 12:
-        for strength_persona_log in strength_personas_log_data:
-            compendium_log.write(strength_persona_log)
+# Strength Personas
+    #for strength_persona_log in strength_personas_log_data:
+        #compendium_log.write(strength_persona_log)
 
-    # Hanged Man Personas
-    elif arcana_choice == 13:
-        for hanged_man_persona_log in hanged_man_personas_log_data:
-            compendium_log.write(hanged_man_persona_log)
+# Hanged Man Personas
+    #for hanged_man_persona_log in hanged_man_personas_log_data:
+        #compendium_log.write(hanged_man_persona_log)
 
-    # Death Personas
-    elif arcana_choice == 14:
-        for death_persona_log in death_personas_log_data:
-            compendium_log.write(death_persona_log)
+# Death Personas
+    #for death_persona_log in death_personas_log_data:
+        #compendium_log.write(death_persona_log)
 
-    # Temperance Personas
-    elif arcana_choice == 15:
-        for temperance_persona_log in temperance_personas_log_data:
-            compendium_log.write(temperance_persona_log)
+# Temperance Personas
+    #for temperance_persona_log in temperance_personas_log_data:
+        #compendium_log.write(temperance_persona_log)
 
-    # Devil Personas
-    elif arcana_choice == 16:
-        for devil_persona_log in devil_personas_log_data:
-            compendium_log.write(devil_persona_log)
+# Devil Personas
+    f#or devil_persona_log in devil_personas_log_data:
+        #compendium_log.write(devil_persona_log)
 
-    # Tower Personas
-    elif arcana_choice == 17:
-        for tower_persona_log in tower_personas_log_data:
-            compendium_log.write(tower_persona_log)
+# Tower Personas
+    #for tower_persona_log in tower_personas_log_data:
+        #compendium_log.write(tower_persona_log)
 
-    # Star Personas
-    elif arcana_choice == 18:
-        for star_persona_log in star_personas_log_data:
-            compendium_log.write(star_persona_log)
+# Star Personas
+    #for star_persona_log in star_personas_log_data:
+        #compendium_log.write(star_persona_log)
 
-    # Moon Personas 
-    elif arcana_choice == 19:
-        for moon_persona_log in moon_personas_log_data:
-            compendium_log.write(moon_persona_log)
+# Moon Personas 
+    #for moon_persona_log in moon_personas_log_data:
+        #compendium_log.write(moon_persona_log)
 
-    # Sun Personas
-    elif arcana_choice == 20:
-        for sun_persona_log in sun_personas_log_data:
-            compendium_log.write(sun_persona_log)
+# Sun Personas
+    #for sun_persona_log in sun_personas_log_data:
+        #compendium_log.write(sun_persona_log)
 
-    # Judgement Personas
-    elif arcana_choice == 21:
-        for judgement_persona_log in judgement_personas_log_data:
-            compendium_log.write(judgement_persona_log)
+# Judgement Personas
+    #for judgement_persona_log in judgement_personas_log_data:
+        #compendium_log.write(judgement_persona_log)
 
-    # Faith Personas
-    elif arcana_choice == 22:
-        for faith_persona_log in faith_personas_log_data:
-            compendium_log.write(faith_persona_log)
+# Faith Personas
+    #for faith_persona_log in faith_personas_log_data:
+        #compendium_log.write(faith_persona_log)
 
-    # Councillor Personas
-    elif arcana_choice == 23:
-        for councillor_persona_log in councillor_personas_log_data:
-            compendium_log.write(councillor_persona_log)
+# Councillor Personas
+    #for councillor_persona_log in councillor_personas_log_data:
+        #compendium_log.write(councillor_persona_log)
     
     # Let the user know that the Personas have been registered
     print("\nCurrent Personas registered to compendium.")
