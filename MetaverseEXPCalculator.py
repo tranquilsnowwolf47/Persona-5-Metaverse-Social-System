@@ -31,10 +31,15 @@
 # Light Persona skill used - 8
 
 class EXPSystem:
-    def __init__(self, RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, RED_SHADOW_ALL_OUT_ATTACK=10,
+    def __init__(self, 
+    name, level, current_EXP, EXP_to_next,
+    RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, RED_SHADOW_ALL_OUT_ATTACK=10,
     YELLOW_SHADOW_AMBUSHED=8, YELLOW_SHADOW_NORMAL=11, YELLOW_SHADOW_AMBUSHING=14, YELLOW_SHADOW_ALL_OUT_ATTACK=9,
     BLUE_SHADOW_AMBUSHED=7, BLUE_SHADOW_NORMAL=10, BLUE_SHADOW_AMBUSHING=13, BLUE_SHADOW_ALL_OUT_ATTACK=8,
     SEVERE_PERSONA_SKILL=15, HEAVY_PERSONA_SKILL=10, MEDIUM_PERSONA_SKILL=9, LIGHT_PERSONA_SKILL=8,
+    MINI_BOSS=30, BOSS=50,
+    ARCANA_BOOST_ACTIVITY=10,
+    ATTACK=8,GUN=8,ITEM=5,GUARD=5,TACTICS=5)
     BASE_EXP=3):
         # Red Shadow EXP values
         self._RED_SHADOW_AMBUSHED = RED_SHADOW_AMBUSHED
@@ -50,9 +55,21 @@ class EXPSystem:
         self._BLUE_SHADOW_AMBUSHING = BLUE_SHADOW_AMBUSHING
         # Persona Skill EXP values
         self._LIGHT_PERSONA_SKILL = LIGHT_PERSONA_SKILL
-        self._MEDIUM_PERSONA_SKILL =
-        self._HEAVY_PERSONA_SKILL =
-        self._SEVERE_PERSONA_SKILL =
+        self._MEDIUM_PERSONA_SKILL = MEDIUM_PERSONA_SKILL
+        self._HEAVY_PERSONA_SKILL = HEAVY_PERSONA_SKILL
+        self._SEVERE_PERSONA_SKILL = SEVERE_PERSONA_SKILL
+        # Mini Boss EXP values
+        self._MINI_BOSS = MINI_BOSS
+        # Boss EXP values
+        self._BOSS = BOSS
+        # Arcana Boost Activity
+        self._ARCANA_BOOST_ACTIVITY = ARCANA_BOOST_ACTIVITY
+        # Battle Options
+        self._ATTACK = ATTACK
+        self._GUN = GUN
+        self._ITEM = ITEM
+        self._GUARD = GUARD 
+        self._TACTICS = TACTICS
 
 class RedShadow:
     def calculate_red_shadow_ambushed(self): # Ambushed
@@ -69,7 +86,7 @@ class YellowShadow:
         return self._YELLOW_SHADOW_AMBUSHED *= self._BASE_EXP
     def calculate_yellow_shadow_normal(self): # Normal
         return self._YELLOW_SHADOW_NORMAL *= self._BASE_EXP
-    def calculate_yellow_shadow_ambushing(sef): # Ambushing
+    def calculate_yellow_shadow_ambushing(self): # Ambushing
         return self._YELLOW_SHADOW_AMBUSHING *= self._BASE_EXP
     def calculate_shadow_all_out_attack(self): # All-Out Attack
         return self._YELLOW_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
@@ -77,34 +94,44 @@ class YellowShadow:
 class BlueShadow:
     def calculate_blue_shadow_ambushed(self): # Ambushed
         return self._BLUE_SHADOW_AMBUSHED *= self._BASE_EXP
-    def calculate_blue_shadow_normal(): # Ambushing
+    def calculate_blue_shadow_normal(self): # Ambushing
         return self._BLUE_SHADOW_NORMAL *= self._BASE_EXP
-    def calculate_blue_shadow_ambushing(): # Normal
+    def calculate_blue_shadow_ambushing(self): # Normal
         return self._BLUE_SHADOW_AMBUSHING *= self._BASE_EXP
-    def calculate_shadow_all_out_attack(): # All-Out Attack
+    def calculate_shadow_all_out_attack(self): # All-Out Attack
         return self._BLUE_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
     
 class PersonaSkill:
-    def calculate_severe_persona_skill(): # Severe
-        return SEVERE_PERSONA_SKILL *= BASE_EXP
-    def calculate_heavy_persona_skill(): # Heavy
-        return HEAVY_PERSONA_SKILL *= BASE_EXP
-    def calculate_medium_persona_skill(): # Medium
-        return MEDIUM_PERSONA_SKILL *= BASE_EXP
-    def calculate_light_persona_skill(): # Light
-        return LIGHT_PERSONA_SKILL *= BASE_EXP
+    def calculate_severe_persona_skill(self): # Severe
+        return self._SEVERE_PERSONA_SKILL *= self._BASE_EXP
+    def calculate_heavy_persona_skill(self): # Heavy
+        return self._HEAVY_PERSONA_SKILL *= self._BASE_EXP
+    def calculate_medium_persona_skill(self): # Medium
+        return self._MEDIUM_PERSONA_SKILL *= self._BASE_EXP
+    def calculate_light_persona_skill(self): # Light
+        return self._LIGHT_PERSONA_SKILL *= self._BASE_EXP
 
 class MiniBoss:
-    pass
+    def calculate_mini_boss(self):
+        return self._MINI_BOSS *= self._BASE_EXP
     
 class Boss:
-    pass
+    def calculate_boss(self):
+        return self._BOSS *= self._BASE_EXP
     
-class ClassicTactics:
-    pass
+class BattleOptions:
+    def calculate_attack(self):
+        return self._ATTACK *= self._BASE_EXP
+    def calculate_gun(self):
+        return
+    def calculate_item(self):
+        return
+    def calculate_
+    def
     
 class ArcanaBoost:
-    pass
+    def calculate_arcana_boost_activity(self):
+        return
     
 
 battle_types = ("All-Out Attack")
