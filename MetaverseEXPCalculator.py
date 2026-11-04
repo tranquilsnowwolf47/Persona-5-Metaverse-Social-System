@@ -30,17 +30,22 @@
 # Medium Persona skill used - 9
 # Light Persona skill used - 8
 
+
+# Self-note: Shouldn't there be a mini boss and boss all out attack exp amount...?
+
 class EXPSystem:
     def __init__(self, 
-    name, level, current_EXP, EXP_to_next,
-    RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, RED_SHADOW_ALL_OUT_ATTACK=10,
-    YELLOW_SHADOW_AMBUSHED=8, YELLOW_SHADOW_NORMAL=11, YELLOW_SHADOW_AMBUSHING=14, YELLOW_SHADOW_ALL_OUT_ATTACK=9,
-    BLUE_SHADOW_AMBUSHED=7, BLUE_SHADOW_NORMAL=10, BLUE_SHADOW_AMBUSHING=13, BLUE_SHADOW_ALL_OUT_ATTACK=8,
+    name, level, current_EXP, EXP_to_next, total_EXP, EXP_multipliers =[]
+    RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, 
+    YELLOW_SHADOW_AMBUSHED=8, YELLOW_SHADOW_NORMAL=11, YELLOW_SHADOW_AMBUSHING=14, 
+    BLUE_SHADOW_AMBUSHED=7, BLUE_SHADOW_NORMAL=10, BLUE_SHADOW_AMBUSHING=13, 
     SEVERE_PERSONA_SKILL=15, HEAVY_PERSONA_SKILL=10, MEDIUM_PERSONA_SKILL=9, LIGHT_PERSONA_SKILL=8,
+    RED_SHADOW_ALL_OUT_ATTACK=10, YELLOW_SHADOW_ALL_OUT_ATTACK=9, BLUE_SHADOW_ALL_OUT_ATTACK=8,
     MINI_BOSS=30, BOSS=50,
     ARCANA_BOOST_ACTIVITY=10,
-    ATTACK=8,GUN=8,ITEM=5,GUARD=5,TACTICS=5)
-    BASE_EXP=3):
+    ATTACK=8,GUN=8,ITEM=5,GUARD=5,TACTICS=5,
+    EXP_MULTIPLIER=3):
+        self._EXP_multipliers = EXP_multipliers
         # Red Shadow EXP values
         self._RED_SHADOW_AMBUSHED = RED_SHADOW_AMBUSHED
         self._RED_SHADOW_NORMAL = RED_SHADOW_NORMAL
@@ -70,69 +75,150 @@ class EXPSystem:
         self._ITEM = ITEM
         self._GUARD = GUARD 
         self._TACTICS = TACTICS
+        # All Out Attack Options
+        self._RED_SHADOW_ALL_OUT_ATTACK = RED_SHADOW_ALL_OUT_ATTACK
+        self._YELLOW_SHADOW_ALL_OUT_ATTACK = YELLOW_SHADOW_ALL_OUT_ATTACK
+        self._BLUE_SHADOW_ALL_OUT_ATTACK = BLUE_SHADOW_ALL_OUT_ATTACK
+        # EXP Multiplier 
+        self._EXP_MULTIPLIER = EXP_MULTIPLIER
 
-class RedShadow:
-    def calculate_red_shadow_ambushed(self): # Ambushed
-        return self._RED_SHADOW_AMBUSHED *= self._BASE_EXP
-    def calculate_red_shadow_normal(self): # Normal
-        return self._RED_SHADOW_NORMAL *= self._BASE_EXP
-    def calculate_red_shadow_ambushing(self): # Ambushing
-        return self._RED_SHADOW_AMUSHING *= self._BASE_EXP
-    def calculate_shadow_all_out_attack(self): # All-Out Attack
-        return self._RED_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
-
-class YellowShadow:
-    def calculate_yellow_shadow_ambushed(self): # Ambushed
-        return self._YELLOW_SHADOW_AMBUSHED *= self._BASE_EXP
-    def calculate_yellow_shadow_normal(self): # Normal
-        return self._YELLOW_SHADOW_NORMAL *= self._BASE_EXP
-    def calculate_yellow_shadow_ambushing(self): # Ambushing
-        return self._YELLOW_SHADOW_AMBUSHING *= self._BASE_EXP
-    def calculate_shadow_all_out_attack(self): # All-Out Attack
-        return self._YELLOW_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
-
-class BlueShadow:
-    def calculate_blue_shadow_ambushed(self): # Ambushed
-        return self._BLUE_SHADOW_AMBUSHED *= self._BASE_EXP
-    def calculate_blue_shadow_normal(self): # Ambushing
-        return self._BLUE_SHADOW_NORMAL *= self._BASE_EXP
-    def calculate_blue_shadow_ambushing(self): # Normal
-        return self._BLUE_SHADOW_AMBUSHING *= self._BASE_EXP
-    def calculate_shadow_all_out_attack(self): # All-Out Attack
-        return self._BLUE_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
     
-class PersonaSkill:
-    def calculate_severe_persona_skill(self): # Severe
-        return self._SEVERE_PERSONA_SKILL *= self._BASE_EXP
-    def calculate_heavy_persona_skill(self): # Heavy
-        return self._HEAVY_PERSONA_SKILL *= self._BASE_EXP
-    def calculate_medium_persona_skill(self): # Medium
-        return self._MEDIUM_PERSONA_SKILL *= self._BASE_EXP
-    def calculate_light_persona_skill(self): # Light
-        return self._LIGHT_PERSONA_SKILL *= self._BASE_EXP
 
-class MiniBoss:
+class RedShadow(EXPSystem):
+    # Ambushed
+    def calculate_red_shadow_ambushed(self): 
+        self._RED_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    # Normal
+    def calculate_red_shadow_normal(self): 
+        self._RED_SHADOW_NORMAL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    # Ambushing
+    def calculate_red_shadow_ambushing(self): 
+        self._RED_SHADOW_AMBUSHING *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+
+class YellowShadow(EXPSystem):
+    # Ambushed
+    def calculate_yellow_shadow_ambushed(self): 
+        self._YELLOW_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    # Normal
+    def calculate_yellow_shadow_normal(self): 
+        self._YELLOW_SHADOW_NORMAL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    # Ambushing
+    def calculate_yellow_shadow_ambushing(self): 
+        self._YELLOW_SHADOW_AMBUSHING *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+
+class BlueShadow(EXPSystem):
+    # Ambushed
+    def calculate_blue_shadow_ambushed(self): 
+        self._BLUE_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+    # Normal
+    def calculate_blue_shadow_normal(self): 
+        self._BLUE_SHADOW_NORMAL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+    # Ambushing
+    def calculate_blue_shadow_ambushing(self): 
+        self._BLUE_SHADOW_AMBUSHING *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+
+class AllOutAttackOptions(EXPSystem):
+    # Red Shadow All-Out Attack
+    def calculate_red_shadow_all_out_attack(self):
+        self._RED_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+    # Yellow Shadow All-Out Attack
+    def calculate_yellow_shadow_all_out_attack(self): 
+        self._YELLOW_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+    def calculate_blue_shadow_all_out_attack(self): 
+        # Blue Shadow All-Out Attack
+        self._BLUE_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    
+class PersonaSkill(EXPSystem):
+    # Severe
+    def calculate_severe_persona_skill(self): 
+        self._SEVERE_PERSONA_SKILL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    # Heavy
+    def calculate_heavy_persona_skill(self): 
+        self._HEAVY_PERSONA_SKILL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    # Medium
+    def calculate_medium_persona_skill(self): 
+    # Light
+        self._MEDIUM_PERSONA_SKILL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    def calculate_light_persona_skill(self): 
+        self._LIGHT_PERSONA_SKILL *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+
+class MiniBoss(EXPSystem):
     def calculate_mini_boss(self):
-        return self._MINI_BOSS *= self._BASE_EXP
+        self._MINI_BOSS *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
     
-class Boss:
+class Boss(EXPSystem):
     def calculate_boss(self):
-        return self._BOSS *= self._BASE_EXP
+        self._BOSS *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
     
-class BattleOptions:
+class BattleOptions(EXPSystem):
+    # 
     def calculate_attack(self):
-        return self._ATTACK *= self._BASE_EXP
+        self._ATTACK *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    #
     def calculate_gun(self):
-        return
+        self._GUN *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    #
     def calculate_item(self):
-        return
-    def calculate_
-    def
+        self._ITEM *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    #
+    def calculate_guard(self):
+        self._GUARD *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    #
+    def calculate_tactics(self):
+        self._TACTICS *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+
     
-class ArcanaBoost:
+class ArcanaBoost(EXPSystem):
     def calculate_arcana_boost_activity(self):
-        return
-    
+        self._ARCANA_BOOST_ACTIVITY *= self._EXP_MULTIPLIER
+        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+
+
+    def get_EXP_total(self):
+        return self._EXP_multipliers
 
 battle_types = ("All-Out Attack")
 
