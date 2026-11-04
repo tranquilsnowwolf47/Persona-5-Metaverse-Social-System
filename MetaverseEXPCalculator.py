@@ -25,56 +25,73 @@
 # RED_SHADOW_ALL_OUT_ATTACK = 10
 
 # Skills
-# Severe Persona skill used - 
-# Heavy Persona skill used - 8
-# Medium Persona skill used - 7
-# Light Persona skill used - 6
+# Severe Persona skill used - 15
+# Heavy Persona skill used - 10
+# Medium Persona skill used - 9
+# Light Persona skill used - 8
 
 class EXPSystem:
-    def __init__(self, RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=, RED_SHADOW_AMBUSHING=,
-    YELLOW_SHADOW_AMBUSHED=, YELLOW_SHADOW_NORMAL=, YELLOW_SHADOW_AMBUSHING=,
-    BLUE_SHADOW_AMBUSHED=, BLUE_SHADOW_NORMAL=, BLUE_SHADOW_AMBUSHING=,
+    def __init__(self, RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, RED_SHADOW_ALL_OUT_ATTACK=10,
+    YELLOW_SHADOW_AMBUSHED=8, YELLOW_SHADOW_NORMAL=11, YELLOW_SHADOW_AMBUSHING=14, YELLOW_SHADOW_ALL_OUT_ATTACK=9,
+    BLUE_SHADOW_AMBUSHED=7, BLUE_SHADOW_NORMAL=10, BLUE_SHADOW_AMBUSHING=13, BLUE_SHADOW_ALL_OUT_ATTACK=8,
+    SEVERE_PERSONA_SKILL=15, HEAVY_PERSONA_SKILL=10, MEDIUM_PERSONA_SKILL=9, LIGHT_PERSONA_SKILL=8,
     BASE_EXP=3):
-        self._RED_SHADOW_AMBUSHED = 
+        # Red Shadow EXP values
+        self._RED_SHADOW_AMBUSHED = RED_SHADOW_AMBUSHED
+        self._RED_SHADOW_NORMAL = RED_SHADOW_NORMAL
+        self._RED_SHADOW_AMBUSHING = RED_SHADOW_AMBUSHING
+        # Yellow Shadow EXP values 
+        self._YELLOW_SHADOW_AMBUSHED = YELLOW_SHADOW_AMBUSHING
+        self._YELLOW_SHADOW_NORMAL = YELLOW_SHADOW_NORMAL
+        self._YELLOW_SHADOW_AMBUSHING = YELLOW_SHADOW_AMBUSHED
+        # Blue Shadow EXP values
+        self._BLUE_SHADOW_AMBUSHED = BLUE_SHADOW_AMBUSHED
+        self._BLUE_SHADOW_NORMAL = BLUE_SHADOW_NORMAL
+        self._BLUE_SHADOW_AMBUSHING = BLUE_SHADOW_AMBUSHING
+        # Persona Skill EXP values
+        self._LIGHT_PERSONA_SKILL = LIGHT_PERSONA_SKILL
+        self._MEDIUM_PERSONA_SKILL =
+        self._HEAVY_PERSONA_SKILL =
+        self._SEVERE_PERSONA_SKILL =
 
 class RedShadow:
-    def calculate_red_shadow_ambushed(RED_SHADOW_AMBUSHED=9, BASE_EXP=3): # Ambushed
-        return RED_SHADOW_AMBUSHED * BASE_EXP
-    def calculate_red_shadow_normal(RED_SHADOW_NORMAL=12, BASE_EXP=3): # Normal
-        return RED_SHADOW_NORMAL * BASE_EXP
-    def calculate_red_shadow_ambushing(RED_SHADOW_AMUSHING=15, BASE_EXP=3): # Ambushing
-        return RED_SHADOW_AMUSHING * BASE_EXP
-    def calculate_shadow_all_out_attack(RED_SHADOW_ALL_OUT_ATTACK=8, BASE_EXP=3): # All-Out Attack
-        return RED_SHADOW_ALL_OUT_ATTACK * BASE_EXP
+    def calculate_red_shadow_ambushed(self): # Ambushed
+        return self._RED_SHADOW_AMBUSHED *= self._BASE_EXP
+    def calculate_red_shadow_normal(self): # Normal
+        return self._RED_SHADOW_NORMAL *= self._BASE_EXP
+    def calculate_red_shadow_ambushing(self): # Ambushing
+        return self._RED_SHADOW_AMUSHING *= self._BASE_EXP
+    def calculate_shadow_all_out_attack(self): # All-Out Attack
+        return self._RED_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
 
 class YellowShadow:
-    def calculate_yellow_shadow_ambushed(YELLOW_SHADOW_AMBUSHED=8, BASE_EXP=3): # Ambushed
-        return YELLOW_SHADOW_AMBUSHED *= BASE_EXP
-    def calculate_yellow_shadow_normal(YELLOW_SHADOW_NORMAL=11, BASE_EXP=3): # Normal
-        return YELLOW_SHADOW_NORMAL *= BASE_EXP
-    def calculate_yellow_shadow_ambushing(YELLOW_SHADOW_AMBUSHING=14, BASE_EXP=3): # Ambushing
-        return YELLOW_SHADOW_AMBUSHING *= BASE_EXP
-    def calculate_shadow_all_out_attack(YELLOW_SHADOW_ALL_OUT_ATTACK=9, BASE_EXP=3): # All-Out Attack
-        return YELLOW_SHADOW_ALL_OUT_ATTACK *= BASE_EXP
+    def calculate_yellow_shadow_ambushed(self): # Ambushed
+        return self._YELLOW_SHADOW_AMBUSHED *= self._BASE_EXP
+    def calculate_yellow_shadow_normal(self): # Normal
+        return self._YELLOW_SHADOW_NORMAL *= self._BASE_EXP
+    def calculate_yellow_shadow_ambushing(sef): # Ambushing
+        return self._YELLOW_SHADOW_AMBUSHING *= self._BASE_EXP
+    def calculate_shadow_all_out_attack(self): # All-Out Attack
+        return self._YELLOW_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
 
 class BlueShadow:
-    def calculate_blue_shadow_ambushed(BLUE_SHADOW_AMBUSHED=7, BASE_EXP=3): # Ambushed
-        return BLUE_SHADOW_AMBUSHED *= BASE_EXP
-    def calculate_blue_shadow_normal(BLUE_SHADOW_NORMAL=10, BASE_EXP=3): # Ambushing
-        return BLUE_SHADOW_NORMAL *= BASE_EXP
-    def calculate_blue_shadow_ambushing(BLUE_SHADOW_AMBUSHING=13, BASE_EXP=3): # Normal
-        return BLUE_SHADOW_AMBUSHING *= BASE_EXP
-    def calculate_shadow_all_out_attack(BLUE_SHADOW_ALL_OUT_ATTACK=10, BASE_EXP=3): # All-Out Attack
-        return BLUE_SHADOW_ALL_OUT_ATTACK *= BASE_EXP
+    def calculate_blue_shadow_ambushed(self): # Ambushed
+        return self._BLUE_SHADOW_AMBUSHED *= self._BASE_EXP
+    def calculate_blue_shadow_normal(): # Ambushing
+        return self._BLUE_SHADOW_NORMAL *= self._BASE_EXP
+    def calculate_blue_shadow_ambushing(): # Normal
+        return self._BLUE_SHADOW_AMBUSHING *= self._BASE_EXP
+    def calculate_shadow_all_out_attack(): # All-Out Attack
+        return self._BLUE_SHADOW_ALL_OUT_ATTACK *= self._BASE_EXP
     
 class PersonaSkill:
-    def calculate_severe_persona_skill(SEVERE_PERSONA_SKILL=10, BASE_EXP=3): # Severe
+    def calculate_severe_persona_skill(): # Severe
         return SEVERE_PERSONA_SKILL *= BASE_EXP
-    def calculate_heavy_persona_skill(HEAVY_PERSONA_SKILL=8, BASE_EXP=3): # Heavy
+    def calculate_heavy_persona_skill(): # Heavy
         return HEAVY_PERSONA_SKILL *= BASE_EXP
-    def calculate_medium_persona_skill(MEDIUM_PERSONA_SKILL=7, BASE_EXP=3): # Medium
+    def calculate_medium_persona_skill(): # Medium
         return MEDIUM_PERSONA_SKILL *= BASE_EXP
-    def calculate_light_persona_skill(LIGHT_PERSONA_SKILL=6, BASE_EXP=3): # Light
+    def calculate_light_persona_skill(): # Light
         return LIGHT_PERSONA_SKILL *= BASE_EXP
 
 class MiniBoss:
