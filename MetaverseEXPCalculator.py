@@ -35,7 +35,7 @@
 
 class EXPSystem:
     def __init__(self, 
-    name, level, current_EXP, EXP_to_next, total_EXP, EXP_multipliers =[]
+    name, level, current_EXP, EXP_to_next, total_EXP, EXP_multipliers =[],
     RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, 
     YELLOW_SHADOW_AMBUSHED=8, YELLOW_SHADOW_NORMAL=11, YELLOW_SHADOW_AMBUSHING=14, 
     BLUE_SHADOW_AMBUSHED=7, BLUE_SHADOW_NORMAL=10, BLUE_SHADOW_AMBUSHING=13, 
