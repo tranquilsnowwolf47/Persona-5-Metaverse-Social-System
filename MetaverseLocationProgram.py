@@ -192,13 +192,11 @@ momocon = "N/A"
 
 dreamcon = "N/A"
 
-bold_matsuri = "N/A"
-
 anime_expo = "N/A"
 
 
 # Tuple that holds all the list of Palace objects
-palaces = (fau, otakufest, supercon, megacon, holiday_matsuri)
+palaces = (fau, otakufest, supercon, megacon, holiday_matsuri, metrocon)
 accepted_palaces = []
 voided_palaces = []
 
