@@ -317,7 +317,10 @@ baoshi_foodhall = MementosFloor("Baoshi Foodhall", MementosFloor.metaverse_locat
                                 MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[2], MementosFloor.risk_types[2], MementosFloor.reward_types[2], MementosFloor.resource_cost_types[2],
                                 MementosFloor.treasure_demon_potential_types[2], MementosFloor.growth_alignment_types[2], MementosFloor.awakening_potential_types[3], "Typically 1 Day", MementosFloor.party_compatability_types[2])
 
-guild_hall = MementosFloor("Guildhall", MementosFloor.metaverse_location_types[2], "Coconut Creek, FL", "N/A (Subject to update)", MementosFloor.infiltration_priority_types[2],
+guild_hall = MementosFloor("Guildhall", MementosFloor.metaverse_location_types[2], "Coconut Creek, FL", "N/A (Subject to update)", MementosFloor.infiltration_priority_types[2], "Approximately free-$20", 
+                           MementosFloor.distance_types[2], MementosFloor.rarity_types[2], MementosFloor.social_receptiveness[2], MementosFloor.security_level_sensitivity_types[2], MementosFloor.repeatability_types[2],
+                           MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[2], MementosFloor.risk_types[2], MementosFloor.reward_types[2], MementosFloor.resource_cost_types[2],
+                           MementosFloor.treasure_demon_potential_types[2], MementosFloor.growth_alignment_types[2], MementosFloor.awakening_potential_types[3], "Typically 1 Day", MementosFloor.party_compatability_types[2])
 
 ivns_kava_bar = "N/A"
 
