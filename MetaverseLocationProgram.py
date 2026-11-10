@@ -188,8 +188,6 @@ metrocon = Palace("Metrocon", Palace.metaverse_location_types[0], "Tampa Convent
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[3], Palace.reward_types[0], Palace.resource_cost_types[2], 
                   Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[0], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
 
-anime_festival_orlando = "N/A"
-
 momocon = "N/A"
 
 dreamcon = "N/A"
