@@ -317,13 +317,9 @@ baoshi_foodhall = MementosFloor("Baoshi Foodhall", MementosFloor.metaverse_locat
                                 MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[2], MementosFloor.risk_types[2], MementosFloor.reward_types[2], MementosFloor.resource_cost_types[2],
                                 MementosFloor.treasure_demon_potential_types[3], MementosFloor.growth_alignment_types[2], MementosFloor.awakening_potential_types[3], "Typically 1 Day", MementosFloor.party_compatability_types[2])
 
-waifu_and_wetmode = "N/A"
-
-mandel_fanfest = "N/A"
-
 guild_hall = "N/A"
 
-invns_kava_bar = "N/A"
+ivns_kava_bar = "N/A"
 
 tenth_level_tavern = "N/A"
 
