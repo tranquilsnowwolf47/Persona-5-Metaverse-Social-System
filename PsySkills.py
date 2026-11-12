@@ -44,7 +44,7 @@ Ex 2: A person overreacts to a comment about their past. Shadow Whisper lets you
 Ex 3: In a conversation, someone puts you down and makes you sound like you’re inferior. Shadow Whisper reveals that the person may have a superiority complex. 
 Deals heavy Psy damage.""")
 
-priority_rift = HeavySkills("Priority Rift", "Psy", "Heavy", 24,
+priority_rift = HeavySkills("Cognition Rift", "Psy", "Heavy", 24,
 """   - Instead of listening to what someone says, you pay attention to their actions instead, allowing you to notice the subtle patterns, the effort they actually put in, the consistency of their actions, and the truth behind how authentic and genuine they really are.
 Cuts through excuses, fluff, and flaking, giving you a clear read on whether they’ll follow through or if they are who they say they are. 
 (Ex: Someone promises to meet up but consistently flakes
@@ -52,7 +52,7 @@ Cuts through excuses, fluff, and flaking, giving you a clear read on whether the
  Ex 3: A family member or romantic interest claims to love you, but they disrespect and take advantage of you
  Ex 4: Someone constantly texts but never follows through with actions (i.e., sending memes but skipping real meetups)
  Ex 4: They compliment you and flirt, but avoid making time for you or cancels plans).
-Deals heavy Psy damage.""")
+Deals heavy Psy damage. """)
 
 foresight = HeavySkills("Foresight", "Psy", "Heavy", 23,
 """   - Anticipate a target’s next behavior, attack, statement, or conversational direction by reading patterns, signals, intuition, and shifts in energy. 
@@ -96,12 +96,12 @@ soulstring_pull = MediumSkills("Soulstring Pull", "Psy", "Medium", 10,
 Evoke nostalgia, excitement, or defensiveness to reveal their Shadow type, build rapport, or manipulate reactions. 
 Misreading the cue may cause brief awkwardness. Deals medium Psy damage.""")
 
-atmosphere_read = MediumSkills("Atmosphere Read", "Psy", "Medium", 13,
+situational_read = MediumSkills("Situational Read", "Psy", "Medium", 13,
 """   - Heighten your psychological perception to read the environment and underlying dynamics of any situation. 
 Detect conflicts, opportunities, or the flow of interactions to strategically plan your next move or skill use. 
 Deals medium Psy damage.""")
 
-atmos_gauge = MediumSkills("Atmos Gauge", "Psy", "Medium", 14,
+social_calibration = MediumSkills("Social Calibration", "Psy", "Medium", 14,
 """   - Read the room through psychological perception to sense the social mood, dynamics, receptiveness of those around you, and perceived risk of engagement or certain behaviors. 
 Helps determine whether an encounter, approach, or action is appropriate, and guides how to act without causing friction or unnecessary risk. 
 Deals medium Psy damage.""")
@@ -162,6 +162,6 @@ Deals light Psy damage.""")
 
 severe_skills = ()
 heavy_skills = (shadow_whisper, priority_rift, foresight, signal_decode, prioritized_presence)
-medium_skills = (echo_esper, soulstring_pull, atmosphere_read, atmos_gauge, tranquil_edge, energy_mirror, kinesis_gap)
+medium_skills = (echo_esper, soulstring_pull, situational_read, social_calibration, tranquil_edge, energy_mirror, kinesis_gap)
 light_skills = (interest_gauge, temperament_read, love_interpreter, sixth_observation, name_echo)
 full_psy_skill_list = (severe_skills, heavy_skills, medium_skills, light_skills)
