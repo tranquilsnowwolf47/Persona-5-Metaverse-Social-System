@@ -1112,10 +1112,10 @@ while True:
                                 PsySkills.soulstring_pull.display_skill()
                             elif skill_choice == 3:
                                 print()
-                                PsySkills.atmosphere_read.display_skill()
+                                PsySkills.situational_read.display_skill()
                             elif skill_choice == 4:
                                 print()
-                                PsySkills.atmos_gauge.display_skill()
+                                PsySkills.social_calibration.display_skill()
                             elif skill_choice == 5:
                                 print()
                                 PsySkills.tranquil_edge.display_skill()
@@ -1209,10 +1209,10 @@ while True:
                             PsySkills.soulstring_pull.display_skill()
                         elif skill_choice == 8:
                             print()
-                            PsySkills.atmosphere_read.display_skill()
+                            PsySkills.situational_read.display_skill()
                         elif skill_choice == 9:
                             print()
-                            PsySkills.atmos_gauge.display_skill()
+                            PsySkills.social_calibration.display_skill()
                         elif skill_choice == 10:
                             print()
                             PsySkills.tranquil_edge.display_skill()
