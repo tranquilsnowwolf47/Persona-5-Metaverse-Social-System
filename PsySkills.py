@@ -97,13 +97,27 @@ Evoke nostalgia, excitement, or defensiveness to reveal their Shadow type, build
 Misreading the cue may cause brief awkwardness. Deals medium Psy damage.""")
 
 situational_read = MediumSkills("Situational Read", "Psy", "Medium", 13,
-"""   - Heighten your psychological perception to read the environment and underlying dynamics of any situation. 
-Detect conflicts, opportunities, or the flow of interactions to strategically plan your next move or skill use. 
+"""   - Heighten your psychological perception to analyze your surroundings and interpret the social and environmental dynamics of a situation. 
+Identify interpersonal relationships, group hierarchies, conflicts, opportunities, behavioral patterns, and changes in the flow of interactions. 
+Develop an understanding of how the environment operates and recognize important details that may influence your decisions.
+Ex 1: Identifying opportunities: At a convention, you notice a group of cosplayers discussing collaborations and upcoming events. You recognize a potential networking opportunity and identify an opening to connect.
+Ex 2: Detecting underlying conflicts: At a club meeting, you notice tension between two members and recognize that their disagreement is affecting the group's ability to organize an event.
+Ex 3: Understanding group dynamics: During a group conversation, you notice that one person dominates the discussion, another struggles to contribute, and a third frequently directs the conversation. You recognize the interaction patterns and informal influence within the group.
+Ex 4: Reading workplace dynamics: You notice that communication between coworkers has deteriorated and that certain responsibilities are creating friction. You identify the underlying dynamics affecting the workplace.
+Ex 5: Reading interactions: During a conversation, you recognize when the discussion shifts from casual conversation to disagreement, when someone begins dominating the discussion, or when the group's attention moves toward a different subject.
 Deals medium Psy damage.""")
 
 social_calibration = MediumSkills("Social Calibration", "Psy", "Medium", 14,
-"""   - Read the room through psychological perception to sense the social mood, dynamics, receptiveness of those around you, and perceived risk of engagement or certain behaviors. 
-Helps determine whether an encounter, approach, or action is appropriate, and guides how to act without causing friction or unnecessary risk. 
+"""   - Evaluate the social atmosphere and circumstances surrounding an interaction to determine whether involving yourself is appropriate. 
+Assess the social mood, receptiveness, timing, boundaries, and potential risks of engagement. 
+Determine whether to initiate, join, interrupt, continue, or withdraw from an interaction based on the surrounding conditions. 
+Helps you navigate social situations tactfully while minimizing unnecessary friction and poorly timed involvement.
+Ex 1: Approaching someone: You notice someone you'd like to meet at a convention. You assess whether they're available and whether approaching them would be appropriate at that moment.
+Ex 2: Joining a group: You encounter a group having a conversation. You evaluate whether the discussion is open to newcomers or whether joining would interrupt their interaction.
+Ex 3: Timing a confrontation: You need to address disrespectful behavior from someone. You assess whether the current circumstances are appropriate for confronting them or whether another time would be more effective.
+Ex 4: Interrupting a conversation: You have something important to contribute, but two people are engaged in a discussion. You evaluate whether interrupting is warranted or whether you should wait.
+Ex 5: Leaving an interaction: You're participating in a group conversation, but the atmosphere becomes increasingly uncomfortable or hostile. You determine whether remaining involved is worthwhile or whether withdrawing is appropriate.
+Ex 6: Mid-conversation adjustment: You notice that the social atmosphere is becoming tense. You assess whether to change the subject, adjust your approach, or disengage.
 Deals medium Psy damage.""")
 
 tranquil_edge = MediumSkills("Tranquil Edge", "Psy", "Medium", 13,
