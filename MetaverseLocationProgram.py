@@ -337,31 +337,51 @@ mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con)
 accepted_mementos_floors = []
 
 def display_intro_text():
-    print("Welcome to the Metaverse Location Program!")
-    print("This program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events.")
-    print("It assists heavily with battle strategy and determining what locations are best to prioritize infiltration for training or Treasure hunting purposes.")
+    print("\tWelcome to the Metaverse Location Program!")
+    print("\tThis program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events.")
+    print("\tIt assists heavily with battle strategy and determining what locations are best to prioritize infiltration for Persona training or Treasure hunting purposes.")
     print()
 
 def get_location_type():
+    print("\nMetaverse Location Types:")
+    print("-------------------------------------------------------------------------")
+    # Display the list of Metaverse Location types with a for loop
     for location_index, location in enumerate(MetaverseLocation.metaverse_location_types, start=1):
         print(f"{location_index}. {location}")
-
+    print()
+    
     try:
         location_choice = int(input("Please enter a location type to see Infiltration Logs for (1-3): "))
+        print()
         # Palaces
         if location_choice == 1:
             # Use a for loop to print a list of the Palace names 
-            pass
+            print("\t\t\t\tPalaces:")
+            print("---------------------------------------------------------------------------------")
+            # A for loop that prints the name and element of all Palaces
+            for index, palace in enumerate(palaces, start=1):
+                print(f"{index}. {palace.name}")
         # Jails
         elif location_choice == 2:
             # Use a for loop to print a list of the Jails names
-            pass
-        # Mementos Locations
+            print("\t\t\t\tJails:")
+            print("---------------------------------------------------------------------------------")
+            # A for loop that prints the name and element of all Jails
+            for index, jail in enumerate(jails, start=1):
+                print(f"{index}. {jail.name}")
+
+
+        # Mementos Floors
         elif location_choice == 3:
             # Use a for loop to print a list of the Mementos Location names
-            pass
+            print("\t\t\t\tMementos Floors:")
+            print("---------------------------------------------------------------------------------")
+            # A for loop that prints the name and element of all Mementos Locations
+            for index, jail in enumerate(mementos_floors, start=1):
+                print(f"{index}. {jail.name}")
+
     except:
         print("You did not enter the correct location type.")
 
-#display_intro_text()
-#get_location_type()
+display_intro_text()
+get_location_type()
