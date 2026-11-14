@@ -179,7 +179,11 @@ holiday_matsuri = Palace("Holiday Matsuri", Palace.metaverse_location_types[0], 
                          Palace.exp_yield_types[1], Palace.loot_potential_types[1], Palace.risk_types[3], Palace.reward_types[1], Palace.resource_cost_types[2], 
                          Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[1], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
 
-
+# Cleared
+miraicon = Palace("Miraicon", Palace.metaverse_location_types[0], "Miami Airport Convention Center, Miami FL", Palace.infiltration_priority_types[2], "October 15-17, 2027", "Approximately $150 (gas + ticket)",
+                        Palace.distance_types[2], Palace.rarity_types[1], Palace.social_receptiveness_types[1], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[2],
+                        Palace.exp_yield_types[2], Palace.loot_potential_types[1], Palace.risk_types[2], Palace.reward_types[2], Palace.resource_cost_types[2], 
+                        Palace.treasure_demon_potential_types[2], Palace.growth_alignment_types[1], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[2])
 
 # Cleared 
 # Debugged
@@ -187,6 +191,12 @@ metrocon = Palace("Metrocon", Palace.metaverse_location_types[0], "Tampa Convent
                   Palace.distance_types[1], Palace.rarity_types[1], Palace.social_receptiveness_types[1], Palace.security_level_sensitivity_types[3], Palace.repeatability_types[2], 
                   Palace.exp_yield_types[0], Palace.loot_potential_types[0], Palace.risk_types[3], Palace.reward_types[0], Palace.resource_cost_types[2], 
                   Palace.treasure_demon_potential_types[1], Palace.growth_alignment_types[0], Palace.awakening_potential_types[2], "3 Days", Palace.party_compatability_types[3])
+
+# Cleared
+fau_career_fair = Palace("FAU Career Fair", Palace.metaverse_location_types[0], "FAU, Boca Raton, FL", Palace.infiltration_priority_types[1], "Subject to update", "Free",
+                        Palace.distance_types[3], Palace.rarity_types[1], Palace.social_receptiveness_types[2], Palace.security_level_sensitivity_types[2], Palace.repeatability_types[2],
+                        Palace.exp_yield_types[1], Palace.loot_potential_types[2], Palace.risk_types[3], Palace.reward_types[1], Palace.resource_cost_types[1], 
+                        Palace.treasure_demon_potential_types[2], Palace.growth_alignment_types[0], Palace.awakening_potential_types[4], "1 Day", Palace.party_compatability_types[4])
 
 momocon = "N/A"
 
@@ -196,7 +206,7 @@ anime_expo = "N/A"
 
 
 # Tuple that holds all the list of Palace objects
-palaces = (fau, otakufest, supercon, megacon, holiday_matsuri, metrocon)
+palaces = (fau, otakufest, supercon, megacon, holiday_matsuri, miraicon, metrocon, fau_career_fair)
 accepted_palaces = []
 voided_palaces = []
 
@@ -265,10 +275,6 @@ example = MementosFloor("", MementosFloor.metaverse_location_types[2], "", Memen
 
 anime_iwai = "N/A"
 
-miraicon = MementosFloor("Miraicon", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
-                        MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
-                        MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
 # Cleared
 # Debugged
@@ -297,11 +303,6 @@ sunrise_comic_con = MementosFloor("", MementosFloor.metaverse_location_types[2],
                         MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
                         MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
-
-fau_career_fair = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
-                        MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
-                        MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
 
 # Cleared
 # Debugged
@@ -332,7 +333,7 @@ tenth_level_tavern = "N/A"
 gym = "N/A"
 
 # Tuple that holds all teh list of Mementos floor objects
-mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con, fau_career_fair)
+mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con)
 accepted_mementos_floors = []
 
 def display_intro_text():
