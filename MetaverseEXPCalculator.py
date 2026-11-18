@@ -33,7 +33,7 @@
 
 # Self-note: Shouldn't there be a mini boss and boss all out attack exp amount...?
 
-class EXPSystem:
+class EXPCalculator:
     def __init__(self, 
     name, level, current_EXP, EXP_to_next, total_EXP, EXP_multipliers =[],
     RED_SHADOW_AMBUSHED=9, RED_SHADOW_NORMAL=12, RED_SHADOW_AMBUSHING=15, 
@@ -84,7 +84,7 @@ class EXPSystem:
 
     
 
-class RedShadow(EXPSystem):
+class RedShadow(EXPCalculator):
     # Ambushed
     def calculate_red_shadow_ambushed(self): 
         self._RED_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
@@ -101,7 +101,7 @@ class RedShadow(EXPSystem):
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
 
-class YellowShadow(EXPSystem):
+class YellowShadow(EXPCalculator):
     # Ambushed
     def calculate_yellow_shadow_ambushed(self): 
         self._YELLOW_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
@@ -118,7 +118,7 @@ class YellowShadow(EXPSystem):
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
 
-class BlueShadow(EXPSystem):
+class BlueShadow(EXPCalculator):
     # Ambushed
     def calculate_blue_shadow_ambushed(self): 
         self._BLUE_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
@@ -133,7 +133,7 @@ class BlueShadow(EXPSystem):
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
 
-class AllOutAttackOptions(EXPSystem):
+class AllOutAttackOptions(EXPCalculator):
     # Red Shadow All-Out Attack
     def calculate_red_shadow_all_out_attack(self):
         self._RED_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
@@ -148,69 +148,64 @@ class AllOutAttackOptions(EXPSystem):
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
     
-class PersonaSkill(EXPSystem):
+class PersonaSkill(EXPCalculator):
     # Severe
     def calculate_severe_persona_skill(self): 
         self._SEVERE_PERSONA_SKILL *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
     # Heavy
     def calculate_heavy_persona_skill(self): 
         self._HEAVY_PERSONA_SKILL *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
     # Medium
     def calculate_medium_persona_skill(self): 
-    # Light
         self._MEDIUM_PERSONA_SKILL *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
+    # Light 
     def calculate_light_persona_skill(self): 
         self._LIGHT_PERSONA_SKILL *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
 
-class MiniBoss(EXPSystem):
+class MiniBoss(EXPCalculator):
+    # Mini Boss
     def calculate_mini_boss(self):
         self._MINI_BOSS *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
     
-class Boss(EXPSystem):
+class Boss(EXPCalculator):
+    # Boss
     def calculate_boss(self):
         self._BOSS *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
     
-class BattleOptions(EXPSystem):
-    # 
+class BattleOptions(EXPCalculator):
+    # Attack
     def calculate_attack(self):
         self._ATTACK *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
-    #
+    # Gun
     def calculate_gun(self):
         self._GUN *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
-    #
+    # Item
     def calculate_item(self):
         self._ITEM *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
-    #
+    # Guard
     def calculate_guard(self):
         self._GUARD *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
-
-    #
+    # Tactics
     def calculate_tactics(self):
         self._TACTICS *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
 
 
     
-class ArcanaBoost(EXPSystem):
+class ArcanaBoost(EXPCalculator):
     def calculate_arcana_boost_activity(self):
         self._ARCANA_BOOST_ACTIVITY *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
@@ -227,50 +222,65 @@ battle_types = ("All-Out Attack")
 # if option choice is equal to ambushed, normal, or ambushing  or all out attack options --> Please enter a shadow color:
 # 
 
-experience_choices = ("Ambushing", "Normal", "Ambushed", "All-Out Attack", "Persona skill")
-
-shadow_types = ("Red Shadow", "Yellow Shadow", "Blue Shadow")
-skill_grades = ("Severe","Heavy","Medium","Light")
-
-
-
 # Show the user a list of the battle experience choices 
-print("Battle experience options: ")
-print("----------------------------------------------------------")
-for index, choice in enumerate(experience_choices, start=1):
-    print(f"{index}. {choice}")
-print()
+def display_menu_options():
+    print("\t\tPersona Battle Experience Accumulator Menu: ")
+    print("----------------------------------------------------------")
+    print(""" 
+    Ambushed:
+    1. Red Shadow Ambushed
+    2. Yellow Shadow Ambushed
+    3. Blue Shadow Ambushed
+    -------------------------------------
+    Normal:
+    4. Red Shadow Normal
+    5. Yellow Shadow Normal
+    6. Blue Shadow Normal
+    -------------------------------------      
+    Ambushing:
+    7. Red Shadow Ambushing
+    8. Yellow Shadow Ambushing
+    9. Blue Shadow Ambushing
+    -------------------------------------      
+    All-Out Attacking:
+    10. Red Shadow All-Out Attacked
+    11. Yellow Shadow All-Out Attacked
+    12. Blue Shadow All-Out Attacked
+    -------------------------------------      
+    Persona Skills:
+    13. Severe Persona skill used
+    14. Heavy Perona skill used
+    15. Medium Persona skill used
+    16. Light Persona skill used
+    -------------------------------------\n""")
 
+display_menu_options()
+valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,16)
 
-battle_choice = int(input("Please enter an option choice (1-5): ")) # get the user inputa
+battle_choice = int(input("Please enter an option choice  to accumualate EXP (1-16): ")) # get the user inputa
+#gained_EXP_total = 0 # Accumulator variable 
+#exp = input("Enter the base EXP: ")
 
 
 # Input validation
-if battle_choice == experience_choices[0]: # For ambushing
-    for index, shadow_type in enumerate(shadow_types):
-        print(f"{index}. {shadow_type}")
-    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
-
-elif battle_choice == experience_choices[1]: # For normal
-    for index, shadow_type in enumerate(shadow_types):
-        print(f"{index}. {shadow_type}")
-    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+if battle_choice == valid_options[0]: #   1. Red Shadow Ambushed
+    # Call fuction here
+    pass
+elif battle_choice == valid_options[1]: # 2. Yellow Shadow Ambushed
+    # Call fuction here
+    pass
     
-elif battle_choice == experience_choices[2]: # For ambushed 
-    for index, shadow_type in enumerate(shadow_types):
-        print(f"{index}. {shadow_type}")
-    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+elif battle_choice == valid_options[2]: #   3. Blue Shadow Ambushed
+    # Call fuction here
+    pass
 
-elif battle_choice == experience_choices[3]: # For All-Out Attack
-    for index, shadow_type in enumerate(shadow_types):
-        print(f"{index}. {shadow_type}")
-    shadow_color_choice = int(input("Please enter a number for the Shadow's color (-): "))
+elif battle_choice == valid_options[3]: #   4. Red Shadow Normal
+    # Call fuction here
+    pass
 
-elif battle_choice == experience_choices[4]:
-    for index, grade in enumerate(skill_grades):
-        print(f"{index}. {grade}")
-    skill_grade = input("Please enter the damage grade of the skill used (-): ")
+elif battle_choice == valid_options[4]: # 5. Yellow Shadow Normal
+    # Call fuction here
+    pass
 
 #RSA1 =
 #RSA2 =
-
