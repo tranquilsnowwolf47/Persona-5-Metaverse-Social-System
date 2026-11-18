@@ -45,6 +45,11 @@ class EXPCalculator:
     ARCANA_BOOST_ACTIVITY=10,
     ATTACK=8,GUN=8,ITEM=5,GUARD=5,TACTICS=5,
     EXP_MULTIPLIER=3):
+
+        # Phantom Thief Info
+        self._name = name
+        
+        
         self._EXP_multipliers = EXP_multipliers
         # Red Shadow EXP values
         self._RED_SHADOW_AMBUSHED = RED_SHADOW_AMBUSHED
@@ -275,37 +280,131 @@ while battle_choice in valid_options:
 #gained_EXP_total = 0 # Accumulator variable 
 #exp = input("Enter the base EXP: ")
     # Input validation
-    if battle_choice == valid_options[0]: #   1. Red Shadow Ambushed
+    
+    #   1. Red Shadow Ambushed
+    if battle_choice == valid_options[0]: 
         # Call fuction here
         example_phantom_thief.calculate_red_shadow_ambushed()
-    elif battle_choice == valid_options[1]: # 2. Yellow Shadow Ambushed
+        print(f"\n{example_phantom_thief._name} ambushed a Red Shadow.\n")
+
+    # 2. Yellow Shadow Ambushed
+    elif battle_choice == valid_options[1]: 
         # Call fuction here
-        pass
+        example_phantom_thief.calculate_yellow_shadow_ambushed()
+        print(f"\n{example_phantom_thief._name} ambushed a Yellow Shadow.\n")
+
+    #   3. Blue Shadow Ambushed
+    elif battle_choice == valid_options[2]: 
+        # Call fuction here
+        example_phantom_thief.calculate_blue_shadow_ambushed
+        print(f"\n{example_phantom_thief._name} ambushed a Blue Shadow.\n")
+
+
+    #   4. Red Shadow Normal
+    elif battle_choice == valid_options[3]: 
+        # Call fuction here
+        example_phantom_thief.calculate_red_shadow_normal()
+        print(f"\n{example_phantom_thief._name} started a normal encounter with a Red Shadow.\n")
+
+
+    # 5. Yellow Shadow Normal
+    elif battle_choice == valid_options[4]: 
+        # Call fuction here
+        example_phantom_thief.calculate_yellow_shadow_normal()
+        print(f"\n{example_phantom_thief._name} started a normal encounter with a Yellow Shadow.\n")
+
+
+    # 6. Blue Shadow Normal
+    elif battle_choice == valid_options[5]: 
+        # Call fuction here
+        example_phantom_thief.calculate_blue_shadow_normal()
+        print(f"\n{example_phantom_thief._name} started a normal encounter with a Blue Shadow.\n")
+
+
+    # 7. Red Shadow Ambushing
+    elif battle_choice == valid_options[6]: 
+        # Call function here 
+        example_phantom_thief.calculate_red_shadow_ambushing()
+        print(f"\n{example_phantom_thief._name} was ambushed by a Red Shadow.\n")
+
+
+    # 8. Yellow Shadow Ambushing
+    elif battle_choice == valid_options[7]: 
+        # Call function here 
+        example_phantom_thief.calculate_yellow_shadow_ambushing()
+        print(f"\n{example_phantom_thief._name} was ambushed by a Yellow Shadow.\n")
         
-    elif battle_choice == valid_options[2]: #   3. Blue Shadow Ambushed
-        # Call fuction here
-        pass
+    # 9. Blue Shadow Ambushing
+    elif battle_choice == valid_options[8]: 
+        # Call function here 
+        example_phantom_thief.calculate_blue_shadow_ambushing()
+        print(f"\n{example_phantom_thief._name} was ambushed by a Blue Shadow.\n")
 
-    elif battle_choice == valid_options[3]: #   4. Red Shadow Normal
-        # Call fuction here
-        pass
 
-    elif battle_choice == valid_options[4]: # 5. Yellow Shadow Normal
-        # Call fuction here
-        pass
+    # 10. Red Shadow All-Out Attack
+    elif battle_choice == valid_options[9]: 
+        # Call function here 
+        example_phantom_thief._RED_SHADOW_ALL_OUT_ATTACK
+        print(f"\n{example_phantom_thief._name} All-Out Attacked a Red Shadow.\n")
 
+
+    # 11. Yellow Shadow All-Out Attack
+    elif battle_choice == valid_options[10]: 
+        # Call function here 
+        example_phantom_thief.calculate_yellow_shadow_all_out_attack()
+        print(f"\n{example_phantom_thief._name} All-Out Attacked a Yellow Shadow.\n")
+
+
+    # 12. Blue Shadow All-Out Attack
+    elif battle_choice == valid_options[11]: 
+        # Call function here 
+        example_phantom_thief.calculate_blue_shadow_all_out_attack()
+        print(f"\n{example_phantom_thief._name} All-Out Attacked a Blue Shadow.\n")
+
+
+    # 13. Severe Persona Skill
+    elif battle_choice == valid_options[12]: 
+        # Call function here 
+        example_phantom_thief.calculate_severe_persona_skill()
+        print(f"\n{example_phantom_thief._name} used a Severe Persona skill.\n")
+
+
+    # 14. Heavy Persona Skill
+    elif battle_choice == valid_options[13]: 
+        # Call function here 
+        example_phantom_thief.calculate_heavy_persona_skill()
+        print(f"\n{example_phantom_thief._name} used a Heavy Persona skill.\n")
+
+
+    # 15. Medium Persona Skill
+    elif battle_choice == valid_options[14]: 
+        # Call function here 
+        example_phantom_thief.calculate_medium_persona_skill()
+        print(f"\n{example_phantom_thief._name} used a Medium Persona skill.\n")
+
+
+    # 16. Light Persona Skill Used
+    elif battle_choice == valid_options[15]: 
+        # Call function here 
+        example_phantom_thief.calculate_light_persona_skill()
+        print(f"\n{example_phantom_thief._name} used a Light Persona skill.\n")
+
+
+    # 17. View Current EXP
     # Returns and displays the total EXP gained
     elif battle_choice == valid_options[16]:
         total_EXP = example_phantom_thief.get_EXP_total()
         print()
         print(f"\nEXP gained: {total_EXP}")
 
+    # 18. Quit
     # Break the loop and exit the program if chosen
     elif battle_choice == valid_options[17]:
         print()
         print("Exited.")
         break
 
+    display_menu_options()    
     battle_choice = int(input("\nPlease enter an option choice to accumualate EXP (1-18) (Enter 18 to quit): ")) # get the user inputa
 
 
