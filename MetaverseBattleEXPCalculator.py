@@ -31,6 +31,7 @@
 # Light Persona skill used - 8
 
 
+# Self-note: there's a logic error in the arithmetic calculations 
 # Self-note: Shouldn't there be a mini boss and boss all out attack exp amount...?
 
 class EXPCalculator:
@@ -393,7 +394,7 @@ while battle_choice in valid_options:
     # 17. View Current EXP
     # Returns and displays the total EXP gained
     elif battle_choice == valid_options[16]:
-        total_EXP = example_phantom_thief.get_EXP_total()
+        total_EXP = sum(example_phantom_thief.get_EXP_total())
         print()
         print(f"\nEXP gained: {total_EXP}")
 
@@ -404,7 +405,7 @@ while battle_choice in valid_options:
         print("Exited.")
         break
 
-    display_menu_options()    
+    #display_menu_options()    
     battle_choice = int(input("\nPlease enter an option choice to accumualate EXP (1-18) (Enter 18 to quit): ")) # get the user inputa
 
 
