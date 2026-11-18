@@ -1,4 +1,4 @@
-# Filename: MetaverseEXPCalculator.py 
+# Filename: MetaverseBattleEXPCalculator.py 
 # Date: 2/11/26
 # Author: Aoi | shadowsnowolf 
 
