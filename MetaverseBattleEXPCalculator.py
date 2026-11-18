@@ -261,7 +261,7 @@ def display_menu_options():
     -------------------------------------\n""")
 
 display_menu_options()
-valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17)
+valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)
 
 battle_choice = int(input("Please enter an option choice  to accumualate EXP (1-17): ")) # get the user inputa
 #gained_EXP_total = 0 # Accumulator variable 
