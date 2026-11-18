@@ -215,7 +215,7 @@ class ArcanaBoost(EXPCalculator):
         self._EXP_multipliers.append(self._ARCANA_BOOST_ACTIVITY) 
 
 
-class EXPMenu(EXPCalculator, RedShadow, YellowShadow, BlueShadow, AllOutAttackOptions, PersonaSkill, MiniBoss, Boss, BattleOptions, ArcanaBoost):
+class EXPMenu(RedShadow, YellowShadow, BlueShadow, AllOutAttackOptions, PersonaSkill, MiniBoss, Boss, BattleOptions, ArcanaBoost):
     pass
 
 
@@ -306,7 +306,7 @@ while battle_choice in valid_options:
         print("Exited.")
         break
 
-    battle_choice = int(input("\nPlease enter an option choice to accumualate EXP (1-17) (Enter 18 to quit): ")) # get the user inputa
+    battle_choice = int(input("\nPlease enter an option choice to accumualate EXP (1-18) (Enter 18 to quit): ")) # get the user inputa
 
 
 #RSA1 =
