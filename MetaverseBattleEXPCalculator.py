@@ -90,7 +90,7 @@ class RedShadow(EXPCalculator):
     # Ambushed
     def calculate_red_shadow_ambushed(self): 
         self._RED_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._RED_SHADOW_AMBUSHED) 
 
     def get_red_shadow_ambushed_EXP(self):
         return self._RED_SHADOW_AMBUSHED
@@ -98,122 +98,125 @@ class RedShadow(EXPCalculator):
     # Normal
     def calculate_red_shadow_normal(self): 
         self._RED_SHADOW_NORMAL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._RED_SHADOW_NORMAL) 
 
     # Ambushing
     def calculate_red_shadow_ambushing(self): 
         self._RED_SHADOW_AMBUSHING *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._RED_SHADOW_AMBUSHING) 
 
 
 class YellowShadow(EXPCalculator):
     # Ambushed
     def calculate_yellow_shadow_ambushed(self): 
         self._YELLOW_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._YELLOW_SHADOW_AMBUSHED) 
 
     # Normal
     def calculate_yellow_shadow_normal(self): 
         self._YELLOW_SHADOW_NORMAL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._YELLOW_SHADOW_NORMAL) 
 
     # Ambushing
     def calculate_yellow_shadow_ambushing(self): 
         self._YELLOW_SHADOW_AMBUSHING *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._YELLOW_SHADOW_AMBUSHING) 
 
 
 class BlueShadow(EXPCalculator):
     # Ambushed
     def calculate_blue_shadow_ambushed(self): 
         self._BLUE_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._BLUE_SHADOW_AMBUSHED) 
     # Normal
     def calculate_blue_shadow_normal(self): 
         self._BLUE_SHADOW_NORMAL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._BLUE_SHADOW_NORMAL) 
     # Ambushing
     def calculate_blue_shadow_ambushing(self): 
         self._BLUE_SHADOW_AMBUSHING *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._BLUE_SHADOW_AMBUSHING) 
 
 
 class AllOutAttackOptions(EXPCalculator):
     # Red Shadow All-Out Attack
     def calculate_red_shadow_all_out_attack(self):
         self._RED_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._RED_SHADOW_ALL_OUT_ATTACK) 
     # Yellow Shadow All-Out Attack
     def calculate_yellow_shadow_all_out_attack(self): 
         self._YELLOW_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._YELLOW_SHADOW_ALL_OUT_ATTACK) 
     def calculate_blue_shadow_all_out_attack(self): 
         # Blue Shadow All-Out Attack
         self._BLUE_SHADOW_ALL_OUT_ATTACK *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._BLUE_SHADOW_ALL_OUT_ATTACK) 
 
     
 class PersonaSkill(EXPCalculator):
     # Severe
     def calculate_severe_persona_skill(self): 
         self._SEVERE_PERSONA_SKILL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._SEVERE_PERSONA_SKILL) 
     # Heavy
     def calculate_heavy_persona_skill(self): 
         self._HEAVY_PERSONA_SKILL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._HEAVY_PERSONA_SKILL) 
     # Medium
     def calculate_medium_persona_skill(self): 
         self._MEDIUM_PERSONA_SKILL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._MEDIUM_PERSONA_SKILL) 
     # Light 
     def calculate_light_persona_skill(self): 
         self._LIGHT_PERSONA_SKILL *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._LIGHT_PERSONA_SKILL) 
 
 
 class MiniBoss(EXPCalculator):
     # Mini Boss
     def calculate_mini_boss(self):
         self._MINI_BOSS *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._MINI_BOSS) 
 
     
 class Boss(EXPCalculator):
     # Boss
     def calculate_boss(self):
         self._BOSS *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._BOSS) 
 
     
 class BattleOptions(EXPCalculator):
     # Attack
     def calculate_attack(self):
         self._ATTACK *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._ATTACK) 
     # Gun
     def calculate_gun(self):
         self._GUN *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._GUN) 
     # Item
     def calculate_item(self):
         self._ITEM *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._ITEM) 
     # Guard
     def calculate_guard(self):
         self._GUARD *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._GUARD) 
     # Tactics
     def calculate_tactics(self):
         self._TACTICS *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._TACTICS) 
 
 
-    
 class ArcanaBoost(EXPCalculator):
     def calculate_arcana_boost_activity(self):
         self._ARCANA_BOOST_ACTIVITY *= self._EXP_MULTIPLIER
-        self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+        self._EXP_multipliers.append(self._ARCANA_BOOST_ACTIVITY) 
+
+
+class EXPMenu(EXPCalculator, RedShadow, YellowShadow, BlueShadow, AllOutAttackOptions, PersonaSkill, MiniBoss, Boss, BattleOptions, ArcanaBoost):
+    pass
 
 
 
@@ -258,40 +261,53 @@ def display_menu_options():
     -------------------------------------
     Operational:
     17. View current EXP
+    18. Quit 
     -------------------------------------\n""")
 
 display_menu_options()
-valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17)
+valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18)
 
-battle_choice = int(input("Please enter an option choice  to accumualate EXP (1-17): ")) # get the user inputa
+
+example_phantom_thief = EXPMenu("Aoi", 50, 0, 0, 0)
+
+battle_choice = int(input("Please enter an option choice to accumualate EXP (1-18) (Enter 18 to quit): ")) # get the user inputa
+while battle_choice in valid_options:
 #gained_EXP_total = 0 # Accumulator variable 
 #exp = input("Enter the base EXP: ")
+    # Input validation
+    if battle_choice == valid_options[0]: #   1. Red Shadow Ambushed
+        # Call fuction here
+        example_phantom_thief.calculate_red_shadow_ambushed()
+    elif battle_choice == valid_options[1]: # 2. Yellow Shadow Ambushed
+        # Call fuction here
+        pass
+        
+    elif battle_choice == valid_options[2]: #   3. Blue Shadow Ambushed
+        # Call fuction here
+        pass
 
+    elif battle_choice == valid_options[3]: #   4. Red Shadow Normal
+        # Call fuction here
+        pass
 
-example_phantom_thief = RedShadow("Aoi", 50, 0, 0, 0)
+    elif battle_choice == valid_options[4]: # 5. Yellow Shadow Normal
+        # Call fuction here
+        pass
 
-# Input validation
-if battle_choice == valid_options[0]: #   1. Red Shadow Ambushed
-    # Call fuction here
-    example_phantom_thief.calculate_red_shadow_ambushed()
-elif battle_choice == valid_options[1]: # 2. Yellow Shadow Ambushed
-    # Call fuction here
-    pass
-    
-elif battle_choice == valid_options[2]: #   3. Blue Shadow Ambushed
-    # Call fuction here
-    pass
+    # Returns and displays the total EXP gained
+    elif battle_choice == valid_options[16]:
+        total_EXP = example_phantom_thief.get_EXP_total()
+        print()
+        print(f"\nEXP gained: {total_EXP}")
 
-elif battle_choice == valid_options[3]: #   4. Red Shadow Normal
-    # Call fuction here
-    pass
+    # Break the loop and exit the program if chosen
+    elif battle_choice == valid_options[17]:
+        print()
+        print("Exited.")
+        break
 
-elif battle_choice == valid_options[4]: # 5. Yellow Shadow Normal
-    # Call fuction here
-    pass
-elif battle_choice == valid_options[16]:
-    total_EXP = example_phantom_thief.get_EXP_total()
-    print(total_EXP)
+    battle_choice = int(input("\nPlease enter an option choice to accumualate EXP (1-17) (Enter 18 to quit): ")) # get the user inputa
+
 
 #RSA1 =
 #RSA2 =
