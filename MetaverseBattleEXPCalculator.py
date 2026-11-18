@@ -82,13 +82,18 @@ class EXPCalculator:
         # EXP Multiplier 
         self._EXP_MULTIPLIER = EXP_MULTIPLIER
 
-    
+    # Returns the numbers in the list 
+    def get_EXP_total(self):
+        return self._EXP_multipliers
 
 class RedShadow(EXPCalculator):
     # Ambushed
     def calculate_red_shadow_ambushed(self): 
         self._RED_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._EXP_MULTIPLIER) 
+
+    def get_red_shadow_ambushed_EXP(self):
+        return self._RED_SHADOW_AMBUSHED
 
     # Normal
     def calculate_red_shadow_normal(self): 
@@ -212,8 +217,6 @@ class ArcanaBoost(EXPCalculator):
 
 
 
-    def get_EXP_total(self):
-        return self._EXP_multipliers
 
 battle_types = ("All-Out Attack")
 
@@ -252,20 +255,25 @@ def display_menu_options():
     14. Heavy Perona skill used
     15. Medium Persona skill used
     16. Light Persona skill used
+    -------------------------------------
+    Operational:
+    17. View current EXP
     -------------------------------------\n""")
 
 display_menu_options()
-valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,16)
+valid_options = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,17)
 
-battle_choice = int(input("Please enter an option choice  to accumualate EXP (1-16): ")) # get the user inputa
+battle_choice = int(input("Please enter an option choice  to accumualate EXP (1-17): ")) # get the user inputa
 #gained_EXP_total = 0 # Accumulator variable 
 #exp = input("Enter the base EXP: ")
 
 
+example_phantom_thief = RedShadow("Aoi", 50, 0, 0, 0)
+
 # Input validation
 if battle_choice == valid_options[0]: #   1. Red Shadow Ambushed
     # Call fuction here
-    pass
+    example_phantom_thief.calculate_red_shadow_ambushed()
 elif battle_choice == valid_options[1]: # 2. Yellow Shadow Ambushed
     # Call fuction here
     pass
@@ -281,6 +289,9 @@ elif battle_choice == valid_options[3]: #   4. Red Shadow Normal
 elif battle_choice == valid_options[4]: # 5. Yellow Shadow Normal
     # Call fuction here
     pass
+elif battle_choice == valid_options[16]:
+    total_EXP = example_phantom_thief.get_EXP_total()
+    print(total_EXP)
 
 #RSA1 =
 #RSA2 =
