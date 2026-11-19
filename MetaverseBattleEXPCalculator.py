@@ -94,8 +94,8 @@ class EXPCalculator:
 
 class RedShadow(EXPCalculator):
     # Ambushed
-    def calculate_red_shadow_ambushed(self): 
-        self._RED_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
+    def calculate_red_shadow_ambushed(EXP_GAINED, self): 
+        EXP_GAINED = self._RED_SHADOW_AMBUSHED *= self._EXP_MULTIPLIER
         self._EXP_multipliers.append(self._RED_SHADOW_AMBUSHED) 
 
     def get_red_shadow_ambushed_EXP(self):
