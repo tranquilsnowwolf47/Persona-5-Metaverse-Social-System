@@ -15,7 +15,8 @@
 # Register to Compendium option needs a date option for tracking purposes 
 
 # List of option choices in the menu
-main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", "Randomize Persona Skills", "Register Persona to Compendium (Wild Card)", "View Persona Compendium (Wild Card)")
+main_menu_choices = ("View a List of Personas", "View Persona Optimal Builds", "Randomize Persona Arcanas", "Open Persona EXP Menu", "View Persona Skill List", 
+                     "Randomize Persona Skills", "Register Persona to Compendium (Wild Card)", "View Persona Compendium (Wild Card)","View Metaverse Location Logs")
 
 while True:
     print("Igor: *chuckle* \"Welcome to the Velvet Room.\"\n")
@@ -25,7 +26,7 @@ while True:
     for index, choice in enumerate(main_menu_choices,start=1):
         print(f"{index}. {choice}")
 
-    menu_choice = int(input("\nIgor: \"Please enter a choice (1-8)\": "))
+    menu_choice = int(input(f"\nIgor: \"Please enter a choice (1-{len(main_menu_choices)})\": "))
 
     # View List of Personas
     # Debugged
@@ -80,7 +81,8 @@ while True:
     #
     elif menu_choice == 7:
         print()
-        import RegisterToCompendium
+        print("This option is currently being fixed for debugging :(")
+        #import RegisterToCompendium
 
     # View Persona Compendium
     #-------------------------------------------------------------------------------
@@ -90,6 +92,19 @@ while True:
         print("This function is not available yet! Coming soon")
         #with open("Persona_compendium_logbookV1.txt","r") as compendium:
                 #print(compendium.read())
+
+
+    # View Metaverse Location Logs
+    #-------------------------------------------------------------------------------
+    #
+    elif menu_choice == 9:
+        print()
+        import MetaverseLocationProgram
+
+
+    # View Shadow Logs
+    #-------------------------------------------------------------------------------
+    #
 
     print()
     reprompt = input("Igor: \"Would you like to try again? (Enter y for yes or anything else to quit)\": ").lower()
