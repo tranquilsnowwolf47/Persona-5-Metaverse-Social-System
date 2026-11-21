@@ -5,8 +5,6 @@
 # Program that builds Palaces based on attributes. Contains functions that will assist 
 # with Metaverse infiltration, field strategy, and navigation
 
-
-
 # I WILL be using file handling in this program
 
 # Should be periodically updated as I go to new Metaverse Locations
@@ -297,13 +295,6 @@ ultracon = MementosFloor("Ultracon", MementosFloor.metaverse_location_types[2], 
                   MementosFloor.exp_yield_types[2], MementosFloor.loot_potential_types[3], MementosFloor.risk_types[2], MementosFloor.reward_types[2], MementosFloor.resource_cost_types[2], 
                   MementosFloor.treasure_demon_potential_types[3], MementosFloor.growth_alignment_types[1], MementosFloor.awakening_potential_types[3], "3 Days", MementosFloor.party_compatability_types[2])
 
-
-sunrise_comic_con = MementosFloor("", MementosFloor.metaverse_location_types[2], "", MementosFloor.infiltration_priority_types[0], "", "",
-                        MementosFloor.distance_types[0], MementosFloor.rarity_types[0], MementosFloor.social_receptiveness_types[0], MementosFloor.security_level_sensitivity_types[0], MementosFloor.repeatability_types[0],
-                        MementosFloor.exp_yield_types[0], MementosFloor.loot_potential_types[0], MementosFloor.risk_types[0], MementosFloor.reward_types[0], MementosFloor.resource_cost_types[0], 
-                        MementosFloor.treasure_demon_potential_types[0], MementosFloor.growth_alignment_types[0], MementosFloor.awakening_potential_types[0], "", MementosFloor.party_compatability_types[0])
-
-
 # Cleared
 # Debugged
 animate_orlando = MementosFloor("Animate Orlando", MementosFloor.metaverse_location_types[2], "Orange County Convention Center, Oralndo FL", "August 13-15th 2026", MementosFloor.infiltration_priority_types[5], "Approximately $300+ (ticket + hotel + gas + food)",
@@ -333,13 +324,13 @@ tenth_level_tavern = "N/A"
 gym = "N/A"
 
 # Tuple that holds all teh list of Mementos floor objects
-mementos_floors = (mizucon, hero_hype_con, ultracon, sunrise_comic_con)
+mementos_floors = (mizucon, hero_hype_con, ultracon, animate_orlando, baoshi_foodhall, guild_hall)
 accepted_mementos_floors = []
 
 def display_intro_text():
-    print("\tWelcome to the Metaverse Location Program!")
-    print("\tThis program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events.")
-    print("\tIt assists heavily with battle strategy and determining what locations are best to prioritize infiltration for Persona training or Treasure hunting purposes.")
+    print("Welcome to the Metaverse Location Program!")
+    print("This program is a log of all of the currently infiltrated Metaverse Locations as well as log predictions for future infiltration events.")
+    print("It assists heavily with battle strategy and determining what locations are best to prioritize infiltration for Persona training or Treasure hunting purposes.")
     print()
 
 def get_location_type():
@@ -361,6 +352,36 @@ def get_location_type():
             # A for loop that prints the name and element of all Palaces
             for index, palace in enumerate(palaces, start=1):
                 print(f"{index}. {palace.name}")
+            print()
+            palace_choice = int(input(f"Please enter a Mementos Floor to see info for (1-{len(palaces)}): "))
+            valid_palaces = (1,2,3,4,5,6,7,8)
+            if palace_choice not in valid_palaces:
+                print("You did not enter a valid Mementos Floor.")
+            # FAU
+            elif palace_choice == 1:
+                fau.display_location_summary()
+            # OtakuFest
+            elif palace_choice == 2:
+                otakufest.display_location_summary()
+            # Supercon
+            elif palace_choice == 3:
+                supercon.display_location_summary()
+            # Megacon
+            elif palace_choice == 4:
+                megacon.display_location_summary()
+            # Holiday Matsuri
+            elif palace_choice == 5:
+                holiday_matsuri.display_location_summary()
+            # Miraicon
+            elif palace_choice == 6:
+                miraicon.display_location_summary()
+            # Metrocon
+            elif palace_choice == 7:
+                metrocon.display_location_summary()
+            # FAU Career Fair
+            elif palace_choice == 8:
+                fau_career_fair.display_location_summary()
+
         # Jails
         elif location_choice == 2:
             # Use a for loop to print a list of the Jails names
@@ -369,6 +390,21 @@ def get_location_type():
             # A for loop that prints the name and element of all Jails
             for index, jail in enumerate(jails, start=1):
                 print(f"{index}. {jail.name}")
+            print()
+            jail_choice = int(input(f"Please enter a Jail to see info for (1-{len(jails)}): "))
+            valid_jails = (1,2,3)
+            if jail_choice not in valid_jails:
+                print("You did not enter a valid Jail.")
+            # West Palm Beach Jail
+            elif jail_choice == 1:
+                wpb_jail.display_location_summary()
+            # Boca Jail
+            elif jail_choice == 2:
+                boca_jail.display_location_summary()
+            # Miami Jail
+            elif jail_choice == 3:
+                miami_jail.display_location_summary()
+         
 
 
         # Mementos Floors
@@ -379,9 +415,31 @@ def get_location_type():
             # A for loop that prints the name and element of all Mementos Locations
             for index, jail in enumerate(mementos_floors, start=1):
                 print(f"{index}. {jail.name}")
-
+            print()
+            mementos_floor_choice = int(input(f"Please enter a Mementos Floor to see info for (1-{len(mementos_floors)}): "))
+            valid_mementos_floors = (1,2,3,4,5,6)
+            if mementos_floor_choice not in valid_mementos_floors:
+                print("You did not enter a valid Mementos Floor.")
+            elif mementos_floor_choice == 1:
+                mizucon.display_location_summary()
+            elif mementos_floor_choice == 2:
+                hero_hype_con.display_location_summary()
+            elif mementos_floor_choice == 3:
+                ultracon.display_location_summary()
+            elif mementos_floor_choice == 4:
+                animate_orlando.display_location_summary()
+            elif mementos_floor_choice == 5:
+                baoshi_foodhall.display_location_summary()
+            elif mementos_floor_choice == 6:
+                guild_hall.display_location_summary()
     except:
         print("You did not enter the correct location type.")
 
+
 display_intro_text()
-get_location_type()
+while True:
+    get_location_type()
+    loop_choice = input("Would you like to continue? (Enter y for yes, anything else to quit): ").lower()
+    if loop_choice != "y":
+        print("\nExiting the program.")
+        break
