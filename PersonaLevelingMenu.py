@@ -1,10 +1,5 @@
 # Lvl 1 <5 EXP
 
-
-
-level_1_EXP_req = 5
-level_2_EXP_req = 10
-
 level_exp_chart = {1:5,
                    2:10,
                    3:15,
@@ -108,8 +103,11 @@ current_EXP_value = 0
 next_required_EXP_value = 0
 level = 1
 
-default_exp_format = f"EXP: {current_EXP_value}/{next_required_EXP_value}"
+currenr_exp_format = f"EXP: {current_EXP_value}/{level_exp_chart[1]}"
 
-print(f"Name: {name}")
-#print(f"Level: ")
-print(f"{default_exp_format}")
+def display_info():
+    print(f"Name: {name}")
+    print(f"Level: {})
+    #print(f"Level: ")
+    print(f"{default_exp_format}")
+display_info()
