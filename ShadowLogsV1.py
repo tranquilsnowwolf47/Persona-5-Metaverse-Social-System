@@ -93,6 +93,55 @@ class ShadowLog:
         print(f"Neutral: {self.neutral}")
         print(f"Weaknesses: {self.weaknesses}")
 
+
+class TreasureDemon(ShadowLog):
+    pass
+
+class DistoredShadows(ShadowLog):
+    pass
+
+class DisasterShadow(ShadowLog):
+    pass
+
+class FemaleShadow(ShadowLog):
+    pass
+
+class MiniBoss(ShadowLog):
+    pass
+
+class RegularShadows(ShadowLog):
+    pass
+
+class BossShadows(ShadowLog):
+    pass
+
+
+# Disaster Shadows
+drama_lover_shadow = DisasterShadow()
+feminazi_shadow = 
+
+# Distorted Shadows
+narcissist_shadow = DistoredShadows()
+
+# Female Shadows 
+promiscuous_woman_shadow = FemaleShadow()
+high_smv_woman_shadow = FemaleShadow()
+masculine_woman_shadow = FemaleShadow()
+seller_shadow = FemaleShadow()
+uninterested_woman_shadow = FemaleShadow()
+
+# Mini Boss Shadows
+high_status_shadow = MiniBoss()
+
+# Regular Shadows
+victim_mindset_shadow = RegularShadows()
+
+# Treasure Demons
+
+
+
+
+
 # A tuple that holds the logs for all Normal Shadows logged
 normal_shadows = ()
 
