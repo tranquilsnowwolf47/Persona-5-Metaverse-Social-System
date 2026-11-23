@@ -353,7 +353,7 @@ def get_location_type():
             for index, palace in enumerate(palaces, start=1):
                 print(f"{index}. {palace.name}")
             print()
-            palace_choice = int(input(f"Please enter a Mementos Floor to see info for (1-{len(palaces)}): "))
+            palace_choice = int(input(f"Please enter a Palace to see info for (1-{len(palaces)}): "))
             valid_palaces = (1,2,3,4,5,6,7,8)
             if palace_choice not in valid_palaces:
                 print("You did not enter a valid Mementos Floor.")
