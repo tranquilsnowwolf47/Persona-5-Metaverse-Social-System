@@ -57,8 +57,9 @@ class ShadowLog:
 
     # Elemental affinites
     # Wk = Weak, Res = Resist, Nul = Nullify, Dr = Drain, Rpl = Repel
-    elemental_affinities = ("Wk", "Res", "Nul", "Dr", "Rpl")
-    elements = ("Phys", "Gun", "Fire", "Ice", "Elec", "Wind", "Psy", "Nuke", "Bless", "Curse")
+    elemental_affinity_types = ("Wk", "Res", "Nul", "Dr", "Rpl")
+    elements = ("Phys", "Gun", "Fire", "Ice", "Elec", "Wind", "Psy", "Nuke", "Bless", "Curse", 
+    "Reverse Phys", "Reverse Gun", "Reverse Fire", "Reverse Ice", )
 
     # Function that displays the full info of the Shadow Log
     def display_full_shadow_log(self):
