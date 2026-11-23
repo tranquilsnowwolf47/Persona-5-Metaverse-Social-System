@@ -119,8 +119,13 @@ class BossShadows(ShadowLog):
     pass
 
 
+# Example
+example_shadow = NormalShadows("Dirty Two Horned Beast","Strength", ShadowLog.shadow_types[0], ShadowLog.negotiation_personality_types[0], ShadowLog.third_eye_colors[0],
+                               ["Elemental Affinities goes here (use tuple indexes)"], ["Resistances goes here (use tuple indexes)"], ["Neutral goes here (use tuple indexes)"], ["Weaknesses goes here (use tuple indexes)"], "","","","","",
+                               ShadowLog.threat_level_types[0],ShadowLog.security_level_sensitivity_types[0], "Loot goes here","Recommended Builds goes here","Synopsis goes here")
+
 # Disaster Shadows
-drama_lover_shadow = DisasterShadow()
+drama_lover_shadow = DisasterShadow("Drama Lover Shadow", "Moon",)
 feminazi_shadow = DisasterShadow()
 
 # Distorted Shadows
