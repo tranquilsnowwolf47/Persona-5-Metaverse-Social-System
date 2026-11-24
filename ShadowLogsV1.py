@@ -5,6 +5,9 @@
 # A program that logs data about a specific type of Shadow that can be use for 
 # tactical battle strategy within the Metaverse
 
+
+#Use from import for the arcana types to get the arcana tuple 
+
 class ShadowLog:
     def __init__(self, shadow_name, arcana, type, negotiation_personality_type, third_eye_color, elemental_affinities,
                  resistances, neutral, weaknesses, location_type, specific_location, encounter_context, environmental_buffs, 
@@ -141,7 +144,11 @@ example_shadow = NormalShadows("Dirty Two Horned Beast","Strength", ShadowLog.sh
 # Treasure Demons
 
 # Mini Boss Shadows
-#high_status_shadow = MiniBoss("High Status Shadow","", ShadowLog.shadow_types[5],)
+#high_status_shadow = MiniBoss("High Status Shadow","Moon", ShadowLog.shadow_types[5],ShadowLog.negotiation_personality_types[2], ShadowLog.third_eye_colors[0], 
+#                              [ShadowLog.elements[2],ShadowLog.elements[6],ShadowLog.elements[9],ShadowLog.elements[12],ShadowLog.elements[15],ShadowLog.elements[18]],
+#                              [ShadowLog.elements[0], ShadowLog.elements[1], ShadowLog.elements[2], ShadowLog.elements[3], ShadowLog.elements[4], ShadowLog.elements[7]],
+ #                             [ShadowLog.elements[6], [ShadowLog.elements[9]],
+#                               )
 
 # Regular Shadows
 #victim_mindset_shadow = NormalShadows("Victim Mindset Shadow","", ShadowLog.shadow_types[6],)
