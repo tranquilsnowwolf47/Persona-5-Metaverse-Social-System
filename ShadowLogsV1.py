@@ -49,7 +49,7 @@ class ShadowLog:
         self._synopsis = synopsis
        
     # Tuples with defined info types 
-    shadow_types = ("Normal", "Disaster Shadow", "Disaster Shadow","Distorted Shadow",
+    shadow_types = ("Normal", "Disaster Shadow","Distorted Shadow", "Female Shadow"
                     "Treasure Demon", "Mini-Boss", "Boss")
     third_eye_colors = ("Red", "Yellow", "Blue")
     negotiation_personality_types = ("Upbeat", "Timid", "Gloomy", "Irritable")
@@ -125,26 +125,28 @@ example_shadow = NormalShadows("Dirty Two Horned Beast","Strength", ShadowLog.sh
                                ShadowLog.threat_level_types[0],ShadowLog.security_level_sensitivity_types[0], "Loot goes here","Recommended Builds goes here","Synopsis goes here")
 
 # Disaster Shadows
-drama_lover_shadow = DisasterShadow("Drama Lover Shadow", "Moon",)
-feminazi_shadow = DisasterShadow()
+drama_lover_shadow = DisasterShadow("Drama Lover Shadow", "Moon", ShadowLog.shadow_types[1], ShadowLog.negotiation_personality_types[2],f"{ShadowLog.third_eye_colors[1]}-{ShadowLog.third_eye_colors[0]}",[])
+#feminazi_shadow = DisasterShadow("Feminazi Shadow", "", ShadowLog.shadow_types[1],)
 
 # Distorted Shadows
-narcissist_shadow = DistoredShadows()
+narcissist_shadow = DistoredShadows("Narcissist Shadow", "", ShadowLog.shadow_types[2], ShadowLog.negotiation_personality_types[3],)
 
 # Female Shadows 
-promiscuous_woman_shadow = FemaleShadow()
-high_smv_woman_shadow = FemaleShadow()
-masculine_woman_shadow = FemaleShadow()
-seller_shadow = FemaleShadow()
+promiscuous_woman_shadow = FemaleShadow("Promiscuous Woman Shadow","", ShadowLog.shadow_types[3], ShadowLog.negotiation_personality_types[],)
+high_smv_woman_shadow = FemaleShadow("High SMV Woman Shadow","", ShadowLog.shadow_types[3], ShadowLog.negotiation_personality_types[],)
+masculine_woman_shadow = FemaleShadow("Masucline Woman Shadow","", ShadowLog.shadow_types[3], ShadowLog.negotiation_personality_types[],)
+seller_shadow = FemaleShadow("Seller/Onlyfans Girl Shadow","", ShadowLog.shadow_types[3], ShadowLog.negotiation_personality_types[],)
 uninterested_woman_shadow = FemaleShadow()
 
+# Treasure Demons
+
 # Mini Boss Shadows
-high_status_shadow = MiniBoss()
+high_status_shadow = MiniBoss("High Status Shadow","", ShadowLog.shadow_types[5],)
 
 # Regular Shadows
-victim_mindset_shadow = NormalShadows()
+victim_mindset_shadow = NormalShadows("Victim Mindset Shadow","", ShadowLog.shadow_types[6],)
 
-# Treasure Demons
+
 
 
 
